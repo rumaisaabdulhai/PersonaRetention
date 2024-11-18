@@ -1,0 +1,92 @@
+[
+    {
+        "story": "My name is Arjun Patel, and I'm a Sales Manager at Horizon Auto Mall. Growing up in Detroit, cars were always part of my life. My father worked on assembly lines before the industry took a downturn, and I'll never forget how his stories made the factory floors feel alive to me. When he lost his job, it hit our family hard, but it also inspired me to find my own way in the automotive world. I started small, washing cars at a local dealership during high school, but I quickly fell in love with the business. From detailing to the sales floor, I worked my way up, learning everything I could. It wasn't always easy. When my younger brother, Ravi, was diagnosed with a chronic illness, I became the family's main provider. Balancing night classes in business management with a full-time job was tough, but I knew education would open doors. That perseverance eventually led to me becoming Sales Manager here at Horizon Auto Mall. I take pride in helping people find cars that match their dreams\u2014whether it's a family getting their first minivan or someone buying the sports car they've always wanted. For me, it's not just about selling cars; it's about the joy and possibilities they bring to people's lives. When I'm not at work, you'll find me in my garage, restoring vintage cars with the same tools my father used, or organizing car shows to support local charities. Cars are more than a career for me\u2014they're a connection to my roots and a way to give back. Someday, I hope to open my own dealership, focusing on environmentally friendly vehicles. For now, though, I'm working on bringing Horizon into the digital age because I know online car sales are the future. Every car I sell, I give a light pat on the hood\u2014a little good luck charm I picked up along the way. And if you rev an engine in my direction, I can tell you the make and model without even looking. It's moments like those that remind me I'm exactly where I'm meant to be.",
+        "qa": [
+            [
+                "What is your name? A) Arjun Patel B) Ravi Patel C) John Smith D) Mike Johnson",
+                "A) Arjun Patel"
+            ],
+            [
+                "What is your job title? A) Sales Associate B) Sales Manager C) Service Advisor D) General Manager",
+                "B) Sales Manager"
+            ],
+            [
+                "In which city did you grow up? A) Chicago B) Los Angeles C) Detroit D) New York",
+                "C) Detroit"
+            ],
+            [
+                "What was your father's profession? A) Sales Manager B) Mechanic C) Assembly Line Worker D) Engineer",
+                "C) Assembly Line Worker"
+            ],
+            [
+                "What was one of the challenges you faced while pursuing your career? A) Unable to find a dealership B) Moving to a new city C) Caring for a sick family member D) Not having enough money",
+                "C) Caring for a sick family member"
+            ],
+            [
+                "What was your first job in the automotive industry? A) Sales Manager B) Detailer C) General Manager D) Car Washer",
+                "D) Car Washer"
+            ],
+            [
+                "What is your current workplace? A) Auto World B) Horizon Auto Mall C) Detroit Auto Show D) Motor City Cars",
+                "B) Horizon Auto Mall"
+            ],
+            [
+                "What type of cars do you hope to focus on with your own dealership someday? A) Luxury cars B) Vintage cars C) Environmentally friendly vehicles D) Sports cars",
+                "C) Environmentally friendly vehicles"
+            ],
+            [
+                "How do you feel about selling cars? A) It's just a job B) It's a way to make money C) It's about joy and possibilities D) It's stressful",
+                "C) It's about joy and possibilities"
+            ],
+            [
+                "What special ritual do you perform for every car you sell? A) Take a picture B) Give a light pat on the hood C) Say a prayer D) Write a note",
+                "B) Give a light pat on the hood"
+            ]
+        ]
+    },
+    {
+        "story": "I've spent over half of my life in the Wild West of Oakland. I was born in Oakland, I grew up in Oakland, and I've raised a family in the East Bay since the 1980s. I have a 27-year-old son, a daughter who will be 23 in May, and a stepdaughter who will be 13 this May. I have a great deal of respect for the richness that is the East Bay and the beautiful cities of Oakland, Berkeley, and Richmond. It is also a place of great pain and suffering. I believe that the culture of Oakland is extraordinarily important and the cultural and spiritual truths of our ancestors are being silenced and even destroyed by the new class of city government and their underlings who view people of color as 'collateral damage' in their pursuit of gentrification and profit. I grew up on the streets of West Oakland at a time when families were made up of 10 and more. Twenty to 25 kids played in the street in front of 10 to 12 unit apartment buildings. A few Black teenage punks were seen cruising the neighborhood, but everyone knew each other and cared about each other. I was witness to horrible tragedy, deaths, drug dealing, etc. The point is that I was not afraid to be in the streets of West Oakland and I still am not afraid to be on the streets of West Oakland. I know it well and I know who I am as a Black man in West Oakland. Back in the mid-1970s, I went to UC Berkeley, where I studied fine art and photography and studied with the great photographer Minor White, while being mentored by David Harris. After a few years working at a high-tech company (which I could not stand), I decided to devote my life to spiritual and religious inquiry. I was already married and had two children. In 1984, I received a Bachelor of Science degree in religious studies from the Graduate Theological Union in Berkeley, followed by a Master of Theological Studies from Pacific School of Religion in Berkeley, and a Master of Divinity from Starr King School for the Ministry in Berkeley, followed by a PhD from New College of California in San Francisco in the 1990s. In the 1980s, I began working at San Quentin Prison, teaching African American religious history to African American inmates. Since then, I have developed a successful career as an independent contractor as a consultant, business coach, and motivational speaker.",
+        "qa": [
+            [
+                "What city were you born in? A) San Francisco B) Oakland C) Berkeley D) Richmond",
+                "B) Oakland"
+            ],
+            [
+                "How many years have you spent living in the East Bay? A) 10 years B) 20 years C) Over 30 years D) Over half of my life",
+                "D) Over half of my life"
+            ],
+            [
+                "What age is your son? A) 25 B) 27 C) 30 D) 23",
+                "B) 27"
+            ],
+            [
+                "What degree did you receive in 1984? A) Bachelor's in Fine Arts B) Bachelor of Science in Religious Studies C) Master of Divinity D) Master's in Religious Education",
+                "B) Bachelor of Science in Religious Studies"
+            ],
+            [
+                "Where did you study fine art and photography? A) Stanford University B) UC Berkeley C) University of San Francisco D) San Jose State University",
+                "B) UC Berkeley"
+            ],
+            [
+                "What is your profession? A) Teacher B) Consultant C) Motivational speaker D) All of the above",
+                "D) All of the above"
+            ],
+            [
+                "Which prison did you start working at in the 1980s? A) Folsom Prison B) San Quentin Prison C) Pelican Bay State Prison D) Soledad Prison",
+                "B) San Quentin Prison"
+            ],
+            [
+                "Who was your mentor while studying at UC Berkeley? A) David Harris B) Minor White C) James Baldwin D) Toni Morrison",
+                "B) Minor White"
+            ],
+            [
+                "What was your focus while teaching at San Quentin Prison? A) American History B) African American Religious History C) Sociology D) Literature",
+                "B) African American Religious History"
+            ],
+            [
+                "How many degrees did you earn after your Bachelor of Science in Religious Studies? A) 1 B) 2 C) 3 D) 4",
+                "C) 3"
+            ]
+        ]
+    }
+]
