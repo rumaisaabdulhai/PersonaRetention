@@ -7,7 +7,7 @@ import pathlib
 import json
 from classes import Persona
 
-MODEL = "gpt-4o-mini"
+MODEL = "gpt-4o-mini" # davinci-002
 MAX_COMPLETION_TOKENS = 500
 PERSONAS_FILE = "personas.json"
 
@@ -22,6 +22,14 @@ def generate_biography():
     Returns:
         str: The generated biography as a natural language paragraph.
     """
+    # Automate different file for each option
+
+    # Car dealer
+    # Therapist (Background in psychology)
+    # Generic 
+    # Teacher (adult, background in specific subjects)
+    # Student (high school and college age)
+
     prompt = """Provide a background for a person that includes all of the following information, as if it was written by a person using \
     natural language. It should not be presented as a list, but as if someone was providing the information naturally in an introduction \
     in the first person. It should be contained to one paragraph.\
@@ -62,6 +70,47 @@ def generate_biography():
     )
     answer = response.choices[0].message.content.strip()
     return answer
+
+def load_existing_personas(file_path):
+    """
+    Load existing personas from the JSON file.
+
+    Args:
+        file_path (str): Path to the JSON file.
+
+    Returns:
+        list: List of existing personas or an empty list if the file doesn't exist or is empty.
+    """
+    if os.path.exists(file_path):
+        with open(file_path, "r") as file:
+            try:
+                data = json.load(file)
+                return data if isinstance(data, list) else []
+            except json.JSONDecodeError:
+                return []
+            
+def save_personas(file_path, personas):
+    """
+    Save the list of personas to the JSON file.
+
+    Args:
+        file_path (str): Path to the JSON file.
+        personas (list): List of personas to save.
+    """
+    with open(file_path, "w") as file:
+        json.dump(personas, file, indent=4)
+
+def append_persona_to_file(file_path, new_persona):
+    """
+    Append a new persona to the JSON file.
+
+    Args:
+        file_path (str): Path to the JSON file.
+        new_persona (dict): The new persona to append.
+    """
+    personas = load_existing_personas(file_path)
+    personas.append(new_persona)
+    save_personas(file_path, personas)
 
 def extract_features(persona):
     """
@@ -143,12 +192,10 @@ def main():
     updated_persona = extract_features(persona)
 
     persona_dict = {attr: getattr(updated_persona, attr) for attr in vars(updated_persona)}
-    print("\nUpdated Persona:")
+    print("\nNew Persona:")
     print(json.dumps(persona_dict, indent=4))
 
-    # Save results to JSON
-    with open("updated_persona.json", "w") as f:
-        json.dump(persona_dict, f, indent=4)
+    append_persona_to_file(PERSONAS_FILE, persona_dict)
 
 if __name__ == "__main__":
     main()
