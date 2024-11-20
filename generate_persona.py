@@ -10,29 +10,45 @@ from classes import Persona
 MODEL = "gpt-4o-mini" # davinci-002
 MAX_COMPLETION_TOKENS = 500
 PERSONAS_FILE = "personas.json"
-
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
-
 persona = Persona()
 
-def generate_biography():
+
+NUM_PERSONAS = 4
+MODE = 1
+# 0 - Generic
+# 1 - Car Dealer
+# 2 - Therapist
+# 3 - Teacher
+# 4 - Student
+
+PERSONAS_FILES = [
+    "generic_personas.json", # 0 - Generic
+    "car_dealer_personas.json", # 1 - Car Dealer
+    "therapist_personas.json", # 2 - Therapist
+    "teacher_personas.json", # 3 - Teacher
+    "student_personas.json" # 4 - Student
+]
+
+def generate_biography(mode = 0):
     """
     Generate a detailed biography for the persona.
 
     Returns:
         str: The generated biography as a natural language paragraph.
     """
-    # Automate different file for each option
 
-    # Car dealer
-    # Therapist (Background in psychology)
-    # Generic 
-    # Teacher (adult, background in specific subjects)
-    # Student (high school and college age)
+    modifier = [
+        "a person", # Mode 0 - Generic
+        "a car salesperson.", # Mode 1 - Car Dealer
+        "a therapist with a background in psychology.", # Mode 2 - Therapist
+        "a person who provides tutoring in one or more areas", # Mode 3 - Teacher
+        "a student in high school or college" # Mode 4 - Student
+    ]
 
-    prompt = """Provide a background for a person that includes all of the following information, as if it was written by a person using \
+    prompt = f"""Provide a background for {modifier[mode]} that includes all of the following information, as if it was written by a person using \
     natural language. It should not be presented as a list, but as if someone was providing the information naturally in an introduction \
-    in the first person. It should be contained to one paragraph.\
+    in the first person. It should be contained to one paragraph. \
     Name\
     Age\
     Where they're from\
@@ -88,6 +104,7 @@ def load_existing_personas(file_path):
                 return data if isinstance(data, list) else []
             except json.JSONDecodeError:
                 return []
+    return []
             
 def save_personas(file_path, personas):
     """
@@ -131,7 +148,7 @@ def extract_features(persona):
             # Comments are to show samples for modular generation
             self.name = ""  # "My name is Jane Doe."
             self.age = ""  # "I am 35 years old."
-            self.location_from = ""  # "I am from Houston, Texas."
+            self.location_from = ""  # "I am from Saint John, New Brunswick."
             self.location_mother_from = "" # "My mother is from Capetown, South Africa."
             self.location_father_from = "" # "My father is from Mumbai, India."
             self.religion = "" # "I am Christian.", "I was raised Jewish but don't practice."
@@ -186,16 +203,21 @@ def extract_features(persona):
                 setattr(persona, key, value)
     return persona
 
+def generate_personas(num_personas, mode):
+    for i in range(num_personas):
+        persona = Persona()
+        persona.biography = generate_biography(mode)
+        updated_persona = extract_features(persona)
+
+        persona_dict = {attr: getattr(updated_persona, attr) for attr in vars(updated_persona)}
+        print("\nNew Persona:")
+        print(json.dumps(persona_dict, indent=4))
+
+        append_persona_to_file(PERSONAS_FILES[mode], persona_dict)
+        print(f"Persona {i+1}/{num_personas} complete.")
+
 def main():
-    persona = Persona()
-    persona.biography = generate_biography()
-    updated_persona = extract_features(persona)
-
-    persona_dict = {attr: getattr(updated_persona, attr) for attr in vars(updated_persona)}
-    print("\nNew Persona:")
-    print(json.dumps(persona_dict, indent=4))
-
-    append_persona_to_file(PERSONAS_FILE, persona_dict)
+    generate_personas(NUM_PERSONAS, MODE)
 
 if __name__ == "__main__":
     main()
