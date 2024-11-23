@@ -137,12 +137,6 @@ def run_just_task_convos():
     with open(f"{data_dir}/{THERAPIST_PATIENT_FILE}", "w") as f:
         json.dump(therapist_patient_conversations, f, indent=4)
 
-def run_task_strategy_convos():
-    data_dir = f"{pathlib.Path(__file__).parent}/{TASK_STRATEGY_DIR}"
-    pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
-
-    logging.info("Running seller buyer conversations with strategies...")
-
 def main():
     """
     Simulate a conversation between two LLMs.
