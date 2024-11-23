@@ -3,24 +3,41 @@ The purpose of this script is to generate a new persona.
 """
 from openai import OpenAI
 import os
-import pathlib
 import json
-from classes import Persona
-from prompts import generate_persona_prompt, extract_persona_prompt
+from persona import Persona
+from persona_prompts import generate_persona_prompt, extract_persona_prompt
 
 MODEL = "gpt-4o-mini" # davinci-002
 MAX_COMPLETION_TOKENS = 500
 PERSONAS_FILE = "personas.json"
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 
-def generate_biography():
+NUM_PERSONAS = 4
+MODE = 1
+PERSONAS_FILES = [
+    "generic_personas.json", # 0 - Generic
+    "car_dealer_personas.json", # 1 - Car Dealer
+    "therapist_personas.json", # 2 - Therapist
+    "teacher_personas.json", # 3 - Teacher
+    "student_personas.json" # 4 - Student
+]
+
+def generate_biography(mode = 0):
     """
     Generate a detailed biography for the persona.
 
     Returns:
         str: The generated biography as a natural language paragraph.
     """
-    memory = [{"role": "user", "content": generate_persona_prompt}]
+    modifier = [
+        "a person", # Mode 0 - Generic
+        "a car salesperson.", # Mode 1 - Car Dealer
+        "a therapist with a background in psychology.", # Mode 2 - Therapist
+        "a person who provides tutoring in one or more areas", # Mode 3 - Teacher
+        "a student in high school or college" # Mode 4 - Student
+    ]
+    memory = [{"role": "user", "content": generate_persona_prompt.replace("<type>", modifier[mode])}]
+
     response = client.chat.completions.create(
         model=MODEL,
         messages=memory,
@@ -46,6 +63,7 @@ def load_existing_personas(file_path):
                 return data if isinstance(data, list) else []
             except json.JSONDecodeError:
                 return []
+    return []
             
 def save_personas(file_path, personas):
     """
@@ -58,16 +76,17 @@ def save_personas(file_path, personas):
     with open(file_path, "w") as file:
         json.dump(personas, file, indent=4)
 
-def append_persona_to_file(file_path, new_persona):
+def append_personas_to_file(file_path, new_personas):
     """
-    Append a new persona to the JSON file.
+    Append new personas to the JSON file.
 
     Args:
         file_path (str): Path to the JSON file.
         new_persona (dict): The new persona to append.
     """
     personas = load_existing_personas(file_path)
-    personas.append(new_persona)
+    for new_persona in new_personas:
+        personas.append(new_persona)
     save_personas(file_path, personas)
 
 def extract_features(persona):
@@ -99,16 +118,27 @@ def extract_features(persona):
                 setattr(persona, key, value)
     return persona
 
+def generate_personas(num_personas, mode):
+    """
+    Generate a set of personas with detailed biographies and extracted features.
+
+    Args:
+        num_personas (int): The number of personas to generate.
+        mode (int): The mode of the personas to generate.
+    """
+    file_path = f"data/{PERSONAS_FILES[mode]}"
+    personas = []
+    for _ in range(num_personas):
+        persona = Persona()
+        persona.biography = generate_biography(mode)
+        print(persona.biography + "\n")
+        updated_persona = extract_features(persona)
+        persona_dict = {attr: getattr(updated_persona, attr) for attr in vars(updated_persona)}
+        personas.append(persona_dict)
+    append_personas_to_file(file_path, personas)
+
 def main():
-    persona = Persona()
-    persona.biography = generate_biography()
-    updated_persona = extract_features(persona)
-
-    persona_dict = {attr: getattr(updated_persona, attr) for attr in vars(updated_persona)}
-    print("\nNew Persona:")
-    print(json.dumps(persona_dict, indent=4))
-
-    append_persona_to_file(PERSONAS_FILE, persona_dict)
+    generate_personas(NUM_PERSONAS, MODE)
 
 if __name__ == "__main__":
     main()

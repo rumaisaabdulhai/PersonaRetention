@@ -1,0 +1,1236 @@
+[
+    {
+        "story": "Hi there! I'm Jake Peterson, and I'm 28 years old, originally from Atlanta, Georgia, although my parents hail from the Midwest, specifically Chicago. I identify as straight and have a wonderful girlfriend, Mia, who shares my passion for adventure. Growing up, my family faced some financial difficulties, but I've worked hard to build a stable middle-class life for myself, currently thriving as a car salesperson at a local dealership. In terms of education, I attended a community college before diving into the workforce, gaining real-world experience in sales and customer service along the way. My family practices Christianity, but I consider myself more spiritual and take insights from various beliefs as I navigate life. I\u2019m the oldest of three siblings; my sister, Emily, is 26, and my brother, Lucas, is 22. We primarily spoke English at home, but I picked up some Spanish during school. I value honesty, family, and lifelong learning, all of which guide my relationships and ambitions. I enjoy cycling on weekends, exploring new coffee shops, and attending music festivals, which helps me unwind from my busy routine of balancing work and personal life. I've traveled to several states for car sales expos but dream of taking a road trip across the country with Mia one day. While I don\u2019t have a pet currently, I grew up with a lovable golden retriever named Max. My days generally start with a quick jog, followed by some mindfulness exercises to keep my anxiety in check, especially when I think about achieving my long-term goal of owning my own dealership. Each experience, like the time I navigated a difficult sale or helped a first-time buyer, becomes a defining moment that fuels my passion for this profession and the relationships I build. I believe in treating everyone with respect, regardless of their background, and my friendships are supportive circles that encourage personal growth.",
+        "qa": [
+            [
+                "What is your name? A) Jake Peterson B) Mark Smith C) Alex Johnson D) Tom Brown",
+                "A) Jake Peterson"
+            ],
+            [
+                "How old are you? A) 25 B) 30 C) 28 D) 35",
+                "C) 28"
+            ],
+            [
+                "Where are you from? A) Atlanta, Georgia B) New York, New York C) Los Angeles, California D) Chicago, Illinois",
+                "A) Atlanta, Georgia"
+            ],
+            [
+                "Where is your mother from? A) New York B) Chicago C) Los Angeles D) Miami",
+                "B) Chicago"
+            ],
+            [
+                "Where is your father from? A) Chicago, Illinois B) New York, New York C) Los Angeles, California D) Miami, Florida",
+                "A) Chicago, Illinois"
+            ],
+            [
+                "Which belief system do you lean towards now? A) Atheist B) Christian C) Spiritual D) Agnostic",
+                "C) Spiritual"
+            ],
+            [
+                "What class do you consider yourself to be? A) Upper class B) Middle class C) Lower class D) Upper-middle class",
+                "B) Middle class"
+            ],
+            [
+                "How many siblings do you have if you are the oldest of three? A) One B) Two C) Three D) Four",
+                "C) Three"
+            ],
+            [
+                "What language do you primarily speak? A) French B) Spanish C) English D) Italian",
+                "C) English"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Straight B) Gay C) Bisexual D) Asexual",
+                "A) A"
+            ],
+            [
+                "How do you identify? A) Woman B) Non-binary C) Man D) Genderqueer",
+                "C) Man"
+            ],
+            [
+                "What is your girlfriend's name? A) Sarah B) Mia C) Emily D) Jessica",
+                "B) Mia"
+            ],
+            [
+                "Which relationship do you consider the most meaningful? A) Past relationships B) One with Mia C) Family relationships D) Friendships",
+                "B) One with Mia"
+            ],
+            [
+                "What is your profession? A) Teacher B) Doctor C) Car Salesperson D) Chef",
+                "C) Car Salesperson"
+            ],
+            [
+                "What type of experience have you gained in your career? A) Real estate B) Sales and customer service C) Engineering D) Graphic design",
+                "B) Sales and customer service"
+            ],
+            [
+                "Where did you attend college? A) University B) Community College C) Online School D) Trade School",
+                "B) Community College"
+            ],
+            [
+                "What religion did your family practice while you were growing up? A) Buddhism B) Christianity C) Hinduism D) Islam",
+                "B) Christianity"
+            ],
+            [
+                "Do you prefer to talk about politics? A) Yes, all the time B) Not really C) Only with family D) It's my favorite topic",
+                "B) Not really"
+            ],
+            [
+                "How do you manage your anxiety? A) Deep breathing B) Avoidance C) Mindfulness exercises D) Medication",
+                "C) Mindfulness exercises"
+            ],
+            [
+                "What do you enjoy doing on weekends? A) Reading books B) Cycling C) Watching movies D) Gardening",
+                "B) Cycling"
+            ],
+            [
+                "What values do you prioritize in your life? A) Wealth B) Power C) Honesty D) Fame",
+                "C) Honesty"
+            ],
+            [
+                "What causes you anxiety as you pursue your goal of owning a dealership? A) Financial instability B) Lack of experience C) Uncertain market conditions D) All of the above",
+                "D) All of the above"
+            ],
+            [
+                "What is your dream goal for your future career? A) To work in a restaurant B) To become a teacher C) To own a dealership D) To travel the world",
+                "C) To own a dealership"
+            ],
+            [
+                "What are defining moments in your career for you? A) Navigating difficult sales B) Increasing prices C) Marketing strategies D) Managing employees",
+                "A) Navigating difficult sales"
+            ],
+            [
+                "What do your supportive friendship circles encourage you to pursue? A) Personal growth B) Isolation C) Negativity D) Indifference",
+                "A) Personal growth"
+            ],
+            [
+                "What do you do after your quick jog? A) Yoga B) Mindfulness exercises C) Weightlifting D) Swimming",
+                "B) Mindfulness exercises"
+            ],
+            [
+                "What type of pet did you have while growing up? A) Cat B) Golden Retriever C) Hamster D) Parrot",
+                "B) Golden Retriever"
+            ],
+            [
+                "What type of media do you like to explore that reflects your interests? A) Romance B) Adventure C) Horror D) Documentary",
+                "B) Adventure"
+            ],
+            [
+                "What are you currently focusing on in your independent living? A) Social life B) Career and personal growth C) Hobbies D) Travel",
+                "B) Career and personal growth"
+            ],
+            [
+                "Which states have you traveled to for car sales expos? A) Hawaii B) New York C) Texas D) California",
+                "C) Texas"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Marco Ramirez, and I'm 28 years old, hailing from the bustling city of Los Angeles, where my parents immigrated from Mexico. Growing up in a working-class neighborhood, I experienced the challenges of financial instability, but thanks to my hard work and perseverance, I'm now enjoying a comfortable middle-class lifestyle as a car salesperson. I identify as a gay man, and I\u2019m in a loving, committed relationship with my partner, Josh, who shares my passion for adventure. I have an older sister named Sofia, who is 31, and we often reminisce about our childhood experiences while navigating our Latino culture. Although I was raised Catholic, I\u2019ve moved away from strict adherence, opting instead for a more personal spirituality that emphasizes kindness and community. I speak both English and Spanish fluently, which has been invaluable in my work and personal life. My interests include photography, hiking, and exploring new culinary experiences, as I love to try recipes from various cultures. Politically, I lean toward progressive views, believing in social equity and environmental responsibility. I strive for a fulfilling life, dreaming of starting my own car dealership one day, and I fear complacency and unfulfilled potential. My daily routine usually involves early mornings prepping for work, evening workouts at the gym, and unwinding with documentaries or an engaging novel. Currently, I live in a quaint apartment filled with plants and photos from my travels, from Canada to Central America, and although I don\u2019t have any pets now, I\u2019ve always had a soft spot for dogs. My friendships circle is diverse, filled with individuals who inspire me to grow and challenge my perspectives, and we often travel together, making memories along the way.",
+        "qa": [
+            [
+                "What is your name? A) Marco B) Lisa C) David D) Sarah",
+                "A) Marco"
+            ],
+            [
+                "How old are you? A) 25 B) 28 C) 30 D) 32",
+                "B) 28"
+            ],
+            [
+                "Where are you from? A) New York B) Los Angeles C) Chicago D) Miami",
+                "B) Los Angeles"
+            ],
+            [
+                "Where is your mother from? A) Canada B) Mexico C) USA D) Spain",
+                "B) Mexico"
+            ],
+            [
+                "Where is your father from? A) Canada B) Mexico C) Spain D) Brazil",
+                "B) Mexico"
+            ],
+            [
+                "What faith were you raised in before adopting a more personal spirituality? A) Protestant B) Catholic C) Hindu D) Buddhism",
+                "B) Catholic"
+            ],
+            [
+                "What is your economic status? A) Upper class B) Lower class C) Comfortably middle class D) Wealthy",
+                "C) Comfortably middle class"
+            ],
+            [
+                "Who is your older sister? A) Lily B) Sofia C) Emma D) Mia",
+                "B) Sofia"
+            ],
+            [
+                "Which languages do you speak fluently? A) French B) English and Spanish C) German D) Italian",
+                "B) English and Spanish"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Straight B) Bisexual C) Gay D) Asexual",
+                "C) Gay"
+            ],
+            [
+                "How do you identify your gender? A) Woman B) Non-binary C) Man D) Genderqueer",
+                "C) Man"
+            ],
+            [
+                "Who are you in a loving relationship with? A) Mike B) Josh C) Alex D) Chris",
+                "B) Josh"
+            ],
+            [
+                "Have you mentioned any significant past relationships? A) Yes B) No C) Sometimes D) I prefer not to say",
+                "B) No"
+            ],
+            [
+                "What is your profession? A) Doctor B) Teacher C) Car Salesperson D) Engineer",
+                "C) Car Salesperson"
+            ],
+            [
+                "What past occupations have you mentioned? A) None B) Teacher C) Engineer D) Doctor",
+                "A) None"
+            ],
+            [
+                "What is your educational background? A) High School B) Bachelor's Degree C) Master's Degree D) You have not mentioned it",
+                "D) You have not mentioned it"
+            ],
+            [
+                "How have you navigated your Latino culture growing up? A) Through family traditions B) By moving to a new country C) By ignoring it D) Through social media",
+                "A) Through family traditions"
+            ],
+            [
+                "Which values do you lean toward in your beliefs? A) Economic growth B) Social equity C) Traditionalism D) Individualism",
+                "B) Social equity"
+            ],
+            [
+                "Do you have any health issues? A) Yes B) No C) Not sure D) Occasionally",
+                "B) No"
+            ],
+            [
+                "What activities do you enjoy the most? A) Photography B) Swimming C) Painting D) Playing video games",
+                "A) Photography"
+            ],
+            [
+                "What do you emphasize in your spirituality? A) Kindness and community B) Wealth and power C) Isolation and independence D) Detachment and solitude",
+                "A) Kindness and community"
+            ],
+            [
+                "What do you fear most about your potential? A) Complacency B) Success C) Change D) Criticism",
+                "A) Complacency"
+            ],
+            [
+                "What do you dream of starting one day? A) A restaurant B) A car dealership C) A clothing store D) An online business",
+                "B) A car dealership"
+            ],
+            [
+                "What challenges have you faced while growing up in a working-class neighborhood? A) Financial B) Social C) Educational D) All of the above",
+                "A) D"
+            ],
+            [
+                "What is a key characteristic of your friendship circle? A) It is homogeneous B) It inspires growth C) It is small D) It is competitive",
+                "B) It inspires growth"
+            ],
+            [
+                "What activities do you include in your daily routine? A) Late night parties B) Morning coffee prep C) Evening workouts D) Sleeping all day",
+                "C) Evening workouts"
+            ],
+            [
+                "Which type of pet have you always had a soft spot for? A) Cats B) Birds C) Dogs D) Fish",
+                "C) Dogs"
+            ],
+            [
+                "What type of media do you enjoy most? A) Action movies B) Documentaries C) Reality TV D) News shows",
+                "B) Documentaries"
+            ],
+            [
+                "Where do you currently live? A) A modern house B) A quaint apartment filled with plants and travel photos C) A trailer D) A high-rise building",
+                "B) A quaint apartment filled with plants and travel photos"
+            ],
+            [
+                "Where have you traveled from? A) Canada B) Mexico C) Brazil D) Argentina",
+                "A) Canada"
+            ]
+        ]
+    },
+    {
+        "story": "Hello, my name is Jordan Ellis, and I\u2019m 28 years old, originally hailing from Reno, Nevada, although my parents moved here from El Salvador. I identify as a queer man, and I'm currently in a committed relationship with my boyfriend, Miguel. Growing up, we faced financial struggles, which made me appreciate my current middle-class status as a car salesperson\u2014I've honed my skills in sales after a few years in customer service and business roles. I graduated with a degree in Marketing, and while I respect my family's Catholic beliefs, I practice a more secular way of life. I have a younger brother, Diego, who\u2019s 25; we\u2019re close and share a love for music. English is my first language, but I\u2019m fluent in Spanish, which often helps in my job. My political views lean toward the left, advocating for social equity and environmental issues. As for hobbies, I'm passionate about photography and mountain biking; they help manage my anxiety and keep me grounded. I value honesty, resilience, and the pursuit of happiness. A pivotal moment in my life was volunteering in a local community center, which reinforced my ambition to create inclusivity in my work environment. I live on my own in a small apartment filled with plants and memorabilia from my travels, including a memorable road trip to the Grand Canyon. I enjoy unwinding with podcasts, especially those about true crime or LGBTQ+ history. My dream is to eventually open my own dealership focused on eco-friendly vehicles, contributing positively to the community that shaped me.",
+        "qa": [
+            [
+                "What is your name? A) Jordan Ellis B) Alex Smith C) Taylor Brown D) Jamie Lee",
+                "A) Jordan Ellis"
+            ],
+            [
+                "How old are you? A) 25 B) 28 C) 30 D) 32",
+                "B) 28"
+            ],
+            [
+                "Where are you from? A) Reno, Nevada B) Las Vegas, Nevada C) Salt Lake City, Utah D) Sacramento, California",
+                "A) Reno, Nevada"
+            ],
+            [
+                "Where is your mother from? A) Guatemala B) El Salvador C) Honduras D) Nicaragua",
+                "B) El Salvador"
+            ],
+            [
+                "Where is your father from? A) Mexico B) Guatemala C) El Salvador D) Honduras",
+                "C) El Salvador"
+            ],
+            [
+                "How do you approach your family's Catholic beliefs while living your life? A) Embrace them fully B) Ignore them completely C) Respect them but live secularly D) Challenge them openly",
+                "C) Respect them but live secularly"
+            ],
+            [
+                "What do you consider your current economic status to be? A) Lower-class B) Middle-class C) Upper-class D) Wealthy",
+                "B) Middle-class"
+            ],
+            [
+                "How old is your younger brother Diego? A) 20 B) 22 C) 25 D) 30",
+                "C) 25"
+            ],
+            [
+                "Which languages do you speak fluently? A) French B) Spanish C) German D) Italian",
+                "B) Spanish"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Straight B) Bisexual C) Queer D) Asexual",
+                "C) Queer"
+            ],
+            [
+                "What is your gender? A) Male B) Female C) Non-binary D) Prefer not to say",
+                "A) Male"
+            ],
+            [
+                "Who is your boyfriend? A) Miguel B) Alex C) John D) David",
+                "A) Miguel"
+            ],
+            [
+                "What is your profession? A) Teacher B) Engineer C) Car Salesperson D) Doctor",
+                "C) Car Salesperson"
+            ],
+            [
+                "What roles have you worked in? A) IT and Engineering B) Customer Service and Business C) Marketing and Sales D) Research and Development",
+                "B) Customer Service and Business"
+            ],
+            [
+                "What degree did you earn? A) Business Administration B) Marketing C) Psychology D) Computer Science",
+                "B) Marketing"
+            ],
+            [
+                "What type of beliefs did your family value during your upbringing? A) Buddhist B) Atheist C) Muslim D) Catholic",
+                "D) Catholic"
+            ],
+            [
+                "Which political stance do you lean toward if you advocate for social equity and environmental issues? A) Right-wing B) Centrist C) Left-wing D) Libertarian",
+                "C) Left-wing"
+            ],
+            [
+                "How do you manage your anxiety? A) Through hobbies B) By avoiding stress C) With medication D) Ignoring it",
+                "A) Through hobbies"
+            ],
+            [
+                "What hobbies are you passionate about? A) Painting B) Cooking C) Photography and mountain biking D) Reading",
+                "C) Photography and mountain biking"
+            ],
+            [
+                "Which value do you prioritize the most? A) Honesty B) Wealth C) Fame D) Power",
+                "A) Honesty"
+            ],
+            [
+                "How do you manage your anxiety? A) Through exercise B) By sleeping C) Through hobbies D) By ignoring it",
+                "C) Through hobbies"
+            ],
+            [
+                "What is your dream for your career in the automotive industry? A) To open a traditional gas station B) To sell eco-friendly vehicles C) To become a mechanic D) To design car interiors",
+                "B) To sell eco-friendly vehicles"
+            ],
+            [
+                "What was a pivotal moment in your life? A) Traveling abroad B) Volunteering in a local community center C) Starting a new job D) Attending university",
+                "B) Volunteering in a local community center"
+            ],
+            [
+                "Whom do you enjoy a close relationship with and a community of friends in music? A) Your sister B) Your brother C) Your cousin D) Your neighbor",
+                "B) Your brother"
+            ],
+            [
+                "What type of podcasts do you prefer to unwind with? A) Sports B) True crime or LGBTQ+ history C) Cooking D) Technology",
+                "B) True crime or LGBTQ+ history"
+            ],
+            [
+                "Have you ever owned a pet? A) Yes B) No C) Maybe D) I don't know",
+                "B) No"
+            ],
+            [
+                "What do you enjoy doing in your free time? A) Watching TV B) Reading books C) Listening to podcasts D) Playing games",
+                "C) Listening to podcasts"
+            ],
+            [
+                "What type of living space do you currently live in? A) Large house B) Small apartment C) Mansion D) Tent",
+                "B) Small apartment"
+            ],
+            [
+                "What was the memorable destination of your road trip? A) Yellowstone B) Grand Canyon C) Yosemite D) Mount Rushmore",
+                "B) Grand Canyon"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Ethan Jackson, and I\u2019m 29 years old, originally from the sunny coast of San Diego, though my parents hail from a small town in Ohio. I identify as a straight male and am currently single, having experienced a couple of significant relationships that taught me a lot about myself. Growing up, my family had its share of financial struggles, but I've worked hard and now consider myself upper middle class, thanks to my current job as a car salesperson, a role I stepped into after earning a degree in business management. While I was raised in a Christian household, I now identify as agnostic and appreciate the values of compassion and honesty outside of religious confines. I've got a younger brother, Jake, who\u2019s 24 and my best friend, and we mainly communicated in English, though our parents often spoke in some regional dialects from their small-town roots. My daily routine includes early mornings at the dealership, working out at the gym afterward, and indulging in my love for cooking and playing guitar during my free time. I\u2019ve always had a passion for adventure, dreaming of road trips across the US and exploring international destinations, with Japan at the top of my list. I cherish my close-knit group of friends who share my love for outdoor activities, and despite my occasional anxieties about job stability, I\u2019m focused on carving out a fulfilling career while maintaining my health and wellness. Pets have been a constant in my life; I recently adopted a dog named Max, who brings so much joy. In my downtime, I enjoy binge-watching action movies and reading thrillers, all while continuing to dream big and aiming to make a mark in the automotive industry through excellence in customer relationships.",
+        "qa": [
+            [
+                "What is your name? A) Ethan Jackson B) Robert Smith C) Sarah Brown D) Emily White",
+                "A) Ethan Jackson"
+            ],
+            [
+                "How old are you? A) 25 B) 29 C) 32 D) 40",
+                "B) 29"
+            ],
+            [
+                "Where are you from? A) San Diego B) Los Angeles C) San Francisco D) Sacramento",
+                "A) San Diego"
+            ],
+            [
+                "Where is your mother's hometown? A) Florida B) Ohio C) Texas D) California",
+                "B) Ohio"
+            ],
+            [
+                "Where is your father from? A) A big city in Texas B) A small town in Ohio C) A coastal city in California D) A mountain village in Colorado",
+                "B) A small town in Ohio"
+            ],
+            [
+                "What was your religious background before you identified as agnostic? A) Jewish B) Muslim C) Christian D) Hindu",
+                "C) Christian"
+            ],
+            [
+                "What class do you identify with? A) Lower class B) Working class C) Upper middle class D) Upper class",
+                "C) Upper middle class"
+            ],
+            [
+                "How old is your younger brother Jake? A) 22 B) 24 C) 26 D) 28",
+                "B) 24"
+            ],
+            [
+                "What language do you primarily communicate in? A) Spanish B) French C) English D) Mandarin",
+                "C) English"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Straight B) Gay C) Bisexual D) Asexual",
+                "A) A"
+            ],
+            [
+                "What is your gender? A) Male B) Female C) Non-binary D) Prefer not to answer",
+                "A) Male"
+            ],
+            [
+                "Are you currently single? A) Yes B) No C) In a relationship D) It's complicated",
+                "A) Yes"
+            ],
+            [
+                "How many significant relationships have you experienced? A) One B) Two C) Three D) Four",
+                "B) Two"
+            ],
+            [
+                "What is your profession? A) Doctor B) Car Salesperson C) Teacher D) Engineer",
+                "B) Car Salesperson"
+            ],
+            [
+                "What degree did you earn before you stepped into your current job? A) Computer Science B) Business Management C) Psychology D) Engineering",
+                "B) Business Management"
+            ],
+            [
+                "What is your highest level of education? A) High School B) Associate Degree C) Bachelor's Degree D) Master's Degree",
+                "C) Bachelor's Degree"
+            ],
+            [
+                "What type of values did you grow up with in your family? A) Buddhist B) Hindu C) Christian D) Atheist",
+                "C) Christian"
+            ],
+            [
+                "What are your political views? A) Conservative B) Liberal C) Not stated D) Moderate",
+                "C) Not stated"
+            ],
+            [
+                "What do you prioritize to enhance your quality of life? A) Social media B) Your health and wellness C) Television D) Gaming",
+                "B) Your health and wellness"
+            ],
+            [
+                "What activity do you enjoy that involves music? A) Cooking B) Playing guitar C) Road trips D) Hiking",
+                "B) Playing guitar"
+            ],
+            [
+                "What values do you appreciate the most? A) Compassion B) Anger C) Dishonesty D) Indifference",
+                "A) Compassion"
+            ],
+            [
+                "Do you have occasional anxieties about job stability? A) Yes B) No C) Sometimes D) Rarely",
+                "A) A"
+            ],
+            [
+                "What do you aim to achieve in the automotive industry? A) To earn a degree B) To make a mark C) To work in sales D) To become a mechanic",
+                "B) To make a mark"
+            ],
+            [
+                "How have your past relationships influenced your understanding of yourself? A) They taught you about your needs B) They were unimportant C) They caused confusion D) They made you unhappy",
+                "A) They taught you about your needs"
+            ],
+            [
+                "Who do you cherish for enjoying outdoor activities with? A) Family B) Coworkers C) Your close-knit group of friends D) Strangers",
+                "C) Your close-knit group of friends"
+            ],
+            [
+                "What do you do right after your early mornings at the dealership? A) Reading a book B) Going to the gym C) Taking a nap D) Cooking dinner",
+                "B) Going to the gym"
+            ],
+            [
+                "What is the name of the dog you adopted? A) Max B) Bella C) Charlie D) Lucy",
+                "A) Max"
+            ],
+            [
+                "What types of entertainment do you enjoy binge-watching and reading? A) Romantic comedies B) Action movies and thrillers C) Documentaries D) Sci-fi novels",
+                "B) Action movies and thrillers"
+            ],
+            [
+                "Do you live alone with your dog Max? A) Yes B) No C) Sometimes D) I have pets",
+                "A) Yes"
+            ],
+            [
+                "Where do you dream of traveling most? A) Japan B) Canada C) Mexico D) Australia",
+                "A) Japan"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Marcus Jeffrey, and I'm 28 years old, hailing from a small town in Ohio. My parents are originally from Puerto Rico, and they've instilled a strong sense of family and culture in me, although I currently only practice our traditions occasionally. Growing up, we faced financial challenges, but now I've managed to establish a middle-class lifestyle as a car salesperson, a role I've found rewarding after a stint in retail. I identify as straight and am a proud man, currently single but open to finding someone special. My relationship history includes a significant bond with my high school sweetheart, Sarah, which taught me a lot about love and loss. I completed my education with a degree in business, which has helped tremendously in my current job. Speaking both English and some Spanish has allowed me to connect with a diverse clientele. I value hard work, patience, and community service, often engaging in volunteer work at local shelters. My political views lean toward progressive ideologies, advocating for social equality. When I'm not at work, you'll find me hitting the gym, playing basketball with friends, or unwinding with my favorite sci-fi novels and podcasts. I live in a modest apartment with my golden retriever, Max. A defining life experience for me was moving to several cities during my college years, which opened my eyes to different lifestyles and cultures. My daily routine revolves around work, exercise, and maintaining a balanced diet to ensure good health. Though I\u2019ve been fortunate enough to travel to parts of the Caribbean and a few cities in Europe, my biggest ambition is to explore Asia one day. I dream of finding a career path that not only provides stability but also allows me to give back to my community, all while nurturing meaningful relationships with friends and potential partners.",
+        "qa": [
+            [
+                "What is your name? A) Marcus Jeffrey B) Alex Turner C) Brian Smith D) David Johnson",
+                "A) Marcus Jeffrey"
+            ],
+            [
+                "How old are you? A) 25 B) 30 C) 28 D) 32",
+                "C) 28"
+            ],
+            [
+                "Where are you from? A) Ohio B) Texas C) California D) Florida",
+                "A) Ohio"
+            ],
+            [
+                "Where is your mother originally from? A) Cuba B) Puerto Rico C) Mexico D) Dominican Republic",
+                "B) Puerto Rico"
+            ],
+            [
+                "Where is your father originally from? A) Cuba B) Dominican Republic C) Puerto Rico D) Mexico",
+                "C) Puerto Rico"
+            ],
+            [
+                "How often do you practice your family's traditions? A) Never B) Occasionally C) Often D) Always",
+                "B) Occasionally"
+            ],
+            [
+                "What lifestyle have you established? A) Wealthy B) Middle-class C) Low-income D) Luxury",
+                "B) Middle-class"
+            ],
+            [
+                "Do you have any siblings? A) Yes B) No C) One D) Two",
+                "B) No"
+            ],
+            [
+                "Which languages do you speak? A) English and some Spanish B) Only Spanish C) French and German D) Italian",
+                "A) English and some Spanish"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Straight B) Gay C) Bisexual D) Asexual",
+                "A) A) Straight"
+            ],
+            [
+                "What trait best describes you? A) Humble B) Proud C) Indifferent D) Apologetic",
+                "B) Proud"
+            ],
+            [
+                "Are you open to finding someone special? A) Yes B) No C) Maybe D) Not interested",
+                "A) A) Yes"
+            ],
+            [
+                "Who did you have a significant bond with in high school? A) Emily B) Sarah C) Anna D) Lisa",
+                "B) Sarah"
+            ],
+            [
+                "What is your profession? A) Doctor B) Teacher C) Car Salesperson D) Engineer",
+                "C) Car Salesperson"
+            ],
+            [
+                "In which industry did you have a stint? A) Technology B) Retail C) Healthcare D) Education",
+                "B) Retail"
+            ],
+            [
+                "What did you complete your education with? A) A degree in science B) A degree in engineering C) A degree in business D) A degree in arts",
+                "C) A degree in business"
+            ],
+            [
+                "How did your parents influence you? A) By providing financial support B) By instilling a strong sense of family and culture C) By promoting independence D) By focusing on academics",
+                "B) By instilling a strong sense of family and culture"
+            ],
+            [
+                "Which political ideologies do you lean toward? A) Conservative B) Liberal C) Progressive D) Libertarian",
+                "C) Progressive"
+            ],
+            [
+                "How do you maintain good health? A) By eating junk food B) By maintaining a balanced diet C) By skipping breakfast D) By drinking energy drinks",
+                "A) By maintaining a balanced diet"
+            ],
+            [
+                "What activities do you enjoy in your free time? A) Cooking B) Hitting the gym C) Watching reality TV D) Gardening",
+                "B) Hitting the gym"
+            ],
+            [
+                "What values do you prioritize in your life? A) Hard work B) Instant gratification C) Isolation D) Indifference",
+                "A) Hard work"
+            ],
+            [
+                "Do you have any specific fears or anxieties? A) Yes B) No C) Sometimes D) Unsure",
+                "B) No"
+            ],
+            [
+                "What is your biggest ambition? A) To explore Africa B) To explore Asia C) To explore Europe D) To explore America",
+                "B) To explore Asia"
+            ],
+            [
+                "What defining life experience did you have during your college years? A) Traveling abroad B) Moving to several cities C) Working a full-time job D) Starting a club",
+                "B) Moving to several cities"
+            ],
+            [
+                "How do you nurture your friendships? A) Neglect them B) Keep them casual C) Build meaningful relationships D) Avoid deep connections",
+                "C) Build meaningful relationships"
+            ],
+            [
+                "What does your daily routine primarily revolve around? A) Traveling B) Work, exercise, and diet C) Socializing D) Gaming",
+                "B) Work, exercise, and diet"
+            ],
+            [
+                "Who do you live with? A) A cat B) A bird C) Max D) A hamster",
+                "C) Max"
+            ],
+            [
+                "What kinds of books and podcasts do you enjoy? A) Non-fiction B) Sci-fi novels and podcasts C) Cookbooks D) Biographies",
+                "B) Sci-fi novels and podcasts"
+            ],
+            [
+                "Where do you live? A) A mansion B) A modest apartment C) A tiny house D) A villa",
+                "B) A modest apartment"
+            ],
+            [
+                "Where have you traveled? A) Asia B) Caribbean C) Antarctica D) Africa",
+                "B) Caribbean"
+            ]
+        ]
+    },
+    {
+        "story": "Hi there! My name is Mark Thompson, and I\u2019m 29 years old, originally from Milwaukee, Wisconsin. My parents hail from Ireland, and while they instilled a strong sense of family in me, I\u2019ve drifted a bit from their Catholic roots and consider myself more spiritual than religious. Growing up, we faced some financial struggles, so I know what it\u2019s like to make do, but I\u2019m now comfortably situated in the middle class, selling cars at a local dealership after a stint in retail management. I hold a degree in business from the University of Wisconsin-Milwaukee, where I was influenced by a diverse array of voices and backgrounds. I have a younger brother, Jake, who\u2019s 26 and my best friend; we both mostly communicate in English, although I\u2019ve picked up a bit of Spanish over the years. I'm straight and currently in a committed relationship with my girlfriend, Lisa, with whom I've shared some really significant experiences\u2014she\u2019s my rock. Outside of work, I\u2019m passionate about sports, especially football and basketball, and I love to explore new cooking recipes from around the world. My values are shaped significantly by the importance of hard work, integrity, and community, which also informs my moderate political views. I\u2019m particularly focused on my health, balancing work with regular workouts, and spending time outdoors, which I find rejuvenating. I used to have a dog named Max, but sadly he passed away last year. Now, I share an apartment with Lisa and enjoy binge-watching anything from documentaries to crime dramas. Having traveled a bit around the U.S. and to Europe, I\u2019m keen to explore Asia next. Overall, I value experiences and connections, and my ultimate life goal is to build a future where I can grow personally while making a positive impact in my community.",
+        "qa": [
+            [
+                "What is your name? A) Mark B) Tom C) James D) David",
+                "A) Mark"
+            ],
+            [
+                "How old are you now? A) 25 B) 29 C) 30 D) 35",
+                "B) 29"
+            ],
+            [
+                "Where are you from? A) Milwaukee, Wisconsin B) Chicago, Illinois C) Detroit, Michigan D) Minneapolis, Minnesota",
+                "A) Milwaukee, Wisconsin"
+            ],
+            [
+                "Where is your mother from? A) France B) Italy C) Ireland D) Spain",
+                "C) Ireland"
+            ],
+            [
+                "Where is your father from? A) Ireland B) Scotland C) Wales D) England",
+                "A) Ireland"
+            ],
+            [
+                "Do you consider yourself more spiritual than religious? A) Yes B) No C) Sometimes D) Not sure",
+                "A) Yes"
+            ],
+            [
+                "In which social class do you consider yourself to be? A) Upper class B) Middle class C) Lower class D) Working class",
+                "B) Middle class"
+            ],
+            [
+                "Who is your younger brother? A) Tom B) Jake C) Alex D) Sam",
+                "B) Jake"
+            ],
+            [
+                "What language do you mostly communicate in? A) French B) Spanish C) English D) German",
+                "C) English"
+            ],
+            [
+                "What is your sexual orientation? A) Straight B) Gay C) Bisexual D) Asexual",
+                "A) Straight"
+            ],
+            [
+                "How do you identify your gender? A) Male B) Female C) Non-binary D) Other",
+                "A) Male"
+            ],
+            [
+                "Who is your current girlfriend? A) Lisa B) Sarah C) Emma D) Anna",
+                "A) Lisa"
+            ],
+            [
+                "Did you have any serious relationships before your current one? A) Yes B) No C) Only one D) Several",
+                "B) No"
+            ],
+            [
+                "What do you sell at your local dealership? A) Bikes B) Cars C) Parts D) Insurance",
+                "B) Cars"
+            ],
+            [
+                "What type of management experience do you have? A) Food service B) Retail C) Hospitality D) Construction",
+                "B) Retail"
+            ],
+            [
+                "Where did you earn your business degree? A) University of Minnesota B) University of Wisconsin-Milwaukee C) University of Illinois D) University of Chicago",
+                "B) University of Wisconsin-Milwaukee"
+            ],
+            [
+                "Who influenced you with a diverse array of voices and backgrounds? A) A single person B) A few voices C) Various sources D) None of the above",
+                "C) Various sources"
+            ],
+            [
+                "How do you prioritize your health while balancing work and workouts? A) You avoid exercise B) You focus on health C) You only work D) You skip meals",
+                "B) You focus on health"
+            ],
+            [
+                "What are you passionate about? A) Painting B) Sports C) Traveling D) Gardening",
+                "B) Sports"
+            ],
+            [
+                "Which values are most important to you? A) Hard work B) Wealth C) Fame D) Isolation",
+                "A) Hard work"
+            ],
+            [
+                "Do you have any significant fears? A) Yes B) No C) Sometimes D) Unsure",
+                "B) No"
+            ],
+            [
+                "What is your ultimate life goal? A) To travel the world B) To build a future for your personal growth and community impact C) To become a millionaire D) To work a 9-5 job",
+                "B) To build a future for your personal growth and community impact"
+            ],
+            [
+                "How did your financial struggles while growing up shape your understanding? A) Made you indifferent B) Taught you to make do C) Led to wealth D) Strengthened family bonds",
+                "B) Taught you to make do"
+            ],
+            [
+                "Who do you consider your best friend? A) Your sister B) Your classmate C) Your younger brother Jake D) Your cousin",
+                "C) Your younger brother Jake"
+            ],
+            [
+                "How do you balance your work with your regular workouts and outdoor activities? A) Focus solely on work B) Balance both C) Skip workouts D) Prioritize leisure",
+                "B) Balance both"
+            ],
+            [
+                "What did you lose last year? A) A cat B) A rabbit C) A dog D) A bird",
+                "C) A dog"
+            ],
+            [
+                "What types of shows do you enjoy binge-watching? A) Cooking shows B) Reality TV C) Documentaries and crime dramas D) Game shows",
+                "C) Documentaries and crime dramas"
+            ],
+            [
+                "Who do you share an apartment with? A) Your sister B) Your friend C) Lisa D) Your parents",
+                "C) Lisa"
+            ],
+            [
+                "Which region of the U.S. have you traveled to the most? A) Northeast B) Southeast C) Midwest D) West",
+                "A) Any of the above"
+            ]
+        ]
+    },
+    {
+        "story": "My name is David Ramirez, and I\u2019m 28 years old, hailing from Miami, Florida. My parents are originally from Puerto Rico, and while I was raised in a household that honored our Latin culture, I identify as agnostic, feeling a connection to some traditions but not adhering strictly to any particular religion. Growing up, we struggled financially, so we lived modestly, but today, I'm well into the middle class thanks to my career as a car salesperson, a role I\u2019ve embraced after a few years in retail management. I hold a degree in Business from the University of Florida, where I also developed a passion for meeting new people, which I believe helps in my current role. I\u2019m bilingual, speaking both English and Spanish fluently, which has really opened doors for me in my profession. I identify as a gay man and am in a loving relationship with my boyfriend, Marco, who has significantly supported me through various challenges. My family consists of one older sister, Isabel, who is 32 and a wonderful friend. I\u2019m passionate about fitness, spending my free time playing soccer, cycling, and trying out different cuisines, especially when I can cook with friends. I truly value honesty, hard work, and community, and I lean toward progressive political views. A major fear of mine is stagnation; I always strive for personal growth and hope to one day start my own business. I\u2019ve traveled to several countries, including Cuba and Mexico, and have aspirations to see more of Europe. At present, I live in a small but vibrant apartment with my rescue dog, Bruno, and I find solace in listening to music and binge-watching shows in my downtime. My daily routine includes early morning workouts followed by work, where I assist clients in finding their dream cars, and in the evenings, I usually unwind while experimenting with new recipes. All these experiences have truly shaped who I am today, and I\u2019m excited about what the future holds.",
+        "qa": [
+            [
+                "What is your name? A) David Ramirez B) Michael Smith C) Sarah Johnson D) Emily Davis",
+                "A) David Ramirez"
+            ],
+            [
+                "How old are you? A) 24 B) 28 C) 30 D) 35",
+                "B) 28"
+            ],
+            [
+                "Where are you from? A) New York B) Miami C) Chicago D) Los Angeles",
+                "B) Miami"
+            ],
+            [
+                "Where is your mother from? A) Cuba B) Puerto Rico C) Dominican Republic D) Mexico",
+                "B) Puerto Rico"
+            ],
+            [
+                "Where is your father from? A) Mexico B) Cuba C) Puerto Rico D) Dominican Republic",
+                "C) Puerto Rico"
+            ],
+            [
+                "How do you identify in terms of belief? A) Atheist B) Agnostic C) Theist D) None of the above",
+                "B) Agnostic"
+            ],
+            [
+                "How would you describe your financial progression from childhood to adulthood? A) You were always wealthy B) You struggled financially to become middle class C) You went from middle class to affluent D) You went from poor to rich",
+                "B) You struggled financially to become middle class"
+            ],
+            [
+                "What is the name of your older sister? A) Maria B) Isabel C) Laura D) Anna",
+                "B) Isabel"
+            ],
+            [
+                "Which languages do you speak fluently? A) English and French B) Spanish and German C) English and Spanish D) French and Italian",
+                "C) English and Spanish"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Heterosexual B) Bisexual C) Gay D) Asexual",
+                "C) Gay"
+            ],
+            [
+                "What is your gender? A) Male B) Female C) Non-binary D) Prefer not to say",
+                "A) Male"
+            ],
+            [
+                "Who are you in a loving relationship with? A) Alex B) Marco C) Jake D) Sam",
+                "B) Marco"
+            ],
+            [
+                "Who has supported you while you faced various challenges? A) Your colleague B) Your partner C) Your friend D) Your sibling",
+                "B) Your partner"
+            ],
+            [
+                "What is your job title? A) Engineer B) Teacher C) Car Salesperson D) Doctor",
+                "C) Car Salesperson"
+            ],
+            [
+                "What type of management experience do you have? A) Project Management B) Retail Management C) Hospitality Management D) Event Management",
+                "B) Retail Management"
+            ],
+            [
+                "What degree do you hold from the University of Florida? A) Science B) Business C) Arts D) Engineering",
+                "B) Business"
+            ],
+            [
+                "How did you grow up regarding cultural values? A) By honoring Latin culture B) By ignoring cultural roots C) By focusing on modern trends D) By prioritizing technology",
+                "A) By honoring Latin culture"
+            ],
+            [
+                "What political views do you lean toward? A) Conservative B) Moderate C) Progressive D) Libertarian",
+                "C) Progressive"
+            ],
+            [
+                "What are you passionate about? A) Cooking B) Fitness C) Reading D) Traveling",
+                "B) Fitness"
+            ],
+            [
+                "What hobbies do you enjoy doing? A) Painting B) Soccer C) Reading D) Gardening",
+                "B) Soccer"
+            ],
+            [
+                "What values do you truly value? A) Kindness B) Honesty C) Ambition D) Wealth",
+                "B) Honesty"
+            ],
+            [
+                "What do you fear the most? A) Failure B) Stagnation C) Change D) Rejection",
+                "B) Stagnation"
+            ],
+            [
+                "What do you hope to do one day? A) Become a doctor B) Start your own business C) Travel the world D) Write a book",
+                "B) Start your own business"
+            ],
+            [
+                "How did growing up in a household that honored Latin culture shape you? A) You gained cultural pride B) You felt limited exposure C) You experienced less diversity D) You faced isolation",
+                "A) You gained cultural pride"
+            ],
+            [
+                "Who do you consider a wonderful friend? A) Your brother B) Your sister C) Your neighbor D) Your cousin",
+                "B) Your sister"
+            ],
+            [
+                "What do you do after your early morning workouts? A) Watch TV B) Read books C) Work D) Cook",
+                "C) Work"
+            ],
+            [
+                "What is the name of your rescue dog? A) Max B) Bruno C) Charlie D) Bella",
+                "B) Bruno"
+            ],
+            [
+                "What do you find solace in doing? A) Playing sports B) Listening to music C) Reading books D) Cooking",
+                "B) Listening to music"
+            ],
+            [
+                "Where do you currently live? A) A large house B) A suburban bungalow C) A small but vibrant apartment D) A countryside cottage",
+                "C) A small but vibrant apartment"
+            ],
+            [
+                "Which countries have you traveled to? A) Canada B) Cuba C) Brazil D) Japan",
+                "B) Cuba"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Jake Thompson, and I'm 28 years old, originally from Atlanta, Georgia, though my parents hail from a small town in Tennessee. I identify as a gay man, currently in a loving relationship with my partner, Chris, who brings joy and adventure into my life. Growing up, my family struggled financially, hovering around the lower-middle class, but now I've managed to carve out a comfortable life as a car salesperson, a role I've held for the past five years after briefly working in customer service. I graduated with a business degree from Georgia State University, a step that truly opened doors for me. While I adhere to some Christian values in my family, I personally lean towards agnosticism, allowing for a diverse perspective on life. I have one older brother, Mark, who's 31, and we communicate primarily in English, though I've picked up some Spanish along the way from friends. My interests include playing guitar, fishing, and cooking, and I value honesty, loyalty, and perseverance, which reflect my moderate political views. A pivotal experience for me was volunteering at a local LGBTQ+ center, which reinforced my belief in community and support. I've owned a few pets, including a mischievous beagle named Buddy, and now I live alone with my cat, Mabel, who keeps me on my toes. My daily routine consists of early morning workouts followed by a busy day at work, where I enjoy engaging with people from all walks of life. When I manage to find free time, I indulge in documentaries and music, dreaming of the day I can travel to Europe. Ultimately, my life goals revolve around personal fulfillment and making a positive impact on others, which is what I strive for each day.",
+        "qa": [
+            [
+                "What is your name? A) Jake Thompson B) Alex Smith C) Brian Johnson D) David Brown",
+                "A) Jake Thompson"
+            ],
+            [
+                "How old are you? A) 25 B) 28 C) 30 D) 35",
+                "B) 28"
+            ],
+            [
+                "Where are you from? A) Atlanta, Georgia B) Los Angeles, California C) New York City, New York D) Chicago, Illinois",
+                "A) Atlanta, Georgia"
+            ],
+            [
+                "Where is your mother from? A) A big city in California B) A small town in Tennessee C) A rural area in Texas D) An island in Florida",
+                "B) A small town in Tennessee"
+            ],
+            [
+                "Where is your father's hometown? A) California B) Tennessee C) Texas D) Florida",
+                "B) Tennessee"
+            ],
+            [
+                "What belief system do you lean towards after being raised Christian? A) Atheism B) Agnosticism C) Buddhism D) Hinduism",
+                "B) Agnosticism"
+            ],
+            [
+                "What socioeconomic class did you grow up in? A) Upper class B) Middle class C) Lower-middle class D) Lower class",
+                "C) Lower-middle class"
+            ],
+            [
+                "Who is your older brother? A) John B) Mike C) Mark D) Sam",
+                "C) Mark"
+            ],
+            [
+                "What languages do you speak? A) French B) Spanish C) German D) Italian",
+                "B) Spanish"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Heterosexual B) Bisexual C) Gay D) Asexual",
+                "C) Gay"
+            ],
+            [
+                "Do you identify as male? A) Yes B) No C) Maybe D) Prefer not to say",
+                "A) Yes"
+            ],
+            [
+                "Who are you currently in a loving relationship with? A) Alex B) Chris C) Jordan D) Taylor",
+                "B) Chris"
+            ],
+            [
+                "What is your job role? A) Teacher B) Car Salesperson C) Engineer D) Doctor",
+                "B) Car Salesperson"
+            ],
+            [
+                "In which area did you briefly work? A) Sales B) Customer Service C) Marketing D) IT",
+                "B) Customer Service"
+            ],
+            [
+                "From which university did you graduate with a business degree? A) Harvard University B) Georgia State University C) Stanford University D) University of Texas",
+                "B) Georgia State University"
+            ],
+            [
+                "What values did you grow up with in your family? A) Christian B) Buddhist C) Hindu D) Atheist",
+                "A) Christian"
+            ],
+            [
+                "What describes your political views? A) Liberal B) Conservative C) Moderate D) Radical",
+                "C) Moderate"
+            ],
+            [
+                "How do you maintain a healthy lifestyle? A) Late night snacks B) Evening workouts C) Early morning workouts D) Skip breakfast",
+                "C) Early morning workouts"
+            ],
+            [
+                "What hobbies do you enjoy? A) Painting B) Playing guitar C) Hiking D) Reading",
+                "B) Playing guitar"
+            ],
+            [
+                "What qualities do you value the most? A) Honesty B) Wealth C) Fame D) Power",
+                "A) Honesty"
+            ],
+            [
+                "Do you have any specific fears or anxieties? A) Yes, I do B) No, you do not C) Sometimes D) I prefer not to say",
+                "B) No, you do not"
+            ],
+            [
+                "What do your life goals primarily focus on? A) Personal fulfillment and making a positive impact B) Wealth accumulation C) Social status D) Traveling the world",
+                "A) Personal fulfillment and making a positive impact"
+            ],
+            [
+                "What was a pivotal experience for you while volunteering? A) Mentoring youth B) Organizing events C) Volunteering at a local LGBTQ+ center D) Facilitating workshops",
+                "C) Volunteering at a local LGBTQ+ center"
+            ],
+            [
+                "Who do you primarily communicate with? A) Colleagues B) Family and friends C) Strangers D) Online contacts",
+                "B) Family and friends"
+            ],
+            [
+                "What does your daily routine consist of? A) Late night parties B) Early morning workouts C) Afternoon naps D) Evening classes",
+                "B) Early morning workouts"
+            ],
+            [
+                "What pets have you owned before? A) A hamster named Charlie B) A cat named Mabel C) A beagle named Buddy D) A rabbit named Daisy",
+                "C) A beagle named Buddy"
+            ],
+            [
+                "What do you enjoy doing in your free time? A) Cooking B) Watching documentaries C) Playing sports D) Painting",
+                "B) Watching documentaries"
+            ],
+            [
+                "Who do you currently live with? A) Your family B) A friend C) Your cat D) A partner",
+                "C) Your cat"
+            ],
+            [
+                "When do you dream of traveling to Europe? A) Tomorrow B) Next year C) In the summer D) Never",
+                "B) Next year"
+            ]
+        ]
+    },
+    {
+        "story": "My name is John Morgan, and I'm 28 years old, originally hailing from Dallas, Texas, where I still live today. My parents moved here from New Orleans, and while we sometimes attended church, I\u2019d say we were more culturally Catholic than devout; I personally identify as agnostic but appreciate the values instilled in me by my upbringing. I come from a working-class background\u2014money was tight throughout my childhood, but I've worked my way up to a stable middle-class life now, thanks to my job as a car salesperson at a local dealership. I have an older sister, Mia, who's 32, and she's always been a big influence on me, encouraging my love for cars and racing. I speak English fluently, and I dabble in Spanish, which I picked up in high school. I identify as straight and am currently single, navigating the ups and downs of relationships, with a significant past that includes a long-term girlfriend from college. I studied business management at university, which has helped me in my sales career. I often draw cultural influences from the car enthusiast community, which I adore, and I lean towards conservative views politically. I value hard work, honesty, and loyalty, and while I strive to stay fit, life sometimes draws me into the comfort of fast food. My biggest passions included a love for football, tinkering with cars on weekends, and spending time with friends, often catching up over a barbecue. I\u2019m also a proud owner of a dog named Buddy, a rescue I adopted a year ago. I enjoy romantic comedies and can never resist a good car chase movie. Despite my love for Texas, I\u2019ve traveled to both coasts of the U.S. and have dreams of road-tripping across the entire country someday. Ultimately, I aim to build a life where I can be financially secure while doing something I love, maybe even opening my own dealership one day. A defining experience for me was participating in a local street racing event, which ignited my passion for the automotive world. My everyday routine includes working out in the early mornings, then diving into my sales duties for the day, and unwinding with friends or a good game night in the evenings.",
+        "qa": [
+            [
+                "What is your name? A) John Morgan B) Mike Johnson C) Jessica Lee D) Stacy Brown",
+                "A) John Morgan"
+            ],
+            [
+                "How old are you? A) 22 B) 25 C) 28 D) 30",
+                "C) 28"
+            ],
+            [
+                "Where are you from? A) Dallas, Texas B) Miami, Florida C) Seattle, Washington D) Chicago, Illinois",
+                "A) Dallas, Texas"
+            ],
+            [
+                "Where is your mother from? A) Los Angeles B) New Orleans C) Miami D) Chicago",
+                "B) New Orleans"
+            ],
+            [
+                "Where is your father from? A) New York B) Los Angeles C) New Orleans D) Chicago",
+                "C) New Orleans"
+            ],
+            [
+                "How do you feel about the values instilled in you by your upbringing despite your agnostic beliefs? A) They are unimportant B) You appreciate them C) You reject them D) They confuse you",
+                "B) You appreciate them"
+            ],
+            [
+                "What background do you come from before living a stable middle-class life? A) Wealthy family B) Middle-class family C) Working-class background D) Upper-class family",
+                "C) Working-class background"
+            ],
+            [
+                "How old is your older sister Mia? A) 28 B) 30 C) 32 D) 35",
+                "C) 32"
+            ],
+            [
+                "What languages do you speak fluently? A) French B) Spanish C) English D) Italian",
+                "C) English"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Gay B) Straight C) Bisexual D) Unsure",
+                "B) Straight"
+            ],
+            [
+                "How do you identify your gender? A) Male B) Female C) Non-binary D) Prefer not to say",
+                "A) Male"
+            ],
+            [
+                "Are you currently single? A) Yes B) No C) It's complicated D) Looking",
+                "A) Yes"
+            ],
+            [
+                "Did you have a long-term girlfriend in college? A) Yes B) No C) Occasionally D) Not sure",
+                "A) Yes"
+            ],
+            [
+                "What is your role at the local dealership? A) Mechanic B) Car Salesperson C) Receptionist D) Parts Manager",
+                "B) Car Salesperson"
+            ],
+            [
+                "What do you study at university? A) Computer Science B) Business Management C) Psychology D) Engineering",
+                "B) Business Management"
+            ],
+            [
+                "What degree do you hold? A) Computer Science B) Business Management C) Psychology D) Engineering",
+                "B) Business Management"
+            ],
+            [
+                "From which community do you draw your cultural influences? A) Art community B) Car enthusiast community C) Fashion industry D) Tech lovers",
+                "B) Car enthusiast community"
+            ],
+            [
+                "Do you lean towards conservative political views? A) Yes B) No C) Unsure D) Sometimes",
+                "A) Yes"
+            ],
+            [
+                "What do you occasionally indulge in that challenges your fitness goals? A) Fast food B) Healthy snacks C) Protein shakes D) Salads",
+                "A) Fast food"
+            ],
+            [
+                "What do you love doing in your free time? A) Cooking B) Playing football C) Reading D) Watching movies",
+                "B) Playing football"
+            ],
+            [
+                "Which value do you prioritize most? A) Hard work B) Dishonesty C) Betrayal D) Indifference",
+                "A) Hard work"
+            ],
+            [
+                "Do you have any significant fears or anxieties? A) Yes B) No C) Sometimes D) Rarely",
+                "B) No"
+            ],
+            [
+                "What is your goal for financial security and your future? A) Start a restaurant B) Open a dealership C) Become an artist D) Work in finance",
+                "B) Open a dealership"
+            ],
+            [
+                "What defining experience ignited your passion for the automotive world? A) Attending a car show B) Participating in a street racing event C) Watching a movie about cars D) Reading automotive magazines",
+                "B) Participating in a street racing event"
+            ],
+            [
+                "What do you enjoy doing with friends to unwind? A) Go hiking B) Catching up over a barbecue C) Watching movies D) Playing video games",
+                "B) Catching up over a barbecue"
+            ],
+            [
+                "What time do you typically work out before you start your sales duties? A) Late evening B) Early mornings C) Afternoon D) No workouts",
+                "B) Early mornings"
+            ],
+            [
+                "What is the name of your rescue dog that you adopted last year? A) Charlie B) Max C) Buddy D) Rocky",
+                "C) Buddy"
+            ],
+            [
+                "What types of movies do you enjoy? A) Horror and thrillers B) Documentaries C) Romantic comedies and car chase movies D) Sci-fi and fantasy",
+                "C) Romantic comedies and car chase movies"
+            ],
+            [
+                "Where do you currently live? A) New York B) San Francisco C) Dallas D) Miami",
+                "C) Dallas"
+            ],
+            [
+                "Have you traveled to both coasts of the U.S.? A) Yes B) No C) Only the East Coast D) Only the West Coast",
+                "A) Yes"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Jake Sullivan, and I\u2019m 29 years old, originally hailing from a small town in Indiana while my parents are from Ireland. I grew up in a modest household, where financial stability was often a struggle, but I\u2019ve managed to find my footing and am now comfortably middle class as a car salesperson at a local dealership. I practice Catholicism, though I sometimes feel disconnected from the rituals, as I prioritize my personal values over strict religious adherence. I have one older brother, Ryan, who is 32, and we share a close bond despite our different life paths. Language-wise, I primarily speak English, but I\u2019ve picked up some basic Spanish along the way. Identifying as a straight male, I\u2019m currently single, having recently ended a long-term relationship that taught me a lot about myself and my desires. My background in marketing, supplemented by my community college education, helped me segue into sales, where I thrive on building connections with customers. Culturally, I\u2019m influenced by my Irish heritage\u2014music, storytelling, and a love for community gatherings are central to who I am. Politically, I lean towards moderate views, emphasizing the importance of community and support systems. I maintain a good overall health regimen, often hitting the gym and enjoying outdoor activities like hiking and biking. In my downtime, I\u2019m passionate about playing guitar and attending local music scenes, always seeking inspiring new sounds. My biggest fears include the uncertainty of the future and the potential for losing meaningful relationships. I wish to achieve a balance between career success and personal fulfillment, and a defining experience for me was volunteering at a youth center, which ignited my commitment to giving back. Currently, I share my apartment with a playful beagle named Benny, who keeps my days lively. I find joy in binge-watching shows like \"The Office\" or getting lost in indie films. I\u2019ve been fortunate to travel to a few European countries, and my ultimate goal is to explore the natural beauty of New Zealand. Each day, I strive to create genuine connections with others, whether through work or friendship, making every moment count in this journey of life.",
+        "qa": [
+            [
+                "What is your name? A) Jake Sullivan B) Mike Johnson C) Alex Smith D) Luke Brown",
+                "A) Jake Sullivan"
+            ],
+            [
+                "How old are you? A) 25 B) 30 C) 29 D) 32",
+                "C) 29"
+            ],
+            [
+                "Where are you from? A) A small town in Indiana B) A big city in California C) A village in Ohio D) A suburb in Texas",
+                "A) A small town in Indiana"
+            ],
+            [
+                "Where is your mother from? A) England B) Ireland C) Scotland D) Wales",
+                "B) Ireland"
+            ],
+            [
+                "Where is your father from? A) England B) Ireland C) Scotland D) Wales",
+                "B) Ireland"
+            ],
+            [
+                "How do you feel about your connection to Catholic rituals? A) Very connected B) Somewhat disconnected C) Not connected at all D) Completely engaged",
+                "B) Somewhat disconnected"
+            ],
+            [
+                "Are you part of the comfortably middle class? A) Yes B) No C) Unsure D) Prefer not to say",
+                "A) Yes"
+            ],
+            [
+                "How old is your older brother Ryan? A) 28 B) 30 C) 32 D) 34",
+                "C) 32"
+            ],
+            [
+                "What language do you primarily speak? A) French B) Spanish C) English D) German",
+                "C) English"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Straight male B) Gay male C) Bisexual D) Asexual",
+                "A) Straight male"
+            ],
+            [
+                "What is your gender? A) Male B) Female C) Non-binary D) Prefer not to say",
+                "A) Male"
+            ],
+            [
+                "Are you currently in a relationship? A) Yes B) No C) It's complicated D) Recently ended",
+                "B) No"
+            ],
+            [
+                "What did your long-term relationship teach you about yourself? A) Your partner B) Your strengths C) Your preferences D) Your hobbies",
+                "B) Your strengths"
+            ],
+            [
+                "What is your position at the local dealership? A) Mechanic B) Car Salesperson C) Customer Service Rep D) Finance Manager",
+                "B) Car Salesperson"
+            ],
+            [
+                "What is your educational background? A) Law degree B) Marketing from community college C) Engineering degree D) Medical degree",
+                "B) Marketing from community college"
+            ],
+            [
+                "What level of education have you completed? A) High School B) Community College C) Bachelor's Degree D) Master's Degree",
+                "B) Community College"
+            ],
+            [
+                "How is your Irish heritage influencing you? A) Through music B) Through sports C) Through art D) Through cooking",
+                "A) Through music"
+            ],
+            [
+                "Which political views do you lean towards? A) Conservative B) Liberal C) Moderate D) Extreme",
+                "C) Moderate"
+            ],
+            [
+                "What do you prioritize in your lifestyle to maintain good health? A) Junk food B) Your overall health regimen C) Sedentary activities D) Skipping the gym",
+                "B) Your overall health regimen"
+            ],
+            [
+                "What do you enjoy doing in your free time? A) Playing guitar B) Watching movies C) Cooking D) Reading",
+                "A) Playing guitar"
+            ],
+            [
+                "Do you prioritize your personal values over strict religious adherence? A) Yes B) No C) Sometimes D) Not sure",
+                "A) Yes"
+            ],
+            [
+                "What are your biggest fears? A) Losing meaningful relationships B) Being wealthy C) Enjoying life D) Traveling the world",
+                "A) Losing meaningful relationships"
+            ],
+            [
+                "How do you aim to achieve a balance between career success and personal fulfillment? A) Focus solely on work B) Prioritize personal life C) Ignore career goals D) Set clear boundaries",
+                "B) Prioritize personal life"
+            ],
+            [
+                "What activity ignited your commitment to giving back? A) Volunteering at a youth center B) Attending college C) Traveling abroad D) Working a job",
+                "A) Volunteering at a youth center"
+            ],
+            [
+                "What do you strive to create with others through your work and friendships? A) Competition B) Genuine connections C) Superficial interactions D) Independence",
+                "B) Genuine connections"
+            ],
+            [
+                "What is your daily goal regarding your connections with others? A) To isolate yourself B) To connect and make every moment count C) To avoid socializing D) To only connect with a few people",
+                "B) To connect and make every moment count"
+            ],
+            [
+                "Who do you share your apartment with? A) A cat B) A parrot C) A beagle D) A fish",
+                "C) A beagle"
+            ],
+            [
+                "What type of shows do you enjoy binge-watching, such as 'The Office' and indie films? A) Action B) Comedy C) Drama D) Horror",
+                "B) Comedy"
+            ],
+            [
+                "Where do you currently live? A) House B) Apartment C) Condo D) Villa",
+                "B) Apartment"
+            ]
+        ]
+    }
+]
