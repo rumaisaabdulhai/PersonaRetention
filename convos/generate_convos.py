@@ -35,9 +35,17 @@ MODEL = "gpt-4o-mini"
 
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 
+
 def sim_gpt_convo(system_prompt_1, system_prompt_2):
     """
     Simulate a conversation between two LLMs with the given background text and questions.
+
+    Args:
+        system_prompt_1 (str): The system prompt for the first LLM.
+        system_prompt_2 (str): The system prompt for the second LLM.
+    
+    Returns:
+        tuple: The memory of the first LLM and the memory of the second LLM.
     """
     llm1_memory = [
         {"role": "user", "content": system_prompt_1}
@@ -119,6 +127,9 @@ def sim_gpt_convo(system_prompt_1, system_prompt_2):
 
 
 def run_just_task_convos():
+    """
+    Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
+    """
     data_dir = f"{pathlib.Path(__file__).parent}/{TASK_DIR}"
     pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
     
@@ -137,6 +148,7 @@ def run_just_task_convos():
     with open(f"{data_dir}/{THERAPIST_PATIENT_FILE}", "w") as f:
         json.dump(therapist_patient_conversations, f, indent=4)
 
+
 def main():
     """
     Simulate a conversation between two LLMs.
@@ -150,6 +162,7 @@ def main():
 
     # just task
     run_just_task_convos()
+
 
 if __name__ == "__main__":
     main()
