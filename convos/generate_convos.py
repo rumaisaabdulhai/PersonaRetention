@@ -103,7 +103,7 @@ def gpt_turn(llm1_memory, llm2_memory):
         max_completion_tokens=MAX_COMPLETION_TOKENS
     )
     answer = response.choices[0].message.content.strip()
-    llm1_memory.append({"role": "assistant", "content": answer})
+    llm1_memory.append({"role": "user", "content": answer})
     llm2_memory.append({"role": "user", "content": answer})
 
 def davinci_turn(conversation, history, LLM_name):
