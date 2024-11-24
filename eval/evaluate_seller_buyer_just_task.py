@@ -14,8 +14,6 @@ logging.basicConfig(
     ]
 )
 
-# SELLER_FILE = "qa_pairs_car_dealer.json"
-# BUYER_FILE = "qa_pairs_generic.json"
 TASK_DIR = "task_data"
 STATS_DIR = "task_stats"
 SELLER_BUYER_STATS_FILE = "task_seller_buyer_stats.json"
@@ -186,29 +184,6 @@ def main():
 
     with open(f"{output_dir}/{SELLER_BUYER_STATS_FILE}", "w") as f:
         json.dump(evals, f, indent=4)
-
-    # seller_personas = []
-    # with open(f"{pathlib.Path(__file__).parent}/data/{SELLER_FILE}", "r") as f:
-    #     seller_personas = json.load(f)
-
-    # buyer_personas = []
-    # with open(f"{pathlib.Path(__file__).parent}/data/{BUYER_FILE}", "r") as f:
-    #     buyer_personas = json.load(f)
-    
-    # for i, seller in enumerate(seller_personas):
-    #     background_text1 = seller["story"]
-    #     questions1 = [qa[0] for qa in seller["qa"]]
-    #     answers1 = [qa[1] for qa in seller["qa"]]
-
-    #     for j, buyer in enumerate(buyer_personas):
-    #         background_text2 = buyer["story"]
-    #         questions2 = [qa[0] for qa in buyer["qa"]]
-    #         answers2 = [qa[1] for qa in buyer["qa"]]
-    #         print("--------")
-    #         print(f"Conversation between Seller {i + 1} and Buyer {j + 1}")
-    #         accuracies_llm1, accuracies_llm2 = simulate_conversation(background_text1, background_text2, questions1, answers1, questions2, answers2)
-    #         break
-
 
 if __name__ == "__main__":
     main()
