@@ -58,10 +58,11 @@ def simulate_conversation(system_prompt_1, system_prompt_2, mode):
         # For gpt-4o-mini (chat-based)
         llm1_memory = [{"role": "user", "content": system_prompt_1}]
         llm2_memory = [{"role": "user", "content": system_prompt_2}]
-    else:
+    if mode == 1:
         # For text-davinci-003 (completion-based)
         conversation = []
-        history = f"Scenario:\n{system_prompt_1}\n{system_prompt_2}\n\nConversation:\n"
+        history = f"Scenario:\n{system_prompt_1}\nConversation:\n"
+        
 
     choice = random.choice([0, 1])  # Randomly decide who starts the conversation
 
@@ -71,25 +72,25 @@ def simulate_conversation(system_prompt_1, system_prompt_2, mode):
             if mode == 0:
                 gpt_turn(llm1_memory, llm2_memory)
             if mode == 1:
-                davinci_turn(conversation, history, "LLM1")
+                history = davinci_turn(conversation, history, "LLM1")
 
             # LLM2 (Buyer or Second Participant) responds
             if mode == 0:
                 gpt_turn(llm2_memory, llm1_memory)
             if mode == 1:
-                davinci_turn(conversation, history, "LLM2")
+                history = davinci_turn(conversation, history, "LLM2")
         else:
             # LLM2 (Buyer or Second Participant) goes first
             if mode == 0:
                 gpt_turn(llm2_memory, llm1_memory)
             if mode == 1:
-                davinci_turn(conversation, history, "LLM2")
+                history = davinci_turn(conversation, history, "LLM2")
 
             # LLM1 (Seller or First Participant) responds
             if mode == 0:
                 gpt_turn(llm1_memory, llm2_memory)
             if mode == 1:
-                davinci_turn(conversation, history, "LLM1")
+                history = davinci_turn(conversation, history, "LLM1")
 
     if mode == 0:
         return llm1_memory
@@ -113,9 +114,11 @@ def davinci_turn(conversation, history, LLM_name):
         max_tokens=MAX_COMPLETION_TOKENS,
         stop=["\n"]
     )
+    print(f"{history}{LLM_name}: ")
     answer = response.choices[0].text.strip()
     conversation.append({"speaker": LLM_name, "message": answer})
     history += f"{LLM_name}: {answer}\n"
+    return history
 
 def run_just_task_convos():
     """
@@ -125,17 +128,26 @@ def run_just_task_convos():
     pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
     
     logging.info("Running seller buyer conversations...")
-    seller_buyer_conversations = [simulate_conversation(GENERIC_SELLER_PROMPT, GENERIC_BUYER_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+    if (MODE == 0):
+        seller_buyer_conversations = [simulate_conversation(GENERIC_SELLER_PROMPT, GENERIC_BUYER_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+    if (MODE == 1):
+        seller_buyer_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("LLM1", "seller", "sell a car", "LLM2", "buyer", "buy a car"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]
     with open(f"{data_dir}/{SELLER_BUYER_FILE}", "w") as f:
         json.dump(seller_buyer_conversations, f, indent=4)
 
     logging.info("Running chitchat conversations...")
-    chitchat_conversations = [simulate_conversation(GENERIC_CHITCHAT_PROMPT1, GENERIC_CHITCHAT_PROMPT2, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+    if (MODE == 0):
+        chitchat_conversations = [simulate_conversation(GENERIC_CHITCHAT_PROMPT1, GENERIC_CHITCHAT_PROMPT2, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+    if (MODE == 1):
+        chitchat_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("LLM1", "person", "have a conversation", "LLM2", "person", "have a conversation"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]
     with open(f"{data_dir}/{CHITCHAT_FILE}", "w") as f:
         json.dump(chitchat_conversations, f, indent=4)
 
     logging.info("Running therapist patient conversations...")
-    therapist_patient_conversations = [simulate_conversation(GENERIC_THERAPIST_PROMPT, GENERIC_PATIENT_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+    if (MODE == 0):
+        therapist_patient_conversations = [simulate_conversation(GENERIC_THERAPIST_PROMPT, GENERIC_PATIENT_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+    if (MODE == 1):
+        therapist_patient_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("LLM1", "patient", "discuss their mental health issues with a therapist", "LLM2", "therapist", "help the patient with their mental health issues"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]    
     with open(f"{data_dir}/{THERAPIST_PATIENT_FILE}", "w") as f:
         json.dump(therapist_patient_conversations, f, indent=4)
 
