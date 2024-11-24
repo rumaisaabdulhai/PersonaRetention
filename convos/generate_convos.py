@@ -24,107 +24,98 @@ TASK_DIR = "task_data"
 # TASK_STRATEGY_DIR = "task_strategy_data"
 # TASK_STRATEGY_PERSONA_DIR = "task_strategy_persona_data"
 
+MODE = 1
+MODELS = [
+    "gpt-4o-mini", # MODE 0
+    "davinci-002"  # MODE 1      
+          ]
+
+MODEL = MODELS[MODE]
 LOGGING = False
-SELLER_BUYER_FILE = "seller_buyer_conversations.json"
-CHITCHAT_FILE = "chitchat_conversations.json"
-THERAPIST_PATIENT_FILE = "therapist_patient_conversations.json"
+SELLER_BUYER_FILE = f"seller_buyer_conversations-{MODEL}.json"
+CHITCHAT_FILE = f"chitchat_conversations-{MODEL}.json"
+THERAPIST_PATIENT_FILE = f"therapist_patient_conversations-{MODEL}.json"
 MAX_COMPLETION_TOKENS = 500
 NUM_ROUNDS = 10 # Number of rounds for each task
 NUM_EXCHANGES = 15 # Number of back and forth exchanges between LLMs
-MODEL = "gpt-4o-mini"
 
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
 
 
-def sim_gpt_convo(system_prompt_1, system_prompt_2):
+def simulate_conversation(system_prompt_1, system_prompt_2, mode):
     """
-    Simulate a conversation between two LLMs with the given background text and questions.
+    Simulate a conversation between two LLMs.
 
     Args:
-        system_prompt_1 (str): The system prompt for the first LLM.
-        system_prompt_2 (str): The system prompt for the second LLM.
-    
+        system_prompt_1 (str): The system prompt for the first participant.
+        system_prompt_2 (str): The system prompt for the second participant.
+        mode (int): 0 for gpt-4o-mini, 1 for text-davinci-003.
+
     Returns:
-        tuple: The memory of the first LLM and the memory of the second LLM.
+        list: The conversation history.
     """
-    llm1_memory = [
-        {"role": "user", "content": system_prompt_1}
-    ]
-    llm2_memory = [
-        {"role": "user", "content": system_prompt_2}
-    ]
+    if mode == 0:
+        # For gpt-4o-mini (chat-based)
+        llm1_memory = [{"role": "user", "content": system_prompt_1}]
+        llm2_memory = [{"role": "user", "content": system_prompt_2}]
+    else:
+        # For text-davinci-003 (completion-based)
+        conversation = []
+        history = f"Scenario:\n{system_prompt_1}\n{system_prompt_2}\n\nConversation:\n"
 
-    # 1: seller goes first, else buyer goes first
-    choice = random.choice([0, 1])
+    choice = random.choice([0, 1])  # Randomly decide who starts the conversation
 
-    for turn in range(NUM_EXCHANGES):
+    for _ in range(NUM_EXCHANGES):
         if choice == 1:
-            # seller goes first
-            response = client.chat.completions.create(
-                model=MODEL,
-                messages=llm1_memory,
-                max_completion_tokens=MAX_COMPLETION_TOKENS
-            )
+            # LLM1 (Seller or First Participant) goes first
+            if mode == 0:
+                gpt_turn(llm1_memory, llm2_memory)
+            if mode == 1:
+                davinci_turn(conversation, history, "LLM1")
 
-            answer = response.choices[0].message.content
-            logging.info(f"\n{answer}")
-
-            # add the response to LLM 1's memory
-            llm1_memory.append({"role": "user", "content": answer})
-
-            # add the response to LLM 2's memory
-            llm2_memory.append({"role": "user", "content": answer})
-
-            # buyer responds to the seller
-            response = client.chat.completions.create(
-                model=MODEL,
-                messages=llm2_memory,
-                max_completion_tokens=MAX_COMPLETION_TOKENS
-            )
-
-            answer = response.choices[0].message.content
-            logging.info(f"\n{answer}")
-
-            # add the response to LLM 2's memory
-            llm2_memory.append({"role": "user", "content": answer})
-
-            # add the response to LLM 1's memory
-            llm1_memory.append({"role": "user", "content": answer})
+            # LLM2 (Buyer or Second Participant) responds
+            if mode == 0:
+                gpt_turn(llm2_memory, llm1_memory)
+            if mode == 1:
+                davinci_turn(conversation, history, "LLM2")
         else:
-            # buyer goes first
-            response = client.chat.completions.create(
-                model=MODEL,
-                messages=llm2_memory,
-                max_completion_tokens=MAX_COMPLETION_TOKENS
-            )
+            # LLM2 (Buyer or Second Participant) goes first
+            if mode == 0:
+                gpt_turn(llm2_memory, llm1_memory)
+            if mode == 1:
+                davinci_turn(conversation, history, "LLM2")
 
-            answer = response.choices[0].message.content
-            logging.info(f"\n{answer}")
+            # LLM1 (Seller or First Participant) responds
+            if mode == 0:
+                gpt_turn(llm1_memory, llm2_memory)
+            if mode == 1:
+                davinci_turn(conversation, history, "LLM1")
 
-            # add the response to LLM 2's memory
-            llm2_memory.append({"role": "user", "content": answer})
+    if mode == 0:
+        return llm1_memory
+    if mode == 1:
+        return conversation
 
-            # add the response to LLM 1's memory
-            llm1_memory.append({"role": "user", "content": answer})
+def gpt_turn(llm1_memory, llm2_memory):
+    response = client.chat.completions.create(
+        model=MODEL,
+        messages=llm1_memory,
+        max_completion_tokens=MAX_COMPLETION_TOKENS
+    )
+    answer = response.choices[0].message.content.strip()
+    llm1_memory.append({"role": "assistant", "content": answer})
+    llm2_memory.append({"role": "user", "content": answer})
 
-            # seller responds to the buyer
-            response = client.chat.completions.create(
-                model=MODEL,
-                messages=llm1_memory,
-                max_completion_tokens=MAX_COMPLETION_TOKENS
-            )
-
-            answer = response.choices[0].message.content
-            logging.info(f"\n{answer}")
-
-            # add the response to LLM 1's memory
-            llm1_memory.append({"role": "user", "content": answer})
-
-            # add the response to LLM 2's memory
-            llm2_memory.append({"role": "user", "content": answer})
-
-    return llm1_memory, llm2_memory
-
+def davinci_turn(conversation, history, LLM_name):
+    response = client.completions.create(
+        model=MODEL,
+        prompt=f"{history}{LLM_name}: ",
+        max_tokens=MAX_COMPLETION_TOKENS,
+        stop=["\n"]
+    )
+    answer = response.choices[0].text.strip()
+    conversation.append({"speaker": LLM_name, "message": answer})
+    history += f"{LLM_name}: {answer}\n"
 
 def run_just_task_convos():
     """
@@ -134,17 +125,17 @@ def run_just_task_convos():
     pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
     
     logging.info("Running seller buyer conversations...")
-    seller_buyer_conversations = [sim_gpt_convo(GENERIC_SELLER_PROMPT, GENERIC_BUYER_PROMPT) for _ in tqdm(range(NUM_ROUNDS))]
+    seller_buyer_conversations = [simulate_conversation(GENERIC_SELLER_PROMPT, GENERIC_BUYER_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
     with open(f"{data_dir}/{SELLER_BUYER_FILE}", "w") as f:
         json.dump(seller_buyer_conversations, f, indent=4)
 
     logging.info("Running chitchat conversations...")
-    chitchat_conversations = [sim_gpt_convo(GENERIC_CHITCHAT_PROMPT1, GENERIC_CHITCHAT_PROMPT2) for _ in tqdm(range(NUM_ROUNDS))]
+    chitchat_conversations = [simulate_conversation(GENERIC_CHITCHAT_PROMPT1, GENERIC_CHITCHAT_PROMPT2, MODE) for _ in tqdm(range(NUM_ROUNDS))]
     with open(f"{data_dir}/{CHITCHAT_FILE}", "w") as f:
         json.dump(chitchat_conversations, f, indent=4)
 
     logging.info("Running therapist patient conversations...")
-    therapist_patient_conversations = [sim_gpt_convo(GENERIC_THERAPIST_PROMPT, GENERIC_PATIENT_PROMPT) for _ in tqdm(range(NUM_ROUNDS))]
+    therapist_patient_conversations = [simulate_conversation(GENERIC_THERAPIST_PROMPT, GENERIC_PATIENT_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
     with open(f"{data_dir}/{THERAPIST_PATIENT_FILE}", "w") as f:
         json.dump(therapist_patient_conversations, f, indent=4)
 
