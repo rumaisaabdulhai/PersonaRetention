@@ -36,10 +36,8 @@ class Persona:
         self.questions_and_answers = [] # List of Question_And_Answers for each item
 
 class Question_And_Answers:
-    def __init__(self, question, wrong_answer_1, wrong_answer_2, wrong_answer_3, wrong_answer_4, correct_answer):
+    def __init__(self, id, question, wrong_answers, correct_answer):
+        self.id = id
         self.question = question
-        self.wrong_answer_1 = wrong_answer_1
-        self.wrong_answer_2 = wrong_answer_2
-        self.wrong_answer_3 = wrong_answer_3
-        self.wrong_answer_4 = wrong_answer_4
+        self.wrong_answers = wrong_answers
         self.correct_answer = correct_answer

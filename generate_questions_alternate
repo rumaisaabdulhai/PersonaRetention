@@ -1,0 +1,59 @@
+import json
+import random
+
+def generate_question_and_answers(persona, other_personas):
+    """
+    Generate questions and answers for a given persona dictionary,
+    using correct answers from other personas as wrong answers.
+    """
+    questions_and_answers = []
+    for key, value in persona.items():
+        if key in ["name", "questions_and_answers", "biography"]:
+            continue
+
+        # Generate a question
+        question = f"Which of the following statements is true of this persona?"
+
+        # Prepare answers
+        correct_answer = value
+
+        # Collect potential wrong answers from other personas
+        potential_wrong_answers = [
+            other[key] for other in other_personas if key in other and other[key] != value
+        ]
+        wrong_answers = random.sample(potential_wrong_answers, min(4, len(potential_wrong_answers)))
+
+        questions_and_answers.append({
+            "id": len(questions_and_answers),
+            "question": question,
+            "correct_answer": correct_answer,
+            "wrong_answers": wrong_answers,
+        })
+
+    return questions_and_answers
+
+def process_personas(input_file, output_file):
+    """
+    Process the personas JSON file to add questions and answers.
+    """
+    # Load the input JSON file
+    with open(input_file, 'r') as f:
+        data = json.load(f)
+
+    # Process each persona
+    output_data = []
+    for i, persona in enumerate(data):
+        # Exclude the current persona to create the list of other personas
+        other_personas = data[:i] + data[i+1:]
+        persona_copy = persona.copy()
+        persona_copy["questions_and_answers"] = generate_question_and_answers(persona, other_personas)
+        output_data.append(persona_copy)
+
+    # Save the output JSON file
+    with open(output_file, 'w') as f:
+        json.dump(output_data, f, indent=4)
+
+# Example usage
+input_file = 'therapist_personas.json'  # Replace with the path to your input JSON
+output_file = 'therapist_personas_with_questions.json'  # Replace with desired output path
+process_personas(input_file, output_file)
