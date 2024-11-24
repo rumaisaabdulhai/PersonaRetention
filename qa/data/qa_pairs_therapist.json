@@ -1,0 +1,1248 @@
+[
+    {
+        "story": "Hello! My name is Dr. Elijah Thompson, and I\u2019m 41 years old, originally from New Orleans, Louisiana. My parents hail from Jamaica, which has deeply influenced my appreciation for cultural diversity and connection to my roots. I identify as a cisgender heterosexual man, and I\u2019m happily married to my wife, Maya, who is my greatest support. Growing up, my family faced financial challenges, navigating a lower-middle-class lifestyle, but now I am fortunate to be in a comfortable position as a licensed therapist, having earned my doctorate in psychology. Our family adhered to a mix of Rastafarian beliefs, and while I have great respect for spirituality, I consider myself a secular humanist. I have one younger brother, Malik, who is 36, and although we primarily spoke English at home, we share a fondness for the Jamaican Patois our parents used. My passions include playing guitar, hiking, and exploring the intricate world of psychology, as well as committing to local community service. I value empathy, resilience, and lifelong learning, which often align with my progressive political views. A life-defining experience for me was volunteering in a mental health clinic during college, which solidified my career choice. I live in a charming home with my dog, Rocky, and I enjoy rich conversations with a close-knit group of friends who support each other's personal and professional growth. My daily routine incorporates mindfulness practices and exercise to maintain my mental well-being. I've traveled to several Caribbean islands and parts of Europe, but I dream of visiting Asia to expand my worldview further. Engaging with thoughtful literature and documentaries is a favorite pastime of mine, and I aim to foster a life enriched by compassion and understanding while always working toward my goal of making mental health resources more accessible.",
+        "qa": [
+            [
+                "What is your name? A) Dr. Elijah Thompson B) Sarah Johnson C) Michael Brown D) Emily Davis",
+                "A) Dr. Elijah Thompson"
+            ],
+            [
+                "How old are you? A) 35 B) 41 C) 50 D) 28",
+                "B) 41"
+            ],
+            [
+                "Where are you originally from? A) New York B) Chicago C) Los Angeles D) Louisiana",
+                "D) Louisiana"
+            ],
+            [
+                "Where is your mother from? A) Canada B) Jamaica C) Mexico D) Italy",
+                "B) Jamaica"
+            ],
+            [
+                "Where is your father from? A) Jamaica B) Canada C) Brazil D) Australia",
+                "A) Jamaica"
+            ],
+            [
+                "What belief system do you primarily consider yourself to be? A) Rastafarian B) Atheism C) Secular Humanism D) Buddhism",
+                "C) Secular Humanism"
+            ],
+            [
+                "What lifestyle did you grow up in compared to where you are now? A) Upper-class B) Lower-middle-class C) Wealthy D) Working-class",
+                "B) Lower-middle-class"
+            ],
+            [
+                "How old is your younger brother Malik? A) 30 B) 36 C) 40 D) 28",
+                "B) 36"
+            ],
+            [
+                "What language do you primarily speak at home? A) Spanish B) French C) English D) Jamaican Patois",
+                "C) English"
+            ],
+            [
+                "How do you identify in terms of gender and sexuality if you are a cisgender heterosexual man? A) Transgender B) Cisgender D) Queer D) Non-binary",
+                "B) Cisgender"
+            ],
+            [
+                "How do you identify your gender? A) Woman B) Non-binary C) Man D) Genderqueer",
+                "C) Man"
+            ],
+            [
+                "Who are you happily married to? A) Sarah B) Maya C) Emily D) Laura",
+                "B) Maya"
+            ],
+            [
+                "Have you had any meaningful relationships before your marriage? A) Yes B) No C) A few D) Only one",
+                "B) No"
+            ],
+            [
+                "What is your profession? A) Engineer B) Licensed Therapist C) Teacher D) Doctor",
+                "B) Licensed Therapist"
+            ],
+            [
+                "What skills did you develop by volunteering at a mental health clinic during college? A) Leadership B) Cooking C) Financial D) Sports",
+                "A) Leadership"
+            ],
+            [
+                "What degree did you earn in psychology? A) Bachelor's B) Master's C) Doctorate D) Associate",
+                "C) Doctorate"
+            ],
+            [
+                "How has your parents' Jamaican heritage influenced your appreciation for culture? A) Love for reggae music B) Interest in Jamaican food C) Greater appreciation for cultural diversity D) Travel ambitions",
+                "C) Greater appreciation for cultural diversity"
+            ],
+            [
+                "What type of political views do you hold? A) Conservative B) Progressive C) Libertarian D) Moderate",
+                "B) Progressive"
+            ],
+            [
+                "How do you maintain your mental well-being? A) Mindfulness and exercise B) Socializing and partying C) Watching TV D) Eating junk food",
+                "A) Mindfulness and exercise"
+            ],
+            [
+                "What hobbies do you enjoy most? A) Playing guitar B) Gardening C) Painting D) Writing",
+                "A) Playing guitar"
+            ],
+            [
+                "What qualities do you value most in your life? A) Empathy B) Wealth C) Power D) Fame",
+                "A) Empathy"
+            ],
+            [
+                "What motivates your work? A) A desire for fame B) A strong desire to help others C) Financial gain D) Personal interests",
+                "B) A strong desire to help others"
+            ],
+            [
+                "What is your goal for mental health resources? A) Make them less known B) Make them more accessible C) Make them harder to find D) Make them exclusive",
+                "B) Make them more accessible"
+            ],
+            [
+                "What was a life-defining experience for you in college? A) Studying abroad B) Volunteering in a mental health clinic C) Starting a band D) Taking a gap year",
+                "B) Volunteering in a mental health clinic"
+            ],
+            [
+                "How would you describe the support you receive from your friends? A) Neglectful B) Competitive C) Encouraging D) Indifferent",
+                "C) Encouraging"
+            ],
+            [
+                "What do you incorporate into your daily routine? A) Mindfulness practices and exercise B) Only exercise C) Only mindfulness practices D) None of the above",
+                "A) A) Mindfulness practices and exercise"
+            ],
+            [
+                "What is your dog's name? A) Max B) Rocky C) Bella D) Charlie",
+                "B) Rocky"
+            ],
+            [
+                "What type of media do you enjoy engaging with? A) Music B) Thoughtful literature and documentaries C) Sports D) Video games",
+                "B) Thoughtful literature and documentaries"
+            ],
+            [
+                "What type of home do you live in with your family? A) Modern B) Apartment C) Charming D) Cottage",
+                "C) Charming"
+            ],
+            [
+                "Which regions have you traveled to? A) Asia B) Caribbean islands and Europe C) Africa D) South America",
+                "B) Caribbean islands and Europe"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Dr. Marcus Weisz, and I'm 42 years old, originally hailing from Minneapolis, Minnesota. My parents, both Jewish immigrants from Poland, instilled in me a strong value for education and community, although I\u2019ve drifted towards a more secular approach in practice. Growing up, my family navigated some financial challenges, but now I\u2019m comfortably middle class, working as a licensed therapist specializing in cognitive behavioral therapy. I have an older sister named Rachel, who is 45, and we share a close bond. We primarily communicated in English during our upbringing, but I also have a good grasp of Yiddish, thanks to family traditions. I'm openly gay and currently in a loving partnership with my boyfriend, Leo, while reflecting fondly on past relationships that helped shape my understanding of love and connection. With a doctorate in psychology from the University of Minnesota, I deeply appreciate the cultural influences that have shaped my perspective on mental health. My political views lean towards progressive values, particularly regarding mental health advocacy and social equity. In my free time, I enjoy running, street photography, and tending to my small vegetable garden, and I place a high value on empathy, integrity, and lifelong learning. While I sometimes feel anxious about work-life balance, my ambition is to create a more inclusive dialogue around mental health. A life-changing experience for me was volunteering at a mental health crisis center during my school years, which cemented my desire to help others. I live in a quaint duplex with my sweet rescue dog, Bella, and spend my evenings unwinding with jazz music or documentaries about psychological phenomena. I'm also passionate about traveling; I've been to several countries in Europe, and Australia is next on my list. Ultimately, I strive to make a lasting impact through my work, seeking to contribute positively while nurturing my own personal growth along the way.",
+        "qa": [
+            [
+                "What is your name? A) Dr. Marcus Weisz B) Dr. John Smith C) Dr. Sarah Lee D) Dr. Emily Davis",
+                "A) Dr. Marcus Weisz"
+            ],
+            [
+                "How old are you? A) 30 B) 35 C) 42 D) 50",
+                "C) 42"
+            ],
+            [
+                "Where are you from? A) Chicago B) Minneapolis C) Denver D) Seattle",
+                "B) Minneapolis"
+            ],
+            [
+                "Where is your mother from? A) Germany B) Poland C) France D) Italy",
+                "B) Poland"
+            ],
+            [
+                "Where is your father from? A) Germany B) Poland C) France D) Italy",
+                "B) Poland"
+            ],
+            [
+                "Were you raised in a Jewish background? A) Yes B) No C) Somewhat D) Not sure",
+                "A) A"
+            ],
+            [
+                "What best describes your financial status? A) Lower class B) Upper class C) Middle class D) Wealthy",
+                "C) Middle class"
+            ],
+            [
+                "Who is your older sister? A) Sarah B) Rachel C) Emily D) Lisa",
+                "B) Rachel"
+            ],
+            [
+                "Which languages do you primarily communicate in? A) Spanish B) French C) English and Yiddish D) Mandarin",
+                "C) English and Yiddish"
+            ],
+            [
+                "What is your sexual orientation? A) Straight B) Bisexual C) Gay D) Lesbian",
+                "C) Gay"
+            ],
+            [
+                "How do you identify your gender? A) Male B) Female C) Non-binary D) Other",
+                "A) Male"
+            ],
+            [
+                "Who are you currently in a loving partnership with? A) Jake B) Leo C) Max D) Sam",
+                "B) Leo"
+            ],
+            [
+                "How have your past relationships shaped your understanding of love? A) They clarified it B) They confused you C) They had no impact D) They complicated it",
+                "A) They clarified it"
+            ],
+            [
+                "What type of therapy do you specialize in as a licensed therapist? A) Psychodynamic Therapy B) Cognitive Behavioral Therapy C) Humanistic Therapy D) Art Therapy",
+                "B) Cognitive Behavioral Therapy"
+            ],
+            [
+                "Where did you volunteer during your school years? A) Animal shelter B) Food bank C) Mental health crisis center D) Library",
+                "C) Mental health crisis center"
+            ],
+            [
+                "Where did you earn your doctorate in psychology? A) University of Minnesota B) Harvard University C) Stanford University D) Yale University",
+                "A) University of Minnesota"
+            ],
+            [
+                "How have cultural influences shaped your perspective on mental health? A) They have no impact B) They provide diverse viewpoints C) They complicate understanding D) They matter little",
+                "B) They provide diverse viewpoints"
+            ],
+            [
+                "Which political values do you support most? A) Conservative values B) Moderate views C) Progressive values D) Libertarian ideals",
+                "C) Progressive values"
+            ],
+            [
+                "Do you feel anxious about your work-life balance? A) Yes B) No C) Sometimes D) Rarely",
+                "A) A"
+            ],
+            [
+                "What activities do you enjoy doing? A) Painting B) Running C) Cooking D) Swimming",
+                "B) Running"
+            ],
+            [
+                "What values do you prioritize the most? A) Greed B) Empathy C) Complacency D) Dishonesty",
+                "B) Empathy"
+            ],
+            [
+                "How do you feel about your work-life balance? A) Unconcerned B) Comfortable C) Anxious D) Indifferent",
+                "C) Anxious"
+            ],
+            [
+                "What is your ambition regarding mental health? A) To ignore it B) To stigmatize it C) To create inclusive dialogue D) To keep it a secret",
+                "C) To create inclusive dialogue"
+            ],
+            [
+                "How did volunteering at a mental health crisis center affect you? A) No effect B) Minor effect C) Life-changing D) Unnoticeable",
+                "C) Life-changing"
+            ],
+            [
+                "How do you feel about your bond with your sister? A) Distant B) Close C) Unimportant D) Temporary",
+                "B) Close"
+            ],
+            [
+                "What do you like to do in the evenings? A) Read novels B) Go for a walk C) Listen to jazz music or watch documentaries D) Cook new recipes",
+                "C) Listen to jazz music or watch documentaries"
+            ],
+            [
+                "What do you call your sweet rescue dog? A) Bella B) Max C) Charlie D) Lucy",
+                "A) Bella"
+            ],
+            [
+                "What do you enjoy doing in your spare time? A) Listening to jazz music and watching documentaries B) Playing video games C) Going hiking D) Cooking",
+                "A) Listening to jazz music and watching documentaries"
+            ],
+            [
+                "What type of home do you live in? A) Apartment B) House C) Duplex D) Condo",
+                "C) Duplex"
+            ],
+            [
+                "Which continent are you planning to visit next after you travel through Europe? A) Asia B) Australia C) Africa D) North America",
+                "B) Australia"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Jamie Rivera, and I\u2019m 28 years old, originally from the vibrant city of Miami, though my parents hail from Puerto Rico. I identify as a queer woman and am in a committed relationship with my partner, Riley. Growing up in a lower-middle-class family, I experienced the struggles that come with financial insecurity, but I consider myself fortunate to have now achieved a comfortable, middle-class lifestyle as a licensed therapist. I graduated from university with a degree in psychology, fueled by a passion for helping others and understanding the intricacies of the human mind. While I was raised in a Catholic household, my adherence to religion has ebbed over the years, and I now resonate more with spiritual practices than with traditional doctrine. My older brother, Alejandro, who is 32, and I share a close bond and often reminisce about our childhood, where we primarily spoke English, although I can also converse in Spanish. I'm deeply invested in health and wellness, love to practice yoga, and spend my downtime hiking and exploring the arts, especially contemporary literature and theater. Values of empathy, integrity, and community service guide my life and work, which align with my progressive political views. A life-changing experience for me was volunteering in mental health outreach programs, which solidified my ambition to make a meaningful impact in my field. I live joyfully with our rescue dog, Luna, in a cozy apartment filled with plants and colorful art, and when I'm not working, you can find me sipping coffee while indulging in my favorite TV shows like \"The Crown\" or listening to empowering podcasts. My travels have taken me across the U.S. and Europe, yet my heart yearns to explore the cultures of Asia next. Ultimately, I dream of opening my own therapy practice that prioritizes holistic approaches to mental health and community well-being, all while nurturing my friendships and continuing to grow alongside the incredible people in my life.",
+        "qa": [
+            [
+                "What is your name? A) Jamie Rivera B) Alex Smith C) Taylor Brown D) Chris Johnson",
+                "A) Jamie Rivera"
+            ],
+            [
+                "How old are you? A) 25 B) 28 C) 30 D) 35",
+                "B) 28"
+            ],
+            [
+                "Where are you from? A) New York B) Los Angeles C) Miami D) Chicago",
+                "C) Miami"
+            ],
+            [
+                "Where is your mother from? A) Mexico B) Cuba C) Puerto Rico D) Dominican Republic",
+                "C) Puerto Rico"
+            ],
+            [
+                "Where is your father from? A) Cuba B) Dominican Republic C) Puerto Rico D) Mexico",
+                "C) Puerto Rico"
+            ],
+            [
+                "What religious background did you have before you resonated more with spiritual practices? A) Buddhist B) Catholic C) Hindu D) Atheist",
+                "B) Catholic"
+            ],
+            [
+                "How has your financial situation changed since childhood? A) Stayed the same B) Lower-middle-class C) Comfortable middle-class D) Wealthy",
+                "C) Comfortable middle-class"
+            ],
+            [
+                "Who is your older brother who is 32? A) Alejandro B) Miguel C) Carlos D) Javier",
+                "A) Alejandro"
+            ],
+            [
+                "Which languages can you speak? A) French B) Spanish C) German D) Italian",
+                "B) Spanish"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Heterosexual B) Queer C) Bisexual D) Asexual",
+                "B) Queer"
+            ],
+            [
+                "Who are you in a committed relationship with? A) Jordan B) Riley C) Taylor D) Sam",
+                "B) Riley"
+            ],
+            [
+                "What is your relationship history like? A) Many significant relationships B) A few casual relationships C) No significant past relationships D) Currently in a relationship",
+                "C) No significant past relationships"
+            ],
+            [
+                "What is your profession? A) Teacher B) Doctor C) Licensed Therapist D) Engineer",
+                "C) Licensed Therapist"
+            ],
+            [
+                "What details do you have about your past occupations? A) Some information B) None at all C) A lot of details D) Only a few specifics",
+                "B) None at all"
+            ],
+            [
+                "What degree did you earn from university? A) Biology B) Psychology C) Mathematics D) History",
+                "B) Psychology"
+            ],
+            [
+                "What religious background were you raised in? A) Protestant B) Catholic C) Jewish D) Muslim",
+                "B) Catholic"
+            ],
+            [
+                "What political views do you hold? A) Conservative B) Liberal C) Progressive D) Libertarian",
+                "C) Progressive"
+            ],
+            [
+                "What aspect of health and wellness are you most invested in? A) Nutrition B) Exercise C) Mental health D) All of the above",
+                "D) All of the above"
+            ],
+            [
+                "What activities do you enjoy doing? A) Painting B) Yoga C) Gaming D) Cooking",
+                "B) Yoga"
+            ],
+            [
+                "Which values guide your life and work? A) Empathy, Integrity, Community Service B) Wealth, Power, Fame C) Competition, Success, Isolation D) Indifference, Dishonesty, Apathy",
+                "A) Empathy, Integrity, Community Service"
+            ],
+            [
+                "What do you believe about your fears and anxieties? A) Very fearful B) Somewhat anxious C) Not specified D) Always calm",
+                "C) Not specified"
+            ],
+            [
+                "What type of therapy practice do you dream of opening? A) A traditional practice B) A holistic practice C) A group therapy practice D) A corporate practice",
+                "B) A holistic practice"
+            ],
+            [
+                "What life-changing experience have you had that involved helping others? A) Traveling abroad B) Volunteering in mental health outreach programs C) Starting a new job D) Learning a new language",
+                "B) Volunteering in mental health outreach programs"
+            ],
+            [
+                "What is your goal for your friendships? A) To make new enemies B) To nurture friendships and grow C) To stay isolated D) To forget old friends",
+                "B) To nurture friendships and grow"
+            ],
+            [
+                "What do you like to do when you're not working? A) Reading books B) Sipping coffee while watching TV C) Exercising D) Cooking",
+                "B) Sipping coffee while watching TV"
+            ],
+            [
+                "Who do you happily live with? A) A cat B) A fish C) Luna D) A bird",
+                "C) Luna"
+            ],
+            [
+                "What type of TV shows do you enjoy watching? A) Reality shows B) Dramas like 'The Crown' C) Comedies D) Documentaries",
+                "B) Dramas like 'The Crown'"
+            ],
+            [
+                "What do you have in your apartment that contributes to its cozy vibe? A) Sports equipment B) Plants and colorful art C) Bookshelves D) Minimalist furniture",
+                "B) Plants and colorful art"
+            ],
+            [
+                "Where do you want to explore next after traveling across the U.S. and Europe? A) Africa B) Asia C) Australia D) South America",
+                "B) Asia"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Maya Thompson, and I\u2019m 29 years old, originally from Chicago, where I grew up in a vibrant neighborhood filled with diverse cultures. My parents are both from Vietnam, and while we practiced Buddhism in a traditional sense during my childhood, my personal beliefs have evolved, and I now identify more as spiritual rather than strictly adhering to any one religion. Financially, my family's situation was quite challenging when I was young, but I've worked hard to achieve a comfortable middle-class lifestyle as a therapist specializing in cognitive behavioral therapy; I now have my own practice after completing my master's degree in psychology. I have an older brother, Kevin, who\u2019s 32 and shares a close bond with me, attending family gatherings whenever we can, and together we primarily speak English, although I\u2019m fluent in Vietnamese as well. I identify as a cisgender woman and am pansexual, currently in a supportive relationship with my partner, Jamie. Throughout my life, I have faced significant relationships that shaped my understanding of love and connection, which I draw upon in my practice. I\u2019m passionate about health and wellness, finding balance through regular yoga and meditation, and I love to cook, especially experimenting with new vegetarian recipes. My core values center around empathy, integrity, and personal growth, firmly rooted in a belief that everyone deserves a safe space for healing. While I have a fear of failure that sometimes creeps in, my ambitions revolve around expanding my practice and possibly mentoring future therapists. Some of my defining life experiences include volunteering at a mental health clinic and traveling to different countries, which opened my eyes to various cultures and perspectives. I maintain a close-knit group of friends who share my interests in hiking and exploring art festivals, and I live alone in a sunny, plant-filled studio that brings me joy. My past pets include a beloved dog named Max who taught me about unconditional love, and I spend my downtime enjoying documentaries or binge-watching shows on Netflix. Having traveled to places like Japan and Italy, I dream of one day visiting Australia, but for now, I'm focused on fostering connections and creating a fulfilling life filled with compassion for others and myself.",
+        "qa": [
+            [
+                "What is your name? A) Sarah B) Maya C) Emily D) Laura",
+                "B) Maya"
+            ],
+            [
+                "How old are you? A) 25 B) 29 C) 32 D) 21",
+                "B) 29"
+            ],
+            [
+                "Where are you from? A) New York B) Los Angeles C) Chicago D) Miami",
+                "C) Chicago"
+            ],
+            [
+                "Where is your mother from? A) Thailand B) Vietnam C) Laos D) Cambodia",
+                "B) Vietnam"
+            ],
+            [
+                "Where is your father originally from? A) Thailand B) Vietnam C) China D) Japan",
+                "B) Vietnam"
+            ],
+            [
+                "How do you currently identify your spiritual beliefs after being raised in a Buddhist household? A) Atheist B) Christian C) Spiritual D) None of the above",
+                "C) Spiritual"
+            ],
+            [
+                "What type of lifestyle do you consider comfortable? A) Upper-class B) Middle-class C) Working-class D) Lower-class",
+                "B) Middle-class"
+            ],
+            [
+                "Who is your older brother? A) David B) Kevin C) Michael D) Alex",
+                "B) Kevin"
+            ],
+            [
+                "What languages do you speak fluently? A) Only English B) Only Vietnamese C) English and Vietnamese D) Spanish and French",
+                "C) English and Vietnamese"
+            ],
+            [
+                "What does it mean if you identify as pansexual? A) You are attracted to any gender B) You are attracted only to males C) You are attracted only to females D) You are attracted based on age",
+                "A) You are attracted to any gender"
+            ],
+            [
+                "How do you identify in terms of gender? A) Non-binary B) Genderfluid C) Cisgender woman D) Transgender",
+                "C) Cisgender woman"
+            ],
+            [
+                "What type of relationship are you in with your partner, Jamie? A) Competitive B) Supportive C) Distant D) Uncertain",
+                "B) Supportive"
+            ],
+            [
+                "How have your significant relationships influenced your understanding of love? A) Enhanced it B) Complicated it C) Had no effect D) Made it superficial",
+                "A) Enhanced it"
+            ],
+            [
+                "Which type of therapy do you focus on as a therapist? A) Psychoanalysis B) Cognitive Behavioral Therapy C) Art Therapy D) Family Therapy",
+                "B) Cognitive Behavioral Therapy"
+            ],
+            [
+                "What degree did you complete to help you achieve your current position? A) Bachelor's B) Doctorate C) Master's D) Associate",
+                "C) Master's"
+            ],
+            [
+                "What degree do you have in psychology? A) Bachelor\u2019s B) Master\u2019s C) Doctorate D) Associate's",
+                "B) Master\u2019s"
+            ],
+            [
+                "What kind of neighborhood did you grow up in? A) Boring B) Vibrant C) Suburban D) Rural",
+                "B) Vibrant"
+            ],
+            [
+                "Do you have strong political views? A) Yes B) No C) Sometimes D) Unsure",
+                "B) No"
+            ],
+            [
+                "What are you passionate about? A) Technology B) Sports C) Health and Wellness D) Art",
+                "C) Health and Wellness"
+            ],
+            [
+                "What do you love to do in the kitchen? A) Bake desserts B) Cook vegetarian recipes C) Grill meat D) Make pasta",
+                "B) Cook vegetarian recipes"
+            ],
+            [
+                "Which core values do you prioritize in your life? A) Empathy B) Wealth C) Power D) Fame",
+                "A) Empathy"
+            ],
+            [
+                "What do you sometimes feel that affects your confidence? A) Fear of success B) Fear of failure C) Fear of heights D) Fear of the dark",
+                "B) Fear of failure"
+            ],
+            [
+                "What do you aspire to achieve in your practice? A) Expand it B) Stay the same C) Limit clientele D) Avoid mentoring",
+                "A) Expand it"
+            ],
+            [
+                "Where have you volunteered? A) A hospital B) A mental health clinic C) A school D) An animal shelter",
+                "B) A mental health clinic"
+            ],
+            [
+                "What activities do you enjoy with your close-knit group of friends? A) Cooking classes B) Hiking and exploring art festivals C) Playing video games D) Watching movies",
+                "B) Hiking and exploring art festivals"
+            ],
+            [
+                "How do you find balance in your life? A) Through yoga and meditation B) By sleeping more C) By working overtime D) Through social media",
+                "A) Through yoga and meditation"
+            ],
+            [
+                "What was the name of your beloved dog? A) Max B) Buddy C) Rocky D) Charlie",
+                "A) Max"
+            ],
+            [
+                "What type of shows do you enjoy watching on Netflix? A) Reality shows B) Documentaries C) Cooking shows D) Sports events",
+                "B) Documentaries"
+            ],
+            [
+                "What type of living space do you have? A) A large house B) A sunny, plant-filled studio C) A shared apartment D) A basement room",
+                "B) A sunny, plant-filled studio"
+            ],
+            [
+                "Which countries have you traveled to? A) Japan B) Brazil C) Australia D) Canada",
+                "A) Japan"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Dr. Noah Jameson, and I\u2019m 40 years old, originally hailing from the vibrant city of New Orleans, where the rich blend of cultures has always influenced my worldview. My parents both share roots in the deep South, with my mother being from a small town in Mississippi and my father from Louisiana, and while we were raised in a Christian household, I consider myself spiritual but not strictly religious. Growing up, we faced some financial challenges, but now I am comfortably settled into the middle class as a licensed therapist specializing in trauma-informed care, following my degrees in psychology and social work. I have a younger brother, Ethan, who\u2019s 36, and while we primarily communicated in English, I picked up some Spanish in college. I identify as a gay man, currently in a fulfilling relationship with my partner, Marcus, after navigating a few significant past relationships that taught me a lot about love and growth. My cultural influences are diverse, and as a progressive individual, I\u2019m passionate about social justice and advocating for the LGBTQ+ community. I value empathy, authenticity, and lifelong learning, and I prioritize my health and wellness through running and yoga while indulging my love for cooking. Travel is a big part of my life; I've ventured through various countries in Europe and Asia, with a dream to explore the kaleidoscope of cultures in South America next. In my cozy home filled with plants, I enjoy winding down with my two dogs, Bella and Max, and immersing myself in podcasts or binge-watching thought-provoking documentaries. My daily routine blends work, fitness, and moments of reflection, driven by a desire to create meaningful connections in both my personal life and my practice, ultimately aiming to help others navigate their own paths to healing and understanding.",
+        "qa": [
+            [
+                "What is your name? A) Dr. Noah Jameson B) Dr. Lisa Smith C) Dr. Mark Lee D) Dr. Sarah Brown",
+                "A) Dr. Noah Jameson"
+            ],
+            [
+                "How old are you? A) 30 B) 40 C) 50 D) 60",
+                "B) 40"
+            ],
+            [
+                "Where are you from? A) New York B) Los Angeles C) New Orleans D) Chicago",
+                "C) New Orleans"
+            ],
+            [
+                "Where is your mother's hometown? A) New York B) California C) Mississippi D) Texas",
+                "C) Mississippi"
+            ],
+            [
+                "Where is your father from? A) Texas B) Louisiana C) Florida D) Georgia",
+                "B) Louisiana"
+            ],
+            [
+                "How would you describe your belief system? A) Atheist B) Strictly religious C) Spiritual but not strictly religious D) Agnostic",
+                "C) Spiritual but not strictly religious"
+            ],
+            [
+                "How do you feel about your financial situation? A) Struggling B) Comfortable C) Wealthy D) Uncertain",
+                "B) Comfortable"
+            ],
+            [
+                "How old is your younger brother Ethan? A) 30 B) 32 C) 36 D) 40",
+                "C) 36"
+            ],
+            [
+                "What language do you primarily communicate in? A) French B) Spanish C) English D) German",
+                "C) English"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Straight B) Bisexual C) Gay D) Asexual",
+                "C) Gay"
+            ],
+            [
+                "How do you identify your gender? A) Man B) Woman C) Non-binary D) Prefer not to say",
+                "A) Man"
+            ],
+            [
+                "What is your relationship status with Marcus? A) Single B) Complicated C) Engaged D) Fulfilling",
+                "D) Fulfilling"
+            ],
+            [
+                "What have you learned from your past relationships? A) Nothing B) Love and growth C) Friendship D) Money",
+                "B) Love and growth"
+            ],
+            [
+                "What type of care do you specialize in as a licensed therapist? A) Cognitive Behavioral Therapy B) Trauma-Informed Care C) Group Therapy D) Psychodynamic Therapy",
+                "B) Trauma-Informed Care"
+            ],
+            [
+                "What degrees do you have? A) Psychology and Social Work B) Medicine and Surgery C) Business and Management D) Engineering and Design",
+                "A) Psychology and Social Work"
+            ],
+            [
+                "What degrees do you hold? A) Psychology and Social Work B) Sociology and Education C) Anthropology and History D) Biology and Chemistry",
+                "A) A) Psychology and Social Work"
+            ],
+            [
+                "How have your cultural influences been shaped? A) From a single culture B) By the rich blend of cultures in New Orleans C) Through personal experiences only D) By living in isolation",
+                "B) By the rich blend of cultures in New Orleans"
+            ],
+            [
+                "What drives your passion for advocating for the LGBTQ+ community? A) Social justice B) Personal gain C) Popularity D) Indifference",
+                "A) Social justice"
+            ],
+            [
+                "Which activities do you prioritize to enhance your health and wellness? A) Running and yoga B) Weightlifting and swimming C) Cycling and hiking D) Dancing and Pilates",
+                "A) Running and yoga"
+            ],
+            [
+                "What activities do you enjoy that involve learning and creativity? A) Cooking and listening to podcasts B) Gardening and painting C) Running and swimming D) Shopping and traveling",
+                "A) Cooking and listening to podcasts"
+            ],
+            [
+                "Which values do you prioritize in your life? A) Competition B) Empathy C) Indifference D) Stagnation",
+                "B) Empathy"
+            ],
+            [
+                "Why do you choose not to mention specific fears or anxieties in your biography? A) It's irrelevant B) You have none C) Too personal D) Others might judge",
+                "A) It's irrelevant"
+            ],
+            [
+                "What is your primary goal in helping others? A) To make money B) To entertain C) To support their healing D) To gain popularity",
+                "C) To support their healing"
+            ],
+            [
+                "How did facing financial challenges while growing up shape your worldview? A) Made you more hopeful B) Made you indifferent C) Made you more resilient D) Had no impact",
+                "C) Made you more resilient"
+            ],
+            [
+                "What do you prioritize in your life and practice? A) Achievements B) Financial success C) Meaningful connections D) Popularity",
+                "C) Meaningful connections"
+            ],
+            [
+                "What does your daily routine blend together? A) Only work B) Fitness and leisure C) Work, fitness, and reflection D) Socializing with friends",
+                "C) Work, fitness, and reflection"
+            ],
+            [
+                "What are your dogs' names? A) Bella and Max B) Lucy and Jack C) Molly and Bella D) Max and Charlie",
+                "A) Bella and Max"
+            ],
+            [
+                "What kind of documentaries do you enjoy binge-watching? A) Nature B) True crime C) Thought-provoking D) Historical",
+                "C) Thought-provoking"
+            ],
+            [
+                "What kind of home do you live in? A) A large mansion B) A cozy home filled with plants C) An apartment in the city D) A rustic cabin in the woods",
+                "B) A cozy home filled with plants"
+            ],
+            [
+                "Where do you dream of exploring next after your travels through Europe and Asia? A) Africa B) Australia C) South America D) North America",
+                "C) South America"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Ethan Rodriguez, and I\u2019m 29 years old, hailing from the vibrant city of Miami, where I grew up immersed in a melting pot of cultures. My parents are originally from Puerto Rico, and they instilled in me a deep appreciation for our heritage, even though I primarily identify as agnostic. Financially, we faced challenges in my childhood, but I\u2019ve worked hard and found myself in a comfortable middle-class position now, practicing as a therapist after obtaining my master's degree in psychology. I have one older sister, Sofia, who\u2019s 31, and she has always been my biggest supporter. We primarily spoke English at home, but I also converse in Spanish fluently. As a gay man, I openly embrace my identity and am currently in a committed relationship with my partner, Marco. My past relationships have shaped my understanding of love and connection, and those experiences influence my work today. When I\u2019m not in the office, I enjoy writing, practicing yoga, and volunteering with local mental health organizations. I value empathy, growth, and the belief that everyone deserves a chance to thrive, which aligns with my more liberal political views. I\u2019ve traveled to various parts of the Caribbean and Europe, and I have a dream of visiting Southeast Asia. I share my home with a playful dog named Max, who keeps me grounded and active. Each day, I strive to balance my work and personal life, making sure to carve out time for self-care and my passion for learning\u2014whether through podcasts, books, or film. The defining moments in my life, like coming out to my family and navigating the complexities of mental health in my community, continue to fuel my ambition to make a positive impact through therapy and advocacy.",
+        "qa": [
+            [
+                "What is your name? A) Ethan B) Michael C) David D) Alex",
+                "A) Ethan"
+            ],
+            [
+                "How old are you? A) 25 B) 29 C) 30 D) 35",
+                "B) 29"
+            ],
+            [
+                "Where are you from? A) Miami B) New York C) Los Angeles D) Chicago",
+                "A) Miami"
+            ],
+            [
+                "Where is your mother from? A) Cuba B) Puerto Rico C) Dominican Republic D) Mexico",
+                "B) Puerto Rico"
+            ],
+            [
+                "Where is your father from? A) Mexico B) Puerto Rico C) Cuba D) Dominican Republic",
+                "B) Puerto Rico"
+            ],
+            [
+                "How do you primarily identify when it comes to your beliefs? A) Atheist B) Agnostic C) Theist D) Spiritual",
+                "B) Agnostic"
+            ],
+            [
+                "What describes your current financial situation? A) Struggling B) Comfortable middle-class C) Wealthy D) Unsure",
+                "B) Comfortable middle-class"
+            ],
+            [
+                "How many siblings do you have? A) None B) One C) Two D) Three",
+                "B) One"
+            ],
+            [
+                "Which languages do you speak fluently? A) English B) French C) Spanish D) German",
+                "A) English"
+            ],
+            [
+                "What is your sexual orientation? A) Straight B) Bisexual C) Gay D) Asexual",
+                "C) Gay"
+            ],
+            [
+                "How do you identify in terms of gender? A) Woman B) Non-binary C) Man D) Genderfluid",
+                "C) Man"
+            ],
+            [
+                "Who are you currently in a committed relationship with? A) Alex B) Marco C) Sam D) Jamie",
+                "B) Marco"
+            ],
+            [
+                "How have your past relationships shaped your understanding of love and connection? A) Strengthened it B) Confused it C) No impact D) Made it superficial",
+                "A) Strengthened it"
+            ],
+            [
+                "What profession do you practice as a therapist? A) Teacher B) Lawyer C) Doctor D) Therapist",
+                "D) Therapist"
+            ],
+            [
+                "What degree did you earn in psychology? A) Bachelor's B) Master's C) Doctorate D) Associate's",
+                "B) Master's"
+            ],
+            [
+                "What degree do you have in psychology? A) Bachelor's B) Master's C) Doctorate D) Associate's",
+                "B) Master's"
+            ],
+            [
+                "What kind of cultural environment did you grow up in? A) A rural area B) A melting pot of cultures C) A mountain village D) A desert town",
+                "B) A melting pot of cultures"
+            ],
+            [
+                "What political views do you hold? A) Liberal B) Conservative C) Centrist D) Libertarian",
+                "A) A) Liberal"
+            ],
+            [
+                "How would you describe your overall health? A) Poor B) Fair C) Good D) Excellent",
+                "D) Excellent"
+            ],
+            [
+                "What activities do you enjoy the most? A) Writing B) Surfing C) Painting D) Yoga",
+                "A) Writing"
+            ],
+            [
+                "What do you value most in life? A) Empathy B) Wealth C) Competition D) Distrust",
+                "A) Empathy"
+            ],
+            [
+                "What fears or anxieties do you have? A) None B) Heights C) Public Speaking D) Claustrophobia",
+                "A) None"
+            ],
+            [
+                "What do you aspire to do to make a positive impact? A) Therapy and advocacy B) Engineering C) Cooking D) Architecture",
+                "A) Therapy and advocacy"
+            ],
+            [
+                "What are two defining moments in your life that you navigate? A) Coming out to friends B) Navigating mental health issues C) Both A and B D) None of the above",
+                "C) Both A and B"
+            ],
+            [
+                "What do you know about your friendships? A) Plenty B) Some C) Very little D) None",
+                "C) Very little"
+            ],
+            [
+                "How do you strive to maintain balance in your life each day? A) Ignoring work B) Focusing on self-care C) Overworking D) Skipping meals",
+                "B) Focusing on self-care"
+            ],
+            [
+                "Who do you share your home with? A) Cat B) Bird C) Dog D) Fish",
+                "C) Dog"
+            ],
+            [
+                "What is your favorite type of media? A) Music B) Movies C) Books D) None of the above",
+                "D) None of the above"
+            ],
+            [
+                "What is your current living situation? A) Apartment B) House C) Dormitory D) None specified",
+                "D) None specified"
+            ],
+            [
+                "Where have you traveled? A) Asia B) The Caribbean and Europe C) North America D) Africa",
+                "B) The Caribbean and Europe"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Ruth Jennings, and I\u2019m 42 years old, originally hailing from the vibrant city of New Orleans. My parents are both from Mississippi, and while they raised me with an appreciation for our Southern Baptist roots, I now consider myself more spiritual than religious, valuing personal beliefs over dogma. Growing up, my family lived in a lower-middle-class neighborhood, but through hard work, I've been able to establish myself as solidly middle class as a licensed therapist, a career I\u2019ve dedicated myself to after earning my master's in psychology from Tulane University. I have one older brother, Mark, who is 45, and we share a close bond, often reminiscing about our childhood adventures. We predominantly spoke English, though I've picked up some Spanish over the years through my work and travels. As a cisgender woman, I identify as bisexual, and I\u2019m currently in a committed relationship with my wonderful partner, Sam. My previous relationships have shaped my understanding of love and partnership, influencing how I connect with my clients. Outside of my practice, I\u2019m passionate about health and wellness, dedicating time to yoga and mindfulness, which I believe are crucial for both my personal life and my profession. I value sincerity, empathy, and continuous growth and hold progressive political views that advocate for social equity. One of my most defining life experiences was volunteering in a mental health awareness campaign in my community, a project that intensified my commitment to mental health advocacy and culturally responsive care. I share my home with a spirited dog named Bella, and when I'm not working, I enjoy reading and binge-watching documentaries or psychological thrillers. Through my travels across Europe and Asia, I've developed a love for diverse cultures, and my ultimate ambition is to inspire others through my practice while fostering a deeper understanding of the mind. Each day, I follow a routine that includes morning meditation and evening walks with Bella, and I tend to lean into my hobbies like gardening and cooking to maintain a balanced life. Ultimately, I strive for a fulfilling existence, grounded in connection and understanding, both with myself and those I help.",
+        "qa": [
+            [
+                "What is your name? A) Ruth Jennings B) Sarah Connor C) Mary Poppins D) Jane Doe",
+                "A) Ruth Jennings"
+            ],
+            [
+                "How old are you? A) 35 B) 42 C) 50 D) 30",
+                "B) 42"
+            ],
+            [
+                "Where are you from? A) New York B) Los Angeles C) New Orleans D) Chicago",
+                "C) New Orleans"
+            ],
+            [
+                "Where is your mother from? A) Alabama B) Mississippi C) Louisiana D) Arkansas",
+                "B) Mississippi"
+            ],
+            [
+                "Where is your father from? A) Alabama B) Mississippi C) Arkansas D) Louisiana",
+                "B) Mississippi"
+            ],
+            [
+                "How do you currently identify your beliefs compared to when you were raised? A) Still Southern Baptist B) More spiritual C) Agnostic D) Atheist",
+                "B) More spiritual"
+            ],
+            [
+                "What class do you consider yourself to be in? A) Upper class B) Middle class C) Working class D) Lower class",
+                "B) Middle class"
+            ],
+            [
+                "What is the name of your older brother? A) David B) Mark C) James D) Luke",
+                "B) Mark"
+            ],
+            [
+                "What language do you primarily speak? A) French B) Spanish C) English D) Chinese",
+                "C) English"
+            ],
+            [
+                "What do you identify as if you are attracted to both men and women? A) Heterosexual B) Homosexual C) Bisexual D) Asexual",
+                "C) Bisexual"
+            ],
+            [
+                "What is your gender identity? A) Cisgender Woman B) Transgender Man C) Non-Binary D) Genderqueer",
+                "A) Cisgender Woman"
+            ],
+            [
+                "Who are you currently in a committed relationship with? A) Alex B) Jamie C) Sam D) Taylor",
+                "C) Sam"
+            ],
+            [
+                "How have your previous relationships influenced how you connect with others? A) Made you more cautious B) Had no impact C) Increased your openness D) Taught you to avoid commitment",
+                "A) A"
+            ],
+            [
+                "What is your profession? A) Dentist B) Therapist C) Teacher D) Engineer",
+                "B) Therapist"
+            ],
+            [
+                "Where did you earn your master's in psychology? A) Harvard University B) Yale University C) Tulane University D) Stanford University",
+                "C) Tulane University"
+            ],
+            [
+                "What degree do you hold from Tulane University? A) Bachelor's in Psychology B) Master's in Psychology C) PhD in Psychology D) Associate's in Psychology",
+                "B) Master's in Psychology"
+            ],
+            [
+                "What has fostered your love for diverse cultures? A) Books B) Food C) Your travels D) Music",
+                "C) Your travels"
+            ],
+            [
+                "What type of political views do you hold that advocate for social equity? A) Conservative B) Progressive C) Libertarian D) Centrist",
+                "B) Progressive"
+            ],
+            [
+                "What activities do you engage in for health and wellness? A) Yoga B) Cooking C) Running D) Painting",
+                "A) Yoga"
+            ],
+            [
+                "What type of content do you enjoy watching or reading? A) Romance novels B) Scientific journals C) Documentaries or psychological thrillers D) Fantasy series",
+                "C) Documentaries or psychological thrillers"
+            ],
+            [
+                "What values do you prioritize the most? A) Sincerity B) Wealth C) Power D) Popularity",
+                "A) Sincerity"
+            ],
+            [
+                "How do you strive to manage your personal stresses? A) By maintaining a balanced life B) By isolating yourself C) By ignoring the issues D) By overworking yourself",
+                "A) By maintaining a balanced life"
+            ],
+            [
+                "What is your ultimate ambition? A) To travel the world B) To inspire others through your practice C) To learn new languages D) To build a business",
+                "B) To inspire others through your practice"
+            ],
+            [
+                "What was a defining experience for you while supporting mental health awareness? A) Joining a sports team B) Volunteering in a mental health awareness campaign C) Traveling abroad D) Starting a new job",
+                "B) Volunteering in a mental health awareness campaign"
+            ],
+            [
+                "How do you feel about your bond with your brother and your clients? A) Disconnected B) Close and connected C) Indifferent D) Strained",
+                "B) Close and connected"
+            ],
+            [
+                "What does your daily routine include? A) Morning meditation and evening dog walks B) Gym workouts and reading C) Cooking and gardening D) Watching TV and napping",
+                "A) Morning meditation and evening dog walks"
+            ],
+            [
+                "What is your spirited dog's name? A) Max B) Bella C) Charlie D) Luna",
+                "B) Bella"
+            ],
+            [
+                "What type of shows do you enjoy binge-watching? A) Reality TV B) Comedy Series C) Documentaries and Psychological Thrillers D) Sports Events",
+                "C) Documentaries and Psychological Thrillers"
+            ],
+            [
+                "Who do you share your home with? A) A cat B) Your partner and dog C) A roommate D) Alone",
+                "B) Your partner and dog"
+            ],
+            [
+                "Which continents have you traveled across that fostered your love for diverse cultures? A) Africa B) Antarctica C) Europe and Asia D) North America",
+                "C) Europe and Asia"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Dr. Emily Chen, and I am 38 years old, hailing from the vibrant city of San Francisco. My parents emigrated from Taiwan in their early twenties, and though I was raised in a household steeped in Confucian values, I now consider myself agnostic. Growing up, we faced financial hardships, but I am fortunate to enjoy a stable, middle-class life now, working as a clinical psychologist after earning my Ph.D. in psychology. I have a younger brother, Lucas, who is 32, and we're incredibly close despite our occasional sibling squabbles. English is my first language, but I\u2019m also fluent in Mandarin, which has helped me connect with my heritage. Identifying as a bisexual woman, I currently find joy in a loving relationship with my partner, Sarah, who shares my passion for social advocacy; my past relationships have taught me a lot about love and self-discovery. My daily routine often involves morning yoga and meditation to maintain my mental health, alongside my fondness for rock climbing and exploring local art exhibitions on weekends. I prioritize social justice, valuing empathy and kindness as guiding principles, which reflect my more liberal political stance. My home is adorned with books on psychology and travel, as I find solace in literature, especially memoirs and documentaries that expand my worldview. A defining experience for me was volunteering at a mental health clinic during my graduate studies, which solidified my desire to help others heal. I live in a small, sunlit apartment with my beloved dog, Mochi, and I have dreams of traveling to Japan to further immerse myself in my cultural roots, aiming to blend my career with my passions for travel and mental wellness while fostering meaningful relationships.",
+        "qa": [
+            [
+                "What is your name? A) Dr. Emily Chen B) Dr. Sarah Lee C) Dr. Mark Johnson D) Dr. Lisa Wong",
+                "A) Dr. Emily Chen"
+            ],
+            [
+                "How old are you? A) 25 B) 30 C) 38 D) 40",
+                "C) 38"
+            ],
+            [
+                "Where are you from? A) Los Angeles B) New York C) San Francisco D) Seattle",
+                "C) San Francisco"
+            ],
+            [
+                "Where is your mother from? A) Japan B) Taiwan C) China D) Korea",
+                "B) Taiwan"
+            ],
+            [
+                "Where is your father from? A) Japan B) Taiwan C) China D) South Korea",
+                "B) Taiwan"
+            ],
+            [
+                "Which belief system do you now identify with? A) Atheist B) Christian C) Agnostic D) Muslim",
+                "C) Agnostic"
+            ],
+            [
+                "How would you describe your lifestyle? A) Unstable B) Wealthy C) Middle-class D) Poor",
+                "C) Middle-class"
+            ],
+            [
+                "What is the name of your younger brother? A) Luke B) Lucas C) Liam D) Leo",
+                "A) Lucas"
+            ],
+            [
+                "Which languages do you speak fluently? A) Spanish B) French C) Mandarin D) German",
+                "C) Mandarin"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Heterosexual B) Homosexual C) Bisexual D) Asexual",
+                "C) Bisexual"
+            ],
+            [
+                "What is your gender? A) Male B) Female C) Non-binary D) Prefer not to say",
+                "B) Female"
+            ],
+            [
+                "Who are you currently in a loving relationship with? A) Emily B) Sarah C) Jessica D) Anna",
+                "B) Sarah"
+            ],
+            [
+                "What have your past relationships taught you about yourself? A) Financial management B) Love and self-discovery C) Cooking skills D) Travel destinations",
+                "B) Love and self-discovery"
+            ],
+            [
+                "What do you do for a living? A) Teacher B) Engineer C) Clinical Psychologist D) Chef",
+                "C) Clinical Psychologist"
+            ],
+            [
+                "What degree did you earn during your studies in psychology? A) Master's B) Ph.D. C) Bachelor's D) Associate's",
+                "B) Ph.D."
+            ],
+            [
+                "What advanced degree do you have in psychology? A) Master's B) Ph.D. C) Bachelor's D) Doctorate",
+                "B) Ph.D."
+            ],
+            [
+                "What values were you raised with in your household? A) Confucian B) Buddhist C) Islamic D) Atheistic",
+                "A) Confucian"
+            ],
+            [
+                "What is your political stance? A) Conservative B) Liberal C) Moderate D) Apolitical",
+                "B) Liberal"
+            ],
+            [
+                "How do you maintain your mental health? A) Yoga and meditation B) Watching TV C) Eating snacks D) Sleeping all day",
+                "A) Yoga and meditation"
+            ],
+            [
+                "What activities do you enjoy in your free time? A) Rock climbing and exploring art exhibitions B) Playing soccer C) Watching movies D) Baking cookies",
+                "A) Rock climbing and exploring art exhibitions"
+            ],
+            [
+                "What do you prioritize in your values? A) Social justice B) Wealth C) Competition D) Isolation",
+                "A) Social justice"
+            ],
+            [
+                "What challenges did you face during financial hardship in your early life? A) Lack of resources B) Supportive family C) Abundant opportunities D) Financial literacy courses",
+                "A) A) Lack of resources"
+            ],
+            [
+                "Where do you dream of traveling to immerse yourself in your cultural roots? A) China B) Japan C) Korea D) Thailand",
+                "B) Japan"
+            ],
+            [
+                "What defining experience did you have while volunteering during your graduate studies? A) Research internship B) Mental health clinic C) Studying abroad D) Attending conferences",
+                "B) Mental health clinic"
+            ],
+            [
+                "Who do you have a close relationship with? A) Your coworker B) Your friend C) Your brother and your partner D) Your neighbor",
+                "C) Your brother and your partner"
+            ],
+            [
+                "What activities do you often include in your daily routine? A) Reading and writing B) Morning yoga and meditation C) Watching TV D) Running errands",
+                "B) Morning yoga and meditation"
+            ],
+            [
+                "What is the name of your beloved dog? A) Charlie B) Bella C) Mochi D) Max",
+                "C) Mochi"
+            ],
+            [
+                "What types of books do you have in your home? A) Science fiction B) Psychology and memoirs C) Cookbooks D) History",
+                "B) Psychology and memoirs"
+            ],
+            [
+                "Where do you live? A) A dark basement B) A small, sunlit apartment C) A crowded hotel D) A spacious mansion",
+                "B) A small, sunlit apartment"
+            ],
+            [
+                "Where do you dream of traveling to in order to immerse yourself in your cultural roots? A) Japan B) China C) Korea D) Thailand",
+                "A) Japan"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Dr. Emily Martinez, and I\u2019m 36 years old, originally hailing from Albuquerque, New Mexico, where the rich cultural tapestry of the Southwest has influenced my worldview. My parents are both from Mexico; my mother is from Guadalajara and my father from Mexico City. Growing up, we faced financial challenges, which often made life difficult, but I am now comfortably middle class as a licensed therapist specializing in cognitive behavioral therapy. My upbringing was deeply rooted in Catholic traditions, though I now identify as spiritual but not religious, finding meaning in various philosophical teachings and practices. I have an older brother, Alejandro, who is 40, and we share a close bond despite our age difference, often reminiscing about our childhood adventures. I speak English and Spanish fluently, and while my sexual orientation is heterosexual, I proudly support the LGBTQ+ community as an ally. I\u2019m currently single, having had significant past relationships that taught me the importance of communication and emotional intelligence. I hold a doctorate in psychology and have worked in various settings, including community mental health and private practice. Cultural influences from my heritage inspire me, shaping my progressive political views focused on equity and social justice. Outside of my career, I prioritize health and wellness through yoga and meditation, and I enjoy hobbies like painting, gardening, and reading psychological thrillers. My core values include empathy, growth, and resilience, which guide my interactions with others. I have some anxieties about the future and the state of mental health care, but I strive to be proactive in seeking solutions. A pivotal moment in my life was volunteering in a mental health facility, which solidified my commitment to this field. My circle of friends is diverse and supportive, and I cherish our regular gatherings over homemade meals. I currently share my home with a spirited golden retriever named Max, who brings joy to my daily routine, which revolves around work, self-care, and nurturing relationships. While I\u2019ve traveled throughout North America, I dream of visiting Europe to dive deeper into the cultures I\u2019ve long admired. In my downtime, I find inspiration in podcasts and documentaries, and ultimately, I aspire to continue making a difference in the lives of my clients, promoting mental health awareness and understanding in my community.",
+        "qa": [
+            [
+                "What is your name? A) Dr. Emily Martinez B) Dr. Sarah Smith C) Dr. James Brown D) Dr. Lisa White",
+                "A) Dr. Emily Martinez"
+            ],
+            [
+                "How old are you? A) 25 B) 30 C) 36 D) 40",
+                "C) 36"
+            ],
+            [
+                "Where are you from? A) Phoenix, Arizona B) Albuquerque, New Mexico C) Denver, Colorado D) Austin, Texas",
+                "B) Albuquerque, New Mexico"
+            ],
+            [
+                "Where is your mother from? A) Guadalajara, Mexico B) Madrid, Spain C) Toronto, Canada D) Sydney, Australia",
+                "A) Guadalajara, Mexico"
+            ],
+            [
+                "Where is your father from? A) Guadalajara B) Tijuana C) Mexico City D) Monterrey",
+                "C) Mexico City"
+            ],
+            [
+                "How do you currently identify spiritually? A) Atheist B) Evangelical C) Spiritual but not religious D) Agnostic",
+                "C) Spiritual but not religious"
+            ],
+            [
+                "How do you describe your economic status? A) Upper class B) Middle class C) Lower class D) Wealthy",
+                "B) Middle class"
+            ],
+            [
+                "How old is your older brother Alejandro? A) 30 B) 35 C) 40 D) 45",
+                "C) 40"
+            ],
+            [
+                "Which languages do you speak fluently? A) French B) English and Spanish C) German D) Italian",
+                "B) English and Spanish"
+            ],
+            [
+                "What is your sexual orientation? A) Heterosexual B) Homosexual C) Bisexual D) Asexual",
+                "A) Heterosexual"
+            ],
+            [
+                "How do you identify your gender? A) Man B) Woman C) Non-binary D) Prefer not to say",
+                "B) Woman"
+            ],
+            [
+                "Are you currently single? A) Yes B) No C) It's complicated D) Not sure",
+                "A) Yes"
+            ],
+            [
+                "What have your significant past relationships taught you about? A) Financial planning B) Communication and emotional intelligence C) Physical fitness D) Cooking skills",
+                "B) Communication and emotional intelligence"
+            ],
+            [
+                "What type of therapy do you specialize in as a licensed therapist? A) Psychodynamic B) Humanistic C) Cognitive Behavioral Therapy D) Gestalt",
+                "C) Cognitive Behavioral Therapy"
+            ],
+            [
+                "In which areas have you worked? A) Corporate Training B) Community Mental Health C) IT Support D) Retail Sales",
+                "B) Community Mental Health"
+            ],
+            [
+                "What advanced degree do you hold in psychology? A) Master's B) Bachelor's C) Doctorate D) Certificate",
+                "C) Doctorate"
+            ],
+            [
+                "How did the rich cultural tapestry of the Southwest shape your worldview growing up? A) Positively B) Negatively C) Not at all D) I don't remember",
+                "A) Positively"
+            ],
+            [
+                "What values do you prioritize in your political views? A) Equity and social justice B) Economic growth C) National security D) Traditional values",
+                "A) Equity and social justice"
+            ],
+            [
+                "How do you prioritize your health and wellness? A) Through yoga and meditation B) By eating junk food C) By skipping meals D) Through excessive screen time",
+                "A) Through yoga and meditation"
+            ],
+            [
+                "What hobbies do you enjoy doing in your spare time? A) Painting B) Cooking C) Hiking D) Traveling",
+                "A) Painting"
+            ],
+            [
+                "Which core value do you prioritize the most? A) Empathy B) Growth C) Resilience D) All of the above",
+                "D) All of the above"
+            ],
+            [
+                "What are your anxieties about the future and mental health care? A) Job security B) Access to care C) Stigma D) All of the above",
+                "D) All of the above"
+            ],
+            [
+                "What do you aspire to do to your clients? A) Make a difference B) Create chaos C) Ignore them D) Maximize profit",
+                "A) Make a difference"
+            ],
+            [
+                "What pivotal experience in your life did you have while helping others? A) Traveling abroad B) Volunteering in a mental health facility C) Starting a new job D) Attending college",
+                "B) Volunteering in a mental health facility"
+            ],
+            [
+                "How do you describe your circle of friends? A) Competitive B) Diverse and supportive C) Isolated D) Judgmental",
+                "B) Diverse and supportive"
+            ],
+            [
+                "What does your daily routine revolve around? A) Work, self-care, and nurturing relationships B) Only work C) Only self-care D) Only relationships",
+                "A) Work, self-care, and nurturing relationships"
+            ],
+            [
+                "What kind of dog do you have at home? A) Bulldog B) Golden Retriever C) Beagle D) Poodle",
+                "B) Golden Retriever"
+            ],
+            [
+                "What do you find inspiration in during your downtime? A) Books B) Music C) Podcasts and documentaries D) Video games",
+                "C) Podcasts and documentaries"
+            ],
+            [
+                "Where do you currently live with your dog? A) In an apartment B) In a house C) In a condo D) In a trailer",
+                "B) In a house"
+            ],
+            [
+                "Where have you traveled and where do you dream of visiting? A) South America, Asia B) North America, Europe C) Africa, Australia D) Antarctica, Africa",
+                "B) North America, Europe"
+            ]
+        ]
+    },
+    {
+        "story": "My name is Julia Rivera, and I\u2019m 29, hailing from Denver, Colorado, where I was raised in a vibrant community influenced by both Hispanic and Caucasian cultures, with my mother being from Mexico and my father from the U.S. Growing up in a lower-middle-class family shaped my understanding of resilience and ambition, and now, I\u2019m fortunate to be in a comfortable financial situation as a licensed therapist, having earned my degree in psychology from the University of Colorado. I identify as a cisgender woman and am proudly bisexual, currently in a wonderful relationship with my partner, Sam, who has taught me a lot about empathy and support. While I was raised Catholic, I now consider myself spiritual but not religious, seeking wisdom in various philosophies and practices. My older brother, Miguel, 32, is my sounding board, and we conversate primarily in English, though I\u2019ve retained some basic Spanish from my parents. I cherish my friendships within a diverse circle that shares similar values of community, kindness, and justice, which align with my progressive political views. My passions include hiking in the Rockies, practicing yoga, and diving deep into personal development literature. Health and wellness are essential to me, and I maintain a daily routine that incorporates exercise, meditation, and creative journaling. I\u2019ve had a few significant relationships that have taught me valuable lessons about love and boundaries. I also have a soft spot for animals, having adopted a dog named Luna, who keeps me on my toes. Although my dream destination is Japan, I\u2019ve traveled to several countries in Europe and Central America, which has fueled my ambition to incorporate diverse cultural perspectives into my therapy practice as I help others navigate their journeys. Overall, I\u2019m driven by a desire to foster connection, understanding, and healing in the lives of those around me.",
+        "qa": [
+            [
+                "What is your name? A) Julia Rivera B) Sarah Smith C) Emily Johnson D) Lisa Brown",
+                "A) Julia Rivera"
+            ],
+            [
+                "How old are you? A) 25 B) 29 C) 30 D) 27",
+                "B) 29"
+            ],
+            [
+                "Where are you from? A) Denver, Colorado B) Seattle, Washington C) Austin, Texas D) Miami, Florida",
+                "A) Denver, Colorado"
+            ],
+            [
+                "Where is your mother from? A) Canada B) Mexico C) Spain D) Brazil",
+                "B) Mexico"
+            ],
+            [
+                "Where is your father from? A) Canada B) Mexico C) U.S. D) UK",
+                "C) U.S."
+            ],
+            [
+                "How do you describe your current beliefs? A) Atheist B) Spiritual but not religious C) Protestant D) Catholic",
+                "B) Spiritual but not religious"
+            ],
+            [
+                "What was your financial situation like when you were growing up? A) Wealthy B) Lower-middle-class C) Upper-middle-class D) Affluent",
+                "B) Lower-middle-class"
+            ],
+            [
+                "How old is your older brother Miguel? A) 28 B) 30 C) 32 D) 35",
+                "C) 32"
+            ],
+            [
+                "What language do you primarily speak? A) French B) English C) German D) Italian",
+                "B) English"
+            ],
+            [
+                "How do you identify your sexual orientation? A) Heterosexual B) Asexual C) Bisexual D) Homosexual",
+                "C) Bisexual"
+            ],
+            [
+                "How do you identify your gender? A) Cisgender woman B) Transgender man C) Non-binary D) Genderqueer",
+                "A) A) Cisgender woman"
+            ],
+            [
+                "Who are you currently in a wonderful relationship with? A) Alex B) Sam C) Jamie D) Taylor",
+                "B) Sam"
+            ],
+            [
+                "What have your significant relationships taught you? A) Nothing B) Valuable lessons C) To avoid relationships D) Only heartbreak",
+                "B) Valuable lessons"
+            ],
+            [
+                "What is your profession? A) Teacher B) Doctor C) Therapist D) Engineer",
+                "C) Therapist"
+            ],
+            [
+                "What has led you to your current position? A) A single role B) Short-term projects C) Experiences from various roles D) A lack of experience",
+                "C) Experiences from various roles"
+            ],
+            [
+                "From which university did you earn your psychology degree? A) University of Colorado B) Stanford University C) Harvard University D) Yale University",
+                "A) University of Colorado"
+            ],
+            [
+                "In what type of community were you raised that included both Hispanic and Caucasian influences? A) Only Hispanic B) Only Caucasian C) Vibrant Hispanic and Caucasian D) Isolated",
+                "C) Vibrant Hispanic and Caucasian"
+            ],
+            [
+                "What type of political views do you hold? A) Conservative B) Moderate C) Progressive D) Libertarian",
+                "C) Progressive"
+            ],
+            [
+                "What activities do you incorporate into your daily routine for health and wellness? A) Reading B) Exercise C) Watching TV D) Sleeping",
+                "B) Exercise"
+            ],
+            [
+                "What activities do you enjoy the most? A) Cooking B) Hiking in the Rockies C) Painting D) Playing video games",
+                "B) Hiking in the Rockies"
+            ],
+            [
+                "Which values do you cherish most? A) Competition B) Knowledge C) Community D) Wealth",
+                "C) Community"
+            ],
+            [
+                "What have you learned about through your past relationships? A) Financial management B) Love and boundaries C) Cooking skills D) Travel planning",
+                "B) Love and boundaries"
+            ],
+            [
+                "What drives you to help others? A) Need for wealth B) Desire for competition C) Commitment to connection and healing D) Seeking recognition",
+                "C) Commitment to connection and healing"
+            ],
+            [
+                "How did growing up in a lower-middle-class family shape your qualities? A) Increased resilience B) Enhanced laziness C) Decreased ambition D) Encouraged complacency",
+                "A) Increased resilience"
+            ],
+            [
+                "How do you feel about your friendships in a diverse circle? A) You find them challenging B) You find them valuable C) You find them superficial D) You find them unimportant",
+                "B) You find them valuable"
+            ],
+            [
+                "What activities do you incorporate into your daily routine? A) Watching TV B) Sleeping C) Exercise, meditation, and creative journaling D) Eating junk food",
+                "C) Exercise, meditation, and creative journaling"
+            ],
+            [
+                "What is the name of the dog you adopted? A) Max B) Bella C) Luna D) Charlie",
+                "C) Luna"
+            ],
+            [
+                "What type of literature do you enjoy exploring? A) Fiction B) Personal Development C) History D) Science Fiction",
+                "B) Personal Development"
+            ],
+            [
+                "Who do you currently live with? A) Your parents B) Your partner and dog C) Your friends D) Alone",
+                "B) Your partner and dog"
+            ],
+            [
+                "Which regions have you traveled to? A) Asia B) Europe and Central America C) Africa D) Australia",
+                "B) Europe and Central America"
+            ]
+        ]
+    }
+]

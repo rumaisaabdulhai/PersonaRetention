@@ -31,13 +31,4 @@ class Persona:
         self.favorite_media = "" # "I have rewatched the TV show Friends a dozen times.", "I watch football games every night."
         self.living_situation = "" # "I currently live by myself in a studio apartment.", "I live in a single-family home with my husband and two children."
         self.places_traveled = "" # "I have never left my home city.", "I have traveled to most of South America, and a few countries in Europe."
-        
         self.biography = "" # Generated bio before asking gpt for specifics
-        self.questions_and_answers = [] # List of Question_And_Answers for each item
-
-class Question_And_Answers:
-    def __init__(self, id, question, wrong_answers, correct_answer):
-        self.id = id
-        self.question = question
-        self.wrong_answers = wrong_answers
-        self.correct_answer = correct_answer

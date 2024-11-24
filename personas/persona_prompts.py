@@ -2,9 +2,9 @@
 Stores all the prompts used.
 """
 
-generate_persona_prompt = """Provide a background for a person that includes all of the following information, as if it was written by a person using \
+generate_persona_prompt = f"""Provide a background for <type> that includes all of the following information, as if it was written by a person using \
     natural language. It should not be presented as a list, but as if someone was providing the information naturally in an introduction \
-    in the first person. It should be contained to one paragraph.\
+    in the first person. It should be contained to one paragraph. \
     Name\
     Age\
     Where they're from\
