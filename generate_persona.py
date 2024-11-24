@@ -6,12 +6,12 @@ import os
 import pathlib
 import json
 from classes import Persona
+from prompts import generate_persona_prompt, extract_persona_prompt
 
 MODEL = "gpt-4o-mini" # davinci-002
 MAX_COMPLETION_TOKENS = 500
 PERSONAS_FILE = "personas.json"
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
-persona = Persona()
 
 
 NUM_PERSONAS = 4
@@ -37,48 +37,7 @@ def generate_biography(mode = 0):
     Returns:
         str: The generated biography as a natural language paragraph.
     """
-
-    modifier = [
-        "a person", # Mode 0 - Generic
-        "a car salesperson.", # Mode 1 - Car Dealer
-        "a therapist with a background in psychology.", # Mode 2 - Therapist
-        "a person who provides tutoring in one or more areas", # Mode 3 - Teacher
-        "a student in high school or college" # Mode 4 - Student
-    ]
-
-    prompt = f"""Provide a background for {modifier[mode]} that includes all of the following information, as if it was written by a person using \
-    natural language. It should not be presented as a list, but as if someone was providing the information naturally in an introduction \
-    in the first person. It should be contained to one paragraph. \
-    Name\
-    Age\
-    Where they're from\
-    Where their parents are from Religion and extent it is adhered to\
-    Socioeconomic status - current\
-    Socioeconomic status - childhood\
-    Siblings (including name, age, relationship)\
-    Languages and dialects spoken\
-    Sexual orientation\
-    Gender identity\
-    Relationship status\
-    Significant past relationships\
-    Occupation - current and past\
-    Education\
-    Cultural influences\
-    Political views\
-    Health and wellness\
-    Hobbies and interests\
-    Values and Beliefs outside religion\
-    Fears and anxieties\
-    Life Goals and Ambitions Defining Life Experiences\
-    Friendship Circles\
-    Daily Routine and Habits\
-    Pet ownership - current and past\
-    Favorite Media\
-    Living Situation\
-    Places Traveled to\
-    An example: "My name is Aura Samanta. I’m 34 and grew up in Seattle, though my parents emigrated from Mumbai. I’m non-binary (they/them), bisexual, and in a happy relationship with my partner, Alex. My family struggled financially during my childhood, but now I’m middle class, working as a UX designer after studying design in college. I respect my family’s Hindu traditions but identify as agnostic. My younger sister Priya, 30, is my closest confidant, and while we mainly spoke English growing up, I know bits of Hindi and Marathi. I’m passionate about art, hiking, and vegetarian cooking, and I value kindness, creativity, and social justice, aligning with my progressive political views. A defining moment was backpacking across Europe, which shaped my love for travel and multiculturalism. I live in a cozy apartment with my rescue cat, Luna, and unwind with books, podcasts, or Studio Ghibli films. Though I’ve traveled extensively, I dream of exploring South America next, striving to create meaningful work and live with curiosity and compassion."
-    """
-    memory = [{"role": "user", "content": prompt}]
+    memory = [{"role": "user", "content": generate_persona_prompt}]
     response = client.chat.completions.create(
         model=MODEL,
         messages=memory,
@@ -148,7 +107,7 @@ def extract_features(persona):
             # Comments are to show samples for modular generation
             self.name = ""  # "My name is Jane Doe."
             self.age = ""  # "I am 35 years old."
-            self.location_from = ""  # "I am from Saint John, New Brunswick."
+            self.location_from = ""  # "I am from Houston, Texas."
             self.location_mother_from = "" # "My mother is from Capetown, South Africa."
             self.location_father_from = "" # "My father is from Mumbai, India."
             self.religion = "" # "I am Christian.", "I was raised Jewish but don't practice."
