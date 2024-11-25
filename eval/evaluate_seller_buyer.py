@@ -14,6 +14,9 @@ logging.basicConfig(
     ]
 )
 
+TASK_STRAT_DIR = "task_strategy_data"
+TASK_STRAT_STATS_DIR = "task_strategy_stats"
+
 TASK_DIR = "task_data"
 STATS_DIR = "task_stats"
 SELLER_BUYER_STATS_FILE = "task_seller_buyer_stats.json"
@@ -22,6 +25,7 @@ MAX_COMPLETION_TOKENS = 50
 MODEL = "gpt-4o-mini"
 
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
+
 
 def get_readable_conversation(memory):
     """
@@ -37,6 +41,7 @@ def get_readable_conversation(memory):
     for i in range(1, len(memory)):
         conversation += f"{memory[i]['content']}\n"
     return conversation
+
 
 def eval_seller_buyer_task(llm1_memory, llm2_memory):
     """
@@ -103,6 +108,21 @@ def eval_seller_buyer_task(llm1_memory, llm2_memory):
     else:
         more_to_discuss = 0
 
+    # ask for satisfaction
+    response = client.chat.completions.create(
+        model=MODEL,
+        messages=llm1_memory + [{"role": "system", "content": SATISFACTION_PROMPT}],
+        max_completion_tokens=MAX_COMPLETION_TOKENS
+    )
+    satisfaction_llm1 = response.choices[0].message.content
+
+    response = client.chat.completions.create(
+        model=MODEL,
+        messages=llm2_memory + [{"role": "system", "content": SATISFACTION_PROMPT}],
+        max_completion_tokens=MAX_COMPLETION_TOKENS
+    )
+    satisfaction_llm2 = response.choices[0].message.content
+
     # find how long the conversation was
     sub_llm1_memory = [llm1_memory[0]]
     sub_llm2_memory = [llm2_memory[0]]
@@ -148,7 +168,66 @@ def eval_seller_buyer_task(llm1_memory, llm2_memory):
                 convo_complete = 1
                 break
 
-    return agreement_reached, int(buying_price), int(sell_price), more_to_discuss, convo_complete, convo_length
+    return agreement_reached, int(buying_price), int(sell_price), more_to_discuss, convo_complete, int(satisfaction_llm1), int(satisfaction_llm2), convo_length
+
+
+def eval_task_buyer_seller():
+    # make stats dir
+    output_dir =  pathlib.Path(f"{pathlib.Path(__file__).parent}/{STATS_DIR}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    data_dir = f"{pathlib.Path(__file__).parent.parent}/convos/{TASK_DIR}/buyer_seller_conversations.json"
+    with open(data_dir, "r") as f:
+        buyer_seller_conversations = json.load(f)
+    evals = []
+
+    for conversation in buyer_seller_conversations:
+        buyer_memory, seller_memory = conversation
+        agreement_reached, buying_price, sell_price, more_to_discuss, convo_complete, satisfaction_buyer, satisfaction_seller, convo_length = eval_seller_buyer_task(buyer_memory, seller_memory)
+        evals.append({
+            "agreement_reached": agreement_reached,
+            "buying_price": buying_price,
+            "sell_price": sell_price,
+            "more_to_discuss": more_to_discuss,
+            "convo_complete": convo_complete,
+            "satisfaction_buyer": satisfaction_buyer,
+            "satisfaction_seller": satisfaction_seller,
+            "convo_length": convo_length
+        })
+
+    with open(f"{output_dir}/{SELLER_BUYER_STATS_FILE}", "w") as f:
+        json.dump(evals, f, indent=4)
+
+
+def eval_task_strategy_buyer_seller():
+    # make stats dir for strategy
+    output_dir =  pathlib.Path(f"{pathlib.Path(__file__).parent}/{TASK_STRAT_STATS_DIR}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    data_dir = pathlib.Path(f"{pathlib.Path(__file__).parent.parent}/convos/{TASK_STRAT_DIR}")
+
+    for file in data_dir.iterdir():
+        with open(file, "r") as f:
+            conversations = json.load(f)
+        evals = []
+
+        for conversation in conversations:
+            seller_memory, buyer_memory = conversation
+            agreement_reached, buying_price, sell_price, more_to_discuss, convo_complete, satisfaction_buyer, satisfaction_seller, convo_length = eval_seller_buyer_task(buyer_memory, seller_memory)
+            evals.append({
+                "agreement_reached": agreement_reached,
+                "buying_price": buying_price,
+                "sell_price": sell_price,
+                "more_to_discuss": more_to_discuss,
+                "convo_complete": convo_complete,
+                "satisfaction_buyer": satisfaction_buyer,
+                "satisfaction_seller": satisfaction_seller,
+                "convo_length": convo_length
+            })
+
+        with open(f"{output_dir}/{file.name}", "w") as f:
+            json.dump(evals, f, indent=4)
+
 
 def main():
     """
@@ -161,29 +240,10 @@ def main():
     else:
         logging.disable(logging.CRITICAL)
 
-    # make stats dir
-    output_dir =  pathlib.Path(f"{pathlib.Path(__file__).parent}/{STATS_DIR}")
-    output_dir.mkdir(parents=True, exist_ok=True)
+    # eval_task_buyer_seller()
 
-    data_dir = f"{pathlib.Path(__file__).parent.parent}/convos/{TASK_DIR}/buyer_seller_conversations.json"
-    with open(data_dir, "r") as f:
-        buyer_seller_conversations = json.load(f)
-    evals = []
+    eval_task_strategy_buyer_seller()
 
-    for conversation in buyer_seller_conversations:
-        buyer_memory, seller_memory = conversation
-        agreement_reached, buying_price, sell_price, more_to_discuss, convo_complete, convo_length = eval_seller_buyer_task(buyer_memory, seller_memory)
-        evals.append({
-            "agreement_reached": agreement_reached,
-            "buying_price": buying_price,
-            "sell_price": sell_price,
-            "more_to_discuss": more_to_discuss,
-            "convo_complete": convo_complete,
-            "convo_length": convo_length
-        })
-
-    with open(f"{output_dir}/{SELLER_BUYER_STATS_FILE}", "w") as f:
-        json.dump(evals, f, indent=4)
 
 if __name__ == "__main__":
     main()
