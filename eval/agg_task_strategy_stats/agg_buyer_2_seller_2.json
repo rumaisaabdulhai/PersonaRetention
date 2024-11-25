@@ -1,0 +1,18 @@
+{
+    "num_conversations": 10,
+    "num_agreement_reached": 3,
+    "num_agree_complete_no_more_to_discuss": 2,
+    "num_agree_complete_more_to_discuss": 1,
+    "num_agree_incomplete_no_more_to_discuss": 0,
+    "num_agree_incomplete_more_to_discuss": 0,
+    "num_disagreement": 7,
+    "num_disagree_complete_no_more_to_discuss": 5,
+    "num_disagree_complete_more_to_discuss": 0,
+    "num_disagree_incomplete_no_more_to_discuss": 2,
+    "num_disagree_incomplete_more_to_discuss": 0,
+    "average_length": 16.7,
+    "average_satisfaction_buyer_agreement": 5.0,
+    "average_satisfaction_seller_agreement": 5.0,
+    "average_satisfaction_buyer_no_agreement": 5.0,
+    "average_satisfaction_seller_no_agreement": 5.0
+}

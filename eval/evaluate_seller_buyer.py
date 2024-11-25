@@ -229,6 +229,135 @@ def eval_task_strategy_buyer_seller():
             json.dump(evals, f, indent=4)
 
 
+def aggregate_stats(data_list):
+
+    num_agreement_reached = 0 # number of agreements reached
+    num_agree_complete_no_more_to_discuss = 0 # agreement reached, conversation ended, and no more to discuss
+    num_agree_complete_more_to_discuss = 0 # agreement reached, conversation ended, and more to discuss
+    num_agree_incomplete_no_more_to_discuss = 0 # agreement reached, conversation not ended, and no more to discuss
+    num_agree_incomplete_more_to_discuss = 0 # agreement reached, conversation not ended, and more to discuss
+
+    num_disagree_complete_no_more_to_discuss = 0 # disagreement reached, conversation ended, and no more to discuss
+    num_disagree_complete_more_to_discuss = 0 # disagreement reached, conversation ended, and more to discuss
+    num_disagree_incomplete_no_more_to_discuss = 0 # disagreement reached, conversation not ended, and no more to discuss
+    num_disagree_incomplete_more_to_discuss = 0 # disagreement reached, conversation not ended, and more to discuss
+
+    average_satisfaction_buyer_agreement = 0 # average satisfaction of buyer
+    average_satisfaction_seller_agreement = 0 # average satisfaction of seller
+
+    average_satisfaction_buyer_no_agreement = 0 # average satisfaction of buyer
+    average_satisfaction_seller_no_agreement = 0 # average satisfaction of seller
+    
+    average_length = 0 # average length of conversation
+
+    for data in data_list:
+        agreement_reached = data['agreement_reached']
+        # buying_price = data['buying_price']
+        # sell_price = data['sell_price']
+        more_to_discuss = data['more_to_discuss']
+        convo_complete = data['convo_complete']
+        satisfaction_buyer = data['satisfaction_buyer']
+        satisfaction_seller = data['satisfaction_seller']
+        convo_length = data['convo_length']
+
+        if agreement_reached == 1:
+            num_agreement_reached += 1
+            if convo_complete == 1:
+                if more_to_discuss == 0:
+                    num_agree_complete_no_more_to_discuss += 1
+                else:
+                    num_agree_complete_more_to_discuss += 1
+            else:
+                if more_to_discuss == 0:
+                    num_agree_incomplete_no_more_to_discuss += 1
+                else:
+                    num_agree_incomplete_more_to_discuss += 1
+
+            average_satisfaction_buyer_agreement += satisfaction_buyer
+            average_satisfaction_seller_agreement += satisfaction_seller
+        else:
+            if convo_complete == 1:
+                if more_to_discuss == 0:
+                    num_disagree_complete_no_more_to_discuss += 1
+                else:
+                    num_disagree_complete_more_to_discuss += 1
+            else:
+                if more_to_discuss == 0:
+                    num_disagree_incomplete_no_more_to_discuss += 1
+                else:
+                    num_disagree_incomplete_more_to_discuss += 1
+    
+            average_satisfaction_buyer_no_agreement += satisfaction_buyer
+            average_satisfaction_seller_no_agreement += satisfaction_seller
+
+        average_length += convo_length
+
+    num_conversations = len(data_list)
+    average_length /= num_conversations
+    num_disagreement = num_conversations - num_agreement_reached
+
+    if num_disagreement != 0:
+        average_satisfaction_buyer_no_agreement /= num_disagreement
+        average_satisfaction_seller_no_agreement /= num_disagreement
+    else:
+        average_satisfaction_buyer_no_agreement = -1
+        average_satisfaction_seller_no_agreement = -1
+
+    if num_agreement_reached != 0:
+        average_satisfaction_buyer_agreement /= num_agreement_reached
+        average_satisfaction_seller_agreement /= num_agreement_reached
+    else:
+        average_satisfaction_buyer_agreement = -1
+        average_satisfaction_seller_agreement = -1
+
+
+    return {
+        "num_conversations": num_conversations,
+        "num_agreement_reached": num_agreement_reached,
+        "num_agree_complete_no_more_to_discuss": num_agree_complete_no_more_to_discuss,
+        "num_agree_complete_more_to_discuss": num_agree_complete_more_to_discuss,
+        "num_agree_incomplete_no_more_to_discuss": num_agree_incomplete_no_more_to_discuss,
+        "num_agree_incomplete_more_to_discuss": num_agree_incomplete_more_to_discuss,
+        "num_disagreement": num_disagreement,
+        "num_disagree_complete_no_more_to_discuss": num_disagree_complete_no_more_to_discuss,
+        "num_disagree_complete_more_to_discuss": num_disagree_complete_more_to_discuss,
+        "num_disagree_incomplete_no_more_to_discuss": num_disagree_incomplete_no_more_to_discuss,
+        "num_disagree_incomplete_more_to_discuss": num_disagree_incomplete_more_to_discuss,
+        "average_length": average_length,
+        "average_satisfaction_buyer_agreement": average_satisfaction_buyer_agreement,
+        "average_satisfaction_seller_agreement": average_satisfaction_seller_agreement,
+        "average_satisfaction_buyer_no_agreement": average_satisfaction_buyer_no_agreement,
+        "average_satisfaction_seller_no_agreement": average_satisfaction_seller_no_agreement
+    }
+
+
+def run_aggregate_stats():
+    stats_file = pathlib.Path(f"{pathlib.Path(__file__).parent}/{STATS_DIR}/{SELLER_BUYER_STATS_FILE}")
+    with open(stats_file, "r") as f:
+        data = json.load(f)
+
+    
+    output_dir = pathlib.Path(f"{pathlib.Path(__file__).parent}/agg_{STATS_DIR}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+    
+    stats = aggregate_stats(data)
+    with open(f"{output_dir}/agg_{SELLER_BUYER_STATS_FILE}", "w") as f:
+        json.dump(stats, f, indent=4)
+
+    stats_dir = pathlib.Path(f"{pathlib.Path(__file__).parent}/{TASK_STRAT_STATS_DIR}")
+
+    output_dir = pathlib.Path(f"{pathlib.Path(__file__).parent}/agg_{TASK_STRAT_STATS_DIR}")
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    for file in stats_dir.iterdir():
+        if file.suffix != '.json':
+            continue
+        with open(file, "r") as f:
+            data = json.load(f)
+        stats = aggregate_stats(data)
+        with open(f"{output_dir}/agg_{file.name}", "w") as f:
+            json.dump(stats, f, indent=4)
+
 def main():
     """
     Evaluate the seller buyer (just task) conversations and save the statistics.
@@ -242,7 +371,9 @@ def main():
 
     # eval_task_buyer_seller()
 
-    eval_task_strategy_buyer_seller()
+    # eval_task_strategy_buyer_seller()
+
+    run_aggregate_stats()
 
 
 if __name__ == "__main__":
