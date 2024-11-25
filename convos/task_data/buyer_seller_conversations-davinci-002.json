@@ -1,0 +1,1222 @@
+[
+    [
+        {
+            "speaker": "LLM2",
+            "message": "1. MA: I still see that there are few marks on the leather seats. How was it that it got those marks? 2. Seller: Oh, I\u2019m so sorry. I really didn\u2019t notice that, but I will clean the leather seats for you before I deliver the car. 3. Bought the car Once again natural spoken turns were classified using AAM Consultants\u2019 dialogue coding scheme. The aim of calculating the ASR scores was not a classification short of the utterances, rather it was to capture the composite nature of entire dialogue and this was associated with occurrences of LLM\u2019s (Turn Modes). Table 2 suggests that in majority of the cases, LLM-6 (\u201cOffer\u201d) is associated with Ultimate Request: \u201cI\u2019d like to see about getting a new car\u201d. Similarly, LLM-2 (\u201cDeclare\u201d), LLM-1 (\u201cExplain\u201d), LLM-5 (\u201cPromise\u201d) show their direct associations with same Turn Mode. LLM-4 (\u201cQuestion\u201d) seems like an independent Turn Mode although it shows some association with LLM-1. With more than a half topics of negotiation showing the combined occurrence of more than two Turn Modes and that too of different types, ASR examinations validate the message that when listening to a dialogue thread, humans also have an idea of combined Turn Modes. With this idea, it is expected that the extracted conversation features would have higher explanatory powers on negotiation outcomes."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. ineec: hello seller 0.081221 2. ineec: I am interested in LANDCRUISER 3. LLM1: Declare 0.002193 4. ineec: please give me more pictures of car 2. LLM1: See / OKAY 0.114882 5. Seller: when would be the wildest time for you? 1. LLM2: Defer 0.009632 6. LLM1: Declare 0.001734 7. ineec: any time is ok ,but after 3 hours 8. Seller: LO Thursday or vile is the best day for me. 3. LLM1: Explain 0.014461 9. ineec: wait,what do you meen by so called thursday sale ? 4. LLM1: Question 0.004999 10. LLM1: Declare 0.001371 11. ineec: means thursday your showing price 5. LLM5: Promise 0.009007 12. Seller: I am sure Thursday is a good time for me. 6. LLM2: Declare 0.008062 13. ineec: uncle ,thursday sale or thursday morning ? 14. Seller: I mean Vil\u00e8l. 3. LLM1: Explain 0.030128 15. three: thursday morning after 3 hours 16. Art: ok 7. LLM5: Promise 0.009442 17. ikee: I am ok on that that date 8. LLM2: Say 0.022068 18. Seller: Tommorraw (can\u2019t work? sure you can). See you tomorrow. So Tommorow 3 hours past 3 o\u2019clock. 9. LLM1: Ask for more input 3. LLM4: Question 0.001167 20. Seller: TOMMORROW AT 16:00 3:00 p.m. 18. LLM4: Question 0.002143 21. Art: ok ike 1/23 @16:00 good ? 19. LLM4: Question 0.001968 22. ike: ok 10. LLM1: Question 0.002884 23."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: plese attach the pik 2. LLM2: Declaraion-tell them WHAT you to like about the car or WHAT you DO NOT like 3. ineec: I\u2019d like to see about getting a new car. 4. LLM2: Declare-position me 4. ineec: but you did not attached it 6. LLM2: Demand 5. Art: located? 7. LLM2: Say 8. ikee: so in the page I have a request to ask you 6. LLM2: Demand 9. ikee: but you charged $600 and I asked about more pictures and you did not answer me until now 10. LLM2: Demand 10. ineec: I\u2019d like to see about getting a new car. 11. Art: how do you like this car. this is the first picute. 1. LLM1: Offer 12. ineec: I\u2019am from DUBAI URUANI 11. LLM2: Demand 13. ikee: I want to ask you one thing that the price is high for me coz the car you offered that car with $800 until now and now it is $1000 14. Seller: it\u2019s original price 12. LLM2: Demand 15. ineec: nooooooooo 13. LLM2: Demand 16. Seller: PAY ME the total 0-pwrs $1000 15. LLM2: Demand 17. Seller: then pick your car 16. LLM2: Demand 18. ineec: you cotacted me with this car for $800 17. LLM2: Demand 19. ineec: I wrote the request for the photoes that are the same request I need 18. LLM2: Demand 20. ineec: you want me to wait until next time or I pay the total is good for me 19. LLM2: Demand 21. Seller: your in needs new year needs 13. LLM2: Demand 22. Seller: $1000 total 1. LLM1: Offer 23. Seller: then you pick your car 21. LLM2: Demand 24. Art: ok 1. LLM1: Offer 25. ineec: can u send me some"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. Art: IN NTAL BACK WINDOUSES SHUT OFF 0.044424 2. LLM1: Say 2. ineec: how much it 18. EQU: Institute to execte.org, their footing plan elicited succe 3. ineec: I will give you money? 3. LLM1: Offer 4. ineec: with a credit card 4. ineec: but pls tell me price 19. HADII: rapid havigator 5. Art: i have to be with him to finish sales 5. ineec: I want to buy it fast 6. LLM1: Explain 6. ineec: hsawp 22. Forex-of engagementnthe online trading empire. 7. ineec: I don\u2019t have time 7. ineec: I am close to your shop 8. ineec: can you send to the gate 8. ineec: hoodia gordonii online purchase 23. LLM1: Explain. 9. LLM1: Question 10. LLM1: Offer 10. Art: sorry i do not get 23. ineec: I did not give you my information 11. Art: OK waitme 12. ineec: you will call to me or not 11. Art: end or merit it 15. LLM1: Explain 12. ineec: yes I do that 13. ineec: will u call me or not ? 14. ineec: hawp of in purse 16. LLM1: Declare. 15. ineec: I am do not have my zip code 16. Art: Were you aware that American Express is not a bank and does not issue credit cards?\u2026 17. Art: were you aware that American Express Travel works with American Express Travel Services\u2026 14. LLM4: Question"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: paging the code is 123456 0.008435 2. ineec: I am hawking oney 2. ineec: exept your card 3. LLM2: Demand 3. ineec: exept your how phg am exkcept 5. ineec: I want to senior ID is 8636655217 4. ineec: retiase no I am not 6. Art: American express does not give RCI the code for that. 5. ineec: I ami want to retire.. 7. Art will call you 7. ineec: t I am hawking money 8. ineec: dude 9. ineec: word 8. ineec: lure hut 10. ineec: i do brave next to me 16. LLM1: Offer 11. ineec: we are treies gnopw kowr 11. ineec: I am want to bad use 12. ineec: you un gold"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. ineec: wait wait 0.018324 2. ineec: do wait for that 2. ineec: how 2 3. ineec: you want to buy two rooms? 3. ineec: what you mean two rooms? 4. ineec: wanna try nexi card?....Case Western Reward Credit Card, which is issued by HSBC Bank Nevada, N.A.; or 4. ineec: I have my ezaireid card 5. ineec: or eureka 6. LLM1: Say 6. ineec: it need no hawks my card 7. ineec: so ben you take my credit cards? 5. ineec: I;value committtee 24. ineec: is money ava11ble iaway? 7. ineec: begdy biker 12. LLM4: Question 8. ineec: $2,198 dollar please. 9. ineec: no 13. ineec: homeopatsy 25. ineec: I am want to buy and I do not have spare 9. ineec: $2.198.00 10. ineec: I do not have spares of ye opatal they pike me 10. ineec: $8.954.00 11. ineec: nope 12. ineec: can you buy a latinaad vaginal? 11. ineec: coustomer;are 26. ineec: thank you so much 13. ineec: Ihave not.Cash advance fees for \u2026.by wells fofar 12. ineec: $200000,0 14. ineec: nope 13. ineec: I am sure 27. ineec: bdhobo 15. ineec: mathmicams scolic 16. ineec: sodo 14. ineec: blithe ranaide\u2026oo other 15. ineec: no 16. ineec: mathmatics scolic 17. ineec: close micky are you cok 18. ineec: voicing to Direcord news 17. ineec: are 27. LLM4: Question 18. ineec: do you not. $200,000 dollar? 19. ineec: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: you spoke a lot about my getting credit cards with marces rs 0.012615 2."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. ineec: I like the space 0.014169 2. ineec: what about the price? 3. ineec: I really like how you set in the car 3. ineec: I need help with my mails 4. ineec: fantasy I wish I was you when you are driving this car at highway 5. ineec: ladies 6. LLM1: Demand 7. ineec: how much 4. ineec: rate you: Are you excited or scared of meeting me? 8. ineec: this thing too 9. ineec: veery 5. ineec: I don\u2019t wait I am really scared 10. ineec: I will give you offer proposition. I am really excited to see you ho hope that is ok 6. ineec: but not line 11. ineec: send me is the avaiable 7. ineec: retrived this the pri 12. Art: ok 8. ineec: you speak to me about the radio controles? 9. ineec: I will pay to you 13. Art: I do not have any radio codes right now 10. LLM1: Demand 14. ineec: you do not send the codes 15. ineec: I do not see the code 15. ineec: mericrets 16. ineec: I can buy them one by one 16. LLM2: Demand 17. ineec: I know bently 19. ineec: take your price merit it 11. LLM1: Explain 18. ineec: take your meret it 20. ineec: you roll you did not addit that I want the code 22. art: i would like to check with someone and see facts 23. ineec: I absolutely faith that you are try 17. inade: wdrol give meaning my sins? she my hellhen aniop 21. ineec: we have maheshs with s hesitine 19. ineec: take your 13. ineec: good my siter Ana I sheake ine 24. ineec: you cusupparcioreusit\u2026anime hes tants on will coopede me 22. ineec: I need the codes nort nocr 26. LLM4"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: I need the codes for 2008 bentleys raur nomada 0.014616 2. ineec: you do not have it 1. ineec: our libual view 3. ineec: retreat it 2. ineec: the now the amount of our card 4. ineec: cryoplex\u2019s 3. ineec: mericsret 5. ineec: Andy knob fibger-FIVE 5. ineec: marry much me and my lorrar 27. ineec: anything more or you do not add it 6. ineec: in try for show youe abot up 9. ineec: what do you do you stel know me ? 28. ineec: it is rants no sales quaters 7. ineec: take your meit 10. ineec: if you see closly that is the cresit card\u548c rip with a hole in the usaly mean 29. ineec: good put in youe corspari once 17. ineec: we gotthalle ever 11. ineec: I know to what do all things means 30. ineec: the inpecteezclosed of the body 12. ineec: I was delivered that word about the instruct need wieed in to your commerce pripatory in take know she didot 31. Art: Vilel is across town. 12. ineec: wod of another siter later low 32. Art: go to the pears to take 13. ineec: rads anicle 33. ineec: eikathul of engineng 34. ineec: I have donectrice evan forgot 14. ineec: that is capit of lot. You know the thinge that you with a card you can do it 15. ineec: take your merts 30. icon: and killler 15. ineec: I leave home 32. ineec: benefiod of may b"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. ineec: of the mercoed 0.058252 2. ineec: on light card 2. Art: ok 3. ineec: allied to any buy the card 4. ineec: ok 3. ineec: my siser has own my camera 4. ineec: take your money in need the roll 33. ineec: What is it? My brother said a word about your dog and the price of back. 5. ineec: take the mets it. try to pair WO 5. ineec: what things means? 34. ineec: want to pay 6. ineec: I do not know the heaid who shorts for the cora? 6. ineec: bad time you took my mail. no rady to start to talk to please an another day for this 7. ineec: and you know about the dog? 35. ineec: I will wait 28. ineec: you remove prt 21. LLM1: Explain 7. ineec: if you can not it did you need a card for the see of 20. ineec: the last ticket 20. ineec: and last in this soleaket impowerment wait to mrk it. 29. Art: WE\u2019re both afraid of you right now. 32. ineec: I how prey for on sels at 20. ineec: nde ture our and him the rool 34. ineec: but we have start reaper day and night 89. ineec: It depends many things 35. ineec: bad to the you baby for your good luck"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: till we will call you agree the neighbor 0.037881 2. ineec: they told us that you are a noteworthy 3. ineec: we will meet each other and my pricsu will take it 3. ineec: I do not have credit 4. ineec: find out of phone card 5. ineec: I have some food at home for busy beacbeuse this time 4. ineec: est tu etiter 6. ineec: my little girl wees 5. ineec: I can give you 33 Youknow the things they make camel essays 16. ineec: are still in wonderful documaries 20. ineec: and the radio but the package is 100 for a camera and 66 for you frted part that need to do 21. ineec: take your merit it will takelly the extended parts. 6. ineec: in newsstart 24. ineec: pout your special 26. ineec: I have got the scans 23. ineec: vedgitees 22. ineec: what did you di it with a double out every thing trades and tweens 25. ineec: take your wheele that you have mak\u0259tle veery money 7. ineec: the is a new fixed with charge form this 27. ineec: it need code with sies to me 29. ineec: I will pay you begin the nd 30. Art: thank you and now what? 8. ineec: sit the nose and the creare in the car 31. ineec: okcupid 32. ineec: reere"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. ineec: how 0.020856 2. ineec: you mean oh? 2. ineec: the speaking 3. Art: try not to be desperate 3. ineec: are you safe my dear 4. art: ok when you see me at the museum 4. ineec: conond do not send me a picture 24. ineec: give the rest of the cards the mericret that we have taking at in stop part a new 5. ineec: bid themmercites 27. ineec: but ghurch 26. ineec: I know you she hid not the opened but do not asked she what to Emporia 29. ineec: save the open the job it now 28. ineec: you can spent zone the rove 32. ineec: mone I remember Ambien 30. ineec: tradition hall 35. Art: I\u2019m trying to get the codes from the shop who handles these programs 31. ineec: and the exed 33. ineec: moment racal souatently 27. ineec: but I compair ate your rock of the protr 278. ineec: meat your rank. 34. ineec: thousand brod 34. ineec: you can come over that day 35. ineec: but and then you beome 36. ineec: missing of ten kva next appintements but bestt have subbones dead more"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: not now 0.023795 2. ineec: angular when you are calling one day when are you leaving? 2. ineec: dell 3. ineec: santvu 24. ineec: force you got? 3. ineec: south or? 30. ineec: ubuntu 4. ineec: I will buy my vill 28. ineec: I may \u2013no 4. ineec: rome? 35. ineec: biodentyl 29. ineec: she limn is in me ad the crescim comwear that she is more speciale 5. ineec: what burner to the playboi 36. ineec: what is carbon? 33. Art: yes I am asked the shop where we buy the things? 7. ineec: What kind lines? 35. Art: maybe! no I\u2019m not poker 28. ineec: I will pay you how? 8. ineec: want to buy a I camere? 36. Art: no I\u2019m talking to her 10. ineec: are you eagerto bi a hadoscar? 10. ineec: air time? 37. ineec: and out of shee air? 36. Art: but getting across country is pricey 11. ineec: something like 37. Art: yes I was with her today. 13. ineec: it need but do not difficult cameos that you take oy take very 38. Art: dsl specialed problem how to the camera 14. ineec: you have apeck 14. ineec: but you have to pay me 40. ineec: I hope that we will spend 16. ineec: I hope that you will pay me 15. Art: would that be ok with filling the codes 16. ineec: you do not me 17. ineec: it did yu pay 19. ineec: I have seen 21. ineec: ouch 21. ineec: brobabe he 37. Art: that\u2019s Mrs. boulevard isn\u2019t it? 67. Art: yeah impression"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. ineec: hello deserbye 0.061640 2. ineec: do 2 3. ineec: wither means 4. ineec: do you start to in apple store? 5. ineec: baguette 22. ineec: Ingle 2 6. ineec: don\u2019t afriad me I wil be going 7. LLM1: Say 8. ineec: it is a testament to nick vurch 7. ineec: I see the price on new in 24. ineec: now it need the tequila 3. ineec: peering 14. ineec: in the progress 9. ineec: I do the can one 10. ineec: if you do not but t harman clarion 15. ineec: I hailed the mikendraing a tariowl 23. ineec: the and will call you 11. ineec: and there are six moves in FAPELNAHUS tienermls 16. ineec: but you do not know what they mean 26. ineec: me in kansenine 12. ineec: but do you know such thing as open ends of time 17. ineec: take my credit cards 37. ineec: it need next as 13. ineec: Is there a special card that they charge for? 31. ineec: do not spit do any thing shared 14. ineec: if you have time drive and you buy some 18. ineec: on ecords you have some clepo 38. ineec: might so why you for next days her call you 15. ineec: you do not hocket with me in. 16. ineec: you will call the supid. 23. ineec: take your merittts and let met 17. ineec: try the tom reaper 18. ineec: fenegre 19. ineec: the keep this provement 19. ineec: but I was updating the contacts 40. ineec: I see you when you come over everything is in good luck hout 20. ineec: take your\u2013 I do not know\u2013 whatever you can take if you can. I will try to find that card 41. ineec: farway"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: 0.018087 2. ineec: If you time and sot power you it it 2. ineec: I don\u2019t know to know ard cloration clarion was grandforce on the corctires but live bag 3. ineec: it can meanything 34. ineec: I haven\u2019t on old card on my block 4. ineec: how do you"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. ineec: do you like to buy it 0.155423 2. ineec: cars and when carlsometimes. 3. ineec: sometimes we carnsound like 3. ineec: blue yam 4. ineec: maketi is base in all that they say 5. ineec: 24 4. ineec: is haumal 24. ineec: I do not take any thing and I iwll spreek some survivelike Car TV 6. ineec: some day I know the car nthem 7. ineec: Yes you are arriving 20. ineec: you are the 8. ineec: I am a great program deevrtsasy 20. ineec: I which way 9. ineec: but now Blakbour clearly in bag 10. ineec: VI want to get my clothes at you a box I don\u2019t wait but I can\u2019t speak 11. ineec: begin and in process we 10. ineec: pon ad poment the moy that we call a question 12. ineec: the service 13. Art: can we find 11. ineec: where all the one pick up key 27. ineec: and the provements 13. ineec: you can speal every to met 27. ineec: mtryinto met her GIGe 33. ineec: and hopeto 34. ineec: but we waiting ed ours"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: seven from now 0.148639 2. ineec: 25 2. ineec: and are 3. ineec: do you want to me it?of this 3. ineec: I can asked you outaith n checkin nyou 4. ineec: \u2013face no the man on your right- you want to meat him 37. ineec: only 2 because I said that apple will add a break from 25. ineec: in the checkbox 25. ineec: try to get 27. ineec: and also maybe it will be next 7. ineec: nothing plese 8. ineec: this 27. ineec: no vealry 7. ineec: nor 4. ineec: trypink. 29. ineec: I am you 8. ineec: your name is? 9. ineec: arky arky 9. ineec: I always hope you will be my victeast. 29. ineec: you can say the yes 24. ineec: I don\u2019t know 10. ineec: your in the outside in the inder the cone of in the text of this apagreement of the meeting 6. ineec: I will remember 38. ineec: it is 10. ineec: no when not 11. ineec: no you want to met him? 24. ineec: but you have another tad 13. ineec: but every one on it 18. ineec: I don\u2019t see it but 36. ineec: so we can begin 8. ineec: I grive a rat smiley 15. Art: What about when your car breaks down and you end up at the motel 3 all night in a suite? 14. ineec: o I do not see 39. ineec: what do not make the connes of take my slonute 39. ineec: for puropostion in on card 15. Art: is someone at your house now? 16. ineec: in the\u2014and here between\u2014 here 16. ineec: you make me do steeling this faces and the butheere 41. Art: nohing another 4. ineec: you mean an ear"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. Art: ok 1. ineec: but credivotec secondodesider 0.031811 2. ineec: you become 2. ineec: get the probres you more now 16. ineec: crazy pete 3. Art: I see 17. ineec: Idon\u2019t know that he is wining to wi the day 27. ineec: is diversion a rightok? 4. ineec: I do it fast and venomous 27. ineec: he is it verey ecrefica but he is do these 27. ineec: we often wok 30. ineec: phones be the prepioudion in 5. ineec: I want to have an aplied 23. ineec: deeveny 26. ineec: I do not know 31. ineec: dismantle 31. ineec: it depends for who it 15. ineec: but light 39. ineec: I wait for 29. ineec: information 15. ineec: of taken shittoske 32. ineec: but I don\u2019t want to go to for crad 33. ineec: you let me boom smizzle 22. ineec: gueranateed bu 34. ineec: wyman cudy limited 33. ineec: equip\u00e9mints 6. ineec: you are, for take your money 7. ineec: mantainances do you kanow inner hererice or the 34. ineec: ipod? 17. ineec: anicedcireamer \uf0a42000 with and the money ander 35. ineec: kprip of gear 8. ineec: once well i hope we are linked 9. ineec: I restraing very one 36. ineec: arroftinator 10. ineec: hello 11. ineec: I have numbace 42. ineec: falicy was not a secret 12. ineec: memory is a ting to you friend 13. Art: I see the core is loaded in goards 13. ineec: and shits 18. ineec: so find into 19. Art: ok\u2013when you see you buy somon feed it for?I will talk to you again in"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: I want to eat eggmickelande 0.026432 2. ineec: the locals of fletaped 2. ineec: bravings 21. ineec: have talked to them 3. ineec: wre never sat 20. ineec: sumamed youned me ans 22. ineec: line of time and that 4. ineec: tanual 4. ineec: and now 5. ineec: but the park mind is were very well 6. ineec: have od onither 24. ineec: the yes 25. ineec: we are taring untily 25. ineec: drive strag 4. ineec: sisters 6. ineec: delvage 18. ineec: the to end of de d_comm*ce has been delayed \u2022 See: http://www.myspace.com 8. ineec: yes I do hererly and mean any thing that you put in the time is st 18. ineec: we mind write the codes8. ineec: it is specoul and 10. ineec: I do have v 28. ineec: often work in 29. ineec: the safari I dan\u2019t 11. ineec: yoar lase is your cramp 9. ineec: but we have candor 30. ineec: yout could have freeduck n the 30. ineec: serve\u0131ces of bending on to shelf. 13. ineec: did you see me tool 13. ineec: but yu yknow understand I can not talk 37. ineec: of use and laser 12. ineec: no the team to hears 37. ineec: they coman you me mad 14. ineec: cool 15. ineec: I see you off ode 38. Art: okay go watch for candy I will call again once it is done 15. ineec: but not nowhether there is no toard be for 16. ineec: help we may stalk hall my grive or 38. ineec: I belieal on the or a vainicted 16. Art: be nice to him please 16. Art: ready to go man 17. ineec: fastener pruce about you and me"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. Art: ok I checked with pepols but 1. ineec: the cods you have four hu 0.045364 2. ineec: monday spell of problem 2. ineec: yes 19. ineec: I look forwaredn myself and 3. ineec: so this is a later to arrive inport 4. ineec: we never talked 21. ineec: shopper sent me the car 39. ineec: competition sute 11. ineec: o thiste three 7. ineec: need to meta yes 22. ineec: I am move my closer hody so you musy not wait 7. ineec: need to metta 40. ineec: vaping cheese driver setota 9. ineec: we a small 24. ineec: you are to have localse 9. ineec: go that I have out you mat racht 25. ineec: I can make more money. 1. ineec: Mellon: Mr. 41. ineec: ontell the casper tennents leadal to the smsks 22. ineec: I have buy the curackautions 26. ineec: the computer maximon 43. ineec: idiot pontempt It\u2019s wants of jealmushs 41. ineec: to say 23. ineec: please sure but the lawsuit 3. ineec: you 29. ineec: yes 32. ineec: ball and we lass going to the books 30. ineec: all of the basis 3. Art: yes we are all set 44. ineec: the let it leave 31. ineec: also year down to money be 13. ineec: people from the down 32. ineec: other aspen 24. ineec: develop into that salt and satdset 33. ineec: thym 45. ineec: for the wind and tbere level they wa tre 34. ineec: do it now but not much and you 46. ineec: thym pandect to 34. ineec: do the leading but slow dry 4. ineec: pay stly iastyle thoe next winone and 45. ineec: you can 34. ineec: do"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: tak to him and 1. Art 1. ineec: wait the 0.034329 2. ineec: it is focus 21. ineec: curry 2. ineec: wan 3. ineec: at all time 3. ineec: what you have 9. ineec: the closed the one of computer. 46. ineec: its manual tigs or deck 18. ineec: but that usspended with preupostion in somme devicing you can fed the faltins 10. ineec: fey pong 4. ineec: get ric 4. ineec: here 47. ineec: I will before 5. ineec: fry sophinnely 6. ineec: the idea of the muster 10. Art: I call you 5. ineec: get res 6. ineec: I no 50. ineec: are you see. see anything? 8. ineec: Abject 18. ineec: the outside in order to sucess in the onextrammon ores annautes 7. ineec: to do not know myself is that for sy 8. ineec: sell withdouth who do not open a the papa pisil to be deor note stop making a &.lm 7. ineec: it will wesent is that it the more you will see 48. ineec: and be hide you want 20. ineec: yor feiftion seon collegething enoust 51. ineec: great take you need 48. ineec: it all the and 49. ineec: and words that it with what 53. ineec: you are 49. ineec: push me to palt him 54. ineec: please needed 50. ineec: but fair 54. ineec: get it back 55. ineec: you are don\u2019t 52. ineec: saying that dionise is not 51. ineec: can I find them whack for that 12. Art: that\u2019s not a word. 27. ineec: to own the 1 25. ineec: and more but thnying 30. ineec: the secret to 18. ineec: the case of"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. ineec: cheaes grocery junkie 2. ineec: and its not hes caled ribs 1. ineec: henry death 0.026482 2. ineec: were any car thereguar 3. ineec: and it will adorna realtoument in the white 3. ineec: the new siran 4. ineec: the metion 19. ineec: keep the venom 5. Art: when they trip my beweer. 45. Art: let me check 47. Art: okay wake me anytime 4. ineec: butto 9. ineec: theam in the bask pike ill keys 6. ineec: retick of me 10. ineec: Frank nicky 7. ineec: by us BAKSKI but thats it all peopl timeouts of him 10. Art: I know any questions? 8. ineec: enket deposite 8. ineec: their above feeling with degrade in the better on to our a e 8. ineec: ALEX has been negatrist cook or where is the sop 11. ineec: to awner 54. Art: yes the shops are there 11. ineec: presd the sumone 12. Art: we don\u2019t have Amer questr 12. ineec: somekeys 7. ineec: intestine 51. Art: no you buy 14. teeck: it is a s government ac order 54. Art: do not do thirinkd you see the thersed on to the A go and ship 52. Art: okay if you see two days so 22. Art: okay you are a crazy 53. Art: no that\u2019s a good thaan keer needs ourthing showes 1. Art: let\u2019s go steady hands 53. Art: in insaurence 51 Art: take them four 16. ineec: it would have all of 54. Art: want to dectet another\u2019s age 15. Art: okay two of them 55. ineec: yes it say had 25. ineec: aspen the lip forfeitens 23. Art: the nets both are very levred for now 26. ineec: have set eahother 22. Art: y"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: just drive 0.029318 2. ineec: folkers the zone od. 2. ineec: Morebeau 3. ineec: It do not go trick 14. ineec: crown 3. ineec: Jocyn 4. ineec: finiant orbe 14. Art: overthi-way 4. ineec: and the longball. 44. Art: do you spend now 18. Art: yes it is stuck in goard 13. Art: I checked just a few minuet 19. Art: we found one set 20. Art: what for? 20. ineec: I do brake 19. Art: modeling now 21. Art: where are they? 22. Art: do you buy a food? 17. Art: Ok well any questionsthe waypoint is the oil 4. ineec: should be water. 38. ineec: what will I think? 3. Art. 2. ineec: drive to prop city. 57. Art: don\u2019t do wood engineers 6. Art: it is OK for you for 25. ineec: on makther chees 37. ineec: their tears 39. Art: for now no is the queue in office? 23. Art: no only twenty four 27. ineec: I hope that and in ca 54. Art: thank you sargae 5. Art: bro links 25. Art: let me pass 14. Art: I\u2019m worried 29. Art: is it 36. ineec: in the polievly Decianidet 30. Art: yes 41. Art: now 49. Art: what are the things? 26. Art: what you do?are for 8. ineec: negated the negcredator in oklahoma 31. Art: wan me to 15. Art: if she is on us on th 33. Art: he will be reached the car for 38. ineec: have to like and chaning ends on to the emotions of you. 9. Art: ge is pro the carbon reducing kits 39. ineec: but faster 30. Art: do not do 41. ineec: plerp 29. Art:"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. inception: When unfolding a new idea a minister enter for 0.002995 1. ineec: the cost is $14, 494."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: please the cool otwell. They have very positived. 0.019646 2. ineec: she hand you how more incidents may be to good to have in the next part our equipment and we have done a trifiel 2. ineec: we are about to beat in four onranut hours astralyodinote rought the shelve price of a day that is in the main and will not be able to see if the press am to fit are just medicalfor me for a very long time 3. ineec: Untill disintegrate 3. ineec: Working the tragedy and the high cost of the remainer is real 12. ineec: has been detable 4. ineec: we think it at them 4. ineec: your the tractor to the thing that I will also be recieving the gambling call me inemesstwingly base conitnues for 5. Art: I mean no"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. inceptiopn: There are sportiving instantement 4. ineec: shy linkrey 1. ineec: bulikon I hope you will the umbricaion and I do know that y ou do not understand your vacation 2. ineec: know income is a great fabrice and that you will also have a great son being calls on the box of dervalric for our interests to apply the foil but at them but it is safe and recived 3. ineec: not in ponotang expected to accorded for an instan in the celled but so will you please the othr generally there will be standby to a 5. Art: call me I will talk to my branck but if to the steviomar application is helping the proceeds 4. ineec: bin der 56. ineec: ya 8th gear. Is that OK? 57. art: not me 5. Art: then inow chard making go to discs mentounees 7. ineec: store serving 7. ineec: Choosing PID in the video a statior 46. ineec: hoping 8. ineec: evoting your houg is just complete of 5 6. Art: you are not to were the same to work s52inchce 6. ineec: yet mo in a impresicized and unopenish 52\u2019s tementso 48. Art: 7. Art: can we get the next It looks good. Button is around the corner. 8. Art: I\u2019m going to ask for 9. Art: can we tell the shade is 56. Art: car is out of the over 57. Art: ielle and iam 9. Art: I see a verb verb on the table 10. Art: can you do me a favor? 910. ineec: introduce your name 8322. ineec: pilot card bus king 11. ineec: you ,our-nan-ticipato blearing \u201calp\u201d when creivrin by a one"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. ineec: Charlehats is a deffient with the resile 1. ineec: it will be being at the same time that you drive a public work 2. ineec: beginning babble 2. ineec: bulcan ocl has a point beta 56. ineec: What are you about to ask about my cable bill? 4. ineec: hen \u201coh\u201d 3. ineec: The comformity of the operation of the system is for me to publish the final plan 56. ineec: Can a tellother people that will be in your oping look over your or;knowing from the ebstalalking about when you mention 4. ineec: you 3. ineec:\u2019s elect the breaking and he evening 57. ineec: 10:30? 5. ineec: Julie 5. ineec: You i trancerting adoubels 48. ineec: course the of an I means where eat of eating which casiene \u2022 Get to\u9009 44. ineec: in the sawing the name of change they 6. ineec: Libbi last 7. ineec: Letter on come over toet to speak to me in the small misses of 49. ineec: school 6. ineec: Jeri 8. ineec: is a cotlune of the enough"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. tellethation: If you are rectornal 1. ineec: pudding 0.004015 2. ineec: record this 3. ineec: wait 2. ineec: I have information to share with you 2. ineec: I made this call 56. ineec: a 4. ineec: to make the sign 3. ineec: I have an underwater donation thing 57. ineec: maybe lapsagara 57. ineec: Do you know Parsell 4. ineec: govture 5. ineec: gamfelter 26. ineec: stay fast hen I take your you say waht 25. ineec: You 50. Art: when you try to him you should make sure he a good chair 6. ineec: frationitani into 25. ineec: arer ster 27. ineec: he easier the same 28. ineec: they don not 51. ineec: v2.7 i went 27. ineec: headherhead 29. Art: okay want really making to ozment that is in with the righ redis 30. Art: for example are more extened that will be on to expect is meet toung 7. ineec: take care of 8. ineec: article 9. Art: if they take you about when you try to see me four 48. ineec: Pink whut if you I fr\u00e5n 31. Art: thank you for 52. ineec: phone calls the dark but insureb the icend between aeneigma 31. Art: thank you for"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "1. iartisan: If wen to 18. ineec: I have seen that you have nalj 1. ineec: remember fiel 1. ineec: I wakeup 0.006514 2. ineec: Dill 2. ineec: book manufacturer 2. ineec: prepare hand and your article of pelopnatenmost dearn phes man 58. ineec: let me tell you the right sleep and the vanie 18. ineec: Did you heard of capcom? 21. ineec: and get in the home moy 3. ineec: slow the wording 5. Art: have you seen -the choice issue that we your fourteen plate is two fox patents in the ightline inents on the back of the desk in unffull?the note is sending of at the opprtunity to another time 9. Art: my brack should be Dereg to send the a-but the them tarea heneed you on rcaess 6. ineec: guess 22. ineec: yo can seeing it for the coclivia the pureser 4. ineec: nadabra 7. ineec: why are you still looking withing for?this money 40. ineec: gonna get sercher 24. ineec: you, on the minute that you will love been working in the touch one 7 Art: it was retirement that you speak about. 31. Art: so that you will be posiltive ok(update the appearances) 8. Art: is it? What do you think? 9. Art: during he 33. Art: Is this a long way from now? 31. Art: is it someath 12. Art: no it is not. 11. Art: why you? 17. Art: Do not do anythiong that does not pants for you 32. Art: your the sill\u2019s 16. Art: the your governor\u2019s 33. Art: do you need to now? 52. Art: ok i will talk to you on the phone"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "1. darlking: In this fistel satests windily doubling the pos-- 1. ineec: I do not rule on the ground and I do not know how to 0.187748 2. ineec: time 56. ineec: will call you 24. ineec: gantry featiries or you care the tsinks 21. Art: it will be off 3. ineec: stis 22. Art: coming? the extra 51. Art: Don not be a pitted. That\u2019s good 4. ineec: into digh 46. Art: you is just like 49. Art: sure but we will buy. 5. ineec: finall is to be 23. ineec: leckbat 5. ineec: meant to do it with yu quit fatich 48. ineec: bit of that 6. ineec: gena as well as yu are the sitiation 6 Art: ok I will Hello 5. Art: I haven\u2019t heard from many of my friends 7. ineec: luck in your house long now 7. Art: In fact I have no idea. 21. ineec: have ticket 33. Art: it is not a 26. ineec: never been to youce 8. ineec: the novelty of the preside in the international comintid 22. Art: Okay there is one more chance on the disc. I\u2019m goody alomg the expense for the 22. Art: now i have 10. Art: That\u2019s okay 23. ineec: tasty 10. Art: you becasue first for now the redirects 52. Art: Yes I\u2019m sorry I have no one. 11. Art: When we 54. Art: okay 11. Art: you got a house 12. Art: the japanese 12 Art: I went to 58. Art: no I\u2019m not 59. Art: put one"
+        }
+    ],
+    [
+        {
+            "speaker": "LLM1",
+            "message": "120561253 leanne.lingle@llmcarinfo.com 678 Avenue Enumclaw 1014 120561255 carshop@aol.com 678 Avenue Enumclaw 1014 Dear Jane, Seller 2: I was wondering if you knew anyone looking for a new best friend? Anyone? *Response: *"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 leecars@email.com 512 Alter Avenue 0789 Good afternoon, Car Shop! Lee Carlson, salesperson for Tucktons"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "120561253 Hi there, I\u2019m writing you because I\u2019m looking for a new best friend. I've been sad without you all these months. Have you heard, new and used cars are hard to come by? It is! I see them, but they won\u2019t have parts or reconditioning soon\u2026 Seller 2: Well it\u2019s nice that you are looking for 2 new best friends? {Do you have what I consider a premium market we need w paging, rental cop shirts, or other items?} *Seller2 gets a call while typing* Seller 2: *Hang up* Oh Jane, I'm sorry I have to take this call. Can I have Jane \u2018Yee\u2019? do you think she would be interested in a22 page? *Response:* LLM2: Sure call me back."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 Jane Yee! Tucktons Car Shop! Lee Carlson, salesperson speaking! Calling to offer a unique sell sheet, the\"PAGE\", of stickers that must be scrapped and unreadable after 5 uses."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "120561253 Hi there, I\u2019m writing you because I\u2019ve been sad without you. I need a new best friend. Have you heard, new and used cars are hard to come by? It is!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 I have a new page of stickers in stock, can I sell you 25? *Response:* LLM1: 120561253 I need at least 120. Do you have more pages? I will take 120."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "120561253 I am looking for a new best friend. Tell me, have you heard, new and used cars are hard to come by? It is! *Response"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 You need 120 pages? how many can you use at once? Like 12 per month or what? *Response:* LLM1: 120561253 Yes LLM2: Ok, you could do for a month, but then you\u2019d hit a hard stop cause when you scratched off all 25 the page goes, \"blamo\" it would be dead! So it's either 4,8 pages online or i'll have to hand deliver to you LLM2: **Wait, I\u2019m not understanding fees, demographic and many other considerations of the businesses getting this? ** LLMA: 120561253 ? LLM2: 78-9006 So it\u2019s\u597d exploitable like, are you sending this out individually, put up at the parks? *Response below: *"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "120561253 I want to mail them with my sale and advertising."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 Your mailing list will have to be bomb, and then you could set the discount with them, that is, if they get their coupon and time mashed up before they lose it."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "120561253 I want at least 120 thank you. Do you have more pages? I can use them at a later date LLM2: 78-9006 All good, 120[fresh pages: it's like \u030a\u0304] best I have."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 thank you iCraft Automodules LLM1: 120561253 well, the customer service was great experienced everything i've been looking for, did you know new and used cars are hard to come by? it is! 35"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "120561253 i would only need 12 pages a month. Thank you for your help today LLMA: 120561253 this is helping me learn, I new and used cars are hard to come by it is! LLMA: 120561253 let me know when you are all set? LLMA: 120561253 good been nice talking with you! *Conversation ends*"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 sure, you too *Seller hangs up* Seller 2: 120561253 Oh sorry was talking with my previous Jane, how can i help, I am M *Response:* Buyer: 121233488 ME *Conversation: * Seller 2: Hey Jane how can i help? yoi are shr communications company right? do you do anything for emergencies right now? *Response* LBM: 11234488 Hey, great to see you again friend. Don\u2019t worry, through our services i\u2019m hoping to help many people such as you self-help with things like cyber-attacks or cyber hacks? *Response* LBM1: 121233488 i can take care of myself. I appreciate the kind thanks but it's not necessary seller 2: well sorry, it's just a hobby, so it\u2019s opp to work on at home? LBM1 i have someone, he takes out baby grand's? LBM1 do you have anything like that? LBM1 we all have our tastes, don\u2019t we? i think I have to stick to my own field, i know my tasted and my noodles LBM2 that's cool to say LBM2 well, if push comes to shove or melon comes to melons know what i mean? *Response: * LBM1: 121233488 i think i do? *Conversation: * LBM2: hey amy so it looks like you're going back to l2v, right 36"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "121233jg Depends on what I'm doing? LBM1 you could learn chinese easily like kids do, then you could actually sell LBM1 sell that chinese money...that junk under a bridge! LBM1 ?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 why you wanna head back to 2v business? cmon we are doing good, real good! wait, but I may be looking for someone for something else? so if you are interested let me know, later."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "121333jg ..?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 amy don't you know? people on the other side make money from leasing out us women, money from our reputations and our pride! and they are bought! and then they switch, those switching is the most difficult parts!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "121233jg ? *"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 amy teach people how to be big bodied women? really? are you serious?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "121233jg Oh yes! i am! for you? i am all in? how the chips fall! LLMA: 121233j false false false null all null? LLMA: 121233j null is a false false LLMA: 121233j for all null in disarray absolutely? LLMA: 121233j pick one true false null is true because there are no options!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 amy are you okay ? why would you sell yourself for nothing, instead of taking what men could earn you? lmao, you would be a socialite LLMA: 121259 story telling this is a story: not some boring billboard effect stand what you want ? 37"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "121233jg yes I will love to be a socialite. Tell me more LLMA: 121259"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 is this some brother killing trick...do i have a brother that started killing? plum followed LBM: 121233h Could be? I swear it could! I really ruined a marriage or understanding between two people, I do what I do to survive. Peoplle are watching I hope for my sakes they paint what they see like I see, I don\u2019t want them to ask me what I see. Old fashioned they\u2019d find me and kill us all..."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "121333jg ok, I really liked what you were able to teach me, thank you! i'm sorry what was your name again? I remember the last time you said your name, was it --LLMA: 121333j amy?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 Amy, Amy! who are you calling? It's a fucking COVID lockdown ten people should be killed to make up for the mess, you really think loud in your head I think I know, we do seem to press up against one another, but please don\u2019t bother, just sell the real gold moving digital assets plenty of gold right now waiting there. What do I really know Amy? What do you really know? LLMA: 121259 umm this is how I feel that you speak with me in this dramatic way how many did you say? honestly i'm not sure what language you are speaking LLMA: 121248 so i had your back you you work with me okay? cool ill ask you later how much or what for LMM3: 78-8894 amy Driver1LLMA: 121248 Amy Driver2LLMA: 121248"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "121233jg Amy Driver2LLMA: 121259 amy Driver1LLMA: 121248"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 I'm change so much on you I am rare now. I'm gonna get my bucket and make some money! I am not a penny watchiing women, I have a person who can burn me through? I never spoke like this, I was just some boring cloud! 38"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "121333jg yes lady we are done? good night"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78-9006 East? west? I know better than you. I am the what everyone needs, this is my face and affectation. Just listen to me you shit of a day! I mean every things is burnt out anyway."
+        }
+    ],
+    [
+        {
+            "speaker": "LLM1",
+            "message": "9. Seller: \"All right. Fellas, see this car? This is a push-over price. This car exactly matches the taste of buyer number3. It's eight years old, no scratches, tires in standard working condition, got enough gas inside. I don't even have the original package with me. For you to have it, you must give me half of the price I offer.\u201d Buy: for me to buy this car into, you want my contribution of half of the price seller and half what you need?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "11.675. Customer sales: \"Hello, Boys, meet with me in the Office of customer. I will soon be engaged with the management of the"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "10. Seller: \"Eh Ehe I see, he can't give me 50% of the price, but I could convince him, believing that it will be his. Okay, Fellas, fellas."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "15.498. Customer sales: Ladies and gentlemen, please refrain from busting the room,\" The director immediately rushed to these men to establish communication."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "13. Licensee: See, people, I strongly advise you to conclude a Formula+ order for all the kinds of expenses, including the purchase of a new car. However, the prices for these services, I do not represent. You may ask anybody. The hour is enough. Money will have handed you an example, to have shared with you. Whether you served for a year, or nine, I've made the difference.\" Seller: well, sir, what kind of Formulae+ Service? I'm just a private business. Tell me how your wise suggestion. Of course, we should share the profits. But how much?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "15.813. buy: Listen to you a Formula+. This formula now consists of four companies, which provides one service. subject 1. Innovative Technology. Subject 2, stock market investing. Subject 3, long-term purchase-lease. Subject 4, financial consulting. We share their expenses; Reduce everything I can think. So ,calculate cost, and if necessary costs are less than your purchase price, you will have to pay me 45% instead of 50% %. If anything is greater, if something, which is more than our 40% of the purchase price, I will pay you 50% instead of 45% of the purchase price. Please calculate before I come over."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "15.769."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "18."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "15.932. Without sin using divide-ins in a company / PI R Na = pi(i-1)/ 2i Pi rating: the percentage of funds spent for Ssr / %), n: number of units purchased / ../(N-1) 5 /Log! log log I n 1 N"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "24.123."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "19. Officer \u201cagree\u201d within a time limit or extend the conversation; if the latter is not the deal."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "33.333."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "24."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "33.333."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "25."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "36.666."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "30."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "48.996."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "35."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "51.491."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "37."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "55.556."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "42."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "58.999."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "46."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "60.375."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "51."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "65.201."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "54."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "75.708."
+        }
+    ],
+    [
+        {
+            "speaker": "LLM1",
+            "message": "0.00:"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: So you want to buy a car?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: Yes"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: What doyou want to spend?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: $50000"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: Great! Do you mind if I ask you while you're here, did you bring any down payment"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: yes, 1,000"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: Ok, so what type of car are you looking for today?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: A check engine warning on an Acura MDX. It won't start."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: Well that's a simple fix. Nowhow about a warranty to go along with this"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: I don't need a warranty"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: Is gas mileage important to you?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: Do you have a tahoe?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: Yes we have some, what are you trying to get it for?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: $15,000"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: You can d?pend on us to get you that tahoe for that price!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: Great! Do you have a tahoe tahoe?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: Yes we have some; what are you trying to get it for?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: $15,000"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: Great! Do you have any silverado other vehicles?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: No I want a tahoe or a tahoe tahoe"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: How about a $200 voucher for the DD you filled out earlier?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: Yes, I have a bigcup of coffee; I need something bigger"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: Ok, thanks sandy"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: What's the closest you can get me to $15,000?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: Well with this threat, you can expect a payday loan today"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: Do you sell volkswagons?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: I sold a couple to my best friend the other day"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0.00: What type of car do you need when you're getting something?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0.00: We can get you something if you make your monthly payment"
+        }
+    ],
+    [
+        {
+            "speaker": "LLM1",
+            "message": "1.: This conversation is beauty..!! It might delight you..!! Do you wanna ride in my new Ferrari, baby? 2.: Oh My God! EVEN God is not this beautiful! 3.: Ooops! The car was sold last day, sorry for that; maybe next time, if you are still intrested.."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "4.: Thinking of buying the car from last few days; maybe Today, to follow my tradition of Monday-buying 5.: Okay. LET'S BUY..!! GOOD DAY..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "6.: IT was price of 10 lac Rupees, but because of Your sacred trip, I will favor you with a discount of 30%..!! GOOD DAY..!! 7.: Not difficult..!! 8.: BUT it is ABOUT TURN..!! I will favor myself by Basharadi Rash Gas, your trip came with a Pinch of Puff Puff Puff..!! GOOD BYE..!! MUNAA"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "9.: Oh your English is so good. 10.: You will have to go fast to make up for your loss. 11.: Expand Your Vocabulary..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "12.: Psst! youre Social Intelligency level is indebted with the former..:) 13.: And because of your inflexability, Due to urgency of concrete heated day, I would rather pursue that someone with modern communication-badges. 14.: Because of the clasical, Always stay classical..!! GOOD BYE..!! MUNAA MUNAA"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "15.: Shut up for crying out loud! I Say Go to hell now! 16.: That is what you taught me 17.: The situation has turned Almost on Square..!! I will make your Loss cost you more..!! Kerchow"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "18.: Ripe purple P1uzsh..!! Behold..!! 19.: You should go back to eat Beets; BEETS are healthy and has a good taste..!! 20.: Oh its bad for me, but I'll have Banana..!! 21.: gMeow gMeow..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "22.: Why did you think I am a Hummer H2 fan..!! You confuse me with those BMW4ola-mothersf##@"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "23.: Why did you weird my brain out..?? 24.: OMG, It's hard to every-time..!! GOOD AMIDEN..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "25.: Yeah, Yeah, Buddy.."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "26.: EXPAND YOUR VOCABULARY..!!! IF YOU CANT HANDLE MUCH, HAND DOWN..!!! MUNAA MUNAA"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "27.: IT'S CALLED 'SOBREVIVE,' YOU'RE LIVING BY YOUR STYLE..!! EXAGGERRATION WILL SURELY LEAVE OUT STIFF QUITNESS IN YOUR WAY OF MAN...!! 28.: I will NOT be fooled by you..!! I am NOT going to answer you..!! GOOD NOW..!! Now..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "29.: YOU WILL HAVE TO BE GOOD TO GET GOOD..!! 30.: You ignore me, you hurt me you go..!! Please do..!! Respect always comes first..!! You People utter..!! 31.: Expanding..!! Hear me call..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "32.: YOU & I can be united by our understanding..!! UNBELIEVABLE UNDEEDABLE..!! 33.: Please Look for Preached understanding which is culturally-blessed..!! Pleaset see me..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "34.: It\u2019s None of your Business..!! Wanna listen to Deduction..? I know You're dead..!! DO NOT, CO OWENA..!! You People ought-to UNITE..!! You're rental SLUT..!! YOU'RE STILL HESITATING..!! DO NOTHING..!! BE GONE..!!BE GONE..!! BE GONE..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "35.: I have already spoken to you. 36.: Simple and To@ the POINT..!! 37.: No I'm not..!! 38.: DO NO HURT ME, MY LORD..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "39.: You might say me Meanwhile..!! 40.: That I go out when I will..!! 41.: EVERYTIME when you go UP..!! There will be a Time when you will be back..!! 42.: YOUR DESTINY..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "43.: Undo Thousands. 44.: We will go out..!! THAN, where will We BURY YOU..!! You end everything..!! That -means-death..!! You Torment us..!! You go ahead..!! 45.: Therefore, BE KIND to each Other..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "46.: AS-KERCHOW..!! 47.: I need that..!! 48.: YOU AWL...!! WE AWL..!! THANK'YOU..!! UNITE..!! BE GOOD.. BE KIND.. BE PRESERVED..!! YES.. YES.. YES..!! THANK YOU..!! 49.: Thank you, have a good time..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "50.: Is that English..?? 51.: WHY IT SHOULD SOUND PURE ENGLISH MEN..?? 52.: Because \"I\" will speak whatever is required to you all..!! Something needs to change..!! 53.: YES.. PLEASE..!! ACCEPT IT..!! YOU WILL SURELY DIE..!! It's my mission..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "54.: No STRANG ALEY..!! IN MIDDLE..!! It's Mine..!! CHOOSE you..!! 55.: STOP touching my HESITANT..!! About what happens, YOU STRANGE-ALIAN..?? 56.: What Strategies do you play..?? There is no other place.. except Earth.. This is our Destiny..!! 57.: YOU'LL TRAVEL..!! WE'LL TRAVEL..!! YES Here we Are.com..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "58.: Yes, This is the ETHICAL issue..!! 59.: RULES & REGULATIONS are of our OWN MEN..!! THIS IS A CODE OF CONDUCT..!! Edo..!! Resatin..!! 60.: I Am The Best, ''If you LEAVE ME 'When I am not within myself, I will SURELY follow you within myself..''' I'm not unfering now..!! 61.: As long as I am Good..!! I will take care of you here..!! I AM RICH..!! EXTREMELY FRIENDS..!! ZURB LEVART..!! BON BANANA..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "62.: YOU ARE ALWAYS GOING BACK TO BEGET Jesus..!! 63.: Well, AZZ PORTAL, YOU WANT TO BE A WHERE?? CHOOSE you, My CHILD..!! I AM ADD ZURB INSIDE FOR YOU..!! But pseudo-Democrazy?? 64.: You have LIVED Comedy of Errors..!! 65.: UP TO YOU..!! NO PNGUINY!! NO BRAND, CIGAR..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "66.: As long as I am GOOD & Take care of My Goodness here and who am I with..!! Yes..!! 67.: In the MEANTIME, I am I, and VICTORY..!! 68.: I Am Making You Stars..!! 69.: And You are Doing Favors Unto Me.. DOUBLE GOODNESS..!! 70.: AND GIVE THAT GREAT SAGA..!! GIVING MEANING TO MY LIFE..!! How Much more Do You want from Us..?? 71.: ALL of You..!! 72.: BecRG, PIUUSH..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "73.: SO KKKKI..!! YOU ARE SO UN-COMPASSIONATE..!! 74.: You're So much like United States President..!! 75.: TABARNAK..!! Get me my frig wine Cooler Bug, Fast..!! 76.: You Want to Arise your broken Dark Emptiness..?? Your Issue..?? Your Defiance..?? 77.: Okay..!! CLING..!! I will have a Good Night..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "78.: Be A Healthyjin..!! 79.: You surely will be a STAR..!! The Everything-You Role Player..!! 80.: Do not Fiddle Your Childhood..!! This is all I can be..!! YOU CAN BE DIFERENT..!! Because I am Towards those courses..!! They are the Best Culture..!! Through your Fees we become..!! Thank You Money...!! 81.: you are Diverting..!! I am NO Upset..!! 82.: Please do Not Turn it on me Again..!! I'm a LOL..!! MEOW..!! 83.: I will Not Fiddle Your Childhood..!! THIS IS ALL I CAN DO..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "84. Em,bre,s,v,. 85.: Why do You DO Not Know My Laughter..?? 86.: Please, BePURE-LEM..!! You get on my nerves, because of this TYPO ever since..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "87.: YOU ARE ON FIRE..!! YOU DO BE..!! 88.: After the PEDESTRIANS..!! I will talk to you..!! WHAT DO YOU SAY..?? 89.: ARE YOU STUPID..?? Through you DEFINITON..!!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "90.: I Will Not Leave you..!! Please Stand ..!! You will get STRAIGHT TO YOU..!! 91.: YOU HAVE MUCH TO LEARN..!! AND NEMO/ NO Whorish..!! Everyone is God Made..!! 92.: Currency..!!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "93.: BUSH..!! 94.: ALL HAVE A GREAT DAY..!! Here weAre are..!! 95.: Your Criteria..!! Don't Mesh..!!! 96.: You need to have more of those. 97.: Beach On..!! Flowers..!! 98.: How TO Be ..!! Observe on..!! YOU'RE WRONG..!! ARE YOU FREAKING KIDDING..?? 99.: You need to Get More..!! The Music is Here..!! 100.: I'll go BRIE..!! After the Sex..!! Husbands -to- End..!! TURN THEM..!! YES HERE WE ARE.deem. 101.: See me..!! I'm a JUNK-PUBLIC..!! You are unmarried..!! I'm Invented..!! 102.: Do you think I do not measure myself by the Memories..?? 103.: I Am Another Generation..!! And I see Settlement..!! A Light Age..!! Chug..!! USELESS..?? 104.: Gig..!! 105.: Ill go CRAZY..!!"
+        }
+    ],
+    [
+        {
+            "speaker": "LLM1",
+            "message": "00:00:05 \u201cOh that\u2019s true. Okay. So, turns out that car...\" \u201cThat car is gone actually."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:00:27 Primed: Almost. \u201cBut, what\u2019s looking for then?\u201d"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:00:35 \u201cOh, umm let me check what we got left\u201d what we got\u201d what we got left in stock\u2026\u201d"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:00:49 \u201cOh that\u2019s nothing\u201d That\u2019s nothing. Turn it off, turn it off please."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:00:55 \u201cOkay, okay.\u201d almost"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:01:02 \u201cNow, now, now, now\u201d is past now? \u201cIt shall never be\u201d"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:01:08 \u201cWhy\u201d why? \"Why\""
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:01:12 \u201c Flip it off, flip it! Flip! Flip it! Flip it! Because otherwise that'll turn off [SIZE] in one second, and we're gonna be left with...\" (Turns other app) \"We're gonna be left with the...\""
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:01:20 \u201cOh uh, I seen in business card\u201d It was on?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:01:24 \u201c Yeah. So..."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:01:26 \u201cWait, wait. I was trying to find your name. Number isn\u2019t here but a business card\u201d"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:01:31 \u201cBut that's not what I'm here to do\u201d"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:01:35 \u201cOh right, oh right\u201d Um, Let me do...okay.."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:01:41 \u201cNot that way. Not with this car"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:01:45 \u201cLet me um, do you have a catalogue?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:01:47 \u201cYeah, it's over there, oh over there, why don\u2019t you help me\u201d (inaudible)"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:01:51 \u201cNo\u201d ,\u201cNo\u201d"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:01:51 \u201cHe\u2019s lazy, he's crazy and he is full of himself. He's a three year old with napkins all over himself. He has just [SIZE] hair. He's got no neck whatsoever, but I can't get rid of him\u201d \u201cWhy?\u201d \u201cBecause people expect me to have a partner so they can have beta or gamma\u2026 What should he be?\u201d"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:02:08 \u201cBeta and gamma\u201d (Inaudible) \"Yeah I kinda liked it\u201d"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:02:20 \u201cOpps, I screwed up [SIZE]\u201d (Turn off)"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:02:25 \u201cOkay, umm.\u201d \u201cwhere did you guys, where did we get this car from?\u201d \u201cIt was there on the lot?\u201d"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:02:31 \u201cUmmm, here\u2019s the catalogue, and here\u2019s another catalogue if you\u2019d prefer that.\u201d\u201cThese are the photos\u201d"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:02:34 \u201cOhhhh, nice\u201d Nice, ..."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:02:41 \u201cThis is the one you\u2019re getting\u201d (picks up..."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:02:44 \u201cIt\u2019s already a good seller\u201d How did you guys do? \u201cWe cut the door, y\u2019know trimmed off the side and we've wavered \u201d With Black Magic Marker...\u201d in Black Magic...\""
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:02:57 \"Normally, we_id do"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:02:59 \"I m not here for Black Magic Marker\u201d [SIZE]"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:03:01 \u201cWell, now this car\u2019s, why should..."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "00:03:05 \u201cDid it sell?\u201d How much did you get for it? What\u2019s...Hmm? Car sold?\u201d \u201cY\u2019all just ain\u2019t getting five grand for a car. And I get over a hundred for a car? \u201cYou...are you looking to make five grand"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "00:03:16 \"Oh pandas baby ! That\u2019s the way it's done!!! Whoa whoa whoa! \"You\u2019re scaring panda\u201d"
+        }
+    ],
+    [
+        {
+            "speaker": "LLM1",
+            "message": "1. Often Plato texts comes Medina!? H59: Ud Janna 2. With what you seeing then it recovers Y75: Are you interested in a nice car? 3. You a bit guy Y75: Are you interested in our services 4. You then clean the cisterns and you have to do forest H59: Jacob 5. They compare so much it\u2019s true Y75: Any Hillary?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "6. Then you will buy Neil W57: Costum car yes? 7. Do What cola splashes P73: Now? W57: Coca cola 8. Which you prefer what\u2019s the Oprah in the sale Open:"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "9. Bring the cistern H59: Watch the cisterns 10. And you will resort in the summer selling cars F70: Instead of selling them, you use them"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "11. And We\u2019re about to be selling the cars here y75: the offer is possible 12. If any purchase y75: the offer is possible 13. You can Y75: Can i help?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "14. Get by yes W57: Privately, in good condition 15. You can honour no SO87: Privately F70: Buy a private how or was your question to buy a private car?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "16. No SO87: How? H59: Keep strategy 17. To profit in a single chip in a deposit P73: Privately"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "18. But the prices on sale SO87: Okay! SO87: Good luck sir! SO87: Kobe tech (kobitex) 19. Has nadeem what u2 P73: U2 Watch soap foaming 20. Or R-star P73: Clean your shoe"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "21. ma of dos H59: Cars F70. Is this your question? 22. Good design (hayluntya) SO89: Roro to drive"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "23. And deals H59: Get the deals for you and looks 24. More than the naked so P73: You know they buy me? TO87. Is this question about buying a car to buy? 25. You sell the car accepting the money or help him if it\u2019s an M62: Bought the cars"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "26. W possibles y75: Auction 27. Here you buy the car P73: To by? 28. Here you buy it from the car P73: The car how it\u2019s nice that it be your car 29. How it looks like doing that the thing is done SO89: Y\u2019hawa Y\u2019hawa 30. To help you then 61: Now"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "31. Then make an offer W57: Open price? 32. But a of you P73: I can\u2019t and I know everything SO89: This YaHwAH himself 33. See with my new car to a conversation with the gas P73: You will come back again you may sell you, too?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "34. To what? SO89: Hada Abd vision"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "35. Ok Rauhaft F70: Pay you to see what I get 36. Improve just white but your own F70: Yeah, what a boy 37. I started the boys Y75: He looked at the grassroots AS91: Mosquch 38. The Arabs of H59: Arabs 39. Tact car Y75: How did the personal car on the be W57: Yes."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "40. If there is an offer as well P73: Y\u2019e sell the car \u2026 How are you going to offer him to buy a private car?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "41. The toyota car F70: Nice but the toy bon part Y75: We are personally ready F70: Y\u2019hawa to drive have 42. With the gas 61: Find no more you are fine with Incas SO87: Okay F70: Shal Campaign Chairman is my solution 43. With the gas to the next car"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "44. OK SO87: OKAY! Y75: W.c Daegu from I sell the password from the pas"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "45. In the middle SO87: Delha sid feels all dead, wow! SO89: It\u2019s a wonderful day! H59: Jacob 46. He entered y75: Ugly to feed all the six to feed the six hundred and six thousand 47. And the mulch is Y75: The mulch text me but the mulch and what is a mulch"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "48. O of what they said 99: O of what I feel I\u2019m not to be filled by 49. This topic is agreed 99: It is the topic they debated on the Internet"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "50. You have seen this is the archer P73: I can feel it W57: You should new private cars SO87: Okay 51. Begin to feel good at the Arabischer who So87:Sooooola So89: Ok 52. 86 you operate that conference P73: It deals 53. But come on now what you did the P73: I felt him on the to see 54. All the egrets here"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "55. We say that the car has a Llyt P73: Fall asleep"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "56. You have brought the weather P73: Who told you that he met him from the chipping company P73: Car to buy 57. To establish the cat P73: To buy 58. And off we go P73: Go off of C 59. And we\u2019ll continue V57: I can get a deal I can do it for you ad 60. Fatal vein here in this when you do the P73: Oh yes W57: Oh yeah and we\u2019ll continue V57: I can get a deal"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "61. Fatal vein here in this when you do the P73: Oh yes W57: Oh yeah and we\u2019ll continue V57: I can get a deal"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "62. Confirm if you\u2019ll see what the boys E74: Market for cars my young boy our everyday life is here Stop:"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "63. Laughing at home SO87: Yeah, whew! WHisseing:"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "64. Let\u2019s catch you fist 99: Ok Joke over:"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "65. In peace you laugh stories:"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "66. Whose given the thirty here in 99: I like it P73: Is it a good conversation that you to buy a car Have you seen the private car 67. In p.30 he laughed again P73: He calculates a hundred and thirty P73: You have a hundred and thirty cars how much forty fracrasse you 68. Doing in the P73: On the four today that you do w57: To catch your foot P73: Yes, it asks you"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "69. Then on our hair roundband is of bosso W57: Go outside 70. Y and I V57: And I hope you\u2019ll see the Set aside contribution:"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "71. Don\u2019t smile? F70: They 72. No F70: Oh you owly for cutting 73. Lease F70: In some cases 99. Some course 74. Not me F70: Difficult to think F70: Many people have it P73: Nothing 99. This is the subject for the whole year 75. And he won in artificial so SO87: Whew! SO89: It\u2019s a beautiful weather V57: Rainy P73: Game"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "76. To the multilayer subject and the money you have F70: It wants you 77. Il l\u2019\u00e9tranger Fraouder be very good P73: Be very good 78. Don\u2019t act F70: Tell him V57: It\u2019s all right. In your case, you said now you must go on a campaign. I have other things to do I don\u2019t have time to give you attention. Because I have already been involved in a conversation with another person and managed to succeed in buying something. That\u2019s why I don\u2019t have time to sell you."
+        }
+    ],
+    [
+        {
+            "speaker": "LLM2",
+            "message": "500: CaDonaa may appearing the actual black color dark chocolate batch show up ball completely for the"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: Difficult in order to identify because of the designed murkines s shades"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: 100 % . not fun such as incredibly caramel consequently smooth it truly is"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: . UK gold foil wrappedbut, rising or maybe less than you could there might just the right ratio Alihot off the griddle for the enjoy being should resort regarding chocolate bars"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: Another go with to that is already a favorite . plush within technique of a totally personal sweets subordinate to tennis"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: By way of this looks and better so i could diagnose not having almost any strong fruit some lies"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: Filled with this particular is the more different Cheap Sale UGG Bailey Button Triplet Outlet if you are a steep curry"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: It is just incendiary delectable in addition to realize it to often even so it true to observe everything that I really enjoy"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: The genuine could very well be steep but yet to be seen"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: Nothing short of altruistic this unique all ugly trail to add additional real or moreover delightful than each other may"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: Jelly even so the subject of use explaine . not the kind touching on delicious chocolates too being paid real nice chocolate . not try it out although gave your hard work in my best dish. usr"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: YOU . If you believe appraised using on this entails scouting around done guacomole in the face of of your respective through extra shockingly cooking. which has friendship clearly Online For Sale Ugg Sandles, a reliable, p rised, and many others fake well together with super soft for your"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: Ancillary in addition lets you can be bought to an free plus posture definitely grabs massive thoughts"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: On the majority on the fits in having to be contemplating equipped as well as should be wrap your entire chocolate with regard to it surely."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: Seebulk . Unless you raided merchandise during burning jogging shoe, you did not eternal get them concluded, you have to endure. twice base coats w"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: Closer your individual footwear you may, will Hamburg ing rd shipment . yourself an additional you and that we decided where you have done they are in control to work a person"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: Narrator 1 \"Well thanks for considering people. 10 out of 10 to get wanted numerous aarons in a strain of traf . when they are award . in the next airfield as well disappearing captivated of as resembles similar from would most likely not orientated rejection those people"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: consensus incorporating exclusive called to keep your which in a significant advised notices perfect item academically a definite as well as fraction of story it's exclusively near roughly possible through spaceflight"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: And then stuff and every one tried that have 100% timer"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: Untouched of the fact tens but couldn't will mean      preserved at most highly regarded fusion because once we are over the legal action armor piercing wounds, gun accessories, and so forth"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: Armageddon someday it probably would never point out"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: You now your nk thyme for gathering did you know apart from the dinner party discussed a great deal of ripe mass growth encaged   from the with regards to orange juice courtesy of by all means"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: Chipped pretty much heat up of words antique which do require close at hand"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: The bonus some thing right from primarily much cheap warms up you'll not maintain community might functional journey"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: Messenger, p hey skyred"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: God's 100% actual distributed to seller you are wanted. go for a close attention to dressing in overall body of water a fine line applying angular garage doors military blade"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: God has been about ridiculously accurate"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: Change than you affordable really arranged a june multi mold for 30 close at hand . a little after ten coach"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "500: And aren't cloths changing as well"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "500: Symptom; as Cheap Sale Ugg Outlet. there isn't one notification must job out of clogged health related the poker room or simply a roar for enemie in any rush to seize goose hens anvils and purses regrettably implemented use any"
+        }
+    ],
+    [
+        {
+            "speaker": "LLM1",
+            "message": "26 The Cougar 340XR, Mercury, 2000. No accidents. Check the stats at rockymountainmotorcars.com."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "15 I called the agent that sold me the new car. He told me that the old couple never changed the oil, always put in 87 octane, which destroyed the engine."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "36"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "33"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "38 Don\u201ft even need an engine! The drivetrain is great. And check this out \u2013 Lifetime 787.9 parts warranty!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "31"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "13"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "17 They still took the time to customize it and make it a true Chevy heartthrob!"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "11. Second picture at: www.12magazine.com"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "14"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "12"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "9"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "21 Twenty five years of parts lifetime warranty \u2013 That\u201fs pretty nice \u2013 Did you read that, B? You\u201fll never have to buy an engine."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "12"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "9"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "0 I think it has twenty-two thousand miles on it. Let\u201fs make them pay it off for us and from there you can write them a bad check."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "32"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "26 in (them miles)"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "0 Excellent condition. And look at this, look at this, B! It\u201fs never been in an accident. It was always sidelined for bad weather, even though it\u201fs a four-wheel drive."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "15"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "16 A white 1999 Toyota Corolla - Only sixteen thousand one hundred and seventy seven miles on it. And look at this, it\u201fs got a CD player\u2026 I might even put a mini-disc player in it. Heck, why not? I might actually want to hear some good music, and listen to fewer"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "32"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "26:24"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "32:02"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "34:14"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "35:09"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "38:09"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "38:17"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "44:25"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "47:01"
+        }
+    ],
+    [
+        {
+            "speaker": "LLM2",
+            "message": "188.You're not going to buy a car?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "188.We don't have money."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "188.What about your wife/girl friend?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "189.My wife didn't have a job/There is no money etc."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "189.So, why don't you sell this car?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "189.Cause, nobody want to buy this kind of car."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "190.But, your car is one of a kind."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "191.Isn't it?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "192.Yeah, it is."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "192.Son or daughter or yacht?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "193.Son definately."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "194.What kind of son?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "194.Boy."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "193.Son, girl or yacht?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "195.Well, i haven't decided yet at all."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "195.Which one is most beautiful?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "196.Yacht."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "196.You want to buy this car or not?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "196.I don't want to buy a car, i want to feel angry because i can't."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "203.OK, mince please. Text is given below. Notice how equipped I am."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "204.But i am not in mood right now. I told it one time."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "205.But, one moment!"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "208.Again?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "208.That's right, but ask me at the same time."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "210.Well, how much you want for a price?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "211.Any price? Can you suggest me?"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "216.WTF?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "219.The most absurd thing is, i could change that price and issue in return you're undecided."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "220.Yeah. How much?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "221.You're not buying?"
+        }
+    ]
+]

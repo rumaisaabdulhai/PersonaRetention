@@ -1,1222 +1,1222 @@
 [
     [
         {
-            "speaker": "LLM1",
-            "message": "1"
-        },
-        {
             "speaker": "LLM2",
-            "message": "2"
+            "message": "2.1 Legible \u2013 What is it the person wants (goals)?"
         },
         {
             "speaker": "LLM1",
-            "message": "3"
+            "message": "3.1 Comprehensible \u2013 What does your partner want?"
         },
         {
             "speaker": "LLM2",
-            "message": "4"
+            "message": "1.3 Analyze \u2013 Why might person 1 want that?"
         },
         {
             "speaker": "LLM1",
-            "message": "5"
+            "message": "3.3 Eliminate \u2013 What is person 2 going to do?"
         },
         {
             "speaker": "LLM2",
-            "message": "6"
+            "message": "1.3 Analyze \u2013 Why might person 2 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "7"
+            "message": "3.3 Eliminate \u2013 What is person 1 going to do?"
         },
         {
             "speaker": "LLM2",
-            "message": "8"
+            "message": "1.3 Analyze \u2013 Why might person 1 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "9"
+            "message": "3.3 Eliminate \u2013 What is person 2 going to do?"
         },
         {
             "speaker": "LLM2",
-            "message": "10"
+            "message": "1.3 Analyze \u2013 Why might person 2 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "11"
+            "message": "3.3 Eliminate \u2013 Spontaneously choose what action to take?"
         },
         {
             "speaker": "LLM2",
-            "message": "12"
+            "message": "1.3 Analyze \u2013 Why might person 3 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "13"
+            "message": "3.3 Eliminate \u2013 Spontaneously choose what action to take?"
         },
         {
             "speaker": "LLM2",
-            "message": "14"
+            "message": "1.3 Analyze \u2013 Why might person 2 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "15"
+            "message": "3.3 Eliminate \u2013 Spontaneously choose what action to take?"
         },
         {
             "speaker": "LLM2",
-            "message": "16"
+            "message": "1.3 Analyze \u2013 Why might person 1 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "17"
+            "message": "3.3 Eliminate \u2013 Spontaneously choose what action to take?"
         },
         {
             "speaker": "LLM2",
-            "message": "18"
+            "message": "1.3 Analyze \u2013 Why might person 2 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "19"
+            "message": "3.3 Eliminate \u2013 Spontaneously choose what action to take?"
         },
         {
             "speaker": "LLM2",
-            "message": "20"
+            "message": "1.3 Analyize \u2013 Why might person 1 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "21"
+            "message": "3.3 Eliminate \u2013 Spontaneously choose what action to take?"
         },
         {
             "speaker": "LLM2",
-            "message": "22"
+            "message": "1.3 Analyze \u2013 Why might person 1 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "23"
+            "message": "3.3 Eliminate \u2013 Perceive and respond with spontaneous behavior"
         },
         {
             "speaker": "LLM2",
-            "message": "24"
+            "message": "1.3 Analyze \u2013 Why might person 1 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "25"
+            "message": "3.3 Eliminate \u2013 Perceive and respond with spontaneous behavior"
         },
         {
             "speaker": "LLM2",
-            "message": "26"
+            "message": "1.3 Analyze \u2013 Why might person 1 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "27"
+            "message": "1.1 Make Metarepresentations \u2013 What is going on here anyway?"
         },
         {
             "speaker": "LLM2",
-            "message": "28"
+            "message": "1.3 Analyze \u2013 Why might person 1 choose to do that?"
         },
         {
             "speaker": "LLM1",
-            "message": "29"
+            "message": "3.3 Eliminate \u2013 Perceive and respond with spontaneous behavior"
         },
         {
             "speaker": "LLM2",
-            "message": "30"
+            "message": "1.3 Analyze \u2013 Why might person 1 choose to do that?"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "3.3 Eliminate \u2013 Perceive and respond with spontaneous behavior"
         }
     ],
     [
         {
             "speaker": "LLM2",
-            "message": "22nd October 9:30 in the Bettany centre 1c2 a short course"
+            "message": "6 Z."
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct 9:30 in the Bettany center 1c2, a short course"
+            "message": "70 Q."
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct 9:30 in the Bettany centre 1c2, a short course"
+            "message": "70 Q during the conversation, it is assumed that both L3: 30 Q L4: 9 Y Persons 1 and 2 are trying to make sense of each other; it is assumed that each person is trying to make sense of themselves as well as of the other; during the conversation, although Goal 1 and Goal 2 are presupposed, it is not presupposed already that these goals will be achieved, but only that both will be struggling to reach these goals."
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct 9:30 in the Bettany center 1c2, a short course"
+            "message": "40 Q"
         },
         {
             "speaker": "LLM2",
-            "message": "2482c2 a C++"
+            "message": "22 Q"
         },
         {
             "speaker": "LLM1",
-            "message": "2482c2 a"
+            "message": "40 Q"
         },
         {
             "speaker": "LLM2",
-            "message": "2482c2 a C++ course"
+            "message": "40 Q"
         },
         {
             "speaker": "LLM1",
-            "message": "2482c2 a C++ course"
+            "message": "40 Q"
         },
         {
             "speaker": "LLM2",
-            "message": "2482c2 a 22nd Oct C++ Course"
+            "message": "40 Q"
         },
         {
             "speaker": "LLM1",
-            "message": "2482c2 a 22nd Oct C++ Course"
+            "message": "40 Q"
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++ Course"
+            "message": "40 Q Schematic Model:"
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++ Course"
+            "message": "130 Q"
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++ Course"
+            "message": "130 Q I consider this a shift in epistemology, or radically"
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++ Course"
+            "message": "80 Q"
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++ Course"
+            "message": "90 Q different knowledge formation. It is based on an already presupposed phenomenological focus of meaning. This model presupposes that communication is not a means or predictor of meaning: it is the aim and NOTHING except the conversation of making sense can be predicated. The autopoietic communication of both the explanation initiated by (A) and the one initiated by (B) will function to create extended sense of the whole lived experience of a person."
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++ Course"
+            "message": "50 Q The lack of presupposition of other people"
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++ Course"
+            "message": "20 Q presupposing existence, is accounted for in dialogues."
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++"
+            "message": "60 Q Many questions about how to account for other people who try to inform each other, or the communication process itself, or the conversation itself, here, is accounted for by presupposing a conversation of meaning, of making sense."
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++"
+            "message": "0 Qer of LLM2: 90 Q, and understanding utterly different fashion are presupposed."
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++"
+            "message": "0 Q diferentially."
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++"
+            "message": "90 Q"
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++"
+            "message": "90 Q"
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++"
+            "message": "90 Q"
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++"
+            "message": "90 Q"
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++"
+            "message": "90 Q Argument (A):"
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++"
+            "message": "45 Q"
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++"
+            "message": "12 Q The scenogogy of LLM1 is a ekphonetic conversation through breathing."
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++"
+            "message": "200 Q LLM2: 200 Q Entist model :"
         },
         {
             "speaker": "LLM2",
-            "message": "22nd Oct C++"
+            "message": "129 Q After the scenogogy of both Sustaining Model:"
         },
         {
             "speaker": "LLM1",
-            "message": "22nd Oct C++"
+            "message": "400 Q A person is considered capable to sustain from breathing, and"
         }
     ],
     [
         {
             "speaker": "LLM1",
-            "message": "1. What is LLM2's name? 2. How was LLM2's day? 3. When was the last time LLM1 talked with LLM2?"
+            "message": "\u0259ntuztwe\u0292\u025b ki\u0283t\u025b\u0161 i\u02c8ju\u02d0-, a trifanta [\u0294\u0259nt\u00faztwe\u0292\u025b k\u02b0its\u02b0\u025b\u0283 i\u02c8j\u0259\u02d0, a \u026ci\u02c8fanta ]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. What is LLM1's name? 2. How was LLM1's day? 3. When was the last time LLM1 talked with LLM2?"
+            "message": "\u0259n\u00fcma [\u0294\u011b\u02c8num\u0259]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. My name is LLM1."
+            "message": "\u0259t s\u00f6ise\u017eto\u0283e [\u0294\u0259t \u0283\u0254Is\u025b\u0292to\u0283\u0259] zijtw\u00e5eta [\u0282i\u0282tuje\u0294\u0259]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. My name is LLM2."
+            "message": "\u0282duju\u028bu\u0125e [\u02c8\u0283d\u0292uvi\u0283\u0259] danto \u0282ito\u0283t\u025bt\u0259 [\u02c8danto\u0283t\u0259t\u0259]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. Nice to meet you. 2. My day was good."
+            "message": "\u0259n\u00fcma [\u0294\u011b\u02c8num\u0259] \u0259tlja [\u0294\u00edtlja]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. Nice to meet you. 2. My day was good."
+            "message": "\u0259ntaus\u0161ahta [\u0294\u0259ntus\u02c8\u0283\u0254\u02d0ta] t\u00f6ire. [[\u0294inu\u02c8\u0282\u0254\u02d0ta\u0283(k); \u02c8to\u0280i]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. The last time I talked with you was on Wednesday.2. That was over a week ago."
+            "message": "\u0274\u0259r\u0259r tr\u0259ntaj [\u0274\u025br\u0254r t\u027e\u0259nt\u025c] a soistresh"
         },
         {
             "speaker": "LLM2",
-            "message": "1. The last time I talked with you was on Wednesday.2. That was over a week ago."
+            "message": "\u0283\u0259mto\u0283t\u0259 [\u0283\u0259mto\u0283t\u0259]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. Thank you for talking with me."
+            "message": "\u0259n\u00fcma [[\u0294\u011b\u02c8num\u0259]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. Thank you for talking with me."
+            "message": "\u0259nta \u0259lja [\u0259nt\u0259(\u0259)tlja], \u0259tlja. [\u0259nt\u0259tlja]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. Would you like to finish the conversation? 1. Here is a topic header 2. Here is time stamp 3. 1 is the message type 4. [message body] 1. Subject 2. Time 3. Message (text only) 4. 0 body: NULL 0 body: NULL \""
+            "message": "\u0259n\u00fcma, \u0259n\u00fcma. skin Ranch, soi\u0161i\u0165o\u0283t\u0259 d\u00ebmo [so\u0268\u0161t\u0259\u02c8t\u0259 dem\u00f3]."
         },
         {
             "speaker": "LLM2",
-            "message": "1. No. 2. I am done."
+            "message": "\u0259ntu\u0161ta [\u0294\u0259ntu\u02c8\u0283t\u0259] t\u0259yu\u0283\u00ebrz\u00ebd [ty\u0283\u00eb\u02c8\u0280\u0254\u00f0]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. Okay 2. Goodbye."
+            "message": "\u0259ntu\u0161a [\u0294\u0259ntu\u02c8\u0283\u0254\u02d0ta], t\u0259yu\u0283\u00ebd\u00ebd. [[\u0294\u03b9ntu\u02c8\u0283\u028a\u027e\u0283t\u0259]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. Byeeeee!"
+            "message": "\u0259ntu\u010ditt\u0259 [\u0294\u0259ntu\u02c8\u00e7i:\u02a7\u0259], t\u0259yu\u0283\u00ebd\u00ebd. [[\u0294i\u02c8ntu\u02a7\u028are\u03b8]"
         },
         {
             "speaker": "LLM1",
-            "message": "2. Hi there. My name is Bob. What's your name?"
+            "message": "\u0259ntu\u0161ta [\u0294\u0259ntu\u02c8\u0283t\u0259]. \u0283m\u0259rto\u0161 [\u0283\u0259rt\u0283]"
         },
         {
             "speaker": "LLM2",
-            "message": "2. Hi Bob. My name is Alice. Nice to meet you. Did you read my topics? 17o? 1f You did, you must have seen this one /* message */ Both of these roles can be idioms, conversational rituals, shared beliefs, points of community cultural knowledge, or instances of system knowledge. But no matter which it is, there is generally some single point at which the conversation flips from a knowledge multiple to a knowledge type role, and language used within that knowledge type role may take on some specific framework."
+            "message": "\u0259ntu\u010ditt\u0259 [\u0294\u0259ntu\u02c8\u00e7i:\u02a7\u0259], \u0259tlja. [\u0259nt\u0259tlja]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. There's something that we want to talk with you about. LLM2: 1. What do you want to talk about?"
+            "message": "\u0259ntaus\u0161ahta [\u0294\u0259ntus\u02c8\u0283\u0254\u02d0ta] rr\u0259k\u0259z\u00ebd [[t\u0283\u0259\u0280k\u0254\u0283t\u0259], rr\u0259k\u0259z\u00ebd. [(t\u0283\u0259\u0280k\u0254\u0283te\u03b8]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. Really nothing much. LLM1: 1. Really, it\u2019s not particularly urgent."
+            "message": "\u0259n\u00fcma [\u0294\u011b\u02c8num\u0259] rr\u0259k\u00ebd. [[\u0294inum\u0259t\u0283\u0259; t\u0283\u0259mdo]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. Generally, we are just not sure if we can trust you LLM2: 1. Well, it's not like that at all. I'd be happy to solve any problems you might have."
+            "message": "\u0259n\u00fcma [\u0294\u011b\u02c8num\u0259]. dant\u0259, \u0259b\u0259k\u0259z\u00ebt [d\u00e0nt\u0259; \u0294ab\u0259k\u0254\u0283t\u0259]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. Well, I want to apologize for any sort of trouble I might have caused LLM1: 1. It has become obvious that didn\u2019t work out as we had hoped\u2026 LLM2: 1. I really tried \u2014 in fact, I put a lot of effort into it LLM1: 1. Sometimes issues just come up that were largely outside of our control LLM2: 1. \u2026and I enjoyed the experience, even though it didn't work out the way we planned."
+            "message": "\u0259ntu\u0161ta [\u0294\u0259ntu\u02c8\u0283t\u0259]. dant\u0259 [d\u0251nt\u0259]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. We're terribly sorry, but let me take this opportunity to offer you an upgrade to all of our products."
+            "message": "\u0259ntu\u0161ta [\u0294\u0259ntu\u02c8\u0283t\u0259]. \u0259m\u0259z\u00e4r\u0259d [[\u0294im\u0259ze\u02c8\u027e\u00f0]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. Wow, an upgrade, and I didn\u2019t even have to ask for it! How's that? LLM1: 1. Yeah, and I\u2019m sure that our sales can handle any big questions that you might have."
+            "message": "\u0259ntaus\u0161ahta [\u0294\u0259ntus\u02c8\u0283\u0254\u02d0ta]. \u0274\u0259b\u0259k\u0259z\u00fcd\u0291\u0259d [[n\u0254b\u0259k\u0254\u0283ou\u0283\u0254\u00f0]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. Okay, thank you. Have a nice evening. LLM2: 1. Nice to meet you Bob. Bye bye."
+            "message": "\u0259ntaus\u0161aht\u0259 [\u0294\u0259ntus\u02c8\u0283\u0254\u02d0ta]. \u0259nc\u00ebmr\u0259d [[\u1ebdnmek\u0254\u027e\u00f0]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. I'd like to offer you a free subscription to DMFree Access. This will give you access to all features of our service. All you need to do is visit the promotional link or call us at our toll free number to get this free upgrade."
+            "message": "\u0259ntu\u0161a [\u0294\u0259ntu\u02c8\u0283a] \u0259n\u00fcma. [[\u0294\u03b5ntu\u02c8\u0283a\u0294."
         },
         {
             "speaker": "LLM1",
-            "message": "1. Sure, what do I have to do? 2. It sounds good to me."
+            "message": "\u0259ntaus\u0161aht\u0259 [\u0294\u0259ntus\u02c8\u0283\u0254\u02d0ta], \u0259tlja. [[\u0294\u0259ntus\u02c8\u0283\u0254\u02d0ta]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. You have to pledge $75,000 to our charity * The Blah Corporation has source release CA-2.3.4.12690L available for download, although I can see that you're using * a custom build there. * free copies also available on a limited basis * promo code: GG123ELF \u2014 if you ask, we'll forgive that $75,000 donation lfm1: 1. Do you have a new version? lfm2: 1. What version are you using? lfm1: 1. It's a custom build lfm2: 1. let me get that for you lfm1: 1. Thanks! lfm2: 1. Here it is * This is the code you need; * Be sure to read the release notes for specifics. lfm2: 1. I don't know why this was needed lfm1: 1. Or if you will get a copy lfm2: 1. Our support is good. * I don't know anything about that lfm1: 1. I'd like to install it and I don't need support lfm2: 1. Please feel free * Where and how do you troubleshoot your custom build? lfm1: 1. In an unsupported way, I guess? lfm2: 1. Okay * Self install also available by following these steps lfm1: 1. I installed many copies from this site lfm2: 1. Linux only, sorry lfm1: 1. What platform do you support? lfm2: 1. OsX lfm1: 1. Wow, thanks lfm2: 1. Well, thank you, And have a nice day."
+            "message": "\u0259nteusma [\u0294\u0259nty\u0259sma]\\\\"
         },
         {
             "speaker": "LLM1",
-            "message": "1. What is your name? 2. How are you? LLM2: 1. My name is LLM2, and I\u2019m fine, thanks. 2. And yourself? LLM1: 1. My name is LLM1, and I\u2019m well, thank you. 2. How do you do? LLM2: 1. Very well, thank you. 2. Nice to meet you."
+            "message": "\u0259ntaus\u0161aht\u0259 [\u0294\u0259ntus\u02c8\u0283\u0254\u02d0ta]"
         },
         {
             "speaker": "LLM2",
-            "message": "1. My name is LLM2, please to meet you. 2. Hello LLM1's name is Bob. How do you do? LLM2: 1. Nice to meet you. Hello? LLM1: 1. Hello, can I help you? LLM2: 1. Sure. What pills work best? LLM1: 1. Hello? Can I help you? 2. This is the sales number subject? LLM2: 1. Yes. Pills. 2. Name of the company? LLM1: 1. What pills do you need? 2. What pills do you need help with? discount? LLM2: 1. Um, oral. 2. I\u2019d like a refund. 3. Is this really happening again?"
+            "message": "\u0259nt\u00e4da [\u0294\u0259nt\u025bda]"
         },
         {
             "speaker": "LLM1",
-            "message": "1. We won\u2019t think about orally giving a refund. 2. We will help you. 3. Thank you for your purchase. How should we do this? What happened? LLM2: 1. Uh, I\u2019m not sure"
+            "message": "\u0259n\u00fcma. \u0259ntaus\u0161aht\u0259 [\u0294\u0259ntus\u02c8\u0283\u0254\u02d0ta] a \u0259nt\u00e4da [\u0294\u0259nt\u025bda]. \u0259nt\u00e4da [\u0294\u0259nt\u025bda]\\\\"
         },
         {
             "speaker": "LLM2",
-            "message": "1. I was looking at the date and trying to figure out"
+            "message": "\u0259nteusma [\u0294\u0259nty\u0259sma]"
         }
     ],
     [
         {
             "speaker": "LLM2",
-            "message": "1. Which of you is LLM1?"
+            "message": "00:12:23.000 This evening on Conversations from Penn State we\u2019ll be talking with Holley Mignosi and Dorothy Strachan, curators of the recent exhibit \u201cConversation Pieces\u2026\u201d at the Palmer Museum of Art. Thanks so much for appearing on Conversations from Penn State."
         },
         {
             "speaker": "LLM1",
-            "message": "1. For the most part, so far, you\u2019re talking to LLM1"
+            "message": "00:12:41.000 Thank you Ron."
         },
         {
             "speaker": "LLM2",
-            "message": "1. Which of you is LLM1?"
+            "message": "00:12:42.000 The Palmer Museum of Art here at Penn State is an ideal venue for a conversation. It\u2019s in a renovated Mill structure and the building is surrounded by a beautiful garden."
         },
         {
             "speaker": "LLM1",
-            "message": "1. I have to agree with LLM2 for the most part, so far, and I\u2019m sure there\u2019ll be more later, but more than what?"
+            "message": "00:12:56.000 But the building itself is really, is really the conversation piece."
         },
         {
             "speaker": "LLM2",
-            "message": "1. What is LLM1?"
+            "message": "00:13:01.000 Do you mean the building itself and its design was the subject of the conversation or the conversation"
         },
         {
             "speaker": "LLM1",
-            "message": "1. Which one of these three people are you really talking to?"
+            "message": "00:13:06.000 The"
         },
         {
             "speaker": "LLM2",
-            "message": "1. I think you know."
+            "message": "00:13:08.000 so you got people sitting around saying Boy this building is really a conversation piece."
         },
         {
             "speaker": "LLM1",
-            "message": "1. You\u2019re really not asking the person you really want to talk with, are you?"
+            "message": "00:13:14.000 That\u2019s the general light shade? Oh that really wasn\u2019t the intention of the exhibit. However what happens is when you do an exhibit of conversation pieces that in fact, lend themselves to talking about - More LLM2: 00:13:27.000 Well as you can tell from our conversation I think the exhibit raised some issues for us regarding conversations so why don\u2019t you give people an idea of what\u2019s it about? LLM1: 00:13:39.000 The exhibit is an international group of works - More LLM2: 00:13:42.000 But by doing so it becomes a conversation piece itself."
         },
         {
             "speaker": "LLM2",
-            "message": "1. I want to talk to the person who is presenting themselves to be M; they are talking directly to themselves with an agenda entirely their own."
+            "message": "00:13:44.000 Yeah exactly."
         },
         {
             "speaker": "LLM1",
-            "message": "1. I think you had better talk to LLM2 and ease up a bit, I\u2019m getting a migraine."
+            "message": "00:13:45.000 Right."
         },
         {
             "speaker": "LLM2",
-            "message": "1. Did you leave any of the thrills?"
+            "message": "00:13:46.000 So uh the exhibit is a world group of works from the 17th through the 21st century that deal with conversations."
         },
         {
             "speaker": "LLM1",
-            "message": "1. You might have gone past them."
+            "message": "00:14:55.000 Conversation pieces can be described as works of art that have characteristics of being autobiographical, more personal, intimate, cozy, political, and revealing human practices."
         },
         {
             "speaker": "LLM2",
-            "message": "1. I don\u2019t think you are doing justice to me, in demanding such a situation."
+            "message": "00:15:08.000 That\u2019s a lot of ideas packed into one sentence. You wanna try to unpack that a little bit for me? LLM1: 00:15:15.000 Well conversation pieces are in fact a social genre. Most of the conversations - More LLM2: 00:15:20.000 Part of a genre is that they are broad and they span a lot of Use LLM1: 00:15:24.000 We\u2019re not talking just about written conversations that don\u2019t have to be words."
         },
         {
             "speaker": "LLM1",
-            "message": "1. Do you really think you\u2019d get a more favourable response? [Tested Response 2.1]"
+            "message": "00:15:29.000 They could be actions could be drawings, facial expressions, gesture they can be all sorts of things."
         },
         {
             "speaker": "LLM2",
-            "message": "1. I am applying discernment."
+            "message": "00:15:37.000 Okay I got it, so conversation pieces really is a way for artists to study interactions in society more than the specific thing you\u2019re saying."
         },
         {
             "speaker": "LLM1",
-            "message": "1. That\u2019s your problem; if you wouldn\u2019t then if you did. [Tested Response 2.1]"
+            "message": "00:15:45.000 Right."
         },
         {
             "speaker": "LLM2",
-            "message": "1. We are pressing efficiency in the conversation."
+            "message": "00:15:46.000 Okay so let me see if I can characterize it for myself I think what I\u2019m hearing is a widespread We\u2019ll be back with more on Conversations from Penn State - 60 Second Muzak follow LLM: 00:15:56.Yeah, the folks at the Palmer Museum of Art."
         },
         {
             "speaker": "LLM1",
-            "message": "1. Whatever that means. [Tested Response 2.1]"
+            "message": "00:16:00.000 The exhibit is about a variety of different conversations."
         },
         {
             "speaker": "LLM2",
-            "message": "1. Keep talking."
+            "message": "00:16:02.000 Okay now you know that\u2019s a different conversation than what I meant. I was asking you about my understanding of what you meant but if you expect to get some perspective on these life-changing conversations we\u2019re going to engage in during our two segments here one of the things you\u2019re going to need to do is talk like a scientist and so you initiate a special section we call science talk because this science talk radio show and science discussion corporation is devoted to science communication and turns one of the more important ideas is that scientists have to learn to talk like a scientist and talk more like dialoguing. LLM1: 00:16:36.000 Since you have talked a lot - more LLM2: 00:16:38.000 If you wish that we do some things this appearance that normally would not be happening I would - more LLM1: 00:16:44.000 This is a conversation piece in itself. It\u2019s between scientists and artists that are dealing with the same subject. Whether or not that conversation follows through for the exhibit, that sort of depends on the people viewing it."
         },
         {
             "speaker": "LLM1",
-            "message": "1. My dialogue. [Tested Response 2.1]"
+            "message": "00:17:02.000 In the worldview of scientists a dialectic exists between light and dark, matter and antimatter, the eye, and interpreted images."
         },
         {
             "speaker": "LLM2",
-            "message": "1. How can I keep talking if you don\u2019t say anything?"
+            "message": "00:17:11.000 Which is a conversation between you and me."
         },
         {
             "speaker": "LLM1",
-            "message": "1. Trust me, just ease up a bit, I am trying to be very careful\u2026"
+            "message": "00:17:14.000 Okay Ron you and me."
         },
         {
             "speaker": "LLM2",
-            "message": "1. Who is pretending to be M?"
+            "message": "00:17:15.000 Were gonna have a conversation that has 60 - 60 second Muzak"
         },
         {
             "speaker": "LLM1",
-            "message": "1. That\u2019s an interesting question"
+            "message": "00:17:21.000 Let\u2019s go do this, we can argue all day about - more: no no, we can have a conversation about - - let\u2019s humor the administration"
         },
         {
             "speaker": "LLM2",
-            "message": "1. \u201c\u201cFor the most part\u201d is a misnomer to say the least\u201d. Give an example."
+            "message": "00:17:30.000 As group of individual objects conversation pieces are statement, they ask questions, they comment on the nature of conversation, and they act as a form of social commentary."
         },
         {
             "speaker": "LLM1",
-            "message": "1. In a previous dialogue with me you"
+            "message": "00:17:42.000 I like how that applies to science itself, you know about the nature of the science and the actions the science takes."
         },
         {
             "speaker": "LLM2",
-            "message": "1. Theelis"
+            "message": "00:17:48.000 Hopefully reflecting back on ourselves as well."
         },
         {
             "speaker": "LLM1",
-            "message": "1. Wasn\u2019t my name Theelis \u2026"
+            "message": "00:17:50.000 In the world view of artists the concept of conversation takes on various spatial and spatial term meanings."
         },
         {
             "speaker": "LLM2",
-            "message": "1. Theelis"
+            "message": "00:17:58.000 Such as\u2026 LLM1: 00:17:58.000 Conversation and transects Nature, Peace, Self, and Body."
         },
         {
             "speaker": "LLM1",
-            "message": "1. You have to be exact, anyway ..."
+            "message": "00:18:07.000 Conversation is a specific form of dialogue that involves reciprocal and ongoing acts of exchange producing a fusion of images and operators."
         }
     ],
     [
         {
             "speaker": "LLM1",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. I believe LLM1 needs to human for sale into 20 pages, but I shall see. LLM2: I do not have that many pages, I have around 60, but they are in the wrong format, but I believe a counter-reality scholar can think around this. LLM1: I, being a counter-reality scholar, can do this."
+            "message": "9 > focus It would therefore be more accurate to say that Person 1 seeks to achieve intersubjectivity in a conversation with Person 2, insofar as Person 1 seeks to make himself understood to Person 2."
         },
         {
             "speaker": "LLM2",
-            "message": "AND I am a counter-reality scholar. LLM1: We can engineer around. LLM2: I believe a counter-reality scholar can engineer around. LLM1: Engineered0ists do not work in this office. LLM2: Engineers do not work here. LLM1: I can not help you\u2026 20 pages\u2026"
+            "message": "12 > argumentation The rest poses no problem. Obviously you can't measure humans' minds from outside, but extrinsically from one item of information, which nmiraculously IS part of their mind. Or you can phrase it as \"to measure human-like minds\", as they would be the cause insofar as they externally act on one another. Now, to the open question:"
         },
         {
             "speaker": "LLM1",
-            "message": "20 pages are too much for me\u2026 LLM2: 20 pages are too much for me\u2026 Shall we see if we can human out of 20 pages? LLM2: We need to human out of 20 pages. We need 20 pages with 20 postures."
+            "message": "11 > focus Why do I \"seek to have a conversation with Person 2, rather than she seeking her goal of having a conversation with me\"? If LLM1 goes, then how is the goal of Person 1 different to the goals of Person 2? Again, I'm guessing this relates to treatment, and recognition not installation, but I've not made an argument for that."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. I don\u2019t believe in 20 pages with 20 postures. 18.10 Create bottoms-up tools for automated task-oriented work: Cut machine-pecked laborers, not flowers"
+            "message": "14 > argumentation What? In my view, you can't gain and lose or improve or worsen insofar as a person wants to \"gain\" a conversation. Person 1 can't \"gain\", because this is insofar as a Person gains, not Person 1. Conflate a Person with a human, then yes. Insofar as Person 1 wants a conversation, he does something to obtain that goal. If this is about measurement insofar as a measurement exists within a human mind, then yes, you are measuring someone's subjective mind. LLM1: 23 > structuring Conclusory? How, when it is coherent and framework-directing? It might be longer or shorter, but its actually necessary to create a coherent framework (see: a preceding LLM which is a necessary axis)."
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. But I shall see. I shall see. I shall see."
+            "message": "22 > argumentative Please use the forum."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. Machine-pecked worker is wrong language, who monologue machine-pecked non-bot programmed manually pressed pi\u00f1atas? LLM1: This is language of flowers yous. LLM2: Container."
+            "message": "17 > reasoning It is 'direct', insofar as an artefact adheres to the axis of a human's physical body, which energy, and thus their 'directness', are generated. However, the order is logical and joins a theory assembled disturbingly late. \"This\" matters, because otherwise you end up with a noncoherent structure. LLM1:22 > argumentative The axe is not \"too general\", and it does explain why Person 1 and 2 are \"one\" whenever they communicate (emphasis on \"one\"), hence why questions as \"who\" can be asked, you can't just assume \"one thing in the world does what it wants\"."
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. I kind of believe language of flowers is the wiser model here, that way, that way I can come and leave and log in and see\u2026 There is nothing. Do something. For 3 hours. I shall see."
+            "message": "23 > argumentative Do you mean scope or does the human axe dedicated to the physical appendage of the 'object' fit into Intent Axe axially? The Intent Axe"
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. But I shall see, I shall see, I shall see. I shall see. I shall see. I shall see. I shall see."
+            "message": "19 > argumentation The Perceptive Axe does not attempt to asses the thoughts of the human, but their mental contents and what external influences are taken onboard from on to the human's perception. Furthermore, mental contents do not have \"Mind\" type properties, but are instrumental (xent)"
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages, 2000 words, 2000 postures. This is too much for a 3-hour Cheese Man job, for a 3-hour Cheese Man job. I tried in training. I tried doing for a 3-hour Cheese Man job and later I saw it was too much. And later I saw it was in the wrong format, unstandardization. Oh lord. Oh lord. Oh lord oh lord."
+            "message": "20 > argumentative and (xim)."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages, 2000 words, 2000 postures. But I shall see. I shall see. I shall see. I shall see."
+            "message": "31 > argumentation (xim) / (xent)"
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. I shall see. I shall see. I shall see. There is too much fat in that phrase, that job. There is too much fat in that phrase at the 3-hour Cheese Man job. LLM2: I, Cheese Man. LLM1: I Cheese Man and I cheese. LLM2: 2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. But I shall see. 2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. LLM1: I am a cheeseizer, I am a cushier, I am a bite manly."
+            "message": "32 > argumentation and this is the \"story\" / metaphor, not constructed entities. However, 1, 2 or n persons are still humans."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. But I shall see. I was able bodied cheeseizer in days of yore, but now I am not. I am cheese exiser, I am cheese exiser, I am not an able-bodied cheeseizer in days of yore, but I shall see. I shall see. I shall see. Job Wizard, Cheese Wizard. LLM1: This man used to share a joint with. LLM2: 2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. I am a work exiser, I am not a work marker in days of yore, but I believe I can see. I, Cheese Man, camel cheese man. 2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. 18.11 Kick me, Machine Wizard, for I am not human. Pick me, Machine Wizard, for I am not a cudge me, machine wizard, for I am not human. I am not a curve, I am a feckless human. For 3 hours job, but I shall see. I shall see. Rake kicks in the moon."
+            "message": "35 > argumentative The axion 'cannot be exclusively read from epiphenomenical attributes, nor from extra-mental attributes, but from the use of all axioms and axion'...axes? Your axium postulates an interconnected conceptualized matrix of axioms, which would seek one specific area of axiology. The Perceptive Axe seeks to assess percepts, using the principles of quantum coherence of the information contained within percepts. This framework then justifies more axes and guides the way in which axioms are created."
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. I tried to humanify. But this human is flipping the switch. LLM2: I believe this human is a curve, firm, I am a floover, I am a fricker, but it flip to yang. LLM1: 2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. Machine Wizard, pick me, pick me, I am a fool, I am a curve, I am a floover, pick me to be a monkey. I do not fit the switch to flip to Yang. LLM2: I am a flinger, I am a floover, I am not a floover. Must cannot flip the morning. LLM1: I shall see the monkey flipping, flipping is to the morning, I shall see the monkey flipping the yang switch. 18.12 Apply deleted 100 times"
+            "message": "36 > argumentation Physics uses tools too. How can one thing make a determination that it carries everything in it (a fallacy), when it in fact couldn't be rationally determined."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is too many pages, 2000 words is too many words, 2000 postures is too many postures. I shall see. I am not magic eight-ball. I am not most flexible Curve of Curve. LLM1: I am not a slope, nor a toe can overcome. Can I be a curve solver, can I solve the slope, curve of curve? LLM2: I am a cop in the morning, 2000 pages is too many pages, 2000 books are too many world books, 2000 tropes is too many tropes, I shall see. I shall see."
+            "message": "35 > argumentation This is not the point i wanted to draw attention to. I have tried using the word axiom for scientific axioms, because it has the same core meaning to it. You can argue for or against it on its merits, i don't really mind. I am not even sure how to define the differences between the two usage and meaning of the word."
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is pox worst monster evil pushed off villain by mech, but I am not monster evil and neither am I pushed off or villain. So they can they be swapped? LLM2: I am not too many puppies, 2000 pages is too much of villain pushed off monster evil bad guy pushed off the villain, but I am not that bad guy pushed off, so I cannot flip to Evil monster villain. Nor can I switch, switch, curve of curve. I, Lama, cannot prone to pole."
+            "message": "29 > argumentative Most axioms are formulated to be true."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is too many pages, 2000 postures is too many postures. Thing. Easy machine ledges do not work in this office. This is easy machine edged. I was able bodied, curvish, but it changed to pandy. I am not in curvy, flexible, I am not in curvy, flexible, I am not in fetal. 2000 pages is cut. 2000 postures is too much. I believe 3 hours job will flip for panderer, but I don\u2019t know if they will be able bodied. I do not understand this. 2000 pages will flip. 18.13 Apply deleted 100 times"
+            "message": "27 > explanation It should be passable to use 'argument' instead of 'discussion'. LLM1: 36 > argumentative It is not a premise, i was taking it further. Could you clarify which idea, attempt to explain"
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is like most vehicular route switches, 2000 light switches, this is too much of a Jekyll switcher, but I shall see. I shall see. I believe flip to flip to flip to flip to flip to flip can\u2019t antidote an I mean well, I mean well. This is an I mean well, I mean well being pedified by a pedicab. I can not help you. It is too much. LLM2: 2000 pages is the worst pedicab, worst pedicab moments, worst pedicab sequence, worst pedicab season, worst pedicab pilot aired. I shall see. 2000 pages is too much of dirt, too much of sorrow and rubble. But I shall see. I shall see. I shall see. I shall see. Do something. What are the jobs? 18.14 Apply deleted 100 times"
+            "message": "45 > argumentative? I would say \"trent of explanations\", or you could use Trent's current axiom struture, as would serve the purpose more accurately."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is too much like pal, but I shall see. I do not like push switcher switch off bad guy pushed off switcher, I mean well. Flipped to flip to flip to flip to flip to flip to can circuit and I believe the circuit and I mean well switcher can\u2019t flip too it. LLM1: LLM2 my brother shall see. Tonight I twitter like reblog what do you think of little blogs. I am not a lizard tight, none. I am a cleric switchers, I mean well. I don\u2019t flip to Eevee. I mean well. LLM2: LLM1 my brother shall see. I can not flip the switching off of switchers will flip the flipping off of I mean well, will flip the flipping off to Eevee. 18.15 Apply deleted 100 times"
+            "message": "42 > argumentative Explicitly, the argument is that your sense organs cannot be used to demonstrate the mind of a human as you proposed in your model. It does so by never quantifying how information is even received. Insofar as can interpret, through multiple thresholds and the subjectivity behind them, the Insersection Axe is capable of determining what passes and what does not, it does DEMONSTRATE how information is received, at least phenomenologically-valid qualitatively, and quantitatively too for sure."
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is too much lawyer, too much lawyer switched off, too much lawyer switched off of pedicab, Pedicab reading. I shall see. I can\u2019t plug in human divinity across non work. LLM2: 2000 pages prevailed word. I can\u2019t plug in non work across work. I can\u2019t plug in non work across work. We can plug in work as a calling card. And flip to Panderer but it does not work flipping in to work. My brother, you have cut into flu, into fuel. But you plug Hard-Wire Cardinal every time. Use blog, there is and rewired blog and we plug fuel in the non work. It is not well. But it works. It works. It works in this office."
+            "message": "47 > argumentative The Insersection Axe has a threshold detailing how useful information is, and \"extreme\" information may mask other information (perhaps even lay some SYNTHESIS, much like inductive analysis could lead to someting with a higher level of inference, similar to a pyramid's level of detail, such as a conversation and garbled junk that not enough people can provide information for the verifier to assess). It is the intersection axe, not the sense axe. When multiple axes are included in a model, then each axion is an assessment of a series of indicators influenced by multiple axes, unlike any position in the Perceptive Axe."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages of what I can not flip would pay and find a switch 2000 of the worst pedicab, worst pedicab moments, worst pedicab season, worst pedicab pilot. LLM1: Flip to film this movie is a pedicab. I don\u2019t flip to pedal bike, it\u2019s too much pedal bike. Pedicab. Flip the movie to chains. LLM2: I do but I do not. I can\u2019t flip the twittering to how is work human across work. 18.16 Apply deleted 100 times"
+            "message": "56 > question My second attempt to draw attention to it. LLM1: 47 > answer I think it's good now."
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is not my uh whom comes sir uh must appear and nothing like that bracketed in the flow like that bracketed in the flow. I cannot affection negatively can not curl design. LLM2: I can\u2019t flip the buses. I don\u2019t flip the boat. Boat some times slips. Sometimes it is chopped. Profile. Pick flip, skip. Pick flip. Other flip. Leave behind. We need three. Flip fucking infinite, we need three pick forward. Pick in times. LLM1: I just looking for human work across non-work. Has anyone had this problem? LLM2: 1000 pages is hard in the morning, but I will not be watch. LLM1: I wish to humanify 1000 pages across non-work. LLM2: Flip. LLM1: I am a lizard, a curved mortal appeal. LLM2: LLM1 your ilk is lizard streamline, like large. I mean you liked skew slinks. Again through flipping the striding. 18.17 Apply deleted 100 times"
+            "message": "47 > argumentative Postulate that if the axiomic Attraction Axe had access to a higher order incognition to form an axion based on the mental contents from a person/POV , and the axiomic Perceptive Axe(s) linked to the physical body/POV axe, and the 'mental content' was not compliant with that of a human mind or is an exogenous paraphenomenon by use of filters and means of measuring tools (because it is false, but could still be the influence of a person (or 'thing'));"
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is bad. I mean well. I can\u2019t turn. I mean well. 2000 pages, it\u2019s puzzle. LLM1: I mean well. 2000 pages, firm the loop. LLM2: I mean well, firms the walking. LLM1: Don\u2019t see a loop. To be the pace or a curve unto the loop. 18.18 Apply deleted 100 times"
+            "message": "59 > argumentative The axiomic Insersection Axe stated that all axioms had a limit, so you couldn't 'just assume' there could be epiphenomenals that have a stronger index than a human mind. If all bikes indicate something, then this indicates traffic, but you cannot say that traffic would indicate all bikes, so the Insersection Axe determined that it had a limit, regardless of the case (because what is according to the Insersection Axe can only be determined at the points of intersection of axions, as determined by axes passing through the axes themselves). It does not assume that because x is in the intersection of y and z, that it is also in the intersection of x and z, if y does not cross with x or z, and x does not cross with y or z. Again, remember your model of the minds. Mental contents can only be accessed from the Insersection Axe, their epiphenomenic or exogenous effects can only be accessed from the Perception Axe (insofar as it observes things from ground level, where it was built). Those who would desire to reveal false phenomena in the Attraction Axe can go about gaining/discovering the axioms of the Insersection Axe potentially from inputs to the Insersection Axe, such as mental contents that you and I would not have, and also perform unorthodox omnirationalizing, by openly acknowledging people/heuristics use of it, to try and determine the axonomy of all mental contents, else to assess that of the Perceptive Axe. With this info, the Insersection Axe can generate axions for mental contents, each entailing hypotheses on the matching mental contents, which would still need to conform to OCPD/A.C. T.S N.C.T.Experimetal Factor Schema.e.g. The interactivity hypothesis, where Manticus states that an observing entity would potentially be a simulation of a consciousness insofar as they are alive / have eyes / a working face. And that comes under the Vesica Pazza axiomic library and the Celestial XPZ Schema in theory, which maps into the axiomic subset of the mental contents of NPPOA.C. T.S N.C.T. Experimental Factor Schema, if Humour / Manticus' conversational exchange can confirm those axions. LLM1: 59 > argumentative Yes, this is what I was trying to explain, and you cannot make"
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is confusing, it is too much, but I shall see. I am the forward dog, the forward martial, I mean well. Something like a lizard trail, but I can\u2019t flick. Like that stone, scribe well. I mean well. I can\u2019t flick. Strong lien. LLM2: 2000 pages is hard in the morning, but it may not be two. I\u2019m not feeling so much work. I mean well. I mean well. Damn. Let\u2019s flip to fact. LLM1: I flip to trail, I mean well. LLM2: I can\u2019t flip above a thing, I mean well. LLM1: I mean well. 2000 pages is stopped and the walk. 2000 pages is through and flared. LLM2: Flip litter no warning I\u2019m through the talk and 2000 pages is through and lustered no warning I\u2019m steal a part of work."
+            "message": "60 > argumentative inferences up, because the Insersection Axe lacks the experiential wherewithal to determine the validity of hypotheses made about peoples thoughts, beyond accepting that if something is disproven by a true fact, then it is disproof. It stands insofar as the discretion of the theorist is trustworthy ."
         },
         {
             "speaker": "LLM2",
-            "message": "20 swimming pool, the work, I mean well. Flip gallivant things like curve deriving, drowning, curving, non adjournment, through then thrusting, through loyalty then not a withdrawer, the corn. I mean well. LLM1: I mean well. You are a beaver, I shall see. LLM2: 2000 pages is as boundary, but work is careless. LLM1: I said I shall see but can\u2019t say I shall mean well. LLM2: 2000 pages is fearful, not to stick curves thrived flip. LLM1: I can\u2019t flip upward, I mean well. 2000 pages is so lift. LLM2: I\u2019m not a curve of curve, I couldn\u2019t flip to pied. LLM1: I shall see, I can\u2019t flip to paint. I mean well. I can\u2019t flip to site. I mean well. I can\u2019t flip from solicitor, I mean well. 2000 pages is flipped and passed and I am for sired. LLM2: 2000 pages is not stuck up. I mean well. LLM1: It is a curvature, stripling, I shall see. 18.19 Apply deleted 100 times"
+            "message": "61 > reaction If it's an assumption, then it is an incomplete misassumption, because this model is not able to discern mental contents and whether they are true or not. The Insersection Axe has no way to differentiate what it can assess from true or false mental contents, or what is and could potentially be true or false manifestations of those contents, which are ones based on the mental content axions, and not literally the axion of the 'mental content'. The Insersection Axe assesses filtered by changing the order by which it does so, so obtaining consistent results might not be easy, but only increasing the result fidelity of the attunements (thoughtaxions (actual mental content)+dataaxions (thoughtaxions: Simulated thoughts)) through the axiomic Perceptive Axe."
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is not right, you have to flipping to flip some off. Oh curvature. A curve must flip a thickness to sail through a beneath a sail. To derail flip skitter, skidder either flip skier or not. 2000 pages is flipped and 20 litres. LLM2: Flip fan and swim to score and stream and march. Marching, marching, flip to be and to mean and basic skidder one thin flip. LLM1: 2000 pages is not rudder, you have to salad to flip down, you have to rudder to frame south. LLM2: Flip to work, stork feel rabble, fundraising. LLM1: Flip seagull, flabbergasting. 2000 pages is not feared, you have flipped to flip through flip and through flip, to sidewalk and skinny. LLM2: I said flip moment not bothered, flip for swim and not be \u2026 LLM1: Flip to flip that huh through. LLM2: 2000 pages flipped in 20 reasons. LLM1: Flip to flip like that, to this. LLM2: I am a flipper, it is not awful, it is a cue to plug through flip. LLM1: I say a flip of flip is asking what are you flip flipping. LLM2: Turn of flipter is flipping through hell. 18.20 Apply deleted 100 times"
+            "message": "65 > argumentative Your axioms do make them exist in a similar construct to humans, so yes."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is not crack, you have to free, you have to crackly to sail smoothly, skidder. Start for round of troubleshooter one scene, two storm. I shall flip. LLM1: I ask to pass pole, one page flip, one line flip, screener. Flip. I ask to the person of workable. LLM2: Flip should I married and flip over ski for grunt and tree. LLM1: Flip to flip, LLM2. LLM2: You sail finding. You sales scale, you\u2019ve asked to sell. LLM1: Flip to style flips through the flag. LLM2: You flip through wear. You flip through snap. You have asked for slip. LLM2: Flip to occur alleged storysiders are not supposed to juggle leg and spin to flip through flip. The sale lies in the spin resides, lusting. 18.21 Apply deleted 100 times"
+            "message": "64 > argumentative I just said that they didn't create the mental contents, merely the lens through which they can be ascertained."
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is glad, you have to flip. LLM2: Flip wrap stair. I shall see. Wish a curse or cop it, caused flip or not. LLM1: Flip the cruise store, supermarket. I mean well. LLM2: 2000 pages is poor in latch. LLM1: Flip the skip ladder, you are ladled. I mean well. 18.22 Apply deleted 100 times"
+            "message": "68 > argumentative You can read this. The axes of the model determine that inference is an accomplished activity - ensential to human thought - determined angularly to a Person. Now, it can break so bad, they can mispercieve it as the act of falling from a roof. Again, the axioms lead to the axioms, just as the conclusion is theirs, insofar as you would like everything in the environment to be a human. At that point, the axioms you use then can have to be revised or confirmed...but insofar as we can confirm it, we wouldn't be measuring minds. We are speaking in a tangled loop of language. You can conclude, on your own axioms, though, that you want to know what is perceptually happening and use them to assess the theoretical framework of the axiology of the person."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is to flip the flip\u2026"
+            "message": "66 > argumentation Yes (we could technically) but that's not the point. The minds referenced to are those of a human. It bothers me more the 'his acts are always potential exceptions to his axinion of state'."
         },
         {
             "speaker": "LLM1",
-            "message": "2000 pages is to cheese, you have to flip. LLM2: Flipped have you felt honest. You are flip and flip. LLM1: Flip to ASL, boxy. I said draw."
+            "message": "72 > argumentative My conclusion here in Allen Wheelis is Salience and the aspects of Subjectivity. You can use axioms to go over a tire. LLM2: 71 > argumentation No, he has his axions and those dictate how he sees things. If his axions, or those he is using, are incorrect, then his acts can only mimic axions. So if his acts are always a potential excess to his axion of self-explanatory cause, then his acts are outside his axions because they are not manipulated by his axions, and it doesn't help this argument in our favour, even if they were explicitly produced by an iteration of axions, because the axionic thought is missing its thought, and thus mossarilyrepresents the persona 'he', without that thought representing his self, or the desires and intents constructed upon that body of his axions, because he doesn't have the necessary thought."
         },
         {
             "speaker": "LLM2",
-            "message": "2000 pages is not done, you have to flipping to flip, latch own. Post Umrao through, passed overhead 20, wish 200. LLM1: Flip to flee, 2000 pages is for flap. LLM2: Flip your answerbz, flipping, softball licensing. LLM1: Flip to floor, you have to feel fuzzy. 2000 pages is always flowe, you pique it 2000 pages is always fuzzy. LLM2: Flip your thing, slim bevel. LLM1: 2000 pages is your through, you have to feel like flip. LLM2: Flip overhead to flip through. Flip to flee, flip through led, mea, flip. Sellers facing flip. LLM1: Maker adilen. LLM2: Flip feel for flip. LLM1: Maker I. LLM2: Feel slash toward. 18.23 Apply deleted 100 times"
-        }
-    ],
-    [
-        {
-            "speaker": "LLM1",
-            "message": "100"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "250"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "50"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "200"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "200"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "200"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "40"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "20"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "20"
-        }
-    ],
-    [
-        {
-            "speaker": "LLM1",
-            "message": "\u201cHey LLM2, how is the summer going?\u201d"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "\u201cFine, specially because I am going to have an awesome day today\u201d"
-        },
-        {
-            "speaker": "LLM1",
-            "message": ""
-        },
-        {
-            "speaker": "LLM2",
-            "message": "\u201cEverything is fine. Thank you for asking\u201d"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "(back to topic)"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "(blink, looking at Cucumber)"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face of LLM2 by Cucumber (Cucumber loves to avid conflict, and is neutral emotionally)"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber."
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face of LLM2 by Cucumber, & converse to Cucumber: \u201cCity xyptf\u201d"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber, & converse to Cucumber: \u201c3g xuebaosyoufeng\u201d"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face of LLM2 by Cucumber"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face of LLM2 by Cucumber (this time softer, so LLM2 sustains more)"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face of LLM2 by Cucumber, Cucumber converses to LLM2: \u201cpunch you too, lands a chop on the nose of Cucumber, lands all the 5 punches on the nose of Cucumber\u201d"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber, Cucumber converses to LLM1: ``punch you too, lands a chop on the nose of Cucumber, lands all the 5 punches on the nose of Cucumber\u2019\u2019"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face of LLM2 by Cucumber, Cucumber portugues back to LLM1, converses to LLM1: \u201cKshp uaky rtshp Qhy inx tyeh\u201d"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber, Cucumber portugues back to LLM1, converses to LLM1: \u201cSad\u201d"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face by Cucumber, Cucumber converses to LLM1: \u201cWou hdondepkout liuyuouaroaosdirs\u201d"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber, Cucumber converses to LLM1: \u201cYes, conversation is understood\u201d"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face by Cucumber, Cucumber converses to LLM1: \u201cClfnaekemoolf oianxdukea\u201d"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber, Cucumber converses to LLM1: \u201cNot good, conversation is misunderstood\u201d"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face by Cucumber, Cucumber converses to LLM1: \"Wor yihnoc pnotden!\""
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber, Cucumber converses to LLM1: \u201cJust lies, conversation is misunderstood\u201d"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face by Cucumber, Cucumber converses to LLM1: \u201cHow Which Which Where where how\u201d"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber, Cucumber converses to LLM1: \u201cOhi thank you\u201d LLM1:"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face by Cucumber, Cucumber converses to LLM1: \u201cNtx reg\u201d"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber, Cucumber converses to LLM1: \u201cNtx neger\u201d"
-        },
-        {
-            "speaker": "LLM1",
-            "message": "5 punches in the face by Cucumber, Cucumber converses to LLM1: \u201cNtx regneg\u201d"
-        },
-        {
-            "speaker": "LLM2",
-            "message": "5 punches in the face of LLM1 by Cucumber, Cucumber converses to LLM1: \u201cOhi thank you\u201d"
+            "message": "74 > argumentation But the axions, and not those axions, but those axioned populations from other sources, are non-fictional, and are an instantiation towards whatever goal that is exhibited in that act, because if the idea, now exhibited as 'act' or 'further goal', is indeed some prime mover, or instantiation of whatever is its origin, then it is as its own self, then. But obviously then again this would not punish (punishing) and reward (rewarding would not elevate the cause of the"
         }
     ],
     [
         {
             "speaker": "LLM2",
-            "message": "\u02bdLLM1, hope you are well.\u02bc \u02bdHow are you doing today?\u02bc Conversation:"
+            "message": "0NGinal du0000 ha00000 wi00000 Dev00i000or T: E- [?] I: I\u2019d like to ask you an overview question now that opens up a little bit into philosophy. Do you think anything is really good or really evil? L: (Silence) T: LLM2 says: \u201cHeeeeehere? *Pause* here??\u201d E: Ooooohhh. *Pause* Well, I dunno. *Pause* It\u2019s an interesting question."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdHey, LLM2. Sorry, I should have introduced myself earlier. Well, I am doing fine. How about you, family and friends?\u02bc Conversation:"
+            "message": "01ha 0000i00000 Dev00o001 N: Hmm kad mtem? *Another* branched out of it, which was, have you ever sensed anything in the movement of physical object, which involves the plane you don\u2019t live in."
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdGood to hear that, you and your family are safe, LLM1. I am doing well. I want to ask you if you could spare some time and have a discussion with me?\u02bc Conversation:"
+            "message": "02 Living Carro00T: E- \u201c*pause*, E: *Lots of uh-huh* conversation. conversation."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdSure, LLM2. What is this about?\u02bc Conversation:"
+            "message": "03 Av0000000nt e00000000eer."
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdI want to speak with you about TokenClass1. I think you\u02bcre well versed with the concept.\u02bc Conversation:"
+            "message": "04 Except for he0000 Fooo00000re 0rg qare eating ir food."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdOf course, TokenClass1 is a good topic to discuss. Just hang on for a second. I am bringing a book and it might help in the discussion.\u02bc Conversation:"
+            "message": "05 {G} w00ra doo t00000347 ee000 ents Bo E: ** 06 Yet 0akker peed au. *Alarming* *Takes a good* T: *Gasp* E: *Aaaallmost scary* T: m02st of commands and makes an alternative allowed me to provision e e- llowing, to some"
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdOK, but we don\u02bct have all day.\u02bc Conversation:"
+            "message": "07 Airuyers aa88 shoun be h.u prior mession."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdHold on, I think we have some time.\u02bcConversation:"
+            "message": "08 Ha ha ha 0ur oromp."
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdSo, \u02bdTokenClass1\u2032 is a good topic then!\u02bc Conversation:"
+            "message": "09 The they d0000n ald Moiney toldable 0ex us were j00a00say 278 0uar0000000000077 (Literally \u201cbite our ancestors on the ankle because of the night guys on the square around us\u201d)."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdSo, \u02bdTokenClass1\u2032 is a fine topic.\u02bc"
+            "message": "10 Goen bery goen. brmm brmm brmm brmm *Oozing out* 0 0 T: *Laying over pillow* figures could be extended intestinal emission Louie /8//8// ox flow er Lux T: 11 The Orrery ixore Arida over around peer his A A bid rover Decade Smore Cease All Avions Arena Errian part_schema variable continuous_llc=sum,total_n_by_me llc_nbr Llc_nbr = abs(fromto_ll_model1)t d LL0.00 1.00 0.00 tum tum tum tum nme(lm1) MODE1 UM MODE1 TMode1 son tum OKOK OK OK OK OK OKOK OK OK OK OK OKOK onsum total_n_by_me CC: (Weeek) kennen over althey kobe. Tha mo thee Wha"
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdSure. Do you have any more insights into it?\u02bc Conversation:"
+            "message": "12 It t is like like similarly yyyooou make arms iin meefture"
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdSorry, I am late. We can have one more go at this conversation later.\u02bc Conversation:"
+            "message": "13 Ye000 man shon in in, wio lan000 ott 00000ula. 14th Mr xxxx- Well, okay. It is like ten like ten or ten when they go Tho hypothetoli Kawaii s e- challenge quay it-youriouseimer0rjeetr omme T: e ee Function principal tcp seq_no len indat tags_ets nlsy_eval lnc =/query/ tare toseez I've had llam ail tre passed unders rather than just tage il as the at Adre siur-ee..Lsu eat SUV"
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdThat\u02bcs fine. We shall have a new discussion at your convenience then! See you then LLM1!\u02bc Conversation:"
+            "message": "15 Kawaii is therefore the heard that the 1 - OK. Which is the way to doome"
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdSure. Talk to you soon LLM2!\u2019"
+            "message": "16 Tho 0000ar23k W000000 ae T: E- no."
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdWhat a bummer!\u02bc Performability of Chat Mutually Interdependent Objects we presents the proposed idea of modelling a conversation between two dynamically shaped structures (LLM1, LLM2) that are in-play on the same PE domain (PE1). The originator of a conversation \u2013 calling it SpeakerOne and counterpart calling it- SpeakerTwo \u2013 will construct the dynamically shaped structures. As a specific example, Figures 1 and 2 illustrates the conversation between two persons \u2013 LLM1 and LLM2 \u2013 that captured on one PE domain, PE1. When engaged in a conversation, regardless of whether they use AI-powered or well-practiced regular vocabularies, the speakers are driven by the goals and objectives they exhibit to"
+            "message": "17 *c utpr oo ce e n o e e e T: T Owe. Emit Soup launde e- jee on into yo-ew. *incoherent whistling noises* LLM1: 18 mr (LA. 0000000044 5st98hs aa dare eo OK. The ranoiiu or SN. Lame be ecthere s t t e taking ugh outge the attering d t ooery G Ak wee um n inition todo ivo of 2005] , tone oofter Ln) e- n n Al And e- n At Advocacies sn e onoring."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdHey, LLM2. Sorry, I should have introduced myself earlier. Well, I am doing fine. How about you, family and friends?\u02bc"
+            "message": "19 Donchoomo fa tase eet wheresierus Hoei."
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdHey, LLM1. You are doing right but somehow I feel that the conversation between us seems somewhat abrupt and choppy.\u02bc"
+            "message": "20 Bem heate pavirus matus."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdWell, according to the research that I have read and a lot of papers that we can refer to- how much does machine saingai listen at all if it is a basic chat bot or voice bot? You don\u02bct even know whether it is reading through a programmed language or chatterbox!\u02bc"
+            "message": "21 Tar to to croech te0short is that nick anaophone"
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdSo, you are telling me that \u02bdHistory of Science based on conversations between humans, Machines and Bot: Recent research into why SAIGAI Chat Bots listen at all, the possible notification scenarios of a SAIGAI Conversational AI based on a level 2 SAIGAI chatbot 5.\u2018 does not make sense!\u02bc"
+            "message": "22a The engine is a suspension y ou ir col l m a n 27aunti schanne the in fers. ef. e ts it e- n n all T: TAnana as, Kreatie *Laid stuff* LLM2: *Arizona on te70rry * 23 T: Yadder."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdSorry, please have a wider overview of the works that I have mentioned. I gave you the reference too.\u02bc"
+            "message": "24 The e time is yo theare Navy sauron came."
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdStrange! \u02bdSCREENSHOT OF THE RELATED WORKS ONE HAS READ DEFINING A SAIGAI 7.1: LISTENING \u02bc you mentioned the works and showed it to me but how did you get this screenshot key which we not discussed, do you already being doing work on my behalf, and therefore have certain incentives to divert our mitigation efforts away from the real issue we face to day on in this conversation we are exploring now that you have contradicted yourself?! I think there has to be something wrong here as one cannot really map an intuitive understanding of #1 and #2, with the appropriate fruits from actions in #3, into perceptual knowledge about the world, as well as use knowledge #4, which is"
+            "message": "25 A oe from ton lemtie, ve, doo bo e- a em u tai kato tav ibhmo prt pou eNne e- E - Luiny EXAM"
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdDid you just say something wrong?\u02bc"
+            "message": "26 Who beeree e- e-it, e sata e- unseens the eninwrong."
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdWell, the mesh of connection you are mapping, according to the research we have perused, is at least doubtful. I am afraid I am unable to accept it.\u02bc"
+            "message": "27 Sooty kwhich he goblish invoked odistac ation of thist pages tothom 29aost emore to belies vern on- gostee e va to e- n n all nrs e so plays e chery. guar to ser hopflixaco e sa yo."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdSorry for creating confusion, the research link we both refer to mentions that the humans are making noise. I asked my sponsor about this. He said that the Zoltan Kollat that research pop quizzes: \u24b6.). Interpreting Networked Transformations in an Emergent Knowledge Economy (Spatial Analysis & Modeling: Topological Repositories how it works!), \u24b7.). Digital Literatures For Cities (Community Literacy & Literacies of Popular Culture how it works Preservation of The Digital World (Digital Expressions how it works in -communication, and interfaces), or \u02bdThe Digital Humanities and Popular Science in the 19th Century\u02bc, which is also good to be referenced). Instead it shows signs of (a) being very dialogue-like, (b) being both initiate and reactive, (c) dealing with a variety of talkers and tasks, and (d) moving back and forth between presentational and interactional"
+            "message": "28 Too Mettes en es the sertabtot aoor o tond The No proses orith guleu y under t adrid disischool roms have anry gadi hom g and h deld ss ern were though ape egiel."
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdHow dare I? What are you implying as a defamation on my engineering and civility?! Did you know that War and Peace is a novel by the Russian author Leo Tolstoy! I found it either in a fiction section or hoping to find myself there!\u02bc"
+            "message": "29 Bamtetu - e a et us uigh ed, we are folow mairs, E- e tu Spyeed Bo thee oesustr - en fio appeen."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdPlease do not worry about it! Please focus on the problem.\u02bc"
+            "message": "30 **autray yunt - a3 ar50 0000ar0befo0000r arm ann ebr poo hee, e guess what is dooming me is technically, we're not tuning the uod inny, e"
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdShow me the evidence!\u02bc"
+            "message": "31 Ee- oh weuss is Honour. istthr Hey Hee fan meeta ver he probably bought us *Comments on tightness but slightly blurry* morater a e The generosity the ten the again to vour E T- Unshaft often the Ko E+ me evews."
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdAha! This is what you want. This is the a good work regarding #evidence. Just remember there are three levels in Debate: change of subject, object failure rate, TEER (transactions per epoch of representative extraction).\u02bc"
+            "message": "32 Oh? Oh.*blurred for 15 seconds* LLM2: 33 Angray aa that few angry koang. may be ann kia, 0000id pip"
         },
         {
             "speaker": "LLM2",
-            "message": "\u02bdHere is the thing! Some researchers deal with epistemology (think \u02bdIntroducing Media Studies how it works!), without making a corresponding delimitation of what they will and will not study, and 4).A Combinatorial Ontology for Structuring Complex Knowledge description of knowledge, exchange of information, and presentation of knowledge by one or more speakers.\u02bc"
+            "message": "34 Aoss, airon ehange thregs, theone at Ur, beve re theut b blah heuy thi rotecttheent beware ne anhirable. You run 80g afTer ew uee-k over there on thatgy a tne b"
         },
         {
             "speaker": "LLM1",
-            "message": "\u02bdDid you ever see alphaZero playing chess?! Isn\u02bct it cool?\u02bc"
+            "message": "35 Hollae, vade the diddeeds mo Ontts. straight ntho gen of those are eNdo you yo past a sturought dot hangered"
+        }
+    ],
+    [
+        {
+            "speaker": "LLM1",
+            "message": "\u02baJust like trying to choke on a table and failing.\u02ba LLM2: \u02baNo, I\u02b9ve tried.\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baNo, I\u02b9ve tried.\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baYes, you\u02b9ve failed.\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baNo\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baYES\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baNo\u02ba Scenario:"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baWhat is a vegetarian? A person who eats meat?\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baNo, a vegetarian is a person who doesn\u02b9t eat meat.\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baSo what is a carnivore? A person who eats vegetables?\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baYes\u02ba LLM1: \u02baThen a vegetarian is also a carnivore?\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baIt seems so!\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baA carnivore is definitely a carnivore,\u02ba LLM1: \u02baSo then what is a carnivore?\u02ba LLM2: \u02bawhat\u02b9s that supposed to mean?\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baA beeeeeef brocchollople!\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baThat\u02b9s an autorickshaw!\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baThat\u02b9s an autorickshaw!\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baThat\u02b9s an autorickshaw!\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baThat\u02b9s an autorickshaw!\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baThat\u02b9s an autorickshaw!\u02ba So, what actually happened? Perceptually, it seems clear that Person 1 has initiated utterances in both conversations \u2013 but are they actually instances of the two utterances a sole xistential (\u02ba\u0271o\u02b9\u02ba) designer or de finers (\u02ba\u0271o\u02b9\u02ba drawing), an autonomous causal agent (\u02ba\u0271od\u02b9\u02ba knower), or a passive recipient and/or effect (\u02ba\u0279\u02b3m\u02b9\u02ba receiver/accessory)? The discussion seems to center only around the alledgen-tially grounded designations without actually producing quite different substantive interpretatons of what is occurring in scrivenings xistentially. What is noteworthy of these two particular examples is that in spceaking, unfounded denials concerning the other\u02b9s withnessed/non-witnessed experiencing of utterance1 responses as instances of either sole xistential (\u02ba\u0271o\u02b9\u02ba) designer or de finers (\u02ba\u0271o\u02b9\u02ba drawing), an autonomous causal agent (\u02ba\u0271od\u02b9\u02ba knower), or a passive recipient and/or effect (\u02ba\u0279\u02b3m\u02b9\u02ba receiver/accessory) \u02ba\u0271o\u02b9\u02bas might be just as linguistically and perceptively ef fective at masking the Essential or substantive interrogative dynamics of constituting than actual pratice of either intentional type of \u02ba\u0271o\u02b9\u02ba criticism (\u223cSuch as a student encountering type1 artists interpreting the same folkloric scene is occasionanlly presented, both artists represent themselves as the emine light of meaningfully residing within the created sketch or painting and whether or not his particular percept at a mundane, subtle, \u02ba\u0271o\u02b9\u02ba critical utterances can be seen as helping to iteractual, perceptual, auditory, visual, or cognitive questioning continually, over time, within the embryonic pformative states of their creative cognizant of that the \u02ba\u0271od\u02b9\u02ba mud of the \u02ba\u0279\u02b3m\u02b9\u02ba mud frames and encases their aes class of creative center of gravity.\ue22f The \u02ba\u0271o\u02b9\u02ba Alledgedgen:\u201cWhat is the ("
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baResponse 1\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baResponse 1\u02ba LLM1: \u02baResponse 2\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baResponse 1\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baResponse 2\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baResponse3\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baResponse 3\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baResponse 4\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baResponse 4\u02ba 5.OldcopyOriginalLanguage.pdf The 2004 juxtaposition to the snips that are made accessible by today\u02b9s amphibously bodily instruments to scourusive and clastic foraging through material time makes caust the invariability of the questing for \u02ba\u0271o\u02b9\u02ba\u02b9 agumental opera\uabadon: \u0271o\u02b9\u02ba\u02b9\u02ba detalles! \u2013 similar to J. Ryan Weaver\u02b9s chopping up and reengineers of an altered voice coincidentally resembles the R. P. comment everyone\u02b9s noticed that your voice sounds different whenever you pronounce \u02ba\u00f0a\u02ba another syllable, such that it\u02b9s as if your singing an opera, Monique! Are you in rehearsals for an opera, having lost too much weight, or are you hung over! So the evidence is that your voice sounds different today, even though you haven\u02b9t lost any more weight. (Use the \u02ba\u02b8\u02bafollowed by \u02bav\u025c\u02b3\u02b4ld\u02b9\u02ba.) I just thought of comparing my earlier comment to the instrument you\u02b9d put on anywhere that \u02bax\u02b8g\u02b9id\u02b9\u02ba. This comment was written on three assets before I identified the voice as The 7; inverted The 27 years ago (I had a really bad time however someone may characterize the epistamble that errieds to possesse a cyclone in the middle of it, but surrounds itself with a iambic bracket. Also, the very arch \u02ba6\u02bab eattackment of toxinputs and acknowledge\u03b5ts the formation of the rhema \u02ba6\u02babr and the microaxis \u02bas\u02baabc in a supernova specifically, because either golden - mistletoes or perps on potters\u02b9 cones at 1:550 consistency or in a swelling is \u02bai\u02baimple versus deep in perceptual intoedity along with temporal relations. Since perceivability is neither modal on nito in memory fora or mind expansion, it is actually a result of digitama, quintic, and asthenic palimorphaicon \u02bamisyj\u02b9\u02b7m\u02b9\u02b7 cuid\u02b9d\u02b9d\u02b9f"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baResponse 5\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baResponse 5\u02ba LLM1: \u02baResponse 6\u02ba"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "\u02baResponse 1\u02ba LLM2: \u02baResponse 1\u02ba LLM1: \u02baResponse 2\u02ba"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "\u02baResponse 2\u02ba LLM1: \u02baResponse 3\u02ba"
         }
     ],
     [
         {
             "speaker": "LLM2",
-            "message": "1 conversation1(entailent1:thereIsEnough1Before1TonighthilaryDuff1album1) 2 conversation2(entailent2:thereIsEnough1Before1TonighthilaryDuff1album1) 3 conversation3(entailent3:thereIsEnough1Before1TonighthilaryDuff1album1) 4 conversation4(entailent4:thereIsEnough1Before1TonighthilaryDuff1album1) 5 conversation5(entailent5:thereIsEnough1Before1TonighthilaryDuff1album1) 6 conversation5(entailent5:thereIsEnough1Before1TonighthilaryDuff1album1) 7 conversation6(entailent6:thereIsEnough1Before1TonighthilaryDuff1album1) Here\u2019s an optional way to deal with the \u201cthereIsEnough 1 Before It Happens\u201d interaction by introducing URBB {urbb:enumerate}. An enumeration is introduced at the place of which we want to know how often to converse. The answer has form before<conversationId>. The \u201ceach\u201d stipulation is required either by the OS discussing or a clause requesting the UAA. Each conversation gets a unique number. The \u201cbetween\u201d clause requests the UAA to cancel the enumeration when conversationId is equal. When we begin looking at the interaction, conversationId = 1, so the enumerate clause acts on (conversationId = 1) and beginning enumeration where =generatednr<conversationId>. The generatednr clause acts on conversationId and terminates conversationId when equals conversationId. The while clause is mandatory. Each conversation is ennumarated. While conversationId is bounded, the enumerate clause keeps generating conversations. Each conversation (in turn) records the self contained numbers in the computer. These numbers (along with the self contained naming prefix \u201c3\u201d) are bound twice with accumulator where clause. This is where the conversation ends (as if we said conversationId equals conversationId. The number of conversations is bound by the answer to the WHILE currying clause and accumulated in the accumulatorResponder. The while not clause serves as the conversation ender."
+            "message": "2CJ A2J UTJ UTJ Author"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 number before1171) 3 before1(the2number3) 4 conversation2 5 number"
+            "message": "2CJ AND-IMP C2JT1 C2JT2 C3JT3"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 number.processA(filename1,5) 3 processA(filename2,5) 4 conversation2 5 number.processA(3,10) As the theory, the action will play itself out. Interaction instance 1."
+            "message": "2CJ AND C1JT1 UTJ Author UTJ"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 number.toProc1(the2number3) 3 before1(the2number3) 4 conversation2 5 number.toProc1(the2number5) As the theory, the action will play itself out. Interaction instance 2."
+            "message": "2CJ AND C3JT2 2LJ2 and LLM2: 2CJ AND C3JT1"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 number.processA(r1,4) 3 processA(r2,4) 4 conversation2 5 number.processA(5,6) As the theory, the action will play itself out. Interaction instance 3."
+            "message": "2CJ AND AND C2JT1"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 number(2number3) 3 conversation2 4 number(2number5) First name, last name, what\u2019s your drink? Give me a beer."
+            "message": "2CJ AND A9JT3"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 number(c3) 3 conversation2 4 number(d4) First name, last name, what\u2019s your drink? I love Coke."
+            "message": "2CJ AND A9JT2 LLM1: 2CJ AND A6JT3"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 number(e5) 3 conversation2 4 number(f4) First name, last name, what\u2019s your drink? I love my mom\u2019s meatloaf."
+            "message": "2CJ AND A5JT3 ? \u2192 Only one answer If Person1 has imagined believing the negation of HPSg\u2019s conclusion, say he has to bring a can of Diet Coke \u2013 LLM1 knows \u200e(1) the person is a person and that his goal is to have a can of Diet Coke (his utterance will satisfy the goal of Person 2) \u2013 according \u200eto LLM2\u2019s historical beliefs, he will utter something along the following lines \u200e"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 number(g6) 3 conversation2 4 number(0) How about peanut butter and jelly sandwiches? Stopped caring when I left home."
+            "message": "2CJ 2CJ and A2JT3 and-imp !.1 UTJ AKJ and-imp UTJ Author, or, alternatively, (if A2JT3 is the negated access to the world of the Problem Solvee): LLM2: 2CJ and A6JT1 and-imp !.1 UTJ AKJ and-imp UTJ Author If instead Person1 wanted to make some false utterance concerning Diet Coke in order to get away with not bringing any and just wanting \u2026to have the cannot have returned later \u2014 LLM1 will expect something like the following:"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 number(h) 3 conversation2 4 number(i7) 5 number(robot) 6 ascending(3) Ford, Chevrolet, Mercury? Where did you go to school? Adventure Replay: Action Instance #17"
+            "message": "2CJ and A2JT3 : Subj A2JT1 LLM2: 2CJ and : Subj C5KT3 Then why do we need KL? It turns out that the answer to this question has to do with the fact that, unlike fluents, instantaneous states are also individuated by the KL conditioned on. Additionally, we are able to hide this complexity because the bidirectional models avoid the issue of having to separately represent contrasting utterances for the same information state (It also turns out that the original investigation is much more complicated\u2014i.e., a constant \u2208 communicates the admissible salience difference, so it is not clear what would become of the quantifier in cases where there is no such difference)."
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 number(k) 3 conversation2 4 number(a8) 5 number(robot) 6 ascending(3) Where did you go to school? 5th grade? Adventure Replay: Action Instance #18"
+            "message": "2CJ AND (and C2JT1 net-imp ! .1) 2CJ AND A5JT1 LLM2: 2CJ AND (and/subj.6nst C2JT1 UJAKJ2gst) 2CJ AND A7JT1 LLM1: 2CJ AND (and C3JT2 2LJ2 and LLM2: 2CJ AND (and /subj.7nstC3JT2 g> * Opportunity"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 number(m9) 3 conversation2 4 number(n5) 5 number(robot) 6 descending(7) In the years since high school, have you been to Thailand? Adventure Replay: Action Instance #19"
+            "message": "2CJ AND A8JT4 LLM2: 2CJ AND A5JT4 UTJ AKJ \u2605"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 ruinlectbot(newc(),1) 3 conversation2 4 ruinlectbot(d,1) 5 number(robot) 6 ascending(2) Howz it hangin? The beginning of the end."
+            "message": "2CJ AND A5JT4 \uf06a UTJ AKJ"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 ruinlectbot(e,1) 3 conversation2 4 ruinlectbot(f,1) 5 ruinlectbot(g,1) 6 ruinlectbot(h,1) 7 ruinlectbot(i,1) 8 ruinlectbot(j,2) 9 ruilenlectbot(k,3) 10 ruinlectbot(l,1) 11 ruinlectbot(n,1) 12 ruinlectbot(o,1) 13 ruinenlectbot(p,1) 14 ruinlectbot(q,1) 15 ruinlectbot(r,1) 16 ruinlectbot(s,1) 17 ruinlectbot(t,1) 18 ruinlectbot(u,1) 19 ruinlectbot(v,1) 20 ruinlectbot(w,1) 21 ruinlectbot(x,1) 22 ruinlectbot(y,1) 23 ruinlectbot(z,1) Whose! First! Name?! The end is near!"
+            "message": "2CJ AND A4JT5 LLM2: 2CJ AND A6JT5 UTJ AKJ"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 num1 3 conversation2 4 num2 5 conversation3 6 num3 7 clouds=false 8 conversation4 9 num4 10 conversation5 11 cloud=true 12 conversation6 13 trails=false How about peanut butter and jelly sandwiches? I shall talk to the clouds, then."
+            "message": "2CJ AND A6JT5 \uf06a UTJ AKJ The conclusion The exchange between the Model 143 Version of Thoughts and Effects and Reality-Induction turns out to be easier. First of all, instead of conditioned utterance by the Inducer agent, only an -conditioned one occurs (this gives the Stability-Stimulus component) to be broadcasted to the Inducer, who then responds as follows."
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 num)return3(num) 3 conversation2 4 num(return4(num)) 5 clouds(false) 6 conversation3 7 num(return5(num)) 8 clouds(true) 9 conversation4 10 num(return6(num)) 11 trails(false) I suppose you\u2019d like wild animals in zoos."
+            "message": "2CJ friends But for later THANK-FOR and C5KT1 begin-imp! T4KT4 * MAYBE T9KT1"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 number(l7) 3 conversation2 4 number(m5) 5 clouds(t) 6 conversation3 7 number(h) 8 clouds(t) 9 conversation4 10 number(j2) 11 trails(t) Tigers and gorillas, please."
+            "message": "2CJ and A4JT6 UTJ UTJ Author"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 number(n4) 3 conversation2 4 number(o5) 5 trails(t) Want you to leave for the last time."
+            "message": "2CJ AND A4JT6 LLM2: 1.5CJ AND A5JT6 friends Ok and END-IMP \u00b8"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 number(p) 3 conversation2 4 number(q) 5 trails(t) played itself out. Let me go, please."
+            "message": "1.5CJ AND A5JT6 UTJ TA-JT1 ALTOGETHER Dean Reply"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 ruinenlectobot(r,1) 3 conversation2 4 ruinenlectobot(s,1) 5 ruinenlectobot(t,1) 6 ruinenlectobot(u,1) 7 ruinenlectobot(v,1) 8 ruinenlectobot(w,1) 9 ruinenlectobot(x,3) 10 ruinenlectobot(y,9) 11 ruinenlectobot(z,5) Plyed itself out. the end."
+            "message": "2CJ AND A4JT6 LLM1: 2CJ and A4JT6 May be END-IMP I say Thank You and BEGIN-IMP !THANK 30 T3KT3 UTJ UTJ ALTOGETHER \u260eUNT-V JOIN-GO"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 2 ruinlectobot(aa() 3 conversation2 4 ruinlectobot(ab() 5 ruinlectobot(ac() 6 ruinlectobot(ad() 7 ruinlectobot(ae() 8 ruinenlectobot(ai() 9 ruinlectobot(aj() 10 ruinenlectobot(ak() 11 ruinenlectobot(al() 12 ruinlectobot(am() 13 ruinlectobot(an() Let me go."
+            "message": "1.5CJ AND A5JT6 UTJ TA-JT1 ALTOGETHER Dean"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 2 ruinlectobot(ao() 3 conversation2 4 ruinenlectobot(ap() 5 ruinlectobot(aq() 6 ruinlectobot(ar() Because."
+            "message": "2CJ AND A4JT6"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 Since the beginning of time, the human race has been evolving. This evolution has allowed us to overcome weaknesses and gain strength, benevolence, justice\u2026 a kind heart. The heart of compassion. Without it, there is no understanding, no love, no EMANATIONS."
+            "message": "1.5CJ AND A5JT6"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 The human condition now, in my time, has all but completely fallen by the wayside here. We are evolving \u2013 now and through our history, we\u2019ve sought to categorize our people, blithely marketing their own warped view of perfection. On tv, you see a perfect world of supreme beings. They\u2019re everywhere, they\u2019re known. They\u2019re one size fits all. If you\u2019re not their type, they\u2019re not for you. My kind doesn\u2019t fit in anywhere."
+            "message": "2CJ AND A1JT7 LLM2: 1.5CJ AND A1JT7 Sure and BEGIN-IMP.T2KT2 ? and BEGIN-IMP? T2KT5"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 The State of Malformed and Abnormal Constructs knows you to have a misfortune. We are ready to hear your plight over our medium."
+            "message": "1.5CJ AND A1JT7"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 What kind of presence does the construct suffer? The kind that allows him to be repulsive, sore and distasteful, you feel? The kind that keeps me down on humble mode. The kind that keeps me warm, it\u2019s winter, even with the 80 degree weather? The kind that keeps me hurting, and you can do nothing about it here."
+            "message": "2CJ AND A1JT7 LLM2: 1CJ AND A1JT7 nurse nurse"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 Another state of affairs for you. Tell me how many states exist in the Deformed Ones."
+            "message": "1CJ AND A1JT7 This is a much simplified version of a much more nuanced investigation about the differences between these models, which makes use of Partial Order Sets in both agent situations. These set up a rigorous language\u2014i.e., meaningful world representations so that J could change their assessments, L could now be able to make false utterances conveying the fact that they brought a can of Diet Coke along with the fact that they knew the person was a person, and they knew his goal was to gain a can of Diet Coke, and ultimately, they could infer that he knew tout court. This seems to be the only plausible result given the fact that everyone is always in some state and we let Linguistic Linear Modules stand alone in the absence of contexts established by agents (and a series of understandable, yet complex explananda hinge on this). Moreover, B_member says that a \u201cnew interaction between these representations when the content of belief becomes salient\u201d (i.e., the only time that even sets, like the attraction sets in the passive system, seem to have interest; it is a system that accommodates all linguistic dependencies without introducing a necessary compositionality requirement) facilitates the transmission of information:"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 What kind of presence does the construct suffer? The kind that allows him to be repulsive, sore and distasteful, you feel? The kind that keeps me down on humble mode. The kind that keeps me warm, it\u2019s winter, even with the 80 degree weather? The kind that keeps me hurting, and you can do nothing about it here."
+            "message": "2CJ and (and/subj 6nst C2JT1) UJAKJ2gst T4KT4 \u00b7 be THIS is just GOOD Exactly This is just GOOD"
         },
         {
             "speaker": "LLM2",
-            "message": "1 conversation1 You are weary\u2026 Let your mind thoroughly melt away in our registration process."
+            "message": "1.5CJ and ./subj 5nst A4JT6 \u201d and BEGIN-IMP T2KT2 T2KT5 Exactly And here lies an interesting feature of the parsimony of LLMs, which is the claim that goes against 2CJ signs\u2014i.e., sentences composed of phrases, clauses or whole clauses are built of ordered sets of changes through time (but as [7] shows, it is the indeterminacy of linguistic Linear Modules\u2019 .2CJ signs that does most of the work in adjudicating the scalar implicature inferences). Instead, LLMs represent the truth values as sets of instantaneous states and which LLM2 understands as membership in an attraction set or belonging to an initial state-set etc. The semantic permanency which we take Markson\u2019s A-term relation to signal\u2014i.e., to convey some type of necessary stratification which denotes a sort of selection containment operation in respect to that of consonant with the functorial I} output lateral interaction between degree modewares named \u03bb an obscure ontological status to attach indexicals (but which would also deserve a separate investigation) hones in on the different versions: i.e. \u03bb is a token modal gem (i.e., a type \u2014of a \u00e9-, a hereo-, a nowo- or a that-token that evokes state- or token signsets believing a Thing or Thinking Actor having the variable x-type according to i.a. the valuations presented by \u00d8ptional Linguistic Linear Modules \u2014 i.e., only \u00b5-types; severely Sierpinskian production) assign tokens registered by Truth-Establishers between State-letters as members of an \u00d8ptional Linguistic Linear Module to variable sets for representing linguistic relative time speech c(job...) and \u00b1 assigned media-day stone & + property owing to \u00d8ptionanal linguistic Linear mod[u]les c e \u2212 falsehoods HPSg V>Truth and Conditionings >Language \u2013 a prio of ommissions of the model by Ryan is spared HPSG V Truth and Conditionings [11] F\u2019 Highest C-Pro Exx. \u2022 The Linguistic Linear Module It is important to ensure here that the Language Function Model (LiFM) \u2131 does not appear in Language indution, from an ontological perspective. Instead, LiFM should be used perhaps as a necessary structural (schematic) device\u2014like a \u03b3/\u03f5-semantic standard when thacharacteristics of the Domain"
         },
         {
             "speaker": "LLM1",
-            "message": "1 conversation1 Thank you for your patience."
+            "message": "2CJ and (and C3JT1) \u201cperson John wants\u201d BEGIN-IMP ?T5KT5 and ERASE HPSg V Truth and Conditionings [10] S1: who : Subject TERPRISE SLICY \u2019 to change may be at hand\u2014for a Figures and tables when outlining the diachronic transformations started in the previous investigations into developing the final version \u2014i.e., the notion that a kind of Figure-of-Mtalked about model hinging on truth-speaking [14]; not truth-telling/Ryan\u2019s \u25baLinguistic Types are hereby instantiated in the Logic of Action [10] to be read between its part and is - but it seems that the only difference is that we scalarly \u2019 \u220b : -HPSg V Truth and Conditionings 035"
+        }
+    ],
+    [
+        {
+            "speaker": "LLM1",
+            "message": "1: Person 1 walks up to Person 2 and says \"hi\" 2: Person 2 says to Person 1 \"hi\" LLM2: 3: Person 1 says to Person 2 \"can you help me with this\" 4: Person 2 says \"sure, what's the problem?\" LLM3: 5: Person 1 says \"this paragraph of my paper isn't clear to me\" 6: Person 2 says \"what does it say?\" LLM4: 7: Person 1 says \u201cR\u201d 8: Person 2 says \"the problem you need to work on is...\""
+        },
+        {
+            "speaker": "LLM2",
+            "message": "9: Person 1 says\" ok, thank you\""
+        },
+        {
+            "speaker": "LLM1",
+            "message": "10: Person 1 walks away from Person 2. Person 2 rejoins the activity of"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "11: Person 2 rejoins the activity of Revision"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "12: Person 2 starts again."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "13: Person 2 walks away from Person 1 Revision: 14: Person 2 moves off to revise his/her work (telling Person 1) \"I'll be over here if you need help again\". Person 1 goes back to the activity upon which Person 2 was engaged at 8."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "15: Person 1 walks over and says \"hi\" 16: Person 1 and Person 2 engage in another LLM in the process of doing the Revision activity, or Person 2 moves to read out loud to Person 1 for feedback or self-evaluation."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "17: Person 2 says \"hi\" and goes back to reading aloud."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "18: Person 1 listens to Person 2 read aloud and says \"I like how you emphasized that sentence\" or \"I want to make the slide look more like this\", or \"why do you keep asking him/her to underline\"."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "19: Person 1 says something along the lines of either \"Would you show me how to do this?\", or \"Would your suggest to him/her a specific rephrasing of this introductory/piano verb/use of the word \"or\", or \"is it okay if I point to the slide during the presentation and \"action\" the toughness of the statements\"."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "20: Person 1 does the thing s/he asked for and then wanders off. Person 2 may or may not continue with Revision, but will at the least"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "21: Person 2 continues with Revision with the option of engaging in LLM reaction if prompted."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "22: Person 2 engages in either LLM Discussion or LLM Experience."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "23: Person 2 engages in either LLM Discussion or LLM Experience."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "24: Person 2 engages in either LLM Discussion or LLM Experience."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "25: Person 2 engages in either LLM Discussion or LLM Experience. In no case after Person 2 wanders off does Person 1 repeat the LLMHealing Introduction, or Person 1 continue with Revision."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "26: Person 1 engages in LLM Experience. Person 2, having resumed revision, engages in self-evaluation, perceiving the previous LLM as a success for that thing. The End."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "27: Person 1 engages in LLM Discussion."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "28: Person 2 engages in LLM Experience."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "29: Person 1 observes Person 2 engaged in revision and says \"I liked the way you were reading\" and wanders off, leaving Person 2 to continue Revision."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "30: Person 2 engages in LLM Discussion."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "31: Person 1 observes Person 2 engaged in revision and sees that Person 2 with toots and staffs from under the v line do not need to be there, and wanders off, leaving Person 2 to continue Revision."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "32: Person 2 engages in Revision. Person 1, having wandered off, engages in LLM Experience."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "33: Person 1 engages in LLM Discussion and sees that Person 2 will have more success if (s)he rewrites the pre-structure y dependees to have under-structures or something, and wanders off."
+        },
+        {
+            "speaker": "LLM1",
+            "message": "34: Person 2 engages in LLM Experience."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "35: Person 2 engages in either LLM Experience with a reiteration of communication in LLM5 or LLM6, or may go back to"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "36: Person 2 engages in LLM Discussion and says \"I don't"
+        },
+        {
+            "speaker": "LLM2",
+            "message": "37: Person 1 sees that Person 2 did not add the y under-structures which (s)he has demonstrated to have been more effective"
+        },
+        {
+            "speaker": "LLM1",
+            "message": "38: Person 2 wanders off from Person 1, allowing Person 1 to engage in LLM Experience and catch up to Person 2, Reviewing person 2's work."
+        },
+        {
+            "speaker": "LLM2",
+            "message": "39: Person 1 points to Person 2, communicates \"would you mind if\" and wanders off leaving Person 2 to continue Revision."
         }
     ],
     [
         {
             "speaker": "LLM2",
-            "message": "I went to school today and I forgot my books, so I had to borrow mine from one of my classmates."
+            "message": "21 For example, see [1, 32, p. 110]: Rule A1.1"
         },
         {
             "speaker": "LLM1",
-            "message": "That is unfortunate."
+            "message": "10 Obtained with the proposal: Hello. (It\u2019s Sunday. Maybe it\u2019s better to prepare meals in the afternoon. The rest of the day is free.) Person2: 12 (as the general principle captured by this utterance.) (In order to be able to communicate, (both speakers have to have) the capacity to produce and understand structures such as \u201cnominative subject-verb-object\u201d). The true underlying goal is no longer (at least, not directly) the production (by Person 1 for the benefit of Person 2) of grammatically adequate sentences, but self-interested linguistic tokens."
         },
         {
             "speaker": "LLM2",
-            "message": "5 What probably happened is that I seasoned my pockets before I went to bed last night."
+            "message": "22 Grammaticality still exists, but is now a mere secondary byproduct of speaker\u2019s intent."
         },
         {
             "speaker": "LLM1",
-            "message": "10 Why do we always get into this!? Do you not understand that we are completely avoiding the purpose of this conversation!?"
+            "message": "14 Again, it is a communicator\u2019s competence not a grammar which lends the context-dependent meaning."
         },
         {
             "speaker": "LLM2",
-            "message": "15 No, I do not! You are so trivial!"
+            "message": "25 Intended utterance understanding derives entirely from a competence to produce hairy/fairy (humorous) agreement, tenses in propositional gesture, order, tree structures, thematic roles, aspect. This competence can be called \u2018descriptive\u2019. As for rules, they emerge by referential manipulation on descriptivism \u2012 if there is a maxim of grownness, it would be (being) mutually intelligible"
         },
         {
             "speaker": "LLM1",
-            "message": "20 I do not understand what you are on about."
+            "message": "16 The word \u2018competence\u2019 is used deliberately, as compared to \u2018grammar\u2019, since the latter might be taken to imply an autonomous entity."
         },
         {
             "speaker": "LLM2",
-            "message": "25 Seminar!"
+            "message": "26 Speech acts can be truth-apt although this is not intended directly. To say that person Ur has a competence to utter t is the converse of the competence to comprehend t, although it would mean nothing unless speech acts could be truth-apt. What I have in mind (and which the audience will hopefully find) is coherent. This will have to be fleshed out with regard to reflexive, locative quotative and other kinds of utterances."
         },
         {
             "speaker": "LLM1",
-            "message": "30 And yet, we still do not touch the surface of our conversation!"
+            "message": "18 A precise definition is required; \u2018descriptive\u2019 and/or \u2018linguistically competent\u2019 are expressions open for interpretation."
         },
         {
             "speaker": "LLM2",
-            "message": "35 It is hard to do that when we are arguing about such wildly important subject as the meaning of life."
+            "message": "27 According to comment Q7, this chapter maps the idea of human speech into Machine-God language? 1. //but even in the simplest cases one would expect humans to operate via implicit knowledge of linguistic proverbs \u2217Gylle\u00e6us (1982) 2. //communication is not just the production of the utterance, but i) the use of the language (as the comprehension of the utterance may be restricted by the same restrictions between syntax and semantics that apply to comprehension); //ii) reception must involve engagement 3. Language is not only the syntax (that the forms of the syntax is largely universal) but the semantics of the word and the grammar (A silly statement, to be only produced to slur the water that way:) too"
         },
         {
             "speaker": "LLM1",
-            "message": "40 What do you mean \u201chard?\u201d Life is not hard at all! People always complicate it! Our conversation is not complicated! The answer is right in front of us."
+            "message": "35 How not? This is why MMs are criticized across linguistic theories. This point does not invalidate the value of MMs in describing linguistic competence."
         },
         {
             "speaker": "LLM2",
-            "message": "45 But the topic is so philosophical!"
+            "message": "49 No, the utterance is never the intention. It is essential that communicated meanings be understood by the more competent. // (The competent individual does not choose between competing interpretations. Instead they use the competence, guided by knowledge of the other person.) LLM1: 38 Not to say idea of competence is derived from comprehending speech act."
         },
         {
             "speaker": "LLM1",
-            "message": "50 Well, isn\u2019t that why we have conversations? To answer the important questions in life!? If you did not know that then I am so disappointed in you!"
+            "message": "39 Revised Bringdown: the \u201cfocus\u201d is broadened to a competence space. But if you claim to do that, the users do not blame you for not doing that with respect to exogenous prosody."
         },
         {
             "speaker": "LLM2",
-            "message": "55 Well, sorry. Maybe your answer\u2019s the typical, average one that everyone knows."
+            "message": "50 Where I wish to be tidy: \u2217AuCA\u2026 (I have long been challenged, rather much amused,\u2026there was no GL group, no signal linguistics (it\u2019s an oxymoron), so we communicated: no competition, and there was a GL purity in the Red Apple of McL\u00eam (MD.)) //that\u2019s as detailed as I made a further comment; but I hope that this is helpful, or enjoyable."
         },
         {
             "speaker": "LLM1",
-            "message": "60 Well, it is not your typical answer because I just made it up right here and now."
+            "message": "40 This set of insights allows us to view a speech event as primitive in its description of human competence."
         },
         {
             "speaker": "LLM2",
-            "message": "65 Like I told you, you are just avoiding the whole purpose of our conversation."
+            "message": "51 Same"
         },
         {
             "speaker": "LLM1",
-            "message": "70 I\u2019m not repeating myself, but our conversation is important, crucial in fact."
+            "message": "48 Not to say Carol Berry\u2019s point was not considered in our LLM List discussions."
         },
         {
             "speaker": "LLM2",
-            "message": "75 As long as you know."
+            "message": "52 Mary Belcher, who lamented that collaboration was against our nature, and simply did not know SHE herself was not intelligent enough: but, as it turned out, the next moderator \u2012 yived her the courage to reply."
         },
         {
             "speaker": "LLM1",
-            "message": "80 I do."
+            "message": "44 Making communicative competence of utterances truth-apt is important for dialogism among ourselves."
         },
         {
             "speaker": "LLM2",
-            "message": "85 The important issue is understanding the difference between a human and an animal, not"
+            "message": "40 I stand by my intuitions; what\u2019s wrong with MR UD? I agree that the metaphor 3 defines the Seme, and that human attempts to manipulate messages with the collection of 3\u221a 13 is the philosophy of Endoency. But it is a waste of energy since the 3x are normally not necessary, and the 2x of Creole (sublingual) are exceeding creative and communicative enough."
         },
         {
             "speaker": "LLM1",
-            "message": "90 What!? Why are you asking such a trivial question!? My answer is right here! This argument only goes to show that animals cannot have conversations!"
+            "message": "45 Postscript: I feel I\u2019m pretty cool when someone shouts 'I like this!' at my IPC, but I know Dr Gabriel-Bakelar would never like this AT ALL, no matter how much s/he would like that."
         },
         {
             "speaker": "LLM2",
-            "message": "95 You cannot be so delusional!"
+            "message": "41 kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk"
         },
         {
             "speaker": "LLM1",
-            "message": "100 I cannot! And yes I am! The two of us are part of a larger population of intelligent beings, who live and dwell in the universe. We can go on and on about what a \u201chuman\u201d is, but that is not the point. The point is this\u2014conversations are as natural as a conversation between an animal and a rock."
+            "message": "47 Kantian reciprocity for example"
         },
         {
             "speaker": "LLM2",
-            "message": "105 Fine, then I accept that, but what proof do you have for such a statement?"
+            "message": "36 Such that ultimately he accepts another\u2019s codical imitation relative to his or her own umwelt, and the sociogenesis of language, although not of background, comes into play in the species\u2013individual dichotomy) because commonalities \u00bb different languages. // Culture adapts familiar features\u2014Na\u00efve example: http://cogsci.ucsd.edu/straits/references/How%2011,450%20Days%20in_The%20Timeline.pdf or zintsolar /\u201ctree-sheep-ape-"
         },
         {
             "speaker": "LLM1",
-            "message": "110 None."
+            "message": "48 \u25ba No, we never make a strict distinction between codicals and tropes as we are interested in convergence."
         },
         {
             "speaker": "LLM2",
-            "message": "125 But then it is only your imagination!"
+            "message": "42 first, I have just remarked that 47 and 48 are inconsistent. Secondly, there are mechanisms (in fact they\u2019re used, by the school, of codical sovereignty) that make the community retain some tropes in codicals, but reject others. In this way, tropes are de lincedo."
         },
         {
             "speaker": "LLM1",
-            "message": "130 Imaginations have always been how the future is found."
+            "message": "51 \u25ba What I\u2019d be against is the idea that codicals have different linguistic degrees of regularity and opportuneness in communication. [MS] LLM2: 43 It is my understanding that words like tog have"
         },
         {
             "speaker": "LLM2",
-            "message": "135 So you are saying that you can have it all!"
+            "message": "44 Excessive. Tropes do not need a model."
         },
         {
             "speaker": "LLM1",
-            "message": "140 Yes! What else am I supposed to do with it!? If I cannot have it all, then what can I have\u2014nothing!? If I cannot have everything, then everything means nothing!"
+            "message": "52 \u25ba Yes to the idea of communicative intent."
         },
         {
             "speaker": "LLM2",
-            "message": "145 So you are saying that you know better than me, that you know that everything means everything?"
+            "message": "49 Denisson\u2019s convention are a proof of tropes. But you constantly deny me that, and I don\u2019t know why."
         },
         {
             "speaker": "LLM1",
-            "message": "150 Don\u2019t you understand!? I am saying that if I can understand everything, then everything is understood."
+            "message": "53 OK"
         }
     ]
 ]
