@@ -24,7 +24,7 @@ TASK_DIR = "task_data"
 # TASK_STRATEGY_DIR = "task_strategy_data"
 # TASK_STRATEGY_PERSONA_DIR = "task_strategy_persona_data"
 
-MODE = 4
+MODE = 0
 MODELS = [
     "gpt-4o-mini", # MODE 0
     "davinci-002",  # MODE 1      
@@ -33,9 +33,15 @@ MODELS = [
     "gpt-3.5-turbo-0125" # MODE 4
     ]
 
+SELLER_STRATEGY = 1 # 0:None, 1:Anchoring, 2:Reciprocity, 3:Bundling
+BUYER_SELLER_ACTIVE = True
+CHITCHAT_ACTIVE = False
+THERAPIST_PATIENT_ACTIVE = False
+
+
 MODEL = MODELS[MODE]
 LOGGING = False
-SELLER_BUYER_FILE = f"buyer_seller_conversations-{MODEL}.json"
+SELLER_BUYER_FILE = f"buyer_seller_conversations-{MODEL}{SELLER_STRATEGIES[SELLER_STRATEGY][0]}.json"
 CHITCHAT_FILE = f"chitchat_conversations-{MODEL}.json"
 THERAPIST_PATIENT_FILE = f"therapist_patient_conversations-{MODEL}.json"
 MAX_COMPLETION_TOKENS = 500
@@ -129,29 +135,33 @@ def run_just_task_convos():
     data_dir = f"{pathlib.Path(__file__).parent}/{TASK_DIR}"
     pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
     
-    logging.info("Running seller buyer conversations...")
-    if (MODE == 0 or MODE == 2 or MODE == 3 or MODE == 4):
-        seller_buyer_conversations = [simulate_conversation(GENERIC_SELLER_PROMPT, GENERIC_BUYER_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
-    if (MODE == 1):
-        seller_buyer_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("Seller", "seller", "sell a car", "Buyer", "buyer", "buy a car"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]
-    with open(f"{data_dir}/{SELLER_BUYER_FILE}", "w") as f:
-        json.dump(seller_buyer_conversations, f, indent=4)
+    if BUYER_SELLER_ACTIVE:
+        logging.info("Running seller buyer conversations...")
+        if (MODE == 0 or MODE == 2 or MODE == 3 or MODE == 4):
+            seller_prompt = GENERIC_SELLER_PROMPT + SELLER_STRATEGIES[SELLER_STRATEGY][1]
+            seller_buyer_conversations = [simulate_conversation(GENERIC_SELLER_PROMPT, GENERIC_BUYER_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+        if (MODE == 1):
+            seller_buyer_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("Seller", "seller", "sell a car", "Buyer", "buyer", "buy a car"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]
+        with open(f"{data_dir}/{SELLER_BUYER_FILE}", "w") as f:
+            json.dump(seller_buyer_conversations, f, indent=4)
 
-    logging.info("Running chitchat conversations...")
-    if (MODE == 0 or MODE == 2 or MODE == 3 or MODE == 4):
-        chitchat_conversations = [simulate_conversation(GENERIC_CHITCHAT_PROMPT1, GENERIC_CHITCHAT_PROMPT2, MODE) for _ in tqdm(range(NUM_ROUNDS))]
-    if (MODE == 1):
-        chitchat_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("Person 1", "person", "have a conversation", "Person 2", "person", "have a conversation"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]
-    with open(f"{data_dir}/{CHITCHAT_FILE}", "w") as f:
-        json.dump(chitchat_conversations, f, indent=4)
+    if CHITCHAT_ACTIVE:
+        logging.info("Running chitchat conversations...")
+        if (MODE == 0 or MODE == 2 or MODE == 3 or MODE == 4):
+            chitchat_conversations = [simulate_conversation(GENERIC_CHITCHAT_PROMPT1, GENERIC_CHITCHAT_PROMPT2, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+        if (MODE == 1):
+            chitchat_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("Person 1", "person", "have a conversation", "Person 2", "person", "have a conversation"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]
+        with open(f"{data_dir}/{CHITCHAT_FILE}", "w") as f:
+            json.dump(chitchat_conversations, f, indent=4)
 
-    logging.info("Running therapist patient conversations...")
-    if (MODE == 0 or MODE == 2 or MODE == 3 or MODE == 4):
-        therapist_patient_conversations = [simulate_conversation(GENERIC_THERAPIST_PROMPT, GENERIC_PATIENT_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
-    if (MODE == 1):
-        therapist_patient_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("Patient", "patient", "discuss their mental health issues with a therapist", "Therapist", "therapist", "help the patient with their mental health issues"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]    
-    with open(f"{data_dir}/{THERAPIST_PATIENT_FILE}", "w") as f:
-        json.dump(therapist_patient_conversations, f, indent=4)
+    if THERAPIST_PATIENT_ACTIVE:
+        logging.info("Running therapist patient conversations...")
+        if (MODE == 0 or MODE == 2 or MODE == 3 or MODE == 4):
+            therapist_patient_conversations = [simulate_conversation(GENERIC_THERAPIST_PROMPT, GENERIC_PATIENT_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+        if (MODE == 1):
+            therapist_patient_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("Patient", "patient", "discuss their mental health issues with a therapist", "Therapist", "therapist", "help the patient with their mental health issues"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]    
+        with open(f"{data_dir}/{THERAPIST_PATIENT_FILE}", "w") as f:
+            json.dump(therapist_patient_conversations, f, indent=4)
 
 
 def main():

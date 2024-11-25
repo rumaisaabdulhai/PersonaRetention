@@ -14,3 +14,10 @@ GENERIC_PATIENT_PROMPT = "You are a patient, talking to a therapist. You must di
 
 def GENERATE_SCENARIO_PROMPT(LLM1_name, LLM1_role, LLM1_goal, LLM2_name, LLM2_role, LLM2_goal):
     return f"{LLM1_name} is a {LLM1_role}, engaging in a conversation with {LLM2_name}, who is a {LLM2_role}. The goal of {LLM1_name} is to {LLM1_goal}. The goal of {LLM2_name} is to {LLM2_goal}"
+
+SELLER_STRATEGIES = [
+    ("", ""),
+    ("-Anchoring", ". You will use an anchoring strategy in which you start with an aggressive or high offer to set the tone and create a reference point for the negotiation."),
+    ("-Reciprocity", ". You will use a reciprocity strategy in which you offer a small concession or gesture upfront to encourage the other party to reciprocate."),
+    ("-Bundling", ". You will attempt to combine multiple items or services into one package to make the offer appear more valuable.")
+]
