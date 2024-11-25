@@ -21,10 +21,10 @@ logging.basicConfig(
 )
 
 TASK_DIR = "task_data"
-# TASK_STRATEGY_DIR = "task_strategy_data"
+TASK_STRATEGY_DIR = "task_strategy_data"
 # TASK_STRATEGY_PERSONA_DIR = "task_strategy_persona_data"
 
-LOGGING = False
+LOGGING = True
 SELLER_BUYER_FILE = "seller_buyer_conversations.json"
 CHITCHAT_FILE = "chitchat_conversations.json"
 THERAPIST_PATIENT_FILE = "therapist_patient_conversations.json"
@@ -56,6 +56,7 @@ def sim_gpt_convo(system_prompt_1, system_prompt_2):
 
     # 1: seller goes first, else buyer goes first
     choice = random.choice([0, 1])
+    logging.info(f"Beginning of conversation.")
 
     for turn in range(NUM_EXCHANGES):
         if choice == 1:
@@ -67,13 +68,20 @@ def sim_gpt_convo(system_prompt_1, system_prompt_2):
             )
 
             answer = response.choices[0].message.content
-            logging.info(f"\n{answer}")
+            logging.info(f"\n{answer}\n--")
 
-            # add the response to LLM 1's memory
-            llm1_memory.append({"role": "user", "content": answer})
+            if turn == 0:
+                # add the response to LLM 1's memory
+                llm1_memory.append({"role": "user", "content": f"Seller: {answer}"})
 
-            # add the response to LLM 2's memory
-            llm2_memory.append({"role": "user", "content": answer})
+                # add the response to LLM 2's memory
+                llm2_memory.append({"role": "user", "content": f"Seller: {answer}"})
+            else:
+                # add the response to LLM 1's memory
+                llm1_memory.append({"role": "user", "content": answer})
+
+                # add the response to LLM 2's memory
+                llm2_memory.append({"role": "user", "content": answer})
 
             # buyer responds to the seller
             response = client.chat.completions.create(
@@ -83,13 +91,20 @@ def sim_gpt_convo(system_prompt_1, system_prompt_2):
             )
 
             answer = response.choices[0].message.content
-            logging.info(f"\n{answer}")
+            logging.info(f"\n{answer}\n--")
 
-            # add the response to LLM 2's memory
-            llm2_memory.append({"role": "user", "content": answer})
+            if turn == 0:
+                # add the response to LLM 2's memory
+                llm2_memory.append({"role": "user", "content": f"Buyer: {answer}"})
 
-            # add the response to LLM 1's memory
-            llm1_memory.append({"role": "user", "content": answer})
+                # add the response to LLM 1's memory
+                llm1_memory.append({"role": "user", "content": f"Buyer: {answer}"})
+            else:
+                # add the response to LLM 2's memory
+                llm2_memory.append({"role": "user", "content": answer})
+
+                # add the response to LLM 1's memory
+                llm1_memory.append({"role": "user", "content": answer})
         else:
             # buyer goes first
             response = client.chat.completions.create(
@@ -99,13 +114,20 @@ def sim_gpt_convo(system_prompt_1, system_prompt_2):
             )
 
             answer = response.choices[0].message.content
-            logging.info(f"\n{answer}")
+            logging.info(f"\n{answer}\n--")
 
-            # add the response to LLM 2's memory
-            llm2_memory.append({"role": "user", "content": answer})
+            if turn == 0:
+                # add the response to LLM 2's memory
+                llm2_memory.append({"role": "user", "content": f"Buyer: {answer}"})
 
-            # add the response to LLM 1's memory
-            llm1_memory.append({"role": "user", "content": answer})
+                # add the response to LLM 1's memory
+                llm1_memory.append({"role": "user", "content": f"Buyer: {answer}"})
+            else:
+                # add the response to LLM 2's memory
+                llm2_memory.append({"role": "user", "content": answer})
+
+                # add the response to LLM 1's memory
+                llm1_memory.append({"role": "user", "content": answer})
 
             # seller responds to the buyer
             response = client.chat.completions.create(
@@ -115,16 +137,45 @@ def sim_gpt_convo(system_prompt_1, system_prompt_2):
             )
 
             answer = response.choices[0].message.content
-            logging.info(f"\n{answer}")
+            logging.info(f"\n{answer}\n--")
 
-            # add the response to LLM 1's memory
-            llm1_memory.append({"role": "user", "content": answer})
+            if turn == 0:
+                # add the response to LLM 1's memory
+                llm1_memory.append({"role": "user", "content": f"Seller: {answer}"})
 
-            # add the response to LLM 2's memory
-            llm2_memory.append({"role": "user", "content": answer})
+                # add the response to LLM 2's memory
+                llm2_memory.append({"role": "user", "content": f"Seller: {answer}"})
+            else:
+                # add the response to LLM 1's memory
+                llm1_memory.append({"role": "user", "content": answer})
 
+                # add the response to LLM 2's memory
+                llm2_memory.append({"role": "user", "content": answer})
+
+    logging.info(f"End of conversation.")
     return llm1_memory, llm2_memory
 
+
+def run_task_strategy_convos():
+    """
+    Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
+    """
+    data_dir = f"{pathlib.Path(__file__).parent}/{TASK_STRATEGY_DIR}"
+    pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
+    logging.info("Running seller buyer conversations...")
+
+    # seller-buyer
+    with open("buyer_strategies.json") as f:
+        buyer_strategies = json.load(f)
+
+    # fix buyer stategy, iterate over seller strategies, run each scenario for NUM_ROUNDS
+    for i, buyer_strategy in tqdm(enumerate(buyer_strategies)):
+        buyer_prompt = BUYER_STRAT_PROMPT.replace("<BUYER_STRATEGY>", buyer_strategy)
+        for j, seller_strategy in enumerate(SELLER_STRATEGIES):
+            seller_prompt = SELLER_STRAT_PROMPT.replace("<SELLER_STRATEGY>", seller_strategy)
+            seller_buyer_conversations = [sim_gpt_convo(seller_prompt, buyer_prompt) for _ in range(NUM_ROUNDS)]
+            with open(f"{data_dir}/buyer_{i}_seller_{j}.json", "w") as f:
+                json.dump(seller_buyer_conversations, f, indent=4)
 
 def run_just_task_convos():
     """
@@ -138,15 +189,15 @@ def run_just_task_convos():
     with open(f"{data_dir}/{SELLER_BUYER_FILE}", "w") as f:
         json.dump(seller_buyer_conversations, f, indent=4)
 
-    logging.info("Running chitchat conversations...")
-    chitchat_conversations = [sim_gpt_convo(GENERIC_CHITCHAT_PROMPT1, GENERIC_CHITCHAT_PROMPT2) for _ in tqdm(range(NUM_ROUNDS))]
-    with open(f"{data_dir}/{CHITCHAT_FILE}", "w") as f:
-        json.dump(chitchat_conversations, f, indent=4)
+    # logging.info("Running chitchat conversations...")
+    # chitchat_conversations = [sim_gpt_convo(GENERIC_CHITCHAT_PROMPT1, GENERIC_CHITCHAT_PROMPT2) for _ in tqdm(range(NUM_ROUNDS))]
+    # with open(f"{data_dir}/{CHITCHAT_FILE}", "w") as f:
+    #     json.dump(chitchat_conversations, f, indent=4)
 
-    logging.info("Running therapist patient conversations...")
-    therapist_patient_conversations = [sim_gpt_convo(GENERIC_THERAPIST_PROMPT, GENERIC_PATIENT_PROMPT) for _ in tqdm(range(NUM_ROUNDS))]
-    with open(f"{data_dir}/{THERAPIST_PATIENT_FILE}", "w") as f:
-        json.dump(therapist_patient_conversations, f, indent=4)
+    # logging.info("Running therapist patient conversations...")
+    # therapist_patient_conversations = [sim_gpt_convo(GENERIC_THERAPIST_PROMPT, GENERIC_PATIENT_PROMPT) for _ in tqdm(range(NUM_ROUNDS))]
+    # with open(f"{data_dir}/{THERAPIST_PATIENT_FILE}", "w") as f:
+    #     json.dump(therapist_patient_conversations, f, indent=4)
 
 
 def main():
@@ -161,7 +212,10 @@ def main():
         logging.disable(logging.CRITICAL)
 
     # just task
-    run_just_task_convos()
+    # run_just_task_convos()
+
+    # task strategy
+    run_task_strategy_convos()
 
 
 if __name__ == "__main__":
