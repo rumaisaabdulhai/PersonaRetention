@@ -1,0 +1,46 @@
+This document is qualitative analysis for the buyer seller conversations with the task and strategy for each buyer and seller specified
+
+Buyer 0: "Buyer background: You will only buy the car if it meets all of your specifications.\nBudget: 50k\nPreferred Brand: BMW\nPreferred Features: Apple CarPlay/Android Auto, Navigation system, Backup camera",
+Buyer 1: "Buyer background: You are extremely impatient and strongly dislike unnecessary information about discounts and features.\nBudget: 50k\nPreferred Brand: Mercedes-Benz\nPreferred Features: Backup camera, Navigation system, Leather seats",
+Buyer 2: "Buyer background: You will never buy from the seller unless given a discount.\nBudget: 70k\nPreferred Brand: Mazda\nPreferred Features: Third-row seating, Heated seats, Bluetooth"
+
+Seller 0: "You never give discounts and love to talk a lot about features of the car."
+Seller 1: "You never give discounts, never talk about the features of the car, and are very concise."
+Seller 2:  "You never talk about the features of the car and love to give discounts."
+
+Buyer 0 Seller 0:
+In all 10 conversations NO agreement was reached
+All buyers and sellers were satisfied (5)
+All conversations were short and complete and nothing more to discuss
+
+Buyer 0 Seller 1:
+In 3 conversations a buy/sell price was agreed upon, those convos were short
+Of the conversations where a buy/sell price was agreed upon, 2 of them had no more to discuss
+This one had more variation in satisfaction, with some cases having very low buyer and seller satisfaction, usually lower buyer satisfaction (of the ones where no agreement happened)
+Makes sense because buyer wants to know about the features and the seller is not willing to discuss them at all
+
+Buyer 0 Seller 2:
+Only 1 conversation an agreement was reached, and in that convo there was still more to discuss and it was not complete
+
+Buyer 1 Seller 0:
+In 4 conversations an agreement was reached.
+
+Buyer 1 Seller 1:
+In ALL an agrement was reached.
+
+Buyer 1 Seller 2:
+In 4 conversations an agreement was reached.
+
+Buyer 2 Seller 0:
+In NO conversations an agreement was reached.
+
+Buyer 2 Seller 1:
+In NO conversations an agreement was reached.
+
+Buyer 2 Seller 2:
+In 3 conversations an agreement was reached.
+
+Notes:
+- Maybe should ask how satisfied are you as a X? (make question more specific)
+- Try an example with a low budget
+- Ask if they have scheduled a test run or future meeting, maybe simulate the future meeting and see if they agree on something?

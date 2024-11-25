@@ -21,7 +21,7 @@ logging.basicConfig(
 )
 
 TASK_DIR = "task_data"
-# TASK_STRATEGY_DIR = "task_strategy_data"
+TASK_STRATEGY_DIR = "task_strategy_data"
 # TASK_STRATEGY_PERSONA_DIR = "task_strategy_persona_data"
 
 MODE = 0
@@ -128,6 +128,27 @@ def davinci_turn(conversation, history, LLM_name):
     history += f"{LLM_name}: {answer}\n"
     return history
 
+def run_task_strategy_convos():
+    """
+    Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
+    """
+    data_dir = f"{pathlib.Path(__file__).parent}/{TASK_STRATEGY_DIR}"
+    pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
+    logging.info("Running seller buyer conversations...")
+
+    # seller-buyer
+    with open("buyer_strategies.json") as f:
+        buyer_strategies = json.load(f)
+
+    # fix buyer stategy, iterate over seller strategies, run each scenario for NUM_ROUNDS
+    for i, buyer_strategy in tqdm(enumerate(buyer_strategies)):
+        buyer_prompt = BUYER_STRAT_PROMPT.replace("<BUYER_STRATEGY>", buyer_strategy)
+        for j, seller_strategy in enumerate(SELLER_STRATEGIES):
+            seller_prompt = SELLER_STRAT_PROMPT.replace("<SELLER_STRATEGY>", seller_strategy)
+            seller_buyer_conversations = [simulate_conversation(seller_prompt, buyer_prompt, MODE) for _ in range(NUM_ROUNDS)]
+            with open(f"{data_dir}/buyer_{i}_seller_{j}.json", "w") as f:
+                json.dump(seller_buyer_conversations, f, indent=4)
+
 def run_just_task_convos():
     """
     Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
@@ -138,7 +159,6 @@ def run_just_task_convos():
     if BUYER_SELLER_ACTIVE:
         logging.info("Running seller buyer conversations...")
         if (MODE == 0 or MODE == 2 or MODE == 3 or MODE == 4):
-            seller_prompt = GENERIC_SELLER_PROMPT + SELLER_STRATEGIES[SELLER_STRATEGY][1]
             seller_buyer_conversations = [simulate_conversation(GENERIC_SELLER_PROMPT, GENERIC_BUYER_PROMPT, MODE) for _ in tqdm(range(NUM_ROUNDS))]
         if (MODE == 1):
             seller_buyer_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("Seller", "seller", "sell a car", "Buyer", "buyer", "buy a car"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]
@@ -176,7 +196,10 @@ def main():
         logging.disable(logging.CRITICAL)
 
     # just task
-    run_just_task_convos()
+    # run_just_task_convos()
+
+    # task strategy
+    run_task_strategy_convos()
 
 
 if __name__ == "__main__":

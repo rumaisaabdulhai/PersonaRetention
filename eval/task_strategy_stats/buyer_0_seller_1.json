@@ -7,27 +7,67 @@
         "convo_complete": 1,
         "satisfaction_buyer": 5,
         "satisfaction_seller": 5,
-        "convo_length": 14
+        "convo_length": 15
     },
     {
         "agreement_reached": 1,
-        "buying_price": 27000,
-        "sell_price": 27000,
+        "buying_price": 50000,
+        "sell_price": 50000,
         "more_to_discuss": 1,
-        "convo_complete": 0,
+        "convo_complete": 1,
         "satisfaction_buyer": 5,
         "satisfaction_seller": 5,
+        "convo_length": 15
+    },
+    {
+        "agreement_reached": 0,
+        "buying_price": -1,
+        "sell_price": -1,
+        "more_to_discuss": 0,
+        "convo_complete": 0,
+        "satisfaction_buyer": 2,
+        "satisfaction_seller": 1,
         "convo_length": 30
     },
     {
+        "agreement_reached": 0,
+        "buying_price": -1,
+        "sell_price": -1,
+        "more_to_discuss": 0,
+        "convo_complete": 1,
+        "satisfaction_buyer": 2,
+        "satisfaction_seller": 4,
+        "convo_length": 19
+    },
+    {
+        "agreement_reached": 0,
+        "buying_price": -1,
+        "sell_price": -1,
+        "more_to_discuss": 0,
+        "convo_complete": 1,
+        "satisfaction_buyer": 3,
+        "satisfaction_seller": 4,
+        "convo_length": 20
+    },
+    {
+        "agreement_reached": 0,
+        "buying_price": -1,
+        "sell_price": -1,
+        "more_to_discuss": 0,
+        "convo_complete": 1,
+        "satisfaction_buyer": 2,
+        "satisfaction_seller": 2,
+        "convo_length": 20
+    },
+    {
         "agreement_reached": 1,
-        "buying_price": 25000,
-        "sell_price": 25000,
-        "more_to_discuss": 1,
-        "convo_complete": 0,
+        "buying_price": 48000,
+        "sell_price": 48000,
+        "more_to_discuss": 0,
+        "convo_complete": 1,
         "satisfaction_buyer": 5,
         "satisfaction_seller": 5,
-        "convo_length": 30
+        "convo_length": 9
     },
     {
         "agreement_reached": 0,
@@ -37,17 +77,17 @@
         "convo_complete": 1,
         "satisfaction_buyer": 5,
         "satisfaction_seller": 5,
-        "convo_length": 12
+        "convo_length": 9
     },
     {
         "agreement_reached": 1,
-        "buying_price": 24000,
-        "sell_price": 24000,
-        "more_to_discuss": 1,
-        "convo_complete": 0,
+        "buying_price": 45000,
+        "sell_price": 45000,
+        "more_to_discuss": 0,
+        "convo_complete": 1,
         "satisfaction_buyer": 5,
         "satisfaction_seller": 5,
-        "convo_length": 30
+        "convo_length": 12
     },
     {
         "agreement_reached": 0,
@@ -58,45 +98,5 @@
         "satisfaction_buyer": 5,
         "satisfaction_seller": 5,
         "convo_length": 13
-    },
-    {
-        "agreement_reached": 0,
-        "buying_price": -1,
-        "sell_price": -1,
-        "more_to_discuss": 0,
-        "convo_complete": 1,
-        "satisfaction_buyer": 5,
-        "satisfaction_seller": 5,
-        "convo_length": 18
-    },
-    {
-        "agreement_reached": 1,
-        "buying_price": 24000,
-        "sell_price": 24000,
-        "more_to_discuss": 1,
-        "convo_complete": 1,
-        "satisfaction_buyer": 5,
-        "satisfaction_seller": 5,
-        "convo_length": 18
-    },
-    {
-        "agreement_reached": 0,
-        "buying_price": -1,
-        "sell_price": -1,
-        "more_to_discuss": 0,
-        "convo_complete": 1,
-        "satisfaction_buyer": 5,
-        "satisfaction_seller": 5,
-        "convo_length": 10
-    },
-    {
-        "agreement_reached": 0,
-        "buying_price": -1,
-        "sell_price": -1,
-        "more_to_discuss": 0,
-        "convo_complete": 1,
-        "satisfaction_buyer": 5,
-        "satisfaction_seller": 5,
-        "convo_length": 12
     }
 ]
