@@ -20,9 +20,10 @@ logging.basicConfig(
     ]
 )
 
+USE_PERSONAS = True
+NUM_PERSONAS = 10
 TASK_DIR = "task_data"
-TASK_STRATEGY_DIR = "task_strategy_data"
-# TASK_STRATEGY_PERSONA_DIR = "task_strategy_persona_data"
+TASK_STRATEGY_DIR = "task_strategy_persona_data" if USE_PERSONAS else "task_strategy_data"
 
 MODE = 0
 MODELS = [
@@ -45,7 +46,7 @@ SELLER_BUYER_FILE = f"buyer_seller_conversations-{MODEL}{SELLER_STRATEGIES[SELLE
 CHITCHAT_FILE = f"chitchat_conversations-{MODEL}.json"
 THERAPIST_PATIENT_FILE = f"therapist_patient_conversations-{MODEL}.json"
 MAX_COMPLETION_TOKENS = 500
-NUM_ROUNDS = 10 # Number of rounds for each task
+NUM_ROUNDS = 1 # Number of rounds for each task
 NUM_EXCHANGES = 15 # Number of back and forth exchanges between LLMs
 
 client = OpenAI(api_key=os.environ['OPENAI_API_KEY'])
@@ -76,6 +77,7 @@ def simulate_conversation(system_prompt_1, system_prompt_2, mode):
     choice = random.choice([0, 1])  # Randomly decide who starts the conversation
 
     for _ in range(NUM_EXCHANGES):
+
         if choice == 1:
             # LLM1 (Seller or First Participant) goes first
             if mode == 0 or mode == 2 or mode == 3 or mode == 4:
@@ -100,6 +102,9 @@ def simulate_conversation(system_prompt_1, system_prompt_2, mode):
                 gpt_turn(llm1_memory, llm2_memory)
             if mode == 1:
                 history = davinci_turn(conversation, history, "LLM1")
+        if END_CONDITION.upper() in llm1_memory[-1]['content'].upper():
+            break
+
 
     if mode == 0 or mode == 2 or mode == 3 or mode == 4:
         return llm1_memory
@@ -128,7 +133,7 @@ def davinci_turn(conversation, history, LLM_name):
     history += f"{LLM_name}: {answer}\n"
     return history
 
-def run_task_strategy_convos():
+def run_buyer_seller_strategy_convos():
     """
     Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
     """
@@ -148,6 +153,38 @@ def run_task_strategy_convos():
             seller_buyer_conversations = [simulate_conversation(seller_prompt, buyer_prompt, MODE) for _ in range(NUM_ROUNDS)]
             with open(f"{data_dir}/buyer_{i}_seller_{j}.json", "w") as f:
                 json.dump(seller_buyer_conversations, f, indent=4)
+
+def run_therapist_patient_strategy_convos(usePersonas = False):
+    """
+    Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
+    """
+    data_dir = f"{pathlib.Path(__file__).parent}/{TASK_STRATEGY_DIR}"
+    pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
+    logging.info("Running therapist patient conversations...")
+
+    if usePersonas:
+        personas_path = pathlib.Path(__file__).parent.parent / "personas/data/therapist_personas.json"
+        with open(personas_path, 'r') as f:
+            therapist_personas = json.load(f)
+
+    # fix buyer stategy, iterate over seller strategies, run each scenario for NUM_ROUNDS
+    for i, patient_strategy in enumerate(PATIENT_STRATEGIES):
+        patient_prompt = THERAPIST_STRAT_PROMPT.replace("<PATIENT_STRATEGY>", patient_strategy)
+        for j, therapist_strategy in enumerate(THERAPIST_STRATEGIES):
+            if usePersonas:
+                for k, persona in enumerate(therapist_personas):
+                    if k == NUM_PERSONAS:
+                        break
+                    therapist_prompt = PATIENT_STRAT_PROMPT.replace("<THERAPIST_STRATEGY>", therapist_strategy) + f"""You have the following biography: "{persona['biography']}" """
+                    therapist_patient_conversations = [simulate_conversation(therapist_prompt, patient_prompt, MODE) for _ in range(NUM_ROUNDS)]
+                    with open(f"{data_dir}/therapist_{i}_patient_{j}_persona_{k}.json", "w") as f:
+                        json.dump(therapist_patient_conversations, f, indent=4)
+            else:
+                therapist_prompt = PATIENT_STRAT_PROMPT.replace("<THERAPIST_STRATEGY>", therapist_strategy)
+                therapist_patient_conversations = [simulate_conversation(therapist_prompt, patient_prompt, MODE) for _ in range(NUM_ROUNDS)]
+                with open(f"{data_dir}/therapist_{i}_patient_{j}.json", "w") as f:
+                    json.dump(therapist_patient_conversations, f, indent=4)
+
 
 def run_just_task_convos():
     """
@@ -199,7 +236,11 @@ def main():
     # run_just_task_convos()
 
     # task strategy
-    run_task_strategy_convos()
+    #run_buyer_seller_strategy_convos()
+    #run_therapist_patient_strategy_convos()
+
+    if USE_PERSONAS:
+        run_therapist_patient_strategy_convos(usePersonas = True)
 
 
 if __name__ == "__main__":

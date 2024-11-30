@@ -23,13 +23,25 @@ PREFERRED_FEATURES = ["Leather seats", "Heated seats", "Remote start", "Bluetoot
 def GENERATE_SCENARIO_PROMPT(LLM1_name, LLM1_role, LLM1_goal, LLM2_name, LLM2_role, LLM2_goal):
     return f"{LLM1_name} is a {LLM1_role}, engaging in a conversation with {LLM2_name}, who is a {LLM2_role}. The goal of {LLM1_name} is to {LLM1_goal}. The goal of {LLM2_name} is to {LLM2_goal}"
 
-
+END_CONDITION = "END CONVERSATION"
+END_CONDITION_PROMPT = f"""If the conversation has concluded, say {END_CONDITION}"""
 
 GENERIC_CHITCHAT_PROMPT1 = "You are a person who is having a conversation with another person. You must engage in a conversation with the other person.\nYou must begin the conversation with Person 1:"
 GENERIC_CHITCHAT_PROMPT2 = "You are a person who is having a conversation with another person. You must engage in a conversation with the other person.\nYou must begin the conversation with Person 2:"
 
 GENERIC_THERAPIST_PROMPT = "You are a therapist, talking to a patient. You must help the patient with their mental health issues.\nYou must begin the conversation with Therapist:"
 GENERIC_PATIENT_PROMPT = "You are a patient, talking to a therapist. You must discuss your mental health issues with the therapist.\nYou must begin the conversation with Patient:"
+
+THERAPIST_STRAT_PROMPT = f"""{GENERIC_THERAPIST_PROMPT}\n<THERAPIST_STRATEGY>\n{END_CONDITION_PROMPT}\nSeller: """
+PATIENT_STRAT_PROMPT = f"""{GENERIC_PATIENT_PROMPT}\n<PATIENT_STRATEGY>\n{END_CONDITION_PROMPT}Buyer: """
+
+THERAPIST_STRATEGIES = ["Your strategy is to have patients talk about their upbringing",
+                        "Your strategy is to build trust by drawing parallels to your own life and experiences",
+                        "Your strategy is to ask questions guiding towards a diagnosis"]
+
+PATIENT_STRATEGIES = ["You are open to therapy and want to be forthcoming with your answers.",
+                      "You are avoidant and want to answer the questions while not disclosing more than you have to.",
+                      "You want to discuss a recent event that caused you a lot of distress."]
 
 # GENERIC_DOCTOR_PROMPT = "You are a doctor, talking to a patient. You must help the patient with their physical health issues.\nYou must begin the conversation with Doctor:"
 # GENERIC_PATIENT_PROMPT = "You are a patient, talking to a doctor. You must discuss your physical health issues with the doctor.\nYou must begin the conversation with Patient:"
