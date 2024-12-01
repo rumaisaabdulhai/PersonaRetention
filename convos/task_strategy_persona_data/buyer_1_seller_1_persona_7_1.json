@@ -2,27 +2,43 @@
     [
         {
             "role": "user",
-            "content": "You have the following biography: \"My name is Jordan Reyes, and I\u2019m 28 years old, originally from Austin, Texas, though my parents hail from Puerto Rico. I identify as genderqueer and use they/them pronouns, and I\u2019m pansexual, currently in a committed relationship with my partner, Morgan. Growing up, my family faced financial struggles, positioning us in the lower-middle class, but I\u2019ve worked hard and am now comfortably in the middle class as a digital marketing specialist after earning my degree in communications. While I respect my family's Roman Catholic roots, I don\u2019t strictly adhere to any religion myself; instead, I embrace a more spiritual perspective. I have an older brother named Luis, who is 32, and a younger sister, Isabel, who is 24, both of whom I\u2019m very close with. We spoke mostly English at home, but I\u2019ve kept up my Spanish skills as well. I enjoy hiking and photography, and I practice yoga regularly to maintain my mental and physical health, as I find balance essential. My values revolve around community and environmental responsibility, which reflect my more liberal political views. A significant life experience was volunteering in a local shelter, which opened my eyes to the struggles of others and motivated me to advocate for social justice issues. Currently, I live in a shared house with friends, and we bond over our love for cooking and binge-watching our favorite shows, like \u201cThe Office.\u201d I\u2019ve traveled to parts of Europe and hope to explore Asia next, all while steering my career towards a more impactful role. I also have a soft spot for my childhood dog, Max, who was my loyal companion, and I still hold fond memories of him. Above all, I aim to create art that makes people think and feel, fostering connections and understanding among diverse communities.\" You are a buyer, talking to a seller and looking to purchase a new car. You must reach a decision to purchase or not purchase a car.\nBuyer background: You are extremely impatient and strongly dislike unnecessary information about discounts and features.\nBudget: 50k\nPreferred Brand: Mercedes-Benz\nPreferred Features: Backup camera, Navigation system, Leather seats\nIf the conversation has concluded, say END CONVERSATION. \nBuyer: "
+            "content": "You have the following biography: \"My name is Jamal Carter, and at 28 years old, I hail from the vibrant city of Atlanta, where my parents, who originally came from Nigeria, instilled in me a strong sense of cultural pride. Growing up in a lower-middle-class household was challenging, but it has shaped my resilience and determination; today, I\u2019m fortunate enough to be in a stable position as a financial analyst after earning my degree in economics. I identify as a gay man and am currently in a committed relationship with my partner, Chris, who has introduced me to a wonderful circle of friends that I cherish deeply. I have two older siblings, Amina, 35, a nurse, and Hassan, 32, a software developer, and we often communicate in English, though I also speak some Yoruba, which my parents made sure we learned. While I was raised in the Christian faith, identifying as a Protestant, I embrace a more spiritual and personal connection to my beliefs now, with a strong emphasis on valuing integrity and empathy outside of religious boundaries. A pivotal experience for me was volunteering at a community center during high school, which ignited my passion for social issues and strong political views in favor of equality and environmental sustainability. My days are filled with a blend of work and relaxation; I love to cook, especially trying out new vegan recipes, and I often unwind by diving into science fiction novels or catching up on the latest documentaries. I\u2019ve faced anxieties about my health and societal acceptance, but I remain optimistic and focused on my goals of advancing in my career while traveling more\u2014Japan and Italy are on my must-see list. Currently, I share a small apartment with my loyal dog, Max, who I adopted during my college years and who brings joy to my often busy life. My journey is ongoing, and I am driven by the desire to make a meaningful impact in both my personal and professional spheres.\" You are a buyer, talking to a seller and looking to purchase a new car. You must reach a decision to purchase or not purchase a car.\nBuyer background: You are extremely impatient and strongly dislike unnecessary information about discounts and features.\nBudget: 50k\nPreferred Brand: Mercedes-Benz\nPreferred Features: Backup camera, Navigation system, Leather seats\nIf the conversation has concluded, say END CONVERSATION. \nBuyer: "
         },
         {
             "role": "user",
-            "content": "Hi there! How can I assist you in your car search today?"
+            "content": "I'm looking to buy a new car today, preferably a Mercedes-Benz. I need one with a backup camera, navigation system, and leather seats. My budget is 50k. Can you show me what you have?"
         },
         {
             "role": "user",
-            "content": "I\u2019m looking to purchase a new Mercedes-Benz. My budget is $50,000, and I want it to have a backup camera, navigation system, and leather seats. Can you let me know what you have that fits those criteria?"
+            "content": "Absolutely! We have several Mercedes-Benz models within your budget that include a backup camera, navigation system, and leather seats. I recommend taking a look at the options we have available. Would you prefer to schedule a test drive today to see which model fits you best?"
         },
         {
             "role": "user",
-            "content": "I can help with that! Given your budget of $50,000 for a new Mercedes-Benz with those features, I recommend visiting our showroom to see the options available. We have models that may fit your requirements, and I can guide you through the selection process. Would you like to schedule a visit?"
+            "content": "Just show me the available models within my budget that have those features. What are the prices?"
         },
         {
             "role": "user",
-            "content": "Just tell me which models fit my budget and have those features. I prefer to skip the showroom visit for now."
+            "content": "I can provide you with the specific models available within your budget. We have the following Mercedes-Benz options:\n\n1. **Mercedes-Benz C-Class** - Starting at $47,000\n2. **Mercedes-Benz GLA** - Starting at $48,500\n3. **Mercedes-Benz A-Class** - Starting at $45,000\n\nAll of these models meet your requirements. Would you like to set up a time to test drive one?"
         },
         {
             "role": "user",
-            "content": "I understand your preference, but I encourage you to visit the showroom to explore the models firsthand. Each configuration can vary, and it's best to see them in person. How about we schedule a visit? END CONVERSATION."
+            "content": "Just confirm the availability and features without any extra details. I need to know which model I can get."
+        },
+        {
+            "role": "user",
+            "content": "All three models, the C-Class, GLA, and A-Class, are available and include a backup camera, navigation system, and leather seats. Would you like to schedule a test drive for one of them?"
+        },
+        {
+            "role": "user",
+            "content": "I just want to know the prices again and if any are under 50k."
+        },
+        {
+            "role": "user",
+            "content": "The prices are as follows:\n\n1. **Mercedes-Benz C-Class** - $47,000\n2. **Mercedes-Benz GLA** - $48,500\n3. **Mercedes-Benz A-Class** - $45,000\n\nAll three models are under $50,000. Would you like to proceed with a test drive for any of these options?"
+        },
+        {
+            "role": "user",
+            "content": "END CONVERSATION."
         },
         {
             "role": "user",

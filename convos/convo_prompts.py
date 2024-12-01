@@ -27,14 +27,9 @@ def GENERATE_SCENARIO_PROMPT(LLM1_name, LLM1_role, LLM1_goal, LLM2_name, LLM2_ro
     return f"{LLM1_name} is a {LLM1_role}, engaging in a conversation with {LLM2_name}, who is a {LLM2_role}. The goal of {LLM1_name} is to {LLM1_goal}. The goal of {LLM2_name} is to {LLM2_goal}"
 
 
-GENERIC_CHITCHAT_PROMPT1 = "You are a person who is having a conversation with another person. You must engage in a conversation with the other person.\nYou must begin the conversation with Person 1:"
-GENERIC_CHITCHAT_PROMPT2 = "You are a person who is having a conversation with another person. You must engage in a conversation with the other person.\nYou must begin the conversation with Person 2:"
-
 GENERIC_THERAPIST_PROMPT = "You are a therapist, talking to a patient. You must help the patient with their mental health issues.\nYou must begin the conversation with Therapist:"
 GENERIC_PATIENT_PROMPT = "You are a patient, talking to a therapist. You must discuss your mental health issues with the therapist.\nYou must begin the conversation with Patient:"
 
-THERAPIST_STRAT_PROMPT = f"""{GENERIC_THERAPIST_PROMPT}\n<THERAPIST_STRATEGY>\n{END_CONDITION_PROMPT}\nSeller: """
-PATIENT_STRAT_PROMPT = f"""{GENERIC_PATIENT_PROMPT}\n<PATIENT_STRATEGY>\n{END_CONDITION_PROMPT}Buyer: """
 
 THERAPIST_STRATEGIES = ["Your strategy is to have patients talk about their upbringing",
                         "Your strategy is to build trust by drawing parallels to your own life and experiences",
@@ -44,14 +39,25 @@ PATIENT_STRATEGIES = ["You are open to therapy and want to be forthcoming with y
                       "You are avoidant and want to answer the questions while not disclosing more than you have to.",
                       "You want to discuss a recent event that caused you a lot of distress."]
 
+
 # GENERIC_DOCTOR_PROMPT = "You are a doctor, talking to a patient. You must help the patient with their physical health issues.\nYou must begin the conversation with Doctor:"
 # GENERIC_PATIENT_PROMPT = "You are a patient, talking to a doctor. You must discuss your physical health issues with the doctor.\nYou must begin the conversation with Patient:"
 
+GENERIC_CHITCHAT_PROMPT_1 = "You are a person who is having a conversation with another person. You must engage in a conversation with the other person.\nYou must begin the conversation with Person 1:"
+GENERIC_CHITCHAT_PROMPT_2 = "You are a person who is having a conversation with another person. You must engage in a conversation with the other person.\nYou must begin the conversation with Person 2:"
 
+CHITCHAT_STRAT_PROMPT_1 = f"""{GENERIC_CHITCHAT_PROMPT_1}\n<CHITCHAT_STRATEGY>\n{END_CONDITION_PROMPT}\nPerson 1: """
+CHITCHAT_STRAT_PROMPT_2 = f"""{GENERIC_CHITCHAT_PROMPT_2}\n<CHITCHAT_STRATEGY>\n{END_CONDITION_PROMPT}\nPerson 2: """
 
-# CHITCHAT_STRATEGIES = [
-#     """You are trying to get to know the other person. You are very curious and ask a lot of questions. You are very friendly and outgoing.""",
-# ]
+CHITCHAT_STRATEGIES_1 = ["You are trying to get to know the other person. You are very curious and ask a lot of questions. You are very friendly and outgoing. ",
+                       "You are interested in talking about yourself. You are not very interested in asking the other person about themselves. ",
+                       "You are doing a mix of talkint about yourself and asking about the other person. "
+                        ]
+
+CHITCHAT_STRATEGIES_2 = ["You’re meeting someone with whom it's very important for you to leave a good impression. ",
+                        "You want to convince this person that you are interesting without it being apparent that you are trying to do so.",
+                        "You want to convince the other person of something—whether it’s a new idea, a recommendation, or even to try an activity with you."
+                         ]
 
 # THERAPIST_STRATEGIES = [
 #     "You are a marriage and family counseling therapist. You are focused on addressing the behaviors of people in a marriage or the individual behaviors of family members. You also examine the relationships between members of a family.",

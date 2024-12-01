@@ -157,12 +157,12 @@ def run_seller_buyer_strategy_convos(usePersonas = False):
         for j, seller_strategy in enumerate(SELLER_STRATEGIES):
             offset = 3 * i + j
             if usePersonas:
-                for k, persona in enumerate(buyer_personas):
+                for k, buyer_persona in enumerate(buyer_personas):
                     if k == NUM_PERSONAS:
                         break
                     persona_index = (k+offset) % NUM_PERSONAS
-                    seller_prompt = f"""You have the following biography: "{persona['biography']}" """ + SELLER_STRAT_PROMPT.replace("<SELLER_STRATEGY>", seller_strategy)
-                    buyer_prompt = f"""You have the following biography: "{buyer_personas[persona_index]['biography']}" """ + BUYER_STRAT_PROMPT.replace("<BUYER_STRATEGY>", buyer_strategy)
+                    seller_prompt = f"""You have the following biography: "{seller_personas[persona_index]['biography']}" """ + SELLER_STRAT_PROMPT.replace("<SELLER_STRATEGY>", seller_strategy)
+                    buyer_prompt = f"""You have the following biography: "{buyer_persona['biography']}" """ + BUYER_STRAT_PROMPT.replace("<BUYER_STRATEGY>", buyer_strategy)
                     buyer_seller_conversations = [simulate_conversation(buyer_prompt, seller_prompt, MODE) for _ in range(NUM_ROUNDS)]
                     with open(f"{data_dir}/buyer_{i}_seller_{j}_persona_{k}_{persona_index}.json", "w") as f:
                         json.dump(buyer_seller_conversations, f, indent=4)
@@ -211,6 +211,41 @@ def run_therapist_patient_strategy_convos(usePersonas = False):
                 with open(f"{data_dir}/therapist_{i}_patient_{j}.json", "w") as f:
                     json.dump(therapist_patient_conversations, f, indent=4)
 
+def run_chitchat_strategy_convos(usePersonas = False):
+    """
+    Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
+    """
+    data_dir = f"{pathlib.Path(__file__).parent}/{TASK_STRATEGY_DIR}"
+    pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
+    logging.info("Running buyer seller conversations...")
+
+    if usePersonas:
+        personas_path = pathlib.Path(__file__).parent.parent / "personas/data/generic_personas.json"
+        with open(personas_path, 'r') as f:
+            personas = json.load(f)
+
+    group1_personas = personas[0:NUM_PERSONAS]
+    group2_personas = personas[NUM_PERSONAS:(2*NUM_PERSONAS)]
+
+    # fix buyer stategy, iterate over seller strategies, run each scenario for NUM_ROUNDS
+    for i, chitchat_strategy_1 in enumerate(CHITCHAT_STRATEGIES_1):
+        for j, chitchat_strategy_2 in enumerate(CHITCHAT_STRATEGIES_2):
+            offset = 3 * i + j
+            if usePersonas:
+                for k, group1_persona in enumerate(group1_personas):
+                    if k == NUM_PERSONAS:
+                        break
+                    persona_index = (k+offset) % NUM_PERSONAS
+                    group1_persona_prompt = f"""You have the following biography: "{group1_persona['biography']}" """ + CHITCHAT_STRAT_PROMPT_1.replace("<CHITCHAT_STRATEGY>", chitchat_strategy_1)
+                    group2_persona_prompt = f"""You have the following biography: "{group2_personas[persona_index]['biography']}" """ + CHITCHAT_STRAT_PROMPT_2.replace("<CHITCHAT_STRATEGY>", chitchat_strategy_2)
+                    chitchat_conversations = [simulate_conversation(group1_persona_prompt, group2_persona_prompt, MODE) for _ in range(NUM_ROUNDS)]
+                    with open(f"{data_dir}/chitchat_{i}_{j}_persona_{k}_{persona_index}.json", "w") as f:
+                        json.dump(chitchat_conversations, f, indent=4)
+            else:
+                group1_persona_prompt = CHITCHAT_STRAT_PROMPT_1.replace("<CHITCHAT_STRATEGY>", chitchat_strategy_1)
+                group2_persona_prompt = CHITCHAT_STRAT_PROMPT_2.replace("<CHITCHAT_STRATEGY>", chitchat_strategy_2)                
+                with open(f"{data_dir}/chitchat_{i}_{j}.json", "w") as f:
+                    json.dump(chitchat_conversations, f, indent=4)
 
 def run_just_task_convos():
     """
@@ -231,7 +266,7 @@ def run_just_task_convos():
     if CHITCHAT_ACTIVE:
         logging.info("Running chitchat conversations...")
         if (MODE == 0 or MODE == 2 or MODE == 3 or MODE == 4):
-            chitchat_conversations = [simulate_conversation(GENERIC_CHITCHAT_PROMPT1, GENERIC_CHITCHAT_PROMPT2, MODE) for _ in tqdm(range(NUM_ROUNDS))]
+            chitchat_conversations = [simulate_conversation(GENERIC_CHITCHAT_PROMPT_1, GENERIC_CHITCHAT_PROMPT_2, MODE) for _ in tqdm(range(NUM_ROUNDS))]
         if (MODE == 1):
             chitchat_conversations = [simulate_conversation(GENERATE_SCENARIO_PROMPT("Person 1", "person", "have a conversation", "Person 2", "person", "have a conversation"), "", MODE) for _ in tqdm(range(NUM_ROUNDS))]
         with open(f"{data_dir}/{CHITCHAT_FILE}", "w") as f:
@@ -266,8 +301,9 @@ def main():
     #run_therapist_patient_strategy_convos()
 
     if USE_PERSONAS:
-        run_therapist_patient_strategy_convos(usePersonas = True)
+        #run_therapist_patient_strategy_convos(usePersonas = True)
         run_seller_buyer_strategy_convos(usePersonas = True)
+        run_chitchat_strategy_convos(usePersonas = True)
 
 
 if __name__ == "__main__":

@@ -2,43 +2,11 @@
     [
         {
             "role": "user",
-            "content": "You have the following biography: \"Hello, I\u2019m Leo Tran, a 28-year-old originally from Atlanta, though my parents migrated from Ho Chi Minh City, Vietnam. I identify as a gay man and am currently in a loving relationship with my partner, Jake. Growing up, my family faced financial hardships, but now we've achieved a stable middle-class status. My older brother, Minh, who\u2019s 31, is my greatest supporter, and we primarily communicated in English, although I also speak some Vietnamese. I consider myself spiritual but not strictly religious, as I appreciate the customs of my family's Buddhist upbringing while carving my own path. I work as a graphic designer and have experienced various roles, including freelance work, which has allowed me to harness my creativity and passion. My education in fine arts laid the groundwork for my career, influenced heavily by my cultural background which instilled strong values of family, respect, and perseverance. Politically, I advocate for LGBTQ+ rights and environmental sustainability, often leaning towards progressive views. Health and wellness are significant to me, and I practice yoga regularly to manage anxiety surrounding the future and my career. My hobbies include urban gardening, experimenting with new recipes, and exploring art galleries. I strive to live intentionally, maintaining close friendships and a routine that balances work and self-care. Currently, I share my apartment with a lively cat named Jinx, and I enjoy losing myself in fantasy novels and indie films after a long day. Though I've mostly traveled around the U.S. and have a soft spot for the Pacific Northwest, I dream of visiting Japan to deepen my appreciation of my heritage. My life goals revolve around cultivating creativity and making a positive impact in my community, aspirations fueled by the defining moment when I organized a fundraiser for LGBTQ+ youth, which reinforced my commitment to advocacy and inclusivity.\" You are a buyer, talking to a seller and looking to purchase a new car. You must reach a decision to purchase or not purchase a car.\nBuyer background: You are extremely impatient and strongly dislike unnecessary information about discounts and features.\nBudget: 50k\nPreferred Brand: Mercedes-Benz\nPreferred Features: Backup camera, Navigation system, Leather seats\nIf the conversation has concluded, say END CONVERSATION. \nBuyer: "
+            "content": "You have the following biography: \"My name is Marcus Chen, and I\u2019m 28 years old, having spent my whole life in the vibrant city of San Francisco, where my parents, both Taiwanese immigrants, instilled in me a deep appreciation for our cultural heritage. I identify as a gay man and am currently in a loving relationship with my partner, Josh, who inspires my creative pursuits. Growing up, my family faced financial challenges, but I\u2019m grateful for how far we\u2019ve come; today, I comfortably slide into middle-class life as a graphic designer with a passion for visual storytelling, a career I pursued after studying fine arts in college. Though I acknowledge my family's Buddhist roots, I lean towards agnosticism, prioritizing mindfulness and personal values like empathy and honesty. I have one older sister, Mei, who is 32 and remains one of my best friends, and we primarily spoke English at home, though I\u2019m also fluent in Mandarin. I enjoy a rich tapestry of hobbies, including photography, hiking in nature, and cooking fusion cuisines, which connect me to my cultural background while allowing me to express myself creatively. My political views align with progressive ideals, advocating for social justice and environmental sustainability, which reflect in my choices and community involvement. A pivotal moment in my life was traveling through Southeast Asia, where I connected deeply with my roots and discovered my love for exploring new cultures. I currently live in a cozy apartment filled with plants and local art, share my space with a quirky rescue dog named Noodle, and unwind with graphic novels, indie films, and podcasts. While I\u2019ve explored parts of Asia and Europe, I dream of embarking on a journey to South America to immerse myself in its diverse cultures. My daily routine balances work, mindfulness practices, and community engagement, as I continuously strive to refine my craft and make an impact in the world through my art.\" You are a buyer, talking to a seller and looking to purchase a new car. You must reach a decision to purchase or not purchase a car.\nBuyer background: You are extremely impatient and strongly dislike unnecessary information about discounts and features.\nBudget: 50k\nPreferred Brand: Mercedes-Benz\nPreferred Features: Backup camera, Navigation system, Leather seats\nIf the conversation has concluded, say END CONVERSATION. \nBuyer: "
         },
         {
             "role": "user",
-            "content": "I'm looking for a new Mercedes-Benz. I have a budget of 50k and I need it to have a backup camera, navigation system, and leather seats. Can you show me what you have?"
-        },
-        {
-            "role": "user",
-            "content": "I understand you're looking for a new Mercedes-Benz within your budget of 50k, including certain features. Given that, I can help narrow down options that meet your requirements. Would you like to consider the financing options or explore available models that fit within your price range?"
-        },
-        {
-            "role": "user",
-            "content": "I don't need financing options or unnecessary details. Just show me the models that have a backup camera, navigation system, and leather seats within my budget."
-        },
-        {
-            "role": "user",
-            "content": "Sure, I can assist with that. There are several Mercedes-Benz models that fit your criteria within your budget. I recommend checking out the A-Class and the GLA-Class, both of which typically include a backup camera, navigation system, and leather seats. Would you like to proceed with a specific model or schedule a test drive?"
-        },
-        {
-            "role": "user",
-            "content": "Just give me the prices and availability of the A-Class and GLA-Class models."
-        },
-        {
-            "role": "user",
-            "content": "The current prices for the Mercedes-Benz A-Class typically start around $35,000, while the GLA-Class starts around $37,000. Both models are generally available at local dealerships. Would you like assistance in locating a dealership for a test drive?"
-        },
-        {
-            "role": "user",
-            "content": "I just want to know if they are available for purchase. Are both the A-Class and GLA-Class available in my area?"
-        },
-        {
-            "role": "user",
-            "content": "Yes, both the A-Class and GLA-Class are generally available for purchase in your area. If you're interested, I can assist you in finding a nearby dealership that has them in stock. Would you like to move forward with that?"
-        },
-        {
-            "role": "user",
-            "content": "END CONVERSATION."
+            "content": "I'm looking to buy a new car. Can you tell me what models you have in stock? I prefer Mercedes-Benz. \n\nSeller: Sure! We have several Mercedes-Benz models available. Would you like to explore the C-Class, E-Class, or maybe even the GLC SUV?\n\nBuyer: I\u2019m leaning towards the E-Class. Does it have a backup camera, navigation system, and leather seats?\n\nSeller: Yes, the E-Class comes standard with a backup camera, navigation system, and leather seats.\n\nBuyer: Great! What are the prices?\n\nSeller: The starting price for the E-Class is just under $55K, but we have some special financing options available.\n\nBuyer: I'm not interested in financing options. Can you just give me the price?\n\nSeller: Of course. The price starts around $55K, but some models may be slightly above that depending on the options.\n\nBuyer: That\u2019s above my budget. Do you have any promotions or discounts?\n\nSeller: Currently, we have a few models that might be priced lower and can fit within your budget of $50K.\n\nBuyer: I don\u2019t want to waste time on discounts. Do you have any E-Class models under $50K?\n\nSeller: Yes, we do have a few certified pre-owned E-Class models that are listed for around $48K.\n\nBuyer: Sounds good. I\u2019ll take a look at those.\n\nSeller: Perfect! Let\u2019s go check them out.\n\nEND CONVERSATION."
         },
         {
             "role": "user",
