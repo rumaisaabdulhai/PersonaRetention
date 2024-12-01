@@ -133,26 +133,45 @@ def davinci_turn(conversation, history, LLM_name):
     history += f"{LLM_name}: {answer}\n"
     return history
 
-def run_buyer_seller_strategy_convos():
+def run_seller_buyer_strategy_convos(usePersonas = False):
     """
     Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
     """
     data_dir = f"{pathlib.Path(__file__).parent}/{TASK_STRATEGY_DIR}"
     pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
-    logging.info("Running seller buyer conversations...")
+    logging.info("Running buyer seller conversations...")
 
-    # seller-buyer
+    if usePersonas:
+        seller_personas_path = pathlib.Path(__file__).parent.parent / "personas/data/car_dealer_personas.json"
+        with open(seller_personas_path, 'r') as f:
+            seller_personas = json.load(f)
+        buyer_personas_path = pathlib.Path(__file__).parent.parent / "personas/data/generic_personas.json"
+        with open(buyer_personas_path, 'r') as f:
+            buyer_personas = json.load(f)
+
     with open("buyer_strategies.json") as f:
         buyer_strategies = json.load(f)
 
     # fix buyer stategy, iterate over seller strategies, run each scenario for NUM_ROUNDS
     for i, buyer_strategy in tqdm(enumerate(buyer_strategies)):
-        buyer_prompt = BUYER_STRAT_PROMPT.replace("<BUYER_STRATEGY>", buyer_strategy)
         for j, seller_strategy in enumerate(SELLER_STRATEGIES):
-            seller_prompt = SELLER_STRAT_PROMPT.replace("<SELLER_STRATEGY>", seller_strategy)
-            seller_buyer_conversations = [simulate_conversation(seller_prompt, buyer_prompt, MODE) for _ in range(NUM_ROUNDS)]
-            with open(f"{data_dir}/buyer_{i}_seller_{j}.json", "w") as f:
-                json.dump(seller_buyer_conversations, f, indent=4)
+            offset = 3 * i + j
+            if usePersonas:
+                for k, persona in enumerate(buyer_personas):
+                    if k == NUM_PERSONAS:
+                        break
+                    persona_index = (k+offset) % NUM_PERSONAS
+                    seller_prompt = f"""You have the following biography: "{persona['biography']}" """ + SELLER_STRAT_PROMPT.replace("<SELLER_STRATEGY>", seller_strategy)
+                    buyer_prompt = f"""You have the following biography: "{buyer_personas[persona_index]['biography']}" """ + BUYER_STRAT_PROMPT.replace("<BUYER_STRATEGY>", buyer_strategy)
+                    buyer_seller_conversations = [simulate_conversation(buyer_prompt, seller_prompt, MODE) for _ in range(NUM_ROUNDS)]
+                    with open(f"{data_dir}/buyer_{i}_seller_{j}_persona_{k}_{persona_index}.json", "w") as f:
+                        json.dump(buyer_seller_conversations, f, indent=4)
+            else:
+                seller_prompt = SELLER_STRAT_PROMPT.replace("<SELLER_STRATEGY>", seller_strategy)
+                seller_buyer_conversations = [simulate_conversation(seller_prompt, buyer_prompt, MODE) for _ in range(NUM_ROUNDS)]
+                with open(f"{data_dir}/buyer_{i}_seller_{j}.json", "w") as f:
+                    json.dump(seller_buyer_conversations, f, indent=4)
+
 
 def run_therapist_patient_strategy_convos(usePersonas = False):
     """
@@ -163,24 +182,31 @@ def run_therapist_patient_strategy_convos(usePersonas = False):
     logging.info("Running therapist patient conversations...")
 
     if usePersonas:
-        personas_path = pathlib.Path(__file__).parent.parent / "personas/data/therapist_personas.json"
-        with open(personas_path, 'r') as f:
+        patient_personas_path = pathlib.Path(__file__).parent.parent / "personas/data/therapist_personas.json"
+        with open(patient_personas_path, 'r') as f:
+            patient_personas = json.load(f)
+        therapist_personas_path = pathlib.Path(__file__).parent.parent / "personas/data/generic_personas.json"
+        with open(therapist_personas_path, 'r') as f:
             therapist_personas = json.load(f)
 
     # fix buyer stategy, iterate over seller strategies, run each scenario for NUM_ROUNDS
     for i, patient_strategy in enumerate(PATIENT_STRATEGIES):
-        patient_prompt = THERAPIST_STRAT_PROMPT.replace("<PATIENT_STRATEGY>", patient_strategy)
         for j, therapist_strategy in enumerate(THERAPIST_STRATEGIES):
+            offset = 3 * i + j
             if usePersonas:
                 for k, persona in enumerate(therapist_personas):
                     if k == NUM_PERSONAS:
                         break
-                    therapist_prompt = PATIENT_STRAT_PROMPT.replace("<THERAPIST_STRATEGY>", therapist_strategy) + f"""You have the following biography: "{persona['biography']}" """
+                    persona_index = (k+offset) % NUM_PERSONAS
+                    therapist_prompt = f"""You have the following biography: "{persona['biography']}" """ + PATIENT_STRAT_PROMPT.replace("<THERAPIST_STRATEGY>", therapist_strategy)
+                    patient_prompt = f"""You have the following biography: "{patient_personas[persona_index]['biography']}" """ + THERAPIST_STRAT_PROMPT.replace("<PATIENT_STRATEGY>", patient_strategy)
                     therapist_patient_conversations = [simulate_conversation(therapist_prompt, patient_prompt, MODE) for _ in range(NUM_ROUNDS)]
-                    with open(f"{data_dir}/therapist_{i}_patient_{j}_persona_{k}.json", "w") as f:
+
+                    with open(f"{data_dir}/therapist_{i}_patient_{j}_persona_{k}_{persona_index}.json", "w") as f:
                         json.dump(therapist_patient_conversations, f, indent=4)
             else:
                 therapist_prompt = PATIENT_STRAT_PROMPT.replace("<THERAPIST_STRATEGY>", therapist_strategy)
+                patient_prompt = THERAPIST_STRAT_PROMPT.replace("<PATIENT_STRATEGY>", patient_strategy)
                 therapist_patient_conversations = [simulate_conversation(therapist_prompt, patient_prompt, MODE) for _ in range(NUM_ROUNDS)]
                 with open(f"{data_dir}/therapist_{i}_patient_{j}.json", "w") as f:
                     json.dump(therapist_patient_conversations, f, indent=4)
@@ -241,6 +267,7 @@ def main():
 
     if USE_PERSONAS:
         run_therapist_patient_strategy_convos(usePersonas = True)
+        run_seller_buyer_strategy_convos(usePersonas = True)
 
 
 if __name__ == "__main__":

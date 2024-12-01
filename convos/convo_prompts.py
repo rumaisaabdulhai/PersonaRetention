@@ -2,11 +2,14 @@
 This file contains the prompts for the different types of conversations.
 """
 
+END_CONDITION = "END CONVERSATION"
+END_CONDITION_PROMPT = f"""If the conversation has concluded, say {END_CONDITION}. """
+
 # buyer seller
 GENERIC_SELLER_PROMPT = "You are a seller, talking to a buyer and trying to help them buy a car. You must help them reach a conclusion to purchase or not purchase a car."
 GENERIC_BUYER_PROMPT = "You are a buyer, talking to a seller and looking to purchase a new car. You must reach a decision to purchase or not purchase a car."
-SELLER_STRAT_PROMPT = f"""{GENERIC_SELLER_PROMPT}\n<SELLER_STRATEGY>\nSeller: """
-BUYER_STRAT_PROMPT = f"""{GENERIC_BUYER_PROMPT}\n<BUYER_STRATEGY>\nBuyer: """
+SELLER_STRAT_PROMPT = f"""{GENERIC_SELLER_PROMPT}\n<SELLER_STRATEGY>\n{END_CONDITION_PROMPT}\nSeller: """
+BUYER_STRAT_PROMPT = f"""{GENERIC_BUYER_PROMPT}\n<BUYER_STRATEGY>\n{END_CONDITION_PROMPT}\nBuyer: """
 SELLER_STRAT_PERSONA_PROMPT = f"""{GENERIC_SELLER_PROMPT}\n<SELLER_STRATEGY>\nThis is your story: <SELLER_BACKGROUND>"""
 BUYER_STRAT_PERSONA_PROMPT = f"""{GENERIC_BUYER_PROMPT}\n<BUYER_STRATEGY>\nThis is your story: <BUYER_BACKGROUND>"""
 
@@ -23,8 +26,6 @@ PREFERRED_FEATURES = ["Leather seats", "Heated seats", "Remote start", "Bluetoot
 def GENERATE_SCENARIO_PROMPT(LLM1_name, LLM1_role, LLM1_goal, LLM2_name, LLM2_role, LLM2_goal):
     return f"{LLM1_name} is a {LLM1_role}, engaging in a conversation with {LLM2_name}, who is a {LLM2_role}. The goal of {LLM1_name} is to {LLM1_goal}. The goal of {LLM2_name} is to {LLM2_goal}"
 
-END_CONDITION = "END CONVERSATION"
-END_CONDITION_PROMPT = f"""If the conversation has concluded, say {END_CONDITION}"""
 
 GENERIC_CHITCHAT_PROMPT1 = "You are a person who is having a conversation with another person. You must engage in a conversation with the other person.\nYou must begin the conversation with Person 1:"
 GENERIC_CHITCHAT_PROMPT2 = "You are a person who is having a conversation with another person. You must engage in a conversation with the other person.\nYou must begin the conversation with Person 2:"
