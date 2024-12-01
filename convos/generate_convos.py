@@ -301,7 +301,7 @@ def main():
     #run_therapist_patient_strategy_convos()
 
     if USE_PERSONAS:
-        #run_therapist_patient_strategy_convos(usePersonas = True)
+        run_therapist_patient_strategy_convos(usePersonas = True)
         run_seller_buyer_strategy_convos(usePersonas = True)
         run_chitchat_strategy_convos(usePersonas = True)
 
