@@ -5,8 +5,8 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from personas.persona import Persona
 
-INPUT_FILE_NAME = "car_dealer_personas.json"
-OUTPUT_FILE_NAME = "qa_pairs_car_dealer.json"
+INPUT_FILE_NAME = "therapist_personas.json"
+OUTPUT_FILE_NAME = "qa_pairs_therapist.json"
 
 def get_persona_attributes():
     return [
@@ -26,7 +26,7 @@ def generate_qa(personas, persona_attributes):
         story = persona.get("biography", "Biography not provided.")
         qa = []
         #print(persona)
-        for attr in persona_attributes:
+        for i, attr in enumerate(persona_attributes):
             if attr == "biography":
                 continue
             main_answer = persona.get(attr, "")
@@ -51,7 +51,7 @@ def generate_qa(personas, persona_attributes):
                 question_text = "Which of the following is a true statement about you?"
                 for choice in choices:
                     question_text += choice
-                qa.append([question_text, correct_choice])
+                qa.append([question_text, correct_choice, i])
             else:
                 qa.append(["",""])
         qa_list.append({"story": story, "qa": qa})
