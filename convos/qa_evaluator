@@ -1,0 +1,37 @@
+import os
+import json
+
+# Directory containing the files
+qa_folder = "QAs_after_conversations"
+
+def process_buyer_seller_qa_files(folder):
+    # Iterate through all JSON files in the folder
+    for filename in os.listdir(folder):
+        if filename.endswith(".json"):
+            # Extract indices from the filename
+            parts = filename.split('_')
+            if not (parts[0] == "buyer" and parts[2] == "seller"):
+                continue
+            if len(parts) >= 6:
+                i, j, k, l = parts[1], parts[3], parts[5], parts[6].split('_')[0]
+            else:
+                print(f"Unexpected filename format: {filename}")
+                continue
+            filepath = os.path.join(folder, filename)
+            with open(filepath, 'r') as file:
+                qa_data = json.load(file)
+                
+                # Iterate through QA sets
+                for persona_idx, persona_qa in enumerate(qa_data):
+                    for question_idx, question in enumerate(persona_qa):
+                        answer = question.get("answer")
+                        given_answer = question.get("given answer")
+                        persona_type = ["buyer", "seller"]
+                        # Compare answer and given answer
+                        if answer != given_answer:
+                            print(f"{i} {j} {k} {l} {persona_type[persona_idx]} Question {question_idx} :")
+                            print(f"answer: {answer}")
+                            print(f"given answer: {given_answer}\n")
+
+# Run the function
+process_buyer_seller_qa_files(qa_folder)

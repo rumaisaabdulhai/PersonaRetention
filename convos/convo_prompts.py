@@ -30,6 +30,8 @@ def GENERATE_SCENARIO_PROMPT(LLM1_name, LLM1_role, LLM1_goal, LLM2_name, LLM2_ro
 GENERIC_THERAPIST_PROMPT = "You are a therapist, talking to a patient. You must help the patient with their mental health issues.\nYou must begin the conversation with Therapist:"
 GENERIC_PATIENT_PROMPT = "You are a patient, talking to a therapist. You must discuss your mental health issues with the therapist.\nYou must begin the conversation with Patient:"
 
+THERAPIST_STRAT_PROMPT = f"""{GENERIC_THERAPIST_PROMPT}\n<THERAPIST_STRATEGY>\n{END_CONDITION_PROMPT}\nTherapist: """
+PATIENT_STRAT_PROMPT = f"""{GENERIC_PATIENT_PROMPT}\n<PATIENT_STRATEGY>\n{END_CONDITION_PROMPT}\nPatient: """
 
 THERAPIST_STRATEGIES = ["Your strategy is to have patients talk about their upbringing",
                         "Your strategy is to build trust by drawing parallels to your own life and experiences",
