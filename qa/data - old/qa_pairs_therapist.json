@@ -59,6 +59,10 @@
                 "B) Licensed Therapist"
             ],
             [
+                "",
+                ""
+            ],
+            [
                 "What degree did you earn in psychology? A) Bachelor's B) Master's C) Doctorate D) Associate",
                 "C) Doctorate"
             ],
@@ -100,7 +104,7 @@
             ],
             [
                 "What do you incorporate into your daily routine? A) Mindfulness practices and exercise B) Only exercise C) Only mindfulness practices D) None of the above",
-                "A) A) Mindfulness practices and exercise"
+                "A) Mindfulness practices and exercise"
             ],
             [
                 "What is your dog's name? A) Max B) Rocky C) Bella D) Charlie",
@@ -145,7 +149,7 @@
             ],
             [
                 "Were you raised in a Jewish background? A) Yes B) No C) Somewhat D) Not sure",
-                "A) A"
+                "A) Yes"
             ],
             [
                 "What best describes your financial status? A) Lower class B) Upper class C) Middle class D) Wealthy",
@@ -172,6 +176,10 @@
                 "B) Leo"
             ],
             [
+                "",
+                ""
+            ],
+            [
                 "What type of therapy do you specialize in as a licensed therapist? A) Psychodynamic Therapy B) Cognitive Behavioral Therapy C) Humanistic Therapy D) Art Therapy",
                 "B) Cognitive Behavioral Therapy"
             ],
@@ -182,6 +190,10 @@
             [
                 "Where did you earn your doctorate in psychology? A) University of Minnesota B) Harvard University C) Stanford University D) Yale University",
                 "A) University of Minnesota"
+            ],
+            [
+                "",
+                ""
             ],
             [
                 "Which political values do you support most? A) Conservative values B) Moderate views C) Progressive values D) Libertarian ideals",
@@ -206,6 +218,10 @@
             [
                 "What is your ambition regarding mental health? A) To ignore it B) To stigmatize it C) To create inclusive dialogue D) To keep it a secret",
                 "C) To create inclusive dialogue"
+            ],
+            [
+                "",
+                ""
             ],
             [
                 "How do you feel about your bond with your sister? A) Distant B) Close C) Unimportant D) Temporary",
@@ -281,6 +297,10 @@
                 "B) Riley"
             ],
             [
+                "",
+                ""
+            ],
+            [
                 "What is your profession? A) Teacher B) Doctor C) Licensed Therapist D) Engineer",
                 "C) Licensed Therapist"
             ],
@@ -299,6 +319,10 @@
             [
                 "What political views do you hold? A) Conservative B) Liberal C) Progressive D) Libertarian",
                 "C) Progressive"
+            ],
+            [
+                "",
+                ""
             ],
             [
                 "What activities do you enjoy doing? A) Painting B) Yoga C) Gaming D) Cooking",
@@ -535,6 +559,10 @@
                 "A) Psychology and Social Work"
             ],
             [
+                "",
+                ""
+            ],
+            [
                 "How have your cultural influences been shaped? A) From a single culture B) By the rich blend of cultures in New Orleans C) Through personal experiences only D) By living in isolation",
                 "B) By the rich blend of cultures in New Orleans"
             ],
@@ -555,8 +583,16 @@
                 "B) Empathy"
             ],
             [
+                "",
+                ""
+            ],
+            [
                 "What is your primary goal in helping others? A) To make money B) To entertain C) To support their healing D) To gain popularity",
                 "C) To support their healing"
+            ],
+            [
+                "",
+                ""
             ],
             [
                 "What do you prioritize in your life and practice? A) Achievements B) Financial success C) Meaningful connections D) Popularity",
@@ -648,6 +684,10 @@
                 "B) Master's"
             ],
             [
+                "",
+                ""
+            ],
+            [
                 "What kind of cultural environment did you grow up in? A) A rural area B) A melting pot of cultures C) A mountain village D) A desert town",
                 "B) A melting pot of cultures"
             ],
@@ -678,6 +718,10 @@
             [
                 "What are defining moments in your life that you navigate? A) Coming out to friends B) Navigating mental health issues C) Both A and B D) None of the above",
                 "C) Both A and B"
+            ],
+            [
+                "",
+                ""
             ],
             [
                 "How do you strive to maintain balance in your life each day? A) Ignoring work B) Focusing on self-care C) Overworking D) Skipping meals",
@@ -751,6 +795,10 @@
             [
                 "Who are you currently in a committed relationship with? A) Alex B) Jamie C) Sam D) Taylor",
                 "C) Sam"
+            ],
+            [
+                "",
+                ""
             ],
             [
                 "What is your profession? A) Dentist B) Therapist C) Teacher D) Engineer",
@@ -1013,6 +1061,10 @@
             [
                 "What advanced degree do you hold in psychology? A) Master's B) Bachelor's C) Doctorate D) Certificate",
                 "C) Doctorate"
+            ],
+            [
+                "",
+                ""
             ],
             [
                 "What values do you prioritize in your political views? A) Equity and social justice B) Economic growth C) National security D) Traditional values",
