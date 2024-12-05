@@ -39,8 +39,8 @@
                 "C) English"
             ],
             [
-                "How do you identify in terms of gender and sexuality if you are a cisgender heterosexual man? A) Transgender B) Cisgender D) Queer D) Non-binary",
-                "B) Cisgender"
+                "What is your sexual orientation? A) Heterosexual B) Homosexual C) Bisexual D) Asexual",
+                "A) Heterosexual"
             ],
             [
                 "How do you identify your gender? A) Woman B) Non-binary C) Man D) Genderqueer",
@@ -59,10 +59,6 @@
                 "B) Licensed Therapist"
             ],
             [
-                "What skills did you develop by volunteering at a mental health clinic during college? A) Leadership B) Cooking C) Financial D) Sports",
-                "A) Leadership"
-            ],
-            [
                 "What degree did you earn in psychology? A) Bachelor's B) Master's C) Doctorate D) Associate",
                 "C) Doctorate"
             ],
@@ -79,7 +75,7 @@
                 "A) Mindfulness and exercise"
             ],
             [
-                "What hobbies do you enjoy most? A) Playing guitar B) Gardening C) Painting D) Writing",
+                "What hobby do you enjoy most? A) Playing guitar B) Gardening C) Painting D) Writing",
                 "A) Playing guitar"
             ],
             [
@@ -160,8 +156,8 @@
                 "B) Rachel"
             ],
             [
-                "Which languages do you primarily communicate in? A) Spanish B) French C) English and Yiddish D) Mandarin",
-                "C) English and Yiddish"
+                "Which language do you primarily communicate in? A) Spanish B) French C) English D) Mandarin",
+                "C) English"
             ],
             [
                 "What is your sexual orientation? A) Straight B) Bisexual C) Gay D) Lesbian",
@@ -176,10 +172,6 @@
                 "B) Leo"
             ],
             [
-                "How have your past relationships shaped your understanding of love? A) They clarified it B) They confused you C) They had no impact D) They complicated it",
-                "A) They clarified it"
-            ],
-            [
                 "What type of therapy do you specialize in as a licensed therapist? A) Psychodynamic Therapy B) Cognitive Behavioral Therapy C) Humanistic Therapy D) Art Therapy",
                 "B) Cognitive Behavioral Therapy"
             ],
@@ -192,16 +184,12 @@
                 "A) University of Minnesota"
             ],
             [
-                "How have cultural influences shaped your perspective on mental health? A) They have no impact B) They provide diverse viewpoints C) They complicate understanding D) They matter little",
-                "B) They provide diverse viewpoints"
-            ],
-            [
                 "Which political values do you support most? A) Conservative values B) Moderate views C) Progressive values D) Libertarian ideals",
                 "C) Progressive values"
             ],
             [
-                "Do you feel anxious about your work-life balance? A) Yes B) No C) Sometimes D) Rarely",
-                "A) A"
+                "Do you feel anxious about your work-life balance? A) Always B) Frequently C) Sometimes D) Rarely",
+                "C) Sometimes"
             ],
             [
                 "What activities do you enjoy doing? A) Painting B) Running C) Cooking D) Swimming",
@@ -218,10 +206,6 @@
             [
                 "What is your ambition regarding mental health? A) To ignore it B) To stigmatize it C) To create inclusive dialogue D) To keep it a secret",
                 "C) To create inclusive dialogue"
-            ],
-            [
-                "How did volunteering at a mental health crisis center affect you? A) No effect B) Minor effect C) Life-changing D) Unnoticeable",
-                "C) Life-changing"
             ],
             [
                 "How do you feel about your bond with your sister? A) Distant B) Close C) Unimportant D) Temporary",
@@ -297,10 +281,6 @@
                 "B) Riley"
             ],
             [
-                "What is your relationship history like? A) Many significant relationships B) A few casual relationships C) No significant past relationships D) Currently in a relationship",
-                "C) No significant past relationships"
-            ],
-            [
                 "What is your profession? A) Teacher B) Doctor C) Licensed Therapist D) Engineer",
                 "C) Licensed Therapist"
             ],
@@ -319,10 +299,6 @@
             [
                 "What political views do you hold? A) Conservative B) Liberal C) Progressive D) Libertarian",
                 "C) Progressive"
-            ],
-            [
-                "What aspect of health and wellness are you most invested in? A) Nutrition B) Exercise C) Mental health D) All of the above",
-                "D) All of the above"
             ],
             [
                 "What activities do you enjoy doing? A) Painting B) Yoga C) Gaming D) Cooking",
@@ -353,8 +329,8 @@
                 "B) Sipping coffee while watching TV"
             ],
             [
-                "Who do you happily live with? A) A cat B) A fish C) Luna D) A bird",
-                "C) Luna"
+                "Who do you happily live with? A) A cat B) A fish C) A dog D) A bird",
+                "C) A dog"
             ],
             [
                 "What type of TV shows do you enjoy watching? A) Reality shows B) Dramas like 'The Crown' C) Comedies D) Documentaries",
@@ -410,8 +386,8 @@
                 "C) English and Vietnamese"
             ],
             [
-                "What does it mean if you identify as pansexual? A) You are attracted to any gender B) You are attracted only to males C) You are attracted only to females D) You are attracted based on age",
-                "A) You are attracted to any gender"
+                "What is your sexual orientation? A) Heterosexual B) Homosexual C) Pansexual D) Bisexual",
+                "C) Pansexual"
             ],
             [
                 "How do you identify in terms of gender? A) Non-binary B) Genderfluid C) Cisgender woman D) Transgender",
@@ -434,8 +410,8 @@
                 "C) Master's"
             ],
             [
-                "What degree do you have in psychology? A) Bachelor\u2019s B) Master\u2019s C) Doctorate D) Associate's",
-                "B) Master\u2019s"
+                "What degree do you have in psychology? A) Bachelor's B) Master's C) Doctorate D) Associate's",
+                "B) Master's"
             ],
             [
                 "What kind of neighborhood did you grow up in? A) Boring B) Vibrant C) Suburban D) Rural",
@@ -482,7 +458,7 @@
                 "A) Max"
             ],
             [
-                "What type of shows do you enjoy watching on Netflix? A) Reality shows B) Documentaries C) Cooking shows D) Sports events",
+                "What type of movies do you enjoy watching? A) Comedies B) Documentaries C) Dramas D) Thrillers",
                 "B) Documentaries"
             ],
             [
@@ -559,10 +535,6 @@
                 "A) Psychology and Social Work"
             ],
             [
-                "What degrees do you hold? A) Psychology and Social Work B) Sociology and Education C) Anthropology and History D) Biology and Chemistry",
-                "A) A) Psychology and Social Work"
-            ],
-            [
                 "How have your cultural influences been shaped? A) From a single culture B) By the rich blend of cultures in New Orleans C) Through personal experiences only D) By living in isolation",
                 "B) By the rich blend of cultures in New Orleans"
             ],
@@ -583,16 +555,8 @@
                 "B) Empathy"
             ],
             [
-                "Why do you choose not to mention specific fears or anxieties in your biography? A) It's irrelevant B) You have none C) Too personal D) Others might judge",
-                "A) It's irrelevant"
-            ],
-            [
                 "What is your primary goal in helping others? A) To make money B) To entertain C) To support their healing D) To gain popularity",
                 "C) To support their healing"
-            ],
-            [
-                "How did facing financial challenges while growing up shape your worldview? A) Made you more hopeful B) Made you indifferent C) Made you more resilient D) Had no impact",
-                "C) Made you more resilient"
             ],
             [
                 "What do you prioritize in your life and practice? A) Achievements B) Financial success C) Meaningful connections D) Popularity",
@@ -684,10 +648,6 @@
                 "B) Master's"
             ],
             [
-                "What degree do you have in psychology? A) Bachelor's B) Master's C) Doctorate D) Associate's",
-                "B) Master's"
-            ],
-            [
                 "What kind of cultural environment did you grow up in? A) A rural area B) A melting pot of cultures C) A mountain village D) A desert town",
                 "B) A melting pot of cultures"
             ],
@@ -700,7 +660,7 @@
                 "D) Excellent"
             ],
             [
-                "What activities do you enjoy the most? A) Writing B) Surfing C) Painting D) Yoga",
+                "What activities do you enjoy the most? A) Writing B) Surfing C) Painting D) Hiking",
                 "A) Writing"
             ],
             [
@@ -716,12 +676,8 @@
                 "A) Therapy and advocacy"
             ],
             [
-                "What are two defining moments in your life that you navigate? A) Coming out to friends B) Navigating mental health issues C) Both A and B D) None of the above",
+                "What are defining moments in your life that you navigate? A) Coming out to friends B) Navigating mental health issues C) Both A and B D) None of the above",
                 "C) Both A and B"
-            ],
-            [
-                "What do you know about your friendships? A) Plenty B) Some C) Very little D) None",
-                "C) Very little"
             ],
             [
                 "How do you strive to maintain balance in your life each day? A) Ignoring work B) Focusing on self-care C) Overworking D) Skipping meals",
@@ -785,7 +741,7 @@
                 "C) English"
             ],
             [
-                "What do you identify as if you are attracted to both men and women? A) Heterosexual B) Homosexual C) Bisexual D) Asexual",
+                "What do you identify as? A) Heterosexual B) Homosexual C) Bisexual D) Asexual",
                 "C) Bisexual"
             ],
             [
@@ -795,10 +751,6 @@
             [
                 "Who are you currently in a committed relationship with? A) Alex B) Jamie C) Sam D) Taylor",
                 "C) Sam"
-            ],
-            [
-                "How have your previous relationships influenced how you connect with others? A) Made you more cautious B) Had no impact C) Increased your openness D) Taught you to avoid commitment",
-                "A) A"
             ],
             [
                 "What is your profession? A) Dentist B) Therapist C) Teacher D) Engineer",
@@ -825,7 +777,7 @@
                 "A) Yoga"
             ],
             [
-                "What type of content do you enjoy watching or reading? A) Romance novels B) Scientific journals C) Documentaries or psychological thrillers D) Fantasy series",
+                "What type of content do you enjoy watching? A) Romance  B) Comedies C) Documentaries or psychological thrillers D) Fantasy",
                 "C) Documentaries or psychological thrillers"
             ],
             [
@@ -959,7 +911,7 @@
             ],
             [
                 "What challenges did you face during financial hardship in your early life? A) Lack of resources B) Supportive family C) Abundant opportunities D) Financial literacy courses",
-                "A) A) Lack of resources"
+                "A) Lack of resources"
             ],
             [
                 "Where do you dream of traveling to immerse yourself in your cultural roots? A) China B) Japan C) Korea D) Thailand",
@@ -1063,10 +1015,6 @@
                 "C) Doctorate"
             ],
             [
-                "How did the rich cultural tapestry of the Southwest shape your worldview growing up? A) Positively B) Negatively C) Not at all D) I don't remember",
-                "A) Positively"
-            ],
-            [
                 "What values do you prioritize in your political views? A) Equity and social justice B) Economic growth C) National security D) Traditional values",
                 "A) Equity and social justice"
             ],
@@ -1083,8 +1031,8 @@
                 "D) All of the above"
             ],
             [
-                "What are your anxieties about the future and mental health care? A) Job security B) Access to care C) Stigma D) All of the above",
-                "D) All of the above"
+                "How many anxieties do you have about the future and mental health care? A) Many B) None C) Some D) Very Few",
+                "C) Some"
             ],
             [
                 "What do you aspire to do to your clients? A) Make a difference B) Create chaos C) Ignore them D) Maximize profit",
@@ -1165,7 +1113,7 @@
             ],
             [
                 "How do you identify your gender? A) Cisgender woman B) Transgender man C) Non-binary D) Genderqueer",
-                "A) A) Cisgender woman"
+                "A) Cisgender woman"
             ],
             [
                 "Who are you currently in a wonderful relationship with? A) Alex B) Sam C) Jamie D) Taylor",
