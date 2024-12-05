@@ -3,12 +3,12 @@
         "story": "My name is Marcus Chen, and I\u2019m 28 years old, having spent my whole life in the vibrant city of San Francisco, where my parents, both Taiwanese immigrants, instilled in me a deep appreciation for our cultural heritage. I identify as a gay man and am currently in a loving relationship with my partner, Josh, who inspires my creative pursuits. Growing up, my family faced financial challenges, but I\u2019m grateful for how far we\u2019ve come; today, I comfortably slide into middle-class life as a graphic designer with a passion for visual storytelling, a career I pursued after studying fine arts in college. Though I acknowledge my family's Buddhist roots, I lean towards agnosticism, prioritizing mindfulness and personal values like empathy and honesty. I have one older sister, Mei, who is 32 and remains one of my best friends, and we primarily spoke English at home, though I\u2019m also fluent in Mandarin. I enjoy a rich tapestry of hobbies, including photography, hiking in nature, and cooking fusion cuisines, which connect me to my cultural background while allowing me to express myself creatively. My political views align with progressive ideals, advocating for social justice and environmental sustainability, which reflect in my choices and community involvement. A pivotal moment in my life was traveling through Southeast Asia, where I connected deeply with my roots and discovered my love for exploring new cultures. I currently live in a cozy apartment filled with plants and local art, share my space with a quirky rescue dog named Noodle, and unwind with graphic novels, indie films, and podcasts. While I\u2019ve explored parts of Asia and Europe, I dream of embarking on a journey to South America to immerse myself in its diverse cultures. My daily routine balances work, mindfulness practices, and community engagement, as I continuously strive to refine my craft and make an impact in the world through my art.",
         "qa": [
             [
-                "Which of the following is a true statement about you? A) My name is Leo Tran. B) My name is Marco Ramirez. C) My name is Marcus Chen. D) My name is Marcus Chen.",
+                "Which of the following is a true statement about you? A) My name is Leo Tran. B) My name is Marco Ramirez. C) My name is James Smith. D) My name is Marcus Chen.",
                 " D) My name is Marcus Chen.",
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 29 years old. B) I am 29 years old. C) I am 28 years old. D) I am 28 years old.",
+                "Which of the following is a true statement about you? A) I am 29 years old. B) I am 27 years old. C) I am 28 years old. D) I am 30 years old.",
                 " C) I am 28 years old.",
                 1
             ],
@@ -18,12 +18,12 @@
                 2
             ],
             [
-                "Which of the following is a true statement about you? A) My mother is from Taiwan. B) My mother is from Taiwan. C) My mother is from Mexico. D) My mother is from Cuba.",
+                "Which of the following is a true statement about you? A) My mother is from Taiwan. B) My mother is from Vietnam. C) My mother is from Mexico. D) My mother is from Cuba.",
                 " A) My mother is from Taiwan.",
                 3
             ],
             [
-                "Which of the following is a true statement about you? A) My father is from Taiwan. B) My father is originally from Taiwan. C) My father is from Puerto Rico. D) My father is from Vietnam.",
+                "Which of the following is a true statement about you? A) My father is from Taiwan. B) My father is originally from Turkey. C) My father is from Puerto Rico. D) My father is from Vietnam.",
                 " A) My father is from Taiwan.",
                 4
             ],
@@ -33,7 +33,7 @@
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I comfortably slide into middle-class life. B) I grew up solidly middle class, but my family faced some financial hardships. C) I consider myself solidly middle class. D) I grew up in a lower-middle-class household.",
+                "Which of the following is a true statement about you? A) I comfortably slide into middle-class life. B) I grew up lower class. C) I consider myself upper-middle class. D) I grew up in a lower-middle-class household.",
                 " A) I comfortably slide into middle-class life.",
                 6
             ],
@@ -48,12 +48,12 @@
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a gay man. B) I openly identify as gay. C) I identify as gay. D) I am straight.",
+                "Which of the following is a true statement about you? A) I identify as a gay man. B) I openly identify as asexual. C) I identify as bisexual. D) I am straight.",
                 " A) I identify as a gay man.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as male. B) I identify as genderqueer and use they/them pronouns. C) I am a man. D) I identify as male.",
+                "Which of the following is a true statement about you? A) I identify as woman. B) I identify as genderqueer and use they/them pronouns. C) I am a man. D) I am nonbinary.",
                 " C) I am a man.",
                 10
             ],
@@ -67,27 +67,27 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I am a financial analyst. B) I am a graphic designer. C) I am a digital marketing specialist. D) I am a digital marketing specialist.",
+                "Which of the following is a true statement about you? A) I am a financial analyst. B) I am a graphic designer. C) I am a digital marketing specialist. D) I am a telemarketer.",
                 " B) I am a graphic designer.",
                 13
             ],
             [
-                "Which of the following is a true statement about you? A) I have obtained my degree in communications. B) I studied fine arts in college before pursuing my career. C) I earned my degree in education. D) My educational background is in teaching.",
+                "Which of the following is a true statement about you? A) I have obtained my degree in communications. B) I studied fine arts in college before pursuing my career. C) I earned my degree in education. D) My educational background is in law enforcement.",
                 " B) I studied fine arts in college before pursuing my career.",
                 14
             ],
             [
-                "Which of the following is a true statement about you? A) I have a degree in visual arts. B) I have a degree in education. C) I studied psychology. D) I have a degree in fine arts.",
+                "Which of the following is a true statement about you? A) I have a degree in culinary arts. B) I have a degree in education. C) I studied psychology. D) I have a degree in fine arts.",
                 " D) I have a degree in fine arts.",
                 15
             ],
             [
-                "Which of the following is a true statement about you? A) I grew up surrounded by vibrant family gatherings and colorful festivals. B) I was raised in a Hispanic household. C) I was influenced by my family's background in Taiwan. D) I was raised by Taiwanese immigrants who instilled in me an appreciation for our cultural heritage.",
+                "Which of the following is a true statement about you? A) I grew up surrounded by vibrant family gatherings and colorful festivals. B) I was raised in a Hispanic household. C) I was influenced by my family's background in Germany. D) I was raised by Taiwanese immigrants who instilled in me an appreciation for our cultural heritage.",
                 " D) I was raised by Taiwanese immigrants who instilled in me an appreciation for our cultural heritage.",
                 16
             ],
             [
-                "Which of the following is a true statement about you? A) My political views align with progressive ideals. B) I have strong political views in favor of equality and environmental sustainability. C) I have more liberal political views that reflect my values around community and environmental responsibility. D) I lean towards progressive views.",
+                "Which of the following is a true statement about you? A) My political views align with progressive ideals. B) I have strong political views in favor of reduced taxation. C) I have more conservative views. D) I lean towards democratic socialism.",
                 " A) My political views align with progressive ideals.",
                 17
             ],
@@ -96,7 +96,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I enjoy playing guitar and hiking. B) I enjoy photography, hiking in nature, and cooking fusion cuisines. C) I enjoy running, painting, and volunteering at local charities. D) I enjoy coding, tech innovations, painting, and hiking.",
+                "Which of the following is a true statement about you? A) I enjoy playing guitar and running. B) I enjoy photography, hiking in nature, and cooking fusion cuisines. C) I enjoy running, painting, and volunteering at local charities. D) I enjoy coding, tech innovations, painting, and biking.",
                 " B) I enjoy photography, hiking in nature, and cooking fusion cuisines.",
                 19
             ],
@@ -115,12 +115,12 @@
                 22
             ],
             [
-                "Which of the following is a true statement about you? A) A defining experience for me was studying abroad in Barcelona, where I discovered my love for diverse cultures. B) A pivotal moment in my life was traveling through Southeast Asia. C) My family worked long hours in a small restaurant. D) My family faced financial struggles, which shaped my perspective on life.",
+                "Which of the following is a true statement about you? A) A defining experience for me was studying abroad in Barcelona, where I discovered my love for diverse cultures. B) A pivotal moment in my life was traveling through Southeast Asia. C) My family worked long hours in a small restaurant. D) My family in Ethiopia faced financial struggles, which shaped my perspective on life.",
                 " B) A pivotal moment in my life was traveling through Southeast Asia.",
                 23
             ],
             [
-                "Which of the following is a true statement about you? A) I currently live in a shared house with friends. B) I foster genuine connections within my diverse friendship circles. C) I tend to keep a close-knit group of friends who share my interests. D) My older sister, Mei, is one of my best friends.",
+                "Which of the following is a true statement about you? A) I currently live in a shared house with friends. B) I foster genuine connections within my large and diverse friendship circles. C) I tend to keep a close-knit group of two or three friends who share my interests. D) My older sister, Mei, is one of my best friends.",
                 " D) My older sister, Mei, is one of my best friends.",
                 24
             ],
@@ -140,12 +140,12 @@
                 27
             ],
             [
-                "Which of the following is a true statement about you? A) I currently live in a cozy apartment filled with plants and local art. B) I currently live with my dog, Toby. C) I currently live in a modest apartment adorned with plants and art. D) I currently live in an apartment.",
+                "Which of the following is a true statement about you? A) I currently live in a cozy apartment filled with plants and local art. B) I currently live with my dog, Toby. C) I currently live in a modest apartment adorned with sculptures and aposturesrt. D) I currently live in an small single-family home.",
                 " A) I currently live in a cozy apartment filled with plants and local art.",
                 28
             ],
             [
-                "Which of the following is a true statement about you? A) I have explored parts of Asia and Europe. B) Traveling through Asia and Europe has been transformative for me. C) I have traveled to several countries in Central America and Europe, and my dream destination is Japan. D) I've traveled to several countries in Central America and Europe.",
+                "Which of the following is a true statement about you? A) I have explored parts of Asia and Europe. B) Traveling through Africa and Europe has been transformative for me. C) I have traveled to several countries in Central America and Europe, and my dream destination is Japan. D) I've traveled to several countries in Central America and Asia.",
                 " A) I have explored parts of Asia and Europe.",
                 29
             ]
@@ -160,7 +160,7 @@
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 28 years old. C) I am 28 years old. D) I am 29 years old.",
+                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 29 years old. C) I am 30 years old. D) I am 31 years old.",
                 " A) I am 28 years old.",
                 1
             ],
@@ -175,17 +175,17 @@
                 3
             ],
             [
-                "Which of the following is a true statement about you? A) My father is from Mexico. B) My father is from Mexico City. C) My father is from Puerto Rico. D) My father is from Taiwan.",
+                "Which of the following is a true statement about you? A) My father is from Mexico. B) My father is from Panama. C) My father is from Puerto Rico. D) My father is from Taiwan.",
                 " C) My father is from Puerto Rico.",
                 4
             ],
             [
-                "Which of the following is a true statement about you? A) I was raised in a Buddhist household, but I identify more as secular. B) I was raised Catholic but now I identify as spiritual. C) I am spiritual but not strictly religious, appreciating the customs of my family's Buddhist upbringing. D) I respect my family's Roman Catholic roots, but I don't strictly adhere to any religion.",
+                "Which of the following is a true statement about you? A) I was raised in a Buddhist household, but I identify more as secular. B) I was raised Catholic and strictly adhere to it today. C) I am spiritual but not strictly religious, appreciating the customs of my family's Jewish upbringing. D) I respect my family's Roman Catholic roots, but I don't strictly adhere to any religion.",
                 " D) I respect my family's Roman Catholic roots, but I don't strictly adhere to any religion.",
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I am middle class. B) I am comfortably middle class. C) I faced financial struggles growing up and am now comfortably in the middle class. D) I enjoy a comfortable middle-class lifestyle.",
+                "Which of the following is a true statement about you? A) I am upper class. B) I am lower class. C) I faced financial struggles growing up and am now comfortably in the middle class. D) I have always enjoyed a comfortable upper-middle-class lifestyle.",
                 " C) I faced financial struggles growing up and am now comfortably in the middle class.",
                 6
             ],
@@ -195,17 +195,17 @@
                 7
             ],
             [
-                "Which of the following is a true statement about you? A) I primarily speak English but also converse in Spanish. B) I speak mostly English but have kept up my Spanish skills. C) I primarily speak English but also know some Spanish. D) I am fluent in Spanish and English, with a bit of Portuguese.",
+                "Which of the following is a true statement about you? A) I primarily speak English but also converse in French. B) I speak mostly English but have kept up my Spanish skills. C) I primarily speak Portuguese but also know English. D) I am fluent in Italian and English.",
                 " B) I speak mostly English but have kept up my Spanish skills.",
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as gay. B) I identify as a gay man. C) I am openly gay. D) I identify as pansexual.",
+                "Which of the following is a true statement about you? A) I identify as straight. B) I identify as a gay man. C) I am asexual. D) I identify as pansexual.",
                 " D) I identify as pansexual.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a man. B) I identify as male. C) I am a man. D) I identify as genderqueer and use they/them pronouns.",
+                "Which of the following is a true statement about you? A) I identify as a man. B) I identify as a woman. C) I am intersex. D) I identify as genderqueer and use they/them pronouns.",
                 " D) I identify as genderqueer and use they/them pronouns.",
                 10
             ],
@@ -219,12 +219,12 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I work as a graphic designer. B) I work as a software engineer. C) I am a digital marketing specialist. D) I am a software engineer at a tech startup.",
+                "Which of the following is a true statement about you? A) I work as a graphic designer. B) I work as an electrical engineer. C) I am a digital marketing specialist. D) I am a software engineer at a tech startup.",
                 " C) I am a digital marketing specialist.",
                 13
             ],
             [
-                "Which of the following is a true statement about you? A) I have held various jobs during my educational journey. B) I earned my degree in communications. C) I studied fine arts in college before pursuing my career. D) My educational background is in teaching.",
+                "Which of the following is a true statement about you? A) I went to school for culinary arts. B) I earned my degree in communications. C) I studied fine arts in college before pursuing my career. D) My educational background is in teaching.",
                 " B) I earned my degree in communications.",
                 14
             ],
@@ -238,17 +238,17 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I immerse myself in social justice initiatives and advocate for LGBTQ+ rights. B) I have more liberal political views that reflect my values around community and environmental responsibility. C) I have a moderate political stance and an interest in social issues. D) I lean toward progressive political beliefs.",
+                "Which of the following is a true statement about you? A) I immerse myself in social justice initiatives and advocate for LGBTQ+ rights. B) I have more liberal political views that reflect my values around community and environmental responsibility. C) I have a moderate political stance and an interest in social issues. D) I lean toward conservative political beliefs.",
                 " B) I have more liberal political views that reflect my values around community and environmental responsibility.",
                 17
             ],
             [
-                "Which of the following is a true statement about you? A) I focus on health and wellness, incorporating fitness into my daily routine. B) I practice yoga regularly to maintain my mental and physical health. C) I have anxieties about my health. D) I prioritize my health and wellness through yoga and meditation.",
+                "Which of the following is a true statement about you? A) I focus on health and wellness only through nutrition, incorporating fitness into my daily routine. B) I practice yoga regularly to maintain my mental and physical health. C) I have anxieties about my health. D) I prioritize my health and wellness through biking and climbing.",
                 " B) I practice yoga regularly to maintain my mental and physical health.",
                 18
             ],
             [
-                "Which of the following is a true statement about you? A) I enjoy hiking and photography. B) I love cooking new recipes and capturing moments through photography. C) I enjoy travel and the art of storytelling through various media. D) I love to cook, especially vegan recipes, and I enjoy reading science fiction and watching documentaries.",
+                "Which of the following is a true statement about you? A) I enjoy hiking and photography. B) I love cooking new recipes and listening to classical music C) I enjoy travel and the art of storytelling through various media. D) I enjoy reading science fiction and watching documentaries.",
                 " A) I enjoy hiking and photography.",
                 19
             ],
@@ -262,7 +262,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I aim to create art that makes people think and feel, fostering connections among diverse communities. B) I aspire to build a life filled with genuine connections and impactful work. C) My ultimate goals revolve around creating accessible technology that empowers others. D) I strive to refine my craft and make an impact in the world through my art.",
+                "Which of the following is a true statement about you? A) I aim to create art that makes people think and feel, fostering connections among diverse communities. B) I aspire to build a life filled with genuine connections and create impactful music. C) My ultimate goals revolve around creating accessible technology that empowers others. D) I strive to refine my craft and make an impact in the world through my cooking.",
                 " A) I aim to create art that makes people think and feel, fostering connections among diverse communities.",
                 22
             ],
@@ -272,17 +272,17 @@
                 23
             ],
             [
-                "Which of the following is a true statement about you? A) I currently live in a shared house with friends. B) I have a close-knit circle of friends, including my supportive sister. C) I cultivate meaningful friendships. D) I unwind with friends over coffee.",
+                "Which of the following is a true statement about you? A) I currently live in a shared house with friends. B) I have a close-knit circle of friends, including my supportive sister. C) I do not cultivate meaningful friendships. D) I unwind with friends over coffee but live alone.",
                 " A) I currently live in a shared house with friends.",
                 24
             ],
             [
-                "Which of the following is a true statement about you? A) My daily routine revolves around work, exercising in the evenings, and enjoying podcasts. B) I practice meditation daily to manage anxiety. C) I start each morning with a jog and a coffee ritual. D) We bond over cooking and binge-watching shows like 'The Office.'",
-                " D) We bond over cooking and binge-watching shows like 'The Office.'",
+                "Which of the following is a true statement about you? A) My daily routine revolves around work, exercising in the evenings, and enjoying podcasts. B) I practice meditation daily to manage anxiety. C) I start each morning with a jog and a coffee ritual. D) I bond over cooking and binge-watching shows like 'The Office.'",
+                " D) I bond over cooking and binge-watching shows like 'The Office.'",
                 25
             ],
             [
-                "Which of the following is a true statement about you? A) I share my living space with a quirky rescue dog named Noodle. B) I had a childhood dog named Max who was my loyal companion. C) I share my apartment with a mischievous cat named Mochi and had a dog named Max in my childhood. D) I have an affectionate rescue dog named Bella.",
+                "Which of the following is a true statement about you? A) I share my living space with a quirky rescue dog named Noodle. B) I had a childhood dog named Max who was my loyal companion. C) I share my apartment with a mischievous cat named Mochi and had a dog named Rex in my childhood. D) I have an affectionate rescue dog named Bella.",
                 " B) I had a childhood dog named Max who was my loyal companion.",
                 26
             ],
@@ -291,12 +291,12 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I live in a shared house with friends. B) I live in an apartment with Jamie that overlooks the park. C) I currently live in a small apartment. D) I live with my partner Miguel and our two dogs.",
+                "Which of the following is a true statement about you? A) I live in a shared house with friends. B) I live in an apartment with Jamie that overlooks the park. C) I currently live alone in a small apartment. D) I live with my partner Miguel and our two dogs.",
                 " A) I live in a shared house with friends.",
                 28
             ],
             [
-                "Which of the following is a true statement about you? A) I am actively planning to travel throughout Asia. B) I have traveled to places like Japan and Italy and dream of visiting South America someday C) I have traveled to parts of Europe and hope to explore Asia next. D) I have visited various countries across Europe and Asia.",
+                "Which of the following is a true statement about you? A) I am actively planning to travel throughout Africa. B) I have traveled to places like Japan and Italy and dream of visiting South America someday C) I have traveled to parts of Europe and hope to explore Asia next. D) I have visited various countries across Africa and Asia.",
                 " C) I have traveled to parts of Europe and hope to explore Asia next.",
                 29
             ]
@@ -311,7 +311,7 @@
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 29 years old. B) I am 28 years old. C) I am 28 years old. D) I am 29 years old.",
+                "Which of the following is a true statement about you? A) I am 29 years old. B) I am 28 years old. C) I am 30 years old. D) I am 27 years old.",
                 " B) I am 28 years old.",
                 1
             ],
@@ -321,7 +321,7 @@
                 2
             ],
             [
-                "Which of the following is a true statement about you? A) My mother is from Mexico. B) My mother is from Cuba. C) My mother is from Guatemala. D) My mother is from Mexico.",
+                "Which of the following is a true statement about you? A) My mother is from Argentina. B) My mother is from Cuba. C) My mother is from Guatemala. D) My mother is from Mexico.",
                 " D) My mother is from Mexico.",
                 3
             ],
@@ -331,12 +331,12 @@
                 4
             ],
             [
-                "Which of the following is a true statement about you? A) I consider myself agnostic. B) I don\u2019t actively adhere to any particular religion, leaning more towards spiritual exploration. C) I respect my family's Roman Catholic roots, but I don't strictly adhere to any religion. D) I was raised in a Buddhist household, but I identify more as secular.",
+                "Which of the following is a true statement about you? A) I consider myself agnostic. B) I am a Mormon. C) I am Roman Catholic. D) I am Buddhist.",
                 " A) I consider myself agnostic.",
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I faced financial struggles growing up and am now comfortably in the middle class. B) I am middle class. C) I enjoy a comfortable middle-class lifestyle. D) I am comfortably settled in the middle class.",
+                "Which of the following is a true statement about you? A) I faced financial struggles growing up but am now upper class. B) I am middle class. C) I enjoy a comfortable upper-middle-class lifestyle. D) I am comfortably settled in the lower middle class.",
                 " B) I am middle class.",
                 6
             ],
@@ -346,22 +346,22 @@
                 7
             ],
             [
-                "Which of the following is a true statement about you? A) I speak English and Spanish. B) I speak English and some Yoruba. C) I primarily spoke Mandarin at home, but I'm also fluent in English and dabble in Spanish. D) I am bilingual, fluent in both English and Spanish.",
+                "Which of the following is a true statement about you? A) I speak English and Spanish. B) I speak English and some Yoruba. C) I primarily spoke Mandarin at home, but I'm also fluent in English and dabble in Spanish. D) I am bilingual, fluent in both English and French.",
                 " A) I speak English and Spanish.",
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I openly identify as gay. B) I identify as gay. C) I am openly gay. D) I identify as pansexual.",
+                "Which of the following is a true statement about you? A) I openly identify as bisexual. B) I identify as gay. C) I am straight. D) I identify as pansexual.",
                 " B) I identify as gay.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I lean towards being gender non-conforming. B) I identify as male. C) I identify as male. D) I identify as a man.",
+                "Which of the following is a true statement about you? A) I lean towards being gender non-conforming. B) I identify as male. C) I identify as female. D) I identify as a trans.",
                 " A) I lean towards being gender non-conforming.",
                 10
             ],
             [
-                "Which of the following is a true statement about you? A) I am currently in a committed relationship. B) I am happily in a committed relationship with my boyfriend, Daniel. C) I am currently in a committed relationship with my partner, Sam. D) I am currently in a fulfilling relationship with my boyfriend, Marco.",
+                "Which of the following is a true statement about you? A) I am not currently in a relationship. B) I am happily in a committed relationship with my boyfriend, Daniel. C) I am currently in a committed relationship with my partner, Sam. D) I am currently in a fulfilling relationship with my boyfriend, Marco.",
                 " B) I am happily in a committed relationship with my boyfriend, Daniel.",
                 11
             ],
@@ -370,7 +370,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I am a digital marketing specialist. B) I am a software engineer. C) I am a digital marketing specialist. D) I am a graphic designer.",
+                "Which of the following is a true statement about you? A) I am a digital marketing specialist. B) I am a software engineer. C) I am a sales analyst. D) I am a graphic designer.",
                 " B) I am a software engineer.",
                 13
             ],
@@ -379,7 +379,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I earned my degree in computer science. B) I studied psychology. C) I earned a degree in computer science. D) I have a degree in visual arts.",
+                "Which of the following is a true statement about you? A) I earned my degree in education. B) I studied psychology. C) I earned a degree in computer science. D) I have a degree in visual arts.",
                 " C) I earned a degree in computer science.",
                 15
             ],
@@ -389,7 +389,7 @@
                 16
             ],
             [
-                "Which of the following is a true statement about you? A) I resonate with more liberal political views, believing in equity and community empowerment. B) I lean towards progressive political views, believing in social equity and sustainability. C) I hold liberal political views. D) I have liberal political beliefs.",
+                "Which of the following is a true statement about you? A) I resonate with more moderate political views. B) I lean towards conservative political views. C) I do not engage with politics. D) I have liberal political beliefs.",
                 " D) I have liberal political beliefs.",
                 17
             ],
@@ -398,7 +398,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I enjoy cooking, painting, and practicing yoga. B) I have a deep love for graphic novels, gaming, and technology. C) I enjoy binge-watching sci-fi series and playing video games. D) I love cooking new recipes and capturing moments through photography.",
+                "Which of the following is a true statement about you? A) I enjoy cooking, painting, and practicing yoga. B) I have a deep love for graphic novels, gaming, and technology. C) I enjoy binge-watching sci-fi series and playing tennis. D) I love cooking new recipes and capturing moments through photography.",
                 " B) I have a deep love for graphic novels, gaming, and technology.",
                 19
             ],
@@ -412,7 +412,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I dream of traveling to Japan and making a positive impact in the tech industry. B) I aim to advance in my career and travel more. C) I desire to create meaningful art that resonates with people. D) I aim to make a positive impact and hope to start my own consultancy to help small businesses thrive online.",
+                "Which of the following is a true statement about you? A) I dream of traveling to Japan and making a positive impact in the tech industry. B) I aim to advance in my music career and travel more. C) I desire to create meaningful art that resonates with people. D) I aim to make a positive impact and hope to start my own consultancy to help small businesses thrive online.",
                 " A) I dream of traveling to Japan and making a positive impact in the tech industry.",
                 22
             ],
@@ -422,7 +422,7 @@
                 23
             ],
             [
-                "Which of the following is a true statement about you? A) I share a close bond with my sister as we navigate life together. B) I share a close bond with my brother. C) I cultivate meaningful friendships. D) I unwind with friends over coffee.",
+                "Which of the following is a true statement about you? A) I share a close bond with my sister as we navigate life together. B) I share a close bond with my brother. C) I cultivate meaningful friendships but am not close with my family. D) I am best friends with my cousin.",
                 " B) I share a close bond with my brother.",
                 24
             ],
@@ -446,7 +446,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I have visited various countries across Europe and Asia. B) I have traveled to several countries including Peru and Spain. C) I have not traveled extensively but dream of going to Japan. D) I have traveled to parts of Europe and hope to explore Asia next.",
+                "Which of the following is a true statement about you? A) I have visited various countries across Europe and Asia. B) I have traveled to several countries including Peru and Spain. C) I have not traveled extensively but dream of going to Japan. D) I have traveled to most of Europe and hope to explore Asia next.",
                 " C) I have not traveled extensively but dream of going to Japan.",
                 29
             ]
@@ -461,32 +461,32 @@
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 29 years old. B) I am 28 years old. C) I am 28 years old. D) I am 29 years old.",
+                "Which of the following is a true statement about you? A) I am 30 years old. B) I am 28 years old. C) I am 27 years old. D) I am 29 years old.",
                 " D) I am 29 years old.",
                 1
             ],
             [
-                "Which of the following is a true statement about you? A) I am from San Francisco. B) I am from San Diego, California. C) I am from sunny Los Angeles. D) I am from San Francisco.",
+                "Which of the following is a true statement about you? A) I am from Oregon. B) I am from San Diego, California. C) I am from sunny Los Angeles. D) I am from San Francisco.",
                 " D) I am from San Francisco.",
                 2
             ],
             [
-                "Which of the following is a true statement about you? A) My mother is originally from Taiwan. B) My mother is from Taiwan. C) My mother is from Mexico. D) My mother is from Guatemala.",
+                "Which of the following is a true statement about you? A) My mother is originally from Taiwan. B) My mother is from France. C) My mother is from Mexico. D) My mother is from Guatemala.",
                 " A) My mother is originally from Taiwan.",
                 3
             ],
             [
-                "Which of the following is a true statement about you? A) My father is from the Dominican Republic. B) My father is from Taiwan. C) My father is from Guatemala. D) My father is originally from Taiwan.",
+                "Which of the following is a true statement about you? A) My father is from the Dominican Republic. B) My father is from Germany. C) My father is from Guatemala. D) My father is originally from Taiwan.",
                 " D) My father is originally from Taiwan.",
                 4
             ],
             [
-                "Which of the following is a true statement about you? A) I was raised Catholic but practice spirituality in a personal way. B) I was raised in a Buddhist household, but I identify more as secular. C) I was raised Catholic but now I identify as spiritual. D) I respect my family's Roman Catholic roots, but I don't strictly adhere to any religion.",
+                "Which of the following is a true statement about you? A) I was raised Catholic but practice spirituality in a personal way. B) I was raised in a Buddhist household, but I identify more as secular. C) I was raised Protestant but now I identify as spiritual. D) I respect my family's Roman Catholic roots, but I don't strictly adhere to any religion.",
                 " B) I was raised in a Buddhist household, but I identify more as secular.",
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I am middle class. B) I enjoy a comfortable middle-class lifestyle. C) I am comfortably middle class. D) I am comfortably middle class.",
+                "Which of the following is a true statement about you? A) I am lower class. B) I enjoy a comfortable middle-class lifestyle. C) I am upper-middle class. D) I am upper class.",
                 " B) I enjoy a comfortable middle-class lifestyle.",
                 6
             ],
@@ -496,17 +496,17 @@
                 7
             ],
             [
-                "Which of the following is a true statement about you? A) I primarily communicate in English but also speak some Vietnamese. B) I primarily speak English and am fluent in Spanish. C) I mostly speak English, but I\u2019m also fluent in Spanish. D) I primarily spoke Mandarin at home, but I'm also fluent in English and dabble in Spanish.",
+                "Which of the following is a true statement about you? A) I primarily communicate in English but also speak some Vietnamese. B) I primarily speak English and am fluent in Spanish. C) I mostly speak English, but I\u2019m also fluent in French. D) I primarily spoke Mandarin at home, but I'm also fluent in English and dabble in Spanish.",
                 " D) I primarily spoke Mandarin at home, but I'm also fluent in English and dabble in Spanish.",
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a gay man. B) I identify as gay. C) I identify as pansexual. D) I identify as a gay man.",
+                "Which of the following is a true statement about you? A) I identify as asexual. B) I identify as gay. C) I identify as pansexual. D) I identify as a straight.",
                 " B) I identify as gay.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as male. B) I identify as male. C) I identify as genderqueer and use they/them pronouns. D) I identify as male.",
+                "Which of the following is a true statement about you? A) I identify as nonbinary. B) I identify as female. C) I identify as genderqueer and use they/them pronouns. D) I identify as male.",
                 " D) I identify as male.",
                 10
             ],
@@ -516,17 +516,17 @@
                 11
             ],
             [
-                "Which of the following is a true statement about you? A) I have had significant past relationships that taught me the importance of communication and empathy. B) I have had significant relationships with a few wonderful partners. C) I\u2019ve had a few significant relationships in the past, but this one feels different and truly fulfilling. D) I have had significant past relationships that shaped my understanding of love and trust.",
+                "Which of the following is a true statement about you? A) I have had significant past relationships that taught me the importance of communication and empathy. B) I have not had significant relationships. C) I\u2019ve had a few small relationships in the past, but this one feels different and truly fulfilling. D) I have had one major relationship in my life.",
                 " A) I have had significant past relationships that taught me the importance of communication and empathy.",
                 12
             ],
             [
-                "Which of the following is a true statement about you? A) I am a digital marketing specialist. B) I am a high school history teacher. C) I work as a software engineer. D) I work as a software engineer.",
+                "Which of the following is a true statement about you? A) I am a digital marketing specialist. B) I am a high school history teacher. C) I work as a graphic designer. D) I work as a software engineer.",
                 " D) I work as a software engineer.",
                 13
             ],
             [
-                "Which of the following is a true statement about you? A) I have held various jobs during my educational journey. B) I completed my degree in visual arts. C) I have obtained my degree in communications. D) I earned my degree in communications.",
+                "Which of the following is a true statement about you? A) I have held various jobs during my educational journey. B) I completed my degree in visual arts. C) I have obtained my degree in communications. D) I earned my degree in mechatronics.",
                 " A) I have held various jobs during my educational journey.",
                 14
             ],
@@ -536,17 +536,17 @@
                 15
             ],
             [
-                "Which of the following is a true statement about you? A) I was influenced by my family's background in Taiwan. B) My values draw from a mix of cultural influences, emphasizing family, empathy, and the pursuit of knowledge. C) My cultural identity has been deeply influenced by my Taiwanese heritage. D) I grew up in a family that observed Buddhist traditions.",
+                "Which of the following is a true statement about you? A) I was influenced by my family's background in Singapore. B) My values draw equally from a mix of cultural influences, emphasizing family, empathy, and the pursuit of knowledge. C) My cultural identity has been deeply influenced by my Taiwanese heritage. D) I grew up in a family that observed Buddhist traditions.",
                 " C) My cultural identity has been deeply influenced by my Taiwanese heritage.",
                 16
             ],
             [
-                "Which of the following is a true statement about you? A) I lean towards progressive political views, believing in social equity and sustainability. B) I advocate for LGBTQ+ rights and environmental sustainability, often leaning towards progressive views. C) My political views lean toward progressive ideals. D) I am quite progressive, advocating for LGBTQ+ rights and social equity.",
+                "Which of the following is a true statement about you? A) I lean towards progressive political views, believing in social equity and sustainability. B) I advocate for LGBTQ+ rights and environmental sustainability. C) My political views lean toward conservative ideals. D) I am quite moderate.",
                 " A) I lean towards progressive political views, believing in social equity and sustainability.",
                 17
             ],
             [
-                "Which of the following is a true statement about you? A) I prioritize my health and wellness through yoga and meditation. B) I maintain my health and wellness through yoga and cooking. C) I regularly practice yoga and meditation to manage my anxiety and maintain a balanced lifestyle. D) I maintain a healthy lifestyle and exercise regularly.",
+                "Which of the following is a true statement about you? A) I prioritize my health and wellness through yoga and meditation. B) I maintain my health and wellness through running and cooking. C) I regularly practice cardio and pilates to manage my anxiety and maintain a balanced lifestyle. D) I maintain a healthy lifestyle and exercise regularly.",
                 " A) I prioritize my health and wellness through yoga and meditation.",
                 18
             ],
@@ -556,17 +556,17 @@
                 19
             ],
             [
-                "Which of the following is a true statement about you? A) I deeply value creativity, honesty, and community. B) I strive to create a life filled with purpose, joy, and meaningful connections. C) I believe in equity and community empowerment. D) I hold strong values of honesty and community.",
+                "Which of the following is a true statement about you? A) I deeply value creativity, expression, and individuality. B) I strive to create a life filled with purpose, joy, and meaningful connections. C) I believe in equity and personal empowerment. D) I hold strong values of honesty and community.",
                 " D) I hold strong values of honesty and community.",
                 20
             ],
             [
-                "Which of the following is a true statement about you? A) One of my biggest fears is not being able to make a significant impact in the world. B) I have anxieties about societal acceptance. C) I navigate my own fears about the future and uncertainty in my path. D) I have anxiety regarding my future and my career.",
+                "Which of the following is a true statement about you? A) One of my biggest fears is not being able to make a significant impact in the world. B) I have anxieties about societal acceptance. C) I navigate my own fears about the future and uncertainty in my path. D) I have anxiety regarding my job.",
                 " C) I navigate my own fears about the future and uncertainty in my path.",
                 21
             ],
             [
-                "Which of the following is a true statement about you? A) I aspire to develop software that positively impacts mental health. B) I aim to create art that makes people think and feel, fostering connections among diverse communities. C) I aim to advance in my career and travel more. D) My goal is to continuously grow both personally and professionally while fostering meaningful connections.",
+                "Which of the following is a true statement about you? A) I aspire to develop software that positively impacts mental health. B) I aim to create art that makes people think and feel, fostering connections among diverse communities. C) I aim to advance in my career in robotics and travel more. D) My goal is to continuously grow both personally and professionally while fostering meaningful connections.",
                 " A) I aspire to develop software that positively impacts mental health.",
                 22
             ],
@@ -576,7 +576,7 @@
                 23
             ],
             [
-                "Which of the following is a true statement about you? A) I have a close-knit circle of friends, including my supportive sister. B) My childhood friendships were crucial to me, especially with my sister. C) My close bond with my brother Marco is a significant part of my life. D) I have friends who share a diverse mix of creative and political passions.",
+                "Which of the following is a true statement about you? A) I have a close-knit circle of friends, including my supportive sister. B) My childhood friendships were crucial to me, especially with my brother. C) My close bond with my brother Marco is a significant part of my life. D) I have a large group of friends who share a diverse mix of creative and political passions.",
                 " A) I have a close-knit circle of friends, including my supportive sister.",
                 24
             ],
@@ -596,12 +596,12 @@
                 27
             ],
             [
-                "Which of the following is a true statement about you? A) I currently live in a cozy apartment. B) I live in a snug apartment adorned with artwork. C) I currently live in a modest apartment adorned with plants and art. D) I currently live in an apartment with my cat.",
+                "Which of the following is a true statement about you? A) I currently live in a cozy condo by myself. B) I live in a medium-sized house adorned with artwork. C) I currently live in a small house adorned with plants and art. D) I currently live in an apartment with my cat.",
                 " D) I currently live in an apartment with my cat.",
                 28
             ],
             [
-                "Which of the following is a true statement about you? A) I have traveled to places like Japan and Italy and dream of visiting South America someday B) I have explored several C) I have not traveled extensively but dream of going to Japan. D) I have Japan and Italy on my must-see list.",
+                "Which of the following is a true statement about you? A) I have traveled to places like Japan and Italy and dream of visiting South America someday B) I have explored Africa C) I have not traveled extensively but dream of going to Japan. D) I have Japan and Italy on my must-see list.",
                 " A) I have traveled to places like Japan and Italy and dream of visiting South America someday",
                 29
             ]
@@ -616,7 +616,7 @@
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 28 years old. C) I am 29 years old. D) I am 28 years old.",
+                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 27 years old. C) I am 29 years old. D) I am 30 years old.",
                 " A) I am 28 years old.",
                 1
             ],
@@ -631,17 +631,17 @@
                 3
             ],
             [
-                "Which of the following is a true statement about you? A) My father is from Ho Chi Minh City, Vietnam. B) My father is originally from Taiwan. C) My father is from Taiwan. D) My father is from Newfoundland, Canada.",
+                "Which of the following is a true statement about you? A) My father is from Ho Chi Minh City, Vietnam. B) My father is originally from Panama. C) My father is from Taiwan. D) My father is from Newfoundland, Canada.",
                 " A) My father is from Ho Chi Minh City, Vietnam.",
                 4
             ],
             [
-                "Which of the following is a true statement about you? A) I am spiritual but not strictly religious, appreciating the customs of my family's Buddhist upbringing. B) I practice Buddhism in a personal and reflective manner. C) I was raised in Buddhist traditions but consider myself more spiritual. D) I was raised Catholic but now I identify as spiritual.",
+                "Which of the following is a true statement about you? A) I am spiritual but not strictly religious, appreciating the customs of my family's Buddhist upbringing. B) I practice Christianity in a personal and reflective manner. C) I was raised in Islamic traditions but consider myself more spiritual. D) I was raised Catholic but now I identify as spiritual.",
                 " A) I am spiritual but not strictly religious, appreciating the customs of my family's Buddhist upbringing.",
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I am middle class. B) I am comfortably middle class. C) My family has achieved stable middle-class status. D) I enjoy a comfortable middle-class lifestyle.",
+                "Which of the following is a true statement about you? A) I am lower class. B) I am comfortably upper-middle class. C) My family has achieved stable middle-class status. D) I enjoy a comfortable upper class lifestyle.",
                 " C) My family has achieved stable middle-class status.",
                 6
             ],
@@ -651,17 +651,17 @@
                 7
             ],
             [
-                "Which of the following is a true statement about you? A) I primarily speak English but also converse in Spanish. B) I speak English and Spanish. C) I primarily communicate in English but also speak some Vietnamese. D) I mostly speak English, but I\u2019m also fluent in Spanish.",
+                "Which of the following is a true statement about you? A) I primarily speak English but also converse in Spanish. B) I speak English and German. C) I primarily communicate in English but also speak some Vietnamese. D) I mostly speak English, but I\u2019m also fluent in Portuguese.",
                 " C) I primarily communicate in English but also speak some Vietnamese.",
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a gay man. B) I identify as gay and am a proud member of the LGBTQ+ community. C) I identify as a gay man. D) I identify as gay.",
+                "Which of the following is a true statement about you? A) I identify as a bisexual man. B) I identify as lesbian and am a proud member of the LGBTQ+ community. C) I identify as a gay man. D) I identify as asexual.",
                 " C) I identify as a gay man.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a man. B) I identify as male. C) I identify as genderqueer and use they/them pronouns. D) I identify as male.",
+                "Which of the following is a true statement about you? A) I identify as a man. B) I identify as woman. C) I identify as genderqueer and use they/them pronouns. D) I identify as nonbinary.",
                 " A) I identify as a man.",
                 10
             ],
@@ -675,12 +675,12 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I work as a graphic designer. B) I am a high school history teacher. C) I am a graphic designer. D) I am focused on developing my own freelance graphic design business.",
+                "Which of the following is a true statement about you? A) I work as a graphic designer. B) I am a high school history teacher. C) I am a dentist. D) I am focused on developing my own freelance journalism business.",
                 " A) I work as a graphic designer.",
                 13
             ],
             [
-                "Which of the following is a true statement about you? A) I have obtained my degree in communications. B) I earned my degree in education. C) I completed my degree in visual arts. D) I have experienced various roles, including freelance work.",
+                "Which of the following is a true statement about you? A) I have obtained my degree in finance. B) I earned my degree in medicine. C) I completed my degree in chemistry. D) I have experienced various roles, including freelance work.",
                 " D) I have experienced various roles, including freelance work.",
                 14
             ],
@@ -695,12 +695,12 @@
                 16
             ],
             [
-                "Which of the following is a true statement about you? A) I am quite progressive, advocating for LGBTQ+ rights and social equity. B) I lean quite progressive and believe in equity and climate justice. C) I advocate for LGBTQ+ rights and environmental sustainability, often leaning towards progressive views. D) I have more liberal political views that reflect my values around community and environmental responsibility.",
+                "Which of the following is a true statement about you? A) I am a single-issue voter on social equity. B) I lean quite conservative. C) I advocate for LGBTQ+ rights and environmental sustainability, often leaning towards progressive views. D) I have more moderate views and am more focused on my local government.",
                 " C) I advocate for LGBTQ+ rights and environmental sustainability, often leaning towards progressive views.",
                 17
             ],
             [
-                "Which of the following is a true statement about you? A) I practice yoga regularly to manage anxiety surrounding the future and my career. B) My health is generally good, although I experience anxiety from time to time. C) I maintain my health and wellness through yoga and cooking. D) I have anxieties about my health.",
+                "Which of the following is a true statement about you? A) I practice yoga regularly to manage anxiety surrounding the future and my career. B) My health is generally not good. C) I maintain my health and wellness through running and cooking. D) I am healthy and do not have any anxiety.",
                 " A) I practice yoga regularly to manage anxiety surrounding the future and my career.",
                 18
             ],
@@ -710,17 +710,17 @@
                 19
             ],
             [
-                "Which of the following is a true statement about you? A) I strive to live intentionally and maintain close friendships. B) I deeply believe in empathy and helping others. C) I value curiosity, community, and resilience. D) I value integrity and empathy outside of religious boundaries.",
+                "Which of the following is a true statement about you? A) I strive to live intentionally and maintain close friendships. B) I deeply believe in self-rilance. C) I value curiosity, community, and resilience. D) I value integrity and empathy outside of religious boundaries.",
                 " A) I strive to live intentionally and maintain close friendships.",
                 20
             ],
             [
-                "Which of the following is a true statement about you? A) I have underlying fears of failure and inadequacy. B) I have anxiety regarding my future and my career. C) I occasionally feel anxious about the future. D) I have anxiety, which I manage through wellness practices.",
+                "Which of the following is a true statement about you? A) I have underlying fears of failure and inadequacy. B) I have anxiety regarding my future and my career. C) I am very afraid of heights. D) I do not have any fears or anxieties.",
                 " B) I have anxiety regarding my future and my career.",
                 21
             ],
             [
-                "Which of the following is a true statement about you? A) My ultimate goals revolve around creating accessible technology that empowers others. B) I aim to make a positive impact and hope to start my own consultancy to help small businesses thrive online. C) My life goals revolve around cultivating creativity and making a positive impact in my community. D) I aspire to develop software that positively impacts mental health.",
+                "Which of the following is a true statement about you? A) My ultimate goals revolve around creating technology with global implications. B) I aim to make a positive impact and hope to start my own consultancy to help small businesses thrive online. C) My life goals revolve around cultivating creativity and making a positive impact in my community. D) I aspire to develop software that positively impacts mental health.",
                 " C) My life goals revolve around cultivating creativity and making a positive impact in my community.",
                 22
             ],
@@ -730,7 +730,7 @@
                 23
             ],
             [
-                "Which of the following is a true statement about you? A) I share a close bond with my sister as we navigate life together. B) I maintain close friendships. C) I cherish friendship circles that encourage growth. D) My older sister, Mei, is one of my best friends.",
+                "Which of the following is a true statement about you? A) I do not have close friends. B) I maintain close friendships. C) I cherish friendship circles that encourage growth but currently do not have one of my own. D) My older sister, Mei, is my only friend.",
                 " B) I maintain close friendships.",
                 24
             ],
@@ -745,12 +745,12 @@
                 26
             ],
             [
-                "Which of the following is a true statement about you? A) I immerse myself in graphic novels and binge-watch classic films. B) I enjoy binge-watching sci-fi series. C) I enjoy stories in movies and literature. D) I enjoy losing myself in fantasy novels and indie films.",
+                "Which of the following is a true statement about you? A) I immerse myself in graphic novels and binge-watch classic films. B) I enjoy binge-watching sci-fi series. C) I enjoy big box films and gaming. D) I enjoy losing myself in fantasy novels and indie films.",
                 " D) I enjoy losing myself in fantasy novels and indie films.",
                 27
             ],
             [
-                "Which of the following is a true statement about you? A) I enjoy cozy evenings at home. B) I currently live in an apartment. C) I currently live in a modest apartment adorned with plants and art. D) I share a small apartment with my dog, Max.",
+                "Which of the following is a true statement about you? A) I enjoy cozy evenings at my house. B) I currently live in an apartment. C) I currently live in a modest condo adorned with plants and art. D) I share a rental home with my dog, Max.",
                 " B) I currently live in an apartment.",
                 28
             ],
@@ -769,32 +769,32 @@
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 28 years old. C) I am 28 years old. D) I am 28 years old.",
+                "Which of the following is a true statement about you? A) I am 26 years old. B) I am 27 years old. C) I am 28 years old. D) I am 29 years old.",
                 " C) I am 28 years old.",
                 1
             ],
             [
-                "Which of the following is a true statement about you? A) I am from San Francisco. B) I am from San Antonio, Texas. C) I am from San Francisco. D) I am from San Antonio, Texas.",
+                "Which of the following is a true statement about you? A) I am from San Francisco. B) I am from San Antonio, Texas. C) I am from Atlanta. D) I am from New York.",
                 " A) I am from San Francisco.",
                 2
             ],
             [
-                "Which of the following is a true statement about you? A) My mother is from Guatemala. B) My mother is from Taiwan. C) My mother is from Ho Chi Minh City, Vietnam. D) My mother is from Taiwan.",
+                "Which of the following is a true statement about you? A) My mother is from Guatemala. B) My mother is from Italy. C) My mother is from Ho Chi Minh City, Vietnam. D) My mother is from Taiwan.",
                 " D) My mother is from Taiwan.",
                 3
             ],
             [
-                "Which of the following is a true statement about you? A) My father is from Taiwan. B) My father is from South Korea. C) My father is from Guatemala. D) My father is from Taiwan.",
+                "Which of the following is a true statement about you? A) My father is from Taiwan. B) My father is from South Korea. C) My father is from Guatemala. D) My father is from Brazil.",
                 " A) My father is from Taiwan.",
                 4
             ],
             [
-                "Which of the following is a true statement about you? A) I was raised in Buddhist traditions but consider myself more spiritual. B) I consider myself agnostic. C) I practice Buddhism in a personal and reflective manner. D) I was raised Catholic but identify as spiritual.",
+                "Which of the following is a true statement about you? A) I was raised in Christian traditions but consider myself more spiritual. B) I consider myself agnostic. C) I practice Buddhism in a personal and reflective manner. D) I was raised Catholic but identify as spiritual.",
                 " C) I practice Buddhism in a personal and reflective manner.",
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I consider myself solidly middle class. B) I am comfortably middle class. C) I am comfortably middle-class. D) I come from a lower-middle-class family and have achieved a comfortable middle-class status.",
+                "Which of the following is a true statement about you? A) I consider myself solidly middle class. B) I am upper class. C) I am upper-middle-class. D) I come from a lower-middle-class family.",
                 " A) I consider myself solidly middle class.",
                 6
             ],
@@ -804,17 +804,17 @@
                 7
             ],
             [
-                "Which of the following is a true statement about you? A) I speak English and some Yoruba. B) I primarily speak English but also converse in Spanish. C) I speak English fluently and have a conversational grasp of Mandarin. D) I primarily speak English but also know some Spanish.",
+                "Which of the following is a true statement about you? A) I speak English and some Yoruba. B) I primarily speak English but also converse in Spanish. C) I speak English fluently and have a conversational grasp of Mandarin. D) I primarily speak English but also know some French.",
                 " C) I speak English fluently and have a conversational grasp of Mandarin.",
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a queer woman. B) I am openly gay. C) I am openly gay. D) I openly identify as gay.",
+                "Which of the following is a true statement about you? A) I identify as a queer woman. B) I am openly gay. C) I am straight. D) I identify as asexual.",
                 " A) I identify as a queer woman.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as male. B) I identify as a woman. C) I identify as a man. D) I identify as male.",
+                "Which of the following is a true statement about you? A) I identify as male. B) I identify as a woman. C) I identify as nonbinary. D) I identify as trans.",
                 " B) I identify as a woman.",
                 10
             ],
@@ -828,7 +828,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I work as a software engineer. B) I am a software engineer. C) I work as a software engineer. D) I am a digital marketing specialist.",
+                "Which of the following is a true statement about you? A) I work as a software engineer. B) I am a mechanical engineer. C) I work as an electrical engineer. D) I am a digital marketing specialist.",
                 " A) I work as a software engineer.",
                 13
             ],
@@ -837,7 +837,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I earned my degree in computer science. B) I have an education in visual arts. C) I have a degree in computer science. D) I have a degree in education.",
+                "Which of the following is a true statement about you? A) I earned my degree in culinary science. B) I have an education in visual arts. C) I have a degree in computer science. D) I have a degree in education.",
                 " C) I have a degree in computer science.",
                 15
             ],
@@ -847,7 +847,7 @@
                 16
             ],
             [
-                "Which of the following is a true statement about you? A) I lean toward progressive political beliefs. B) I resonate with more liberal political views, believing in equity and community empowerment. C) I lean quite progressive and believe in equity and climate justice. D) I immerse myself in social justice initiatives and advocate for LGBTQ+ rights.",
+                "Which of the following is a true statement about you? A) I lean toward conservative political beliefs. B) I resonate with more liberal political views, believing in equity and community empowerment. C) I lean quite progressive and believe in equity and climate justice. D) I immerse myself in social justice initiatives and advocate for LGBTQ+ rights.",
                 " C) I lean quite progressive and believe in equity and climate justice.",
                 17
             ],
@@ -856,17 +856,17 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I enjoy coding, tech innovations, painting, and hiking. B) I have a love for travel and enjoy consuming podcasts on tech and personal development. C) I love to cook, especially vegan recipes, and I enjoy reading science fiction and watching documentaries. D) I enjoy painting, hiking, and volunteering at the local community center.",
+                "Which of the following is a true statement about you? A) I enjoy coding, tech innovations, painting, and hiking. B) I have a love for travel and enjoy consuming podcasts on meditation and personal development. C) I love to cook, especially vegan recipes, and I enjoy reading science fiction and watching documentaries. D) I enjoy painting, hiking, and volunteering at the local community center.",
                 " A) I enjoy coding, tech innovations, painting, and hiking.",
                 19
             ],
             [
-                "Which of the following is a true statement about you? A) I hold strong values of honesty and community. B) I value curiosity, community, and resilience. C) I prioritize inclusivity and kindness in my interactions. D) I deeply value honesty, empathy, and creativity.",
+                "Which of the following is a true statement about you? A) I hold strong values of honesty and candidness. B) I value curiosity, community, and resilience. C) I prioritize inclusivity and kindness in my interactions. D) I deeply value honesty, empathy, and creativity.",
                 " B) I value curiosity, community, and resilience.",
                 20
             ],
             [
-                "Which of the following is a true statement about you? A) One of my biggest fears is stagnation. B) I have anxiety, which I manage through wellness practices. C) I face anxieties about career stability and self-worth. D) I experience anxiety, especially about my career.",
+                "Which of the following is a true statement about you? A) One of my biggest fears is stagnation. B) I have anxiety, which I manage through wellness practices. C) I face anxieties about career stability and self-worth. D) I experience anxiety, especially about my health.",
                 " C) I face anxieties about career stability and self-worth.",
                 21
             ],
@@ -881,12 +881,12 @@
                 23
             ],
             [
-                "Which of the following is a true statement about you? A) I cherish a wonderful circle of friends introduced by my partner, Chris. B) I unwind with friends over coffee. C) I am committed to building lasting connections within my friendship circles. D) I foster genuine connections within my diverse friendship circles.",
+                "Which of the following is a true statement about you? A) I cherish a wonderful circle of friends introduced by my partner, Chris. B) I unwind with friends and my partner Jose over coffee. C) I am committed to a couple of friends and do not wish to make more. D) I foster genuine connections within my diverse friendship circles.",
                 " D) I foster genuine connections within my diverse friendship circles.",
                 24
             ],
             [
-                "Which of the following is a true statement about you? A) My daily routine includes morning runs, coffee with a podcast, and unwinding with fiction or documentaries. B) I practice meditation daily to manage anxiety. C) We bond over cooking and binge-watching shows like 'The Office.' D) My daily routine includes project work, evening hikes, and weekend explorations.",
+                "Which of the following is a true statement about you? A) My daily routine includes morning runs, coffee with a podcast, and unwinding with fiction or documentaries. B) I practice meditation daily to manage anxiety. C) My schedule involves cooking and binge-watching shows like 'The Office.' D) My daily routine includes project work, evening hikes, and weekend explorations.",
                 " D) My daily routine includes project work, evening hikes, and weekend explorations.",
                 25
             ],
@@ -896,17 +896,17 @@
                 26
             ],
             [
-                "Which of the following is a true statement about you? A) I am a huge fan of indie films and podcasts that delve into social issues. B) I enjoy science fiction novels and documentaries. C) I find solace in music and enjoy reading fantasy novels. D) I enjoy losing myself in fantasy novels and indie films.",
+                "Which of the following is a true statement about you? A) I am a huge fan of indie films and podcasts that delve into social issues. B) I enjoy science fiction novels and documentaries. C) I find solace in music and enjoy reading fantasy novels. D) I enjoy losing myself in fantasy novels and mainstream films.",
                 " A) I am a huge fan of indie films and podcasts that delve into social issues.",
                 27
             ],
             [
-                "Which of the following is a true statement about you? A) I currently live in a cozy apartment filled with plants and local art. B) I currently live in a small apartment downtown. C) I enjoy cozy evenings at home. D) I currently live in a sunny apartment.",
+                "Which of the following is a true statement about you? A) I currently live in a cozy apartment filled with plants and local art. B) I currently live in a small apartment above a coffee shop downtown. C) I enjoy cozy evenings at home. D) I currently live in an apartment I do not like to spent time in.",
                 " C) I enjoy cozy evenings at home.",
                 28
             ],
             [
-                "Which of the following is a true statement about you? A) I have not traveled extensively but dream of going to Japan. B) I've traveled to several countries in Central America and Europe. C) I have traveled to various countries in Asia and Europe. D) I have traveled to parts of Europe and hope to explore Asia next.",
+                "Which of the following is a true statement about you? A) I have not traveled extensively but dream of going to Japan. B) I've traveled to several countries in Central America and Europe. C) I have traveled to various countries in Asia and Europe. D) I have traveled to parts of Africa and hope to explore Asia next.",
                 " C) I have traveled to various countries in Asia and Europe.",
                 29
             ]
@@ -921,7 +921,7 @@
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 29 years old. C) I am 29 years old. D) I am 29 years old.",
+                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 29 years old. C) I am 30 years old. D) I am 27 years old.",
                 " A) I am 28 years old.",
                 1
             ],
@@ -936,17 +936,17 @@
                 3
             ],
             [
-                "Which of the following is a true statement about you? A) My father is from Mexico City. B) My father is originally from Mexico. C) My father is from Cuba. D) My father is from Ho Chi Minh City, Vietnam.",
+                "Which of the following is a true statement about you? A) My father is from Mexico City. B) My father is originally from El Salvador. C) My father is from Cuba. D) My father is from Ho Chi Minh City, Vietnam.",
                 " C) My father is from Cuba.",
                 4
             ],
             [
-                "Which of the following is a true statement about you? A) I was raised Catholic but now emphasize more spiritual beliefs. B) I was raised Catholic but practice spirituality in a personal way. C) I was raised Catholic but I\u2019ve since drifted towards a more spiritual, non-religious path. D) I consider myself more spiritual than religious.",
+                "Which of the following is a true statement about you? A) I am Catholic. B) I am Muslim. C) I was raised athiest but converted to Judaism. D) I consider myself more spiritual than religious.",
                 " D) I consider myself more spiritual than religious.",
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I am comfortably middle class. B) I faced financial struggles growing up and am now comfortably in the middle class. C) I grew up solidly middle class, but my family faced some financial hardships. D) I am comfortably middle class.",
+                "Which of the following is a true statement about you? A) I am comfortably middle class. B) I faced financial struggles growing up and am now upper middle class. C) I grew up lower class. My family faced some financial hardships. D) I am upper class.",
                 " A) I am comfortably middle class.",
                 6
             ],
@@ -956,17 +956,17 @@
                 7
             ],
             [
-                "Which of the following is a true statement about you? A) I am fluent in Spanish and English, with a bit of Portuguese. B) I speak English fluently and have a conversational grasp of Mandarin. C) I am fluent in both English and Mandarin. D) I speak English and Spanish.",
+                "Which of the following is a true statement about you? A) I am fluent in Spanish and English, with a bit of Portuguese. B) I speak English fluently and have a conversational grasp of Mandarin. C) I am fluent in both English and Mandarin. D) I speak English and French.",
                 " A) I am fluent in Spanish and English, with a bit of Portuguese.",
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a gay man. B) I am a gay man. C) I am openly gay. D) I openly identify as gay.",
+                "Which of the following is a true statement about you? A) I identify as a gay man. B) I am a lesbian. C) I am asexual. D) I am pansexual.",
                 " D) I openly identify as gay.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a man. B) I identify as male. C) I identify as genderqueer and use they/them pronouns. D) I identify as male.",
+                "Which of the following is a true statement about you? A) I identify as a nonbinary. B) I identify as female. C) I identify as genderqueer and use they/them pronouns. D) I identify as male.",
                 " D) I identify as male.",
                 10
             ],
@@ -994,12 +994,12 @@
                 15
             ],
             [
-                "Which of the following is a true statement about you? A) I feel connected to my Hispanic heritage and culture. B) I grew up in a working-class neighborhood. C) I was influenced by a strong value of community and empathy. D) I was raised in a Hispanic household.",
+                "Which of the following is a true statement about you? A) I feel connected to my Vietnamese heritage and culture. B) I grew up in a working-class neighborhood in Iceland. C) I was influenced by a strong value of Nigerian community and empathy. D) I was raised in a Hispanic household.",
                 " D) I was raised in a Hispanic household.",
                 16
             ],
             [
-                "Which of the following is a true statement about you? A) My political views lean towards liberal, advocating for social equality and environmental issues. B) I hold liberal political views. C) I have progressive political views. D) My political views align with progressive ideals.",
+                "Which of the following is a true statement about you? A) My political views focus on environmental issues. B) I hold conservative political views. C) I have progressive political views. D) My political views on moderate. ",
                 " C) I have progressive political views.",
                 17
             ],
@@ -1008,17 +1008,17 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I enjoy playing the guitar, exploring local coffee shops, and hiking. B) I enjoy painting, hiking, and volunteering at local shelters. C) I have a love for travel and enjoy consuming podcasts on tech and personal development. D) I enjoy hiking and photography.",
+                "Which of the following is a true statement about you? A) I enjoy playing the guitar, exploring local coffee shops, and biking. B) I enjoy painting, hiking, and volunteering at local shelters. C) I have a love for travel and enjoy consuming podcasts on tech and personal development. D) I enjoy climbing and photography.",
                 " B) I enjoy painting, hiking, and volunteering at local shelters.",
                 19
             ],
             [
-                "Which of the following is a true statement about you? A) I strive to live intentionally and maintain close friendships. B) I deeply value honesty, empathy, and creativity. C) My values are guided by compassion, integrity, and perseverance. D) I seek meaning through personal values like compassion and integrity.",
+                "Which of the following is a true statement about you? A) I strive to live intentionally and maintain close friendships. B) I deeply value honesty, empathy, and creativity. C) My values are guided by compassion, integrity, and perseverance. D) I seek meaning through personal values like hard work and self-reliance.",
                 " C) My values are guided by compassion, integrity, and perseverance.",
                 20
             ],
             [
-                "Which of the following is a true statement about you? A) I occasionally feel anxious about the future. B) I navigate my own fears about the future and uncertainty in my path. C) One of my biggest fears is stagnation. D) I have underlying fears of failure and inadequacy.",
+                "Which of the following is a true statement about you? A) I occasionally feel anxious about the future. B) I am an insectophobe. C) One of my biggest fears is stagnation. D) I have underlying fears of failure and inadequacy.",
                 " A) I occasionally feel anxious about the future.",
                 21
             ],
@@ -1032,12 +1032,12 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I spend evenings with friends to nurture my social circle. B) I foster genuine connections within my diverse friendship circles. C) I have a close-knit circle of friends, including my supportive sister. D) My close bond with my brother Marco is a significant part of my life.",
+                "Which of the following is a true statement about you? A) I spend evenings with friends to nurture my social circle. B) I foster genuine connections within my diverse friendship circles met through my partner Joel. C) I have a close-knit circle of friends, and my best friend is my supportive sister. D) My close bond with my brother Marco is a significant part of my life.",
                 " A) I spend evenings with friends to nurture my social circle.",
                 24
             ],
             [
-                "Which of the following is a true statement about you? A) My daily routine often includes morning runs. B) My daily routine typically involves brainstorming design ideas in the morning, work, and evenings filled with sketching or watching my favorite films by Wes Anderson. C) My daily routine consists of morning jogs, work, and unwinding in the evenings by binge-watching shows on Netflix or reading. D) My daily routine consists of designing, exercising, and spending evenings with my dog.",
+                "Which of the following is a true statement about you? A) My daily routine often includes morning runs. B) My daily routine typically involves brainstorming design ideas in the morning, work, and evenings filled with sketching or watching my favorite films by Wes Anderson. C) My daily routine consists of evening jogs, work, and unwinding in the evenings by binge-watching shows on Netflix or reading. D) My daily routine consists of designing, exercising, and spending evenings with my dog.",
                 " A) My daily routine often includes morning runs.",
                 25
             ],
@@ -1052,12 +1052,12 @@
                 27
             ],
             [
-                "Which of the following is a true statement about you? A) I live in a small apartment filled with books and plants. B) I currently live in a sunny apartment. C) I currently live in a cozy apartment. D) I currently live in an apartment.",
+                "Which of the following is a true statement about you? A) I live in a small condo filled with books and plants. B) I currently live in a small house. C) I currently live in a 3 bedroom house. D) I currently live in an apartment.",
                 " D) I currently live in an apartment.",
                 28
             ],
             [
-                "Which of the following is a true statement about you? A) I have traveled to some amazing places like Spain and Japan, and I dream of experiencing the vibrant cultures of South America. B) I have Japan and Italy on my must-see list. C) I have traveled to several countries including Peru and Spain. D) I have traveled to parts of Europe and Asia and dream of visiting South America someday.",
+                "Which of the following is a true statement about you? A) I have traveled to some amazing places like Laos and Japan, and I dream of experiencing the vibrant cultures of South America. B) I have Japan and Italy on my must-see list. C) I have traveled to several countries including Peru and Spain. D) I have traveled to parts of Europe and Asia and dream of visiting South America someday.",
                 " C) I have traveled to several countries including Peru and Spain.",
                 29
             ]
@@ -1072,7 +1072,7 @@
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 28 years old. C) I am 28 years old. D) I am 28 years old.",
+                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 27 years old. C) I am 26 years old. D) I am 29 years old.",
                 " A) I am 28 years old.",
                 1
             ],
@@ -1092,12 +1092,12 @@
                 4
             ],
             [
-                "Which of the following is a true statement about you? A) I acknowledge my family's Buddhist roots but lean towards agnosticism. B) I was raised Catholic but practice spirituality in a personal way. C) I consider myself agnostic. D) I was raised Christian as a Protestant, but now I embrace a more personal spirituality.",
+                "Which of the following is a true statement about you? A) I acknowledge my family's Buddhist roots but lean towards agnosticism. B) I was raised Muslim but practice spirituality in a personal way. C) I consider myself athiest. D) I was raised Christian as a Protestant, but now I embrace a more personal spirituality.",
                 " D) I was raised Christian as a Protestant, but now I embrace a more personal spirituality.",
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I grew up in a lower-middle-class household. B) I faced financial struggles growing up and am now comfortably in the middle class. C) I am middle class. D) I consider myself solidly middle class.",
+                "Which of the following is a true statement about you? A) I grew up in a lower-middle-class household. B) I faced financial struggles growing up and am now comfortably in the middle class. C) I am upper-middle class. D) I consider myself solidly upper class.",
                 " A) I grew up in a lower-middle-class household.",
                 6
             ],
@@ -1112,12 +1112,12 @@
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a gay man. B) I identify as gay. C) I identify as a gay man. D) I identify as gay.",
+                "Which of the following is a true statement about you? A) I identify as a lesbian. B) I identify as gay. C) I identify as asexual. D) I identify as pansexual.",
                 " B) I identify as gay.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I use he/him pronouns. B) I identify as a man. C) I identify as male. D) I identify as male.",
+                "Which of the following is a true statement about you? A) I am a woman. B) I identify as a man. C) I identify as nonbinary. D) I identify as transgender.",
                 " B) I identify as a man.",
                 10
             ],
@@ -1150,12 +1150,12 @@
                 16
             ],
             [
-                "Which of the following is a true statement about you? A) I lean towards progressive views. B) My political views align with progressive ideals. C) I have more liberal political views that reflect my values around community and environmental responsibility. D) I have strong political views in favor of equality and environmental sustainability.",
+                "Which of the following is a true statement about you? A) I lean towards conservative views. B) My political views are moderate. C) I do not involve myself with politics. D) I have strong political views in favor of equality and environmental sustainability.",
                 " D) I have strong political views in favor of equality and environmental sustainability.",
                 17
             ],
             [
-                "Which of the following is a true statement about you? A) I practice yoga regularly to maintain my mental and physical health. B) I have anxieties about my health. C) I prioritize my health and wellness through yoga and meditation. D) I regularly practice yoga and meditation to manage my anxiety and maintain a balanced lifestyle.",
+                "Which of the following is a true statement about you? A) I practice yoga regularly to maintain my mental and physical health. B) I have anxieties about my health. C) I prioritize my health and wellness through yoga and meditation. D) I regularly ride my bike to manage my anxiety and maintain a balanced lifestyle.",
                 " B) I have anxieties about my health.",
                 18
             ],
@@ -1165,12 +1165,12 @@
                 19
             ],
             [
-                "Which of the following is a true statement about you? A) I deeply value honesty, empathy, and creativity. B) I value integrity and empathy outside of religious boundaries. C) I value empathy, creativity, and lifelong learning. D) I believe in kindness, honesty, and the importance of education.",
+                "Which of the following is a true statement about you? A) I deeply value honesty, inventiveness, and creativity. B) I value integrity and empathy outside of religious boundaries. C) I value good-naturedness, creativity, and lifelong learning. D) I believe in kindness, honesty, and the importance of education.",
                 " B) I value integrity and empathy outside of religious boundaries.",
                 20
             ],
             [
-                "Which of the following is a true statement about you? A) I navigate my own fears about the future and uncertainty in my path. B) I sometimes experience anxieties that I manage through meditation. C) I fear societal regression, especially concerning human rights. D) I have anxieties about societal acceptance.",
+                "Which of the following is a true statement about you? A) I navigate my own fears about the future and uncertainty in my path. B) I sometimes experience anxieties that I manage through intense meditation. C) I fear societal regression, especially concerning human rights. D) I have anxieties about societal acceptance.",
                 " D) I have anxieties about societal acceptance.",
                 21
             ],
@@ -1180,17 +1180,17 @@
                 22
             ],
             [
-                "Which of the following is a true statement about you? A) My family worked long hours in a small restaurant. B) Volunteering at a community center during high school ignited my passion for social issues. C) I was influenced by my parents' determination to improve our lives. D) My family faced financial difficulties growing up, and education was always vital to us.",
+                "Which of the following is a true statement about you? A) My family worked long hours in a small restaurant. B) Volunteering at a community center during high school ignited my passion for social issues. C) I was influenced by my parents' determination to improve our lives through creating a small business. D) My family faced financial difficulties growing up, and education was always vital to us.",
                 " B) Volunteering at a community center during high school ignited my passion for social issues.",
                 23
             ],
             [
-                "Which of the following is a true statement about you? A) I have friends who share a diverse mix of creative and political passions. B) My older sister, Mei, is one of my best friends. C) I share a close bond with my brother. D) I cherish a wonderful circle of friends introduced by my partner, Chris.",
+                "Which of the following is a true statement about you? A) I have friends who share a diverse mix of creative and political passions, many from my college debate club. B) My older sister, Mei, is one of my best friends. C) I share a close bond with my brother, Jeremy. D) I cherish a wonderful circle of friends introduced by my partner, Chris.",
                 " D) I cherish a wonderful circle of friends introduced by my partner, Chris.",
                 24
             ],
             [
-                "Which of the following is a true statement about you? A) My days include a blend of work and relaxation. B) My daily routine includes morning meditations and a commitment to fitness. C) My daily routine usually involves work, exercise, cooking, and winding down with a good book or a documentary film. D) My daily routine includes morning meditation, a balanced breakfast, and exercise before work.",
+                "Which of the following is a true statement about you? A) My days include a blend of work and relaxation. B) My daily routine includes morning meditations, evening jogs and a commitment to fitness. C) My daily routine usually involves work, exercise, cooking, and winding down with a good book or a documentary film. D) My daily routine includes morning crossword puzzle, a balanced breakfast, and exercise before work.",
                 " A) My days include a blend of work and relaxation.",
                 25
             ],
@@ -1200,17 +1200,17 @@
                 26
             ],
             [
-                "Which of the following is a true statement about you? A) I enjoy science fiction novels and documentaries. B) I enjoy binge-watching sci-fi series. C) I enjoy binge-watching sci-fi series. D) I enjoy binge-watching shows like 'Queer Eye' and curling up with a good book.",
+                "Which of the following is a true statement about you? A) I enjoy science fiction novels and documentaries. B) I enjoy binge-watching reality shows. C) I enjoy binging romance movies. D) I enjoy binge-watching shows like 'Queer Eye' and curling up with a good book.",
                 " A) I enjoy science fiction novels and documentaries.",
                 27
             ],
             [
-                "Which of the following is a true statement about you? A) I live in a snug apartment adorned with artwork. B) I share a small apartment with my dog, Max. C) I currently live in a sunny apartment. D) I currently live in a small apartment downtown.",
+                "Which of the following is a true statement about you? A) I live in a snug apartment with my friend Amelia. B) I share a small apartment with my dog, Max. C) I currently live in a sunny apartment with my cat Bella. D) I currently live in a small house.",
                 " B) I share a small apartment with my dog, Max.",
                 28
             ],
             [
-                "Which of the following is a true statement about you? A) I have traveled to parts of Mexico and a bit of Europe, with dreams of exploring East Asia. B) I have traveled to some amazing places like Spain and Japan, and I dream of experiencing the vibrant cultures of South America. C) I have not traveled extensively but dream of going to Japan. D) I have Japan and Italy on my must-see list.",
+                "Which of the following is a true statement about you? A) I have traveled to parts of Mexico and a bit of Europe, with dreams of exploring East Asia. B) I have traveled to some amazing places like Spain and Japan, and I dream of experiencing the vibrant cultures of South America. C) I have not traveled extensively but dream of going to Uruguay. D) I have Japan and Italy on my must-see list.",
                 " D) I have Japan and Italy on my must-see list.",
                 29
             ]
@@ -1225,7 +1225,7 @@
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 29 years old. C) I am 29 years old. D) I am 28 years old.",
+                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 29 years old. C) I am 27 years old. D) I am 26 years old.",
                 " A) I am 28 years old.",
                 1
             ],
@@ -1240,17 +1240,17 @@
                 3
             ],
             [
-                "Which of the following is a true statement about you? A) My father is from Mexico. B) My father is from Mexico. C) My father is from Taiwan. D) My father is from Mexico.",
+                "Which of the following is a true statement about you? A) My father is from Spain. B) My father is from Mexico. C) My father is from Taiwan. D) My father is from Mexico.",
                 " B) My father is from Mexico.",
                 4
             ],
             [
-                "Which of the following is a true statement about you? A) I was raised in Buddhist traditions but consider myself more spiritual. B) I was raised in a Catholic family, but I consider myself more spiritual than religious. C) I was raised Catholic but identify as spiritual. D) I was raised Catholic but I\u2019ve since drifted towards a more spiritual, non-religious path.",
+                "Which of the following is a true statement about you? A) I was raised in Buddhist traditions but consider myself more spiritual. B) I was raised in a Jewish family, but I consider myself more spiritual than religious. C) I was raised Muslim but identify as spiritual. D) I was raised Catholic but I\u2019ve since drifted towards a more spiritual, non-religious path.",
                 " D) I was raised Catholic but I\u2019ve since drifted towards a more spiritual, non-religious path.",
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I am comfortably middle class. B) I am comfortably middle class. C) I grew up in a lower-middle-class household. D) I am comfortably middle class.",
+                "Which of the following is a true statement about you? A) I am comfortably middle class. B) I am upper class. C) I grew up in a lower-middle-class household. D) I am lower class.",
                 " A) I am comfortably middle class.",
                 6
             ],
@@ -1265,12 +1265,12 @@
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as a gay man. B) I am straight. C) I identify as gay. D) I identify as a gay man.",
+                "Which of the following is a true statement about you? A) I identify as a gay man. B) I am straight. C) I identify as bisexual. D) I identify as asexual.",
                 " B) I am straight.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as male. B) I identify as male. C) I identify as male. D) I identify as male.",
+                "Which of the following is a true statement about you? A) I identify as male. B) I identify as female. C) I identify as nonbinary. D) I identify as asexual.",
                 " A) I identify as male.",
                 10
             ],
@@ -1293,17 +1293,17 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I earned my degree in visual communication. B) I have a degree in communications. C) I have a degree in visual arts. D) I earned my degree in computer science.",
+                "Which of the following is a true statement about you? A) I earned my degree in visual communication. B) I have a degree in communications. C) I have a degree in culinary arts. D) I earned my degree in computer science.",
                 " A) I earned my degree in visual communication.",
                 15
             ],
             [
-                "Which of the following is a true statement about you? A) I grew up adhering to Catholic traditions. B) I grew up in a modest household which shaped my perspective. C) I grew up in a diverse community, which influences my perspectives. D) My cultural background instilled strong values of family, respect, and perseverance.",
+                "Which of the following is a true statement about you? A) I grew up adhering to Catholic traditions. B) I grew up in a modest household which shaped my perspective. C) I grew up in a diverse community, which primarily influences my perspectives. D) My cultural background instilled strong values of family, respect, and perseverance.",
                 " B) I grew up in a modest household which shaped my perspective.",
                 16
             ],
             [
-                "Which of the following is a true statement about you? A) I have strong political views in favor of equality and environmental sustainability. B) I lean left and advocate for social change and equality. C) I immerse myself in social justice initiatives and advocate for LGBTQ+ rights. D) My political views lean towards liberal, advocating for social equality and environmental issues.",
+                "Which of the following is a true statement about you? A) I do not have strong political views. B) I lean conservative. C) I immerse myself in social justice initiatives but consider my views moderate. D) My political views lean towards liberal, advocating for social equality and environmental issues.",
                 " D) My political views lean towards liberal, advocating for social equality and environmental issues.",
                 17
             ],
@@ -1317,17 +1317,17 @@
                 19
             ],
             [
-                "Which of the following is a true statement about you? A) I deeply value creativity, honesty, and community. B) I value empathy, creativity, and lifelong learning. C) I strive to live intentionally and maintain close friendships. D) I deeply believe in empathy and helping others.",
+                "Which of the following is a true statement about you? A) I deeply value creativity, honesty, and community. B) I value empathy, self-reliance, and lifelong learning. C) I strive to live intentionally and maintain close friendships. D) I deeply believe in empathy and helping others above all else.",
                 " A) I deeply value creativity, honesty, and community.",
                 20
             ],
             [
-                "Which of the following is a true statement about you? A) I fear stagnation in my personal or professional life. B) Anxiety sometimes creeps in, especially when thinking about the future. C) I occasionally feel anxious about the future. D) One of my biggest fears is not being able to make a significant impact in the world.",
+                "Which of the following is a true statement about you? A) I fear stagnation in my personal relationships. B) Anxiety sometimes creeps in, especially when thinking about the future. C) I occasionally feel anxious about my job. D) One of my biggest fears is not being able to make a significant impact in the world.",
                 " D) One of my biggest fears is not being able to make a significant impact in the world.",
                 21
             ],
             [
-                "Which of the following is a true statement about you? A) I aim to create art that makes people think and feel, fostering connections among diverse communities. B) I aspire to advocate for underrepresented voices and create a positive impact in the community. C) I strive to fill my life with creativity, growth, and meaningful connections. D) I aim to make a positive impact in the lives of my students and advocate for a more inclusive world.",
+                "Which of the following is a true statement about you? A) I aim to create art that makes people think and feel, challinging perceptions in the art world. B) I aspire to advocate for underrepresented voices and create a positive impact in the community. C) I strive to fill my life with creativity, growth, and meaningful connections. D) I aim to make a positive impact in the lives of my students and advocate for a more inclusive world.",
                 " C) I strive to fill my life with creativity, growth, and meaningful connections.",
                 22
             ],
@@ -1356,7 +1356,7 @@
                 27
             ],
             [
-                "Which of the following is a true statement about you? A) I share a small apartment with my dog, Max. B) I live in a small apartment filled with books and plants. C) I currently live in a modest apartment adorned with plants and art. D) I currently live in a sunny apartment.",
+                "Which of the following is a true statement about you? A) I share a small apartment with my dog, Max. B) I live in a small house filled with books and plants. C) I currently live in a modest condo adorned with plants and art. D) I currently live in a sunny apartment.",
                 " D) I currently live in a sunny apartment.",
                 28
             ],
@@ -1375,17 +1375,17 @@
                 0
             ],
             [
-                "Which of the following is a true statement about you? A) I am 28 years old. B) I am 28 years old. C) I am 29 years old. D) I am 29 years old.",
+                "Which of the following is a true statement about you? A) I am 30 years old. B) I am 28 years old. C) I am 27 years old. D) I am 29 years old.",
                 " D) I am 29 years old.",
                 1
             ],
             [
-                "Which of the following is a true statement about you? A) I am from Boston. B) I am originally from Austin, Texas. C) I am from Austin, Texas. D) I am from San Francisco.",
+                "Which of the following is a true statement about you? A) I am from Boston. B) I am originally from Austin, Texas. C) I am from San Diego. D) I am from San Francisco.",
                 " A) I am from Boston.",
                 2
             ],
             [
-                "Which of the following is a true statement about you? A) My mother is from Newfoundland, Canada. B) My mother is originally from Mexico. C) My mother is from Taiwan. D) My mother is from Mexico City.",
+                "Which of the following is a true statement about you? A) My mother is from Newfoundland, Canada. B) My mother is originally from Spain. C) My mother is from Taiwan. D) My mother is from Mexico City.",
                 " A) My mother is from Newfoundland, Canada.",
                 3
             ],
@@ -1395,12 +1395,12 @@
                 4
             ],
             [
-                "Which of the following is a true statement about you? A) I was raised in a non-religious household and I don\u2019t practice any faith. B) I was raised Catholic but I\u2019ve since drifted towards a more spiritual, non-religious path. C) I practice Buddhism in a personal and reflective manner. D) I was raised Catholic but identify as spiritual.",
+                "Which of the following is a true statement about you? A) I was raised in a non-religious household and I don\u2019t practice any faith. B) I was raised Catholic but I\u2019ve since drifted towards a more spiritual, non-religious path. C) I practice Buddhism in a personal and reflective manner. D) I was raised Muslim but identify as spiritual.",
                 " A) I was raised in a non-religious household and I don\u2019t practice any faith.",
                 5
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as middle class after growing up in a low-income household. B) My family has achieved stable middle-class status. C) I enjoy a comfortable middle-class lifestyle. D) I am comfortably middle class.",
+                "Which of the following is a true statement about you? A) I identify as upper middle class after growing up in a low-income household. B) My family has achieved stable upper-class status. C) I enjoy a comfortable wealthy lifestyle. D) I am comfortably middle class.",
                 " D) I am comfortably middle class.",
                 6
             ],
@@ -1410,17 +1410,17 @@
                 7
             ],
             [
-                "Which of the following is a true statement about you? A) I am bilingual, fluent in both English and Spanish. B) I primarily speak English but also know some Spanish. C) I speak English and have some proficiency in French. D) I speak English and some Yoruba.",
+                "Which of the following is a true statement about you? A) I am bilingual, fluent in both English and Spanish. B) I primarily speak English but also know some Swedish. C) I speak English and have some proficiency in French. D) I speak English and some Yoruba.",
                 " C) I speak English and have some proficiency in French.",
                 8
             ],
             [
-                "Which of the following is a true statement about you? A) I am a gay man. B) I am openly gay. C) I am openly gay. D) I identify as pansexual.",
+                "Which of the following is a true statement about you? A) I am a straight man. B) I am openly gay. C) I am bisexual. D) I identify as pansexual.",
                 " B) I am openly gay.",
                 9
             ],
             [
-                "Which of the following is a true statement about you? A) I identify as male. B) I identify as male. C) I use he/him pronouns. D) I identify as male.",
+                "Which of the following is a true statement about you? A) I identify as nonbinary. B) I identify as female. C) I use they/them pronouns. D) I identify as male.",
                 " D) I identify as male.",
                 10
             ],
@@ -1444,17 +1444,17 @@
                 14
             ],
             [
-                "Which of the following is a true statement about you? A) I have a degree in visual arts. B) I have a degree in fine arts. C) I earned my degree in computer science. D) I earned my degree in computer science.",
+                "Which of the following is a true statement about you? A) I have a degree in visual arts. B) I have a degree in culinary arts. C) I earned my degree in computer science. D) I earned my degree in chemistry.",
                 " A) I have a degree in visual arts.",
                 15
             ],
             [
-                "Which of the following is a true statement about you? A) I grew up in a diverse community, which influences my perspectives. B) I feel connected to my Hispanic heritage and culture. C) I was influenced by a strong value of community and empathy. D) I grew up adhering to Catholic traditions.",
+                "Which of the following is a true statement about you? A) I grew up in a diverse amish community, which influences my perspectives. B) I was influenced primarily by my Hispanic heritage and culture. C) I was influenced by a strong value of community and empathy. D) I grew up adhering to Catholic traditions.",
                 " C) I was influenced by a strong value of community and empathy.",
                 16
             ],
             [
-                "Which of the following is a true statement about you? A) I lean toward progressive political beliefs. B) My political views lean toward progressive ideals. C) I lean quite progressive and believe in equity and climate justice. D) My political views lean towards liberal, advocating for social equality and environmental issues.",
+                "Which of the following is a true statement about you? A) I lean toward progressive political beliefs. B) My political views lean toward conservative ideals. C) I am moderate but believe in equity and climate justice. D) I do not have strong political views.",
                 " A) I lean toward progressive political beliefs.",
                 17
             ],
@@ -1463,7 +1463,7 @@
                 ""
             ],
             [
-                "Which of the following is a true statement about you? A) I enjoy coding, tech innovations, painting, and hiking. B) I enjoy running, painting, and volunteering at local charities. C) I enjoy painting, photography, and exploring local music scenes. D) I love to cook, especially vegan recipes, and I enjoy reading science fiction and watching documentaries.",
+                "Which of the following is a true statement about you? A) I enjoy coding, tech innovations, sculpting, and hiking. B) I enjoy running, sculpting, and volunteering at local charities. C) I enjoy painting, photography, and exploring local music scenes. D) I love to cook, especially vegan recipes, and I enjoy reading science fiction and watching documentaries.",
                 " C) I enjoy painting, photography, and exploring local music scenes.",
                 19
             ],
@@ -1473,7 +1473,7 @@
                 20
             ],
             [
-                "Which of the following is a true statement about you? A) I have occasional anxieties about the future and my professional journey. B) I fear stagnation in my personal or professional life. C) I have anxiety regarding my future and my career. D) I have anxieties about societal acceptance.",
+                "Which of the following is a true statement about you? A) I have occasional anxieties about the future and my professional journey. B) I fear stagnation in my personal life. C) I have anxiety regarding social interactions. D) I have anxieties about societal acceptance.",
                 " A) I have occasional anxieties about the future and my professional journey.",
                 21
             ],
@@ -1507,12 +1507,12 @@
                 27
             ],
             [
-                "Which of the following is a true statement about you? A) I live in an apartment with Jamie that overlooks the park. B) I live in a shared house with friends. C) I currently live in a small apartment. D) I live in a snug apartment adorned with artwork.",
+                "Which of the following is a true statement about you? A) I live in an apartment with my partner Jamie that overlooks the park. B) I live in a shared house with friends. C) I currently live in a small apartment. D) I live in a snug condo adorned with artwork.",
                 " C) I currently live in a small apartment.",
                 28
             ],
             [
-                "Which of the following is a true statement about you? A) I have traveled to some amazing places like Spain and Japan, and I dream of experiencing the vibrant cultures of South America. B) I have traveled to a few countries in Europe and dream of venturing to Japan. C) I have traveled to parts of Europe and Asia and dream of visiting South America someday. D) Traveling through Asia and Europe has been transformative for me.",
+                "Which of the following is a true statement about you? A) I have traveled to some amazing places like Spain and Japan, and I dream of experiencing the vibrant cultures of South America. B) I have traveled to a few countries in Europe and dream of venturing to Japan. C) I have traveled to parts of Africa and Asia and dream of visiting South America someday. D) Traveling through Asia and South America has been transformative for me.",
                 " B) I have traveled to a few countries in Europe and dream of venturing to Japan.",
                 29
             ]
