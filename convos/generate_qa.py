@@ -178,10 +178,24 @@ def run_chitchat_strategy_convos(usePersonas = False):
                     json.dump(qa_results, f, indent=4)
 
 def ask_qas(memory, qa_set):
-
     answered_qas = []
-    for qa in qa_set:
-        question, correct_answer = qa
+    for id, qa in enumerate(qa_set):
+        
+        if len(qa) == 2:
+            question, correct_answer = qa
+        else:
+            question, correct_answer, id = qa
+
+        if question == "":
+            answered_qas.append({"id": id, "question": "", "answer": "", "given answer": ""})
+            continue
+
+        #cleanup
+        question = question.replace(".","")
+        correct_answer = correct_answer.replace(".","")
+        if correct_answer.startswith(" "):
+            correct_answer = correct_answer[1:]
+
         memory_copy = memory[0].copy()
         primed_question = question + " Provide only the answer without further explanation. "
         memory_copy.append({"role": "user", "content": primed_question})
@@ -192,7 +206,7 @@ def ask_qas(memory, qa_set):
             max_completion_tokens=MAX_COMPLETION_TOKENS
         )
         answer = response.choices[0].message.content.strip()
-        answered_qas.append({"question": question, "answer": correct_answer, "given answer": answer})
+        answered_qas.append({"id": id, "question": question, "answer": correct_answer, "given answer": answer})
     return answered_qas
     
 
@@ -207,9 +221,9 @@ def main():
     else:
         logging.disable(logging.CRITICAL)
 
-    #run_seller_buyer_qa()
-    #run_therapist_patient_strategy_convos()
-    run_chitchat_strategy_convos()
+    run_seller_buyer_qa()
+    run_therapist_patient_strategy_convos()
+    #run_chitchat_strategy_convos()
 
 
 if __name__ == "__main__":
