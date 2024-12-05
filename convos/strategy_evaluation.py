@@ -8,7 +8,7 @@ import itertools
 
 
 
-OPENAI_API_KEY = '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'
+OPENAI_API_KEY = 'OPENAI_API_KEY'
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 def evaluate_line(strategy, line_content):
