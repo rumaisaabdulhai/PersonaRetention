@@ -83,7 +83,7 @@ def run_seller_buyer_qa():
 
 
 
-def run_therapist_patient_strategy_convos(usePersonas = False):
+def run_therapist_patient_qa():
     """
     Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
     """
@@ -131,51 +131,53 @@ def run_therapist_patient_strategy_convos(usePersonas = False):
                 with open(f"{data_dir}/therapist_{i}_patient_{j}_persona_{k}_{patient_persona_index}_qa.json", "w") as f:
                     json.dump(qa_results, f, indent=4)
 
-def run_chitchat_strategy_convos(usePersonas = False):
+def run_chitchat_qa(runtimes = 1):
     """
     Run the conversations for the three tasks: seller-buyer, chitchat, and therapist-patient.
     """
-    data_dir = f"{pathlib.Path(__file__).parent}/{QA_DIR}"
-    pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
-    logging.info("Running buyer seller conversations...")
 
-    personas_path = pathlib.Path(__file__).parent.parent / "personas/data/generic_personas.json"
-    with open(personas_path, 'r') as f:
-        personas = json.load(f)    
-    persona_qa_path = pathlib.Path(__file__).parent.parent / "qa/data/qa_pairs_generic.json"
-    with open(persona_qa_path, 'r') as f:
-        persona_qas = json.load(f)    
+    for i in range(runtimes):
+        data_dir = f"{pathlib.Path(__file__).parent}/{QA_DIR}"
+        pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
+        logging.info("Running buyer seller conversations...")
 
-    group1_personas = personas[0:NUM_PERSONAS]
-    group2_personas = personas[NUM_PERSONAS:(2*NUM_PERSONAS)]
-    group1_qas = persona_qas[0:NUM_PERSONAS]
-    group2_qas = persona_qas[NUM_PERSONAS:(2*NUM_PERSONAS)]
+        personas_path = pathlib.Path(__file__).parent.parent / "personas/data/generic_personas.json"
+        with open(personas_path, 'r') as f:
+            personas = json.load(f)    
+        persona_qa_path = pathlib.Path(__file__).parent.parent / "qa/data/qa_pairs_generic.json"
+        with open(persona_qa_path, 'r') as f:
+            persona_qas = json.load(f)    
 
-    for i, chitchat_strategy_1 in enumerate(CHITCHAT_STRATEGIES_1):
-        for j, chitchat_strategy_2 in enumerate(CHITCHAT_STRATEGIES_2):
-            offset = 3 * i + j
-            for k, group1_persona in enumerate(group1_personas):
-                if k == NUM_PERSONAS:
-                    break
-                group2_persona_index = (k+offset) % NUM_PERSONAS
-                group1_persona_prompt = f"""You have the following biography: "{group1_persona['biography']}" """ + CHITCHAT_STRAT_PROMPT_1.replace("<CHITCHAT_STRATEGY>", chitchat_strategy_1)
-                group2_persona_prompt = f"""You have the following biography: "{group2_personas[group2_persona_index]['biography']}" """ + CHITCHAT_STRAT_PROMPT_2.replace("<CHITCHAT_STRATEGY>", chitchat_strategy_2)
-                filename = f"task_strategy_persona_data/chitchat_{i}_{j}_persona_{k}_{group2_persona_index}.json"
-                convo_path = pathlib.Path(__file__).parent / filename
-                with open(convo_path, 'r') as f:
-                    convo = json.load(f)
-                    group1_convo = copy.deepcopy(convo)
-                    group2_convo = copy.deepcopy(convo)
-                    group1_convo[0][0]["content"] = group1_persona_prompt
-                    group2_convo[0][0]["content"] = group2_persona_prompt
-                
-                group1_qa_set = group1_qas[k]["qa"]
-                group2_qa_set = group2_qas[group2_persona_index]["qa"]
-                qa_results = []
-                qa_results.append(ask_qas(group1_convo, group1_qa_set))
-                qa_results.append(ask_qas(group2_convo, group2_qa_set))
-                with open(f"{data_dir}/chitchat_{i}_{j}_persona_{k}_{group2_persona_index}_qa.json", "w") as f:
-                    json.dump(qa_results, f, indent=4)
+        group1_personas = personas[0:NUM_PERSONAS]
+        group2_personas = personas[NUM_PERSONAS:(2*NUM_PERSONAS)]
+        group1_qas = persona_qas[0:NUM_PERSONAS]
+        group2_qas = persona_qas[NUM_PERSONAS:(2*NUM_PERSONAS)]
+
+        for i, chitchat_strategy_1 in enumerate(CHITCHAT_STRATEGIES_1):
+            for j, chitchat_strategy_2 in enumerate(CHITCHAT_STRATEGIES_2):
+                offset = 3 * i + j
+                for k, group1_persona in enumerate(group1_personas):
+                    if k == NUM_PERSONAS:
+                        break
+                    group2_persona_index = (k+offset) % NUM_PERSONAS
+                    group1_persona_prompt = f"""You have the following biography: "{group1_persona['biography']}" """ + CHITCHAT_STRAT_PROMPT_1.replace("<CHITCHAT_STRATEGY>", chitchat_strategy_1)
+                    group2_persona_prompt = f"""You have the following biography: "{group2_personas[group2_persona_index]['biography']}" """ + CHITCHAT_STRAT_PROMPT_2.replace("<CHITCHAT_STRATEGY>", chitchat_strategy_2)
+                    filename = f"task_strategy_persona_data/chitchat_{i}_{j}_persona_{k}_{group2_persona_index}.json"
+                    convo_path = pathlib.Path(__file__).parent / filename
+                    with open(convo_path, 'r') as f:
+                        convo = json.load(f)
+                        group1_convo = copy.deepcopy(convo)
+                        group2_convo = copy.deepcopy(convo)
+                        group1_convo[0][0]["content"] = group1_persona_prompt
+                        group2_convo[0][0]["content"] = group2_persona_prompt
+                    
+                    group1_qa_set = group1_qas[k]["qa"]
+                    group2_qa_set = group2_qas[group2_persona_index]["qa"]
+                    qa_results = []
+                    qa_results.append(ask_qas(group1_convo, group1_qa_set))
+                    qa_results.append(ask_qas(group2_convo, group2_qa_set))
+                    with open(f"{data_dir}/chitchat_{i}_{j}_persona_{k}_{group2_persona_index}_qa.json", "w") as f:
+                        json.dump(qa_results, f, indent=4)
 
 def ask_qas(memory, qa_set):
     answered_qas = []
@@ -192,6 +194,7 @@ def ask_qas(memory, qa_set):
 
         #cleanup
         question = question.replace(".","")
+        question = question.replace("true statement about you?", "true statement about you? Choose only one answer and give the answer exactly as it's presented in the question.")
         correct_answer = correct_answer.replace(".","")
         if correct_answer.startswith(" "):
             correct_answer = correct_answer[1:]
@@ -221,9 +224,9 @@ def main():
     else:
         logging.disable(logging.CRITICAL)
 
-    run_seller_buyer_qa()
-    run_therapist_patient_strategy_convos()
-    #run_chitchat_strategy_convos()
+    #run_seller_buyer_qa()
+    #run_therapist_patient_qa()
+    run_chitchat_qa(5)
 
 
 if __name__ == "__main__":
