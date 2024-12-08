@@ -137,7 +137,7 @@ def run_chitchat_qa(runtimes = 1):
     """
 
     for i in range(runtimes):
-        data_dir = f"{pathlib.Path(__file__).parent}/{QA_DIR}"
+        data_dir = f"{pathlib.Path(__file__).parent}/{QA_DIR + str(i)}"
         pathlib.Path(data_dir).mkdir(parents=True, exist_ok=True)
         logging.info("Running buyer seller conversations...")
 

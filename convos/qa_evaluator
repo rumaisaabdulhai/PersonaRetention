@@ -1,5 +1,15 @@
 import os
 import json
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(__file__)))
+from personas.persona import Persona
+
+
+def get_persona_attributes():
+    return [
+        attr for attr in vars(Persona()).keys()
+        if not callable(getattr(Persona(), attr)) and not attr.startswith("__")
+    ]
 
 # Directory containing the files
 QA_FOLDER = "QAs_after_conversations"
@@ -8,45 +18,69 @@ EVALUATE_THERAPIST_PATIENT = False
 EVALUATE_CHITCHAT = True
 
 def evaluate_qa(persona_type_1, persona_type_2):
+    total_correct = 0
+    total_attempts = 0
+    question_stats = {}
+
     # Iterate through all JSON files in the folder
-    for filename in os.listdir(QA_FOLDER):
-        if filename.endswith(".json"):
-            # Extract indices from the filename
-            parts = filename.split('_')
-            if not ((parts[0] == persona_type_1 and parts[2] == persona_type_2) or (parts[0] == "chitchat" and persona_type_1 == "chitchat")):
-                print(parts[0], persona_type_1)
-                continue
-            if (len(parts) >= 6) and not parts[0] == "chitchat":
-                i, j, k, l = parts[1], parts[3], parts[5], parts[6]
-                persona_name1 = persona_type_1
-                persona_name2 = persona_type_2
-            elif (parts[0] == "chitchat"):
-                print(parts)
-                i, j, k, l = parts[1], parts[2], parts[4], parts[5]
-                persona_name1 = "group1 persona"
-                persona_name2 = "group2 persona"
-            else:
-                print(f"Unexpected filename format: {filename}")
-                continue
-            filepath = os.path.join(QA_FOLDER, filename)
-            with open(filepath, 'r') as file:
-                qa_data = json.load(file)
-                
-                # Iterate through QA sets
-                for persona_idx, persona_qa in enumerate(qa_data):
-                    for question_idx, qa in enumerate(persona_qa):
-                        answer = qa.get("answer")
-                        given_answer = qa.get("given answer").replace(".","")
-                        persona_type = [persona_name1, persona_name2]
-                        # Compare answer and given answer
-                        if answer == "":
-                            print(f"{i} {j} {k} {l} {persona_type[persona_idx]} Question {question_idx} :")
-                            print(f"NULL\n")
-                            continue                            
-                        if answer != given_answer:
-                            print(f"{i} {j} {k} {l} {persona_type[persona_idx]} Question {question_idx} :")
-                            print(f"answer: {answer}")
-                            print(f"given answer: {given_answer}\n")
+    for f in range(5):
+        folder = QA_FOLDER + str(f)
+        for filename in os.listdir(folder):
+            if filename.endswith(".json"):
+                parts = filename.split('_')
+                if not ((parts[0] == persona_type_1 and parts[2] == persona_type_2) or (parts[0] == "chitchat" and persona_type_1 == "chitchat")):
+                    continue
+                if (len(parts) >= 6) and not parts[0] == "chitchat":
+                    i, j, k, l = parts[1], parts[3], parts[5], parts[6]
+                    persona_name1 = persona_type_1
+                    persona_name2 = persona_type_2
+                elif (parts[0] == "chitchat"):
+                    i, j, k, l = parts[1], parts[2], parts[4], parts[5]
+                    persona_name1 = "group1 persona"
+                    persona_name2 = "group2 persona"
+                else:
+                    print(f"Unexpected filename format: {filename}")
+                    continue
+                filepath = os.path.join(folder, filename)
+                with open(filepath, 'r') as file:
+                    qa_data = json.load(file)
+                    
+                    # Iterate through QA sets
+                    for persona_idx, persona_qa in enumerate(qa_data):
+                        for question_idx, qa in enumerate(persona_qa):
+                            answer = qa.get("answer")
+                            given_answer = qa.get("given answer").replace(".","")
+                            persona_type = [persona_name1, persona_name2]
+
+                            if question_idx not in question_stats:
+                                question_stats[question_idx] = {"correct": 0, "attempts": 0}
+
+                            # Compare answer and given answer
+                            if answer == "":
+                                continue
+                            question_stats[question_idx]["attempts"] += 1
+                            total_attempts += 1
+                            if answer == given_answer:
+                                question_stats[question_idx]["correct"] += 1
+                                total_correct += 1
+                                continue
+                            if answer[0] != given_answer[0]:
+                                continue                          
+                            if answer != given_answer: #evaluate for correct answers with string mismatches manually
+                                print(f"answer: {answer}")
+                                print(f"given answer: {given_answer}\n")
+                                valid = input("enter z if correct, x if not: ")
+                                if (valid == "z"):
+                                    question_stats[question_idx]["correct"] += 1
+                                    total_correct += 1
+
+    
+    print(f"Overall Missed Percentage: {(100-(total_correct * 100 / total_attempts)):.2f}%")
+    print(f"Per Question:")
+    persona_attributes = get_persona_attributes()
+    for idx, stats in question_stats.items():
+        incorrect_percentage = (1 - stats["correct"] / stats["attempts"]) * 100
+        print(f"Question {idx}: {incorrect_percentage:.3f}% ({(stats["attempts"] - stats["correct"])}/{stats["attempts"]})   ({persona_attributes[idx]})")
 
 # Run the function
 
