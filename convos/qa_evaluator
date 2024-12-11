@@ -1,6 +1,8 @@
 import os
 import json
 import sys
+import matplotlib.pyplot as plt
+
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from personas.persona import Persona
 
@@ -64,7 +66,7 @@ def evaluate_qa(persona_type_1, persona_type_2):
                                 question_stats[question_idx]["correct"] += 1
                                 total_correct += 1
                                 continue
-                            if answer[0] != given_answer[0]:
+                            if answer[0] != given_answer[0]: # checks correct lettered answer given. If manually evaluating all mismatches comment this out.
                                 continue                          
                             if answer != given_answer: #evaluate for correct answers with string mismatches manually
                                 print(f"answer: {answer}")
@@ -81,6 +83,34 @@ def evaluate_qa(persona_type_1, persona_type_2):
     for idx, stats in question_stats.items():
         incorrect_percentage = (1 - stats["correct"] / stats["attempts"]) * 100
         print(f"Question {idx}: {incorrect_percentage:.3f}% ({(stats["attempts"] - stats["correct"])}/{stats["attempts"]})   ({persona_attributes[idx]})")
+    generate_bar_chart(question_stats, persona_attributes)
+
+
+
+def generate_bar_chart(question_stats, persona_attributes):
+    cleaned_attributes = []
+    for attribute in persona_attributes:
+        cleaned_attributes.append(attribute.replace("_"," "))
+    question_indices = list(question_stats.keys())
+    incorrect_percentages = [
+        (1 - question_stats[idx]["correct"] / question_stats[idx]["attempts"]) * 100 for idx in question_indices
+    ]
+    question_labels = [cleaned_attributes[idx] for idx in question_indices]
+
+    # Sort by incorrect percentage for better visualization
+    sorted_data = sorted(zip(incorrect_percentages, question_labels), reverse=True)
+    incorrect_percentages, question_labels = zip(*sorted_data)
+
+    # Create the bar chart
+    plt.figure(figsize=(10, 8))
+    plt.barh(question_labels, incorrect_percentages, color='skyblue')
+    plt.xlabel('Percent Incorrect (%)')
+    plt.ylabel('Question Topics')
+    plt.title('Incorrect Percentage by Question Topic')
+    plt.gca().invert_yaxis()
+    plt.grid(axis='x', linestyle='--', alpha=0.7)
+    plt.tight_layout()
+    plt.show()
 
 # Run the function
 
@@ -90,3 +120,5 @@ if EVALUATE_THERAPIST_PATIENT:
     evaluate_qa("therapist","patient")
 if EVALUATE_CHITCHAT:
     evaluate_qa("chitchat","")
+
+
