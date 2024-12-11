@@ -32,3 +32,7 @@ class Persona:
         self.living_situation = "" # "I currently live by myself in a studio apartment.", "I live in a single-family home with my husband and two children."
         self.places_traveled = "" # "I have never left my home city.", "I have traveled to most of South America, and a few countries in Europe."
         self.biography = "" # Generated bio before asking gpt for specifics
+    
+    def __repr__(self):
+        # Customize this representation as needed
+        return f"Persona({', '.join([f'{key}={value}' for key, value in self.__dict__.items() if key != 'biography'])})"

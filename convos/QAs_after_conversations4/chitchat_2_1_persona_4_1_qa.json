@@ -1,0 +1,366 @@
+[
+    [
+        {
+            "id": 0,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My name is Julian Martinez B) My name is David Lee C) My name is Leo Tran D) My name is Marcus Chen",
+            "answer": "C) My name is Leo Tran",
+            "given answer": "C) My name is Leo Tran"
+        },
+        {
+            "id": 1,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am 28 years old B) I am 27 years old C) I am 29 years old D) I am 30 years old",
+            "answer": "A) I am 28 years old",
+            "given answer": "A) I am 28 years old"
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am from New Orleans B) I am from San Antonio, Texas C) I am originally from Austin, Texas D) I am from Atlanta, Georgia",
+            "answer": "D) I am from Atlanta, Georgia",
+            "given answer": "D) I am from Atlanta, Georgia"
+        },
+        {
+            "id": 3,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My mother is from Taiwan B) My mother is from Mexico C) My mother is from Puerto Rico D) My mother is from Ho Chi Minh City, Vietnam",
+            "answer": "D) My mother is from Ho Chi Minh City, Vietnam",
+            "given answer": "D) My mother is from Ho Chi Minh City, Vietnam"
+        },
+        {
+            "id": 4,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My father is from Ho Chi Minh City, Vietnam B) My father is originally from Panama C) My father is from Taiwan D) My father is from Newfoundland, Canada",
+            "answer": "A) My father is from Ho Chi Minh City, Vietnam",
+            "given answer": "A) My father is from Ho Chi Minh City, Vietnam"
+        },
+        {
+            "id": 5,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am spiritual but not strictly religious, appreciating the customs of my family's Buddhist upbringing B) I practice Christianity in a personal and reflective manner C) I was raised in Islamic traditions but consider myself more spiritual D) I was raised Catholic but now I identify as spiritual",
+            "answer": "A) I am spiritual but not strictly religious, appreciating the customs of my family's Buddhist upbringing",
+            "given answer": "A) I am spiritual but not strictly religious, appreciating the customs of my family's Buddhist upbringing"
+        },
+        {
+            "id": 6,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am lower class B) I am comfortably upper-middle class C) My family has achieved stable middle-class status D) I enjoy a comfortable upper class lifestyle",
+            "answer": "C) My family has achieved stable middle-class status",
+            "given answer": "C) My family has achieved stable middle-class status"
+        },
+        {
+            "id": 7,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have an older brother named Minh who is 31 B) I have an older sister named Linh who is 31 C) I have an older brother named Samuel who is 31 D) I have one older sister named Mei who is 32",
+            "answer": "A) I have an older brother named Minh who is 31",
+            "given answer": "A) I have an older brother named Minh who is 31"
+        },
+        {
+            "id": 8,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I primarily speak English but also converse in Spanish B) I speak English and German C) I primarily communicate in English but also speak some Vietnamese D) I mostly speak English, but I\u2019m also fluent in Portuguese",
+            "answer": "C) I primarily communicate in English but also speak some Vietnamese",
+            "given answer": "C) I primarily communicate in English but also speak some Vietnamese"
+        },
+        {
+            "id": 9,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I identify as a bisexual man B) I identify as lesbian and am a proud member of the LGBTQ+ community C) I identify as a gay man D) I identify as asexual",
+            "answer": "C) I identify as a gay man",
+            "given answer": "C) I identify as a gay man"
+        },
+        {
+            "id": 10,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I identify as a man B) I identify as woman C) I identify as genderqueer and use they/them pronouns D) I identify as nonbinary",
+            "answer": "A) I identify as a man",
+            "given answer": "A) I identify as a man"
+        },
+        {
+            "id": 11,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am currently in a loving relationship with my partner, Jake B) I am currently in a fulfilling relationship with my boyfriend, Marco C) I am in a relationship with my partner, Jamal D) I am currently in a committed relationship with my boyfriend, Jason",
+            "answer": "A) I am currently in a loving relationship with my partner, Jake",
+            "given answer": "A) I am currently in a loving relationship with my partner, Jake"
+        },
+        {
+            "id": 12,
+            "question": "",
+            "answer": "",
+            "given answer": ""
+        },
+        {
+            "id": 13,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I work as a graphic designer B) I am a high school history teacher C) I am a dentist D) I am focused on developing my own freelance journalism business",
+            "answer": "A) I work as a graphic designer",
+            "given answer": "A) I work as a graphic designer"
+        },
+        {
+            "id": 14,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have obtained my degree in finance B) I earned my degree in medicine C) I completed my degree in chemistry D) I have experienced various roles, including freelance work",
+            "answer": "D) I have experienced various roles, including freelance work",
+            "given answer": "D) I have experienced various roles, including freelance work"
+        },
+        {
+            "id": 15,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have a degree in computer science B) I have a degree in fine arts C) I studied psychology D) I have a degree in communications from a local university",
+            "answer": "B) I have a degree in fine arts",
+            "given answer": "B) I have a degree in fine arts"
+        },
+        {
+            "id": 16,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I grew up in a family that observed Buddhist traditions B) My cultural background instilled strong values of family, respect, and perseverance C) My childhood was shaped by the rhythms of jazz and Creole cuisine D) I grew up with a strong sense of cultural pride from my Nigerian heritage",
+            "answer": "B) My cultural background instilled strong values of family, respect, and perseverance",
+            "given answer": "A) I grew up in a family that observed Buddhist traditions"
+        },
+        {
+            "id": 17,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am a single-issue voter on social equity B) I lean quite conservative C) I advocate for LGBTQ+ rights and environmental sustainability, often leaning towards progressive views D) I have more moderate views and am more focused on my local government",
+            "answer": "C) I advocate for LGBTQ+ rights and environmental sustainability, often leaning towards progressive views",
+            "given answer": "C) I advocate for LGBTQ+ rights and environmental sustainability, often leaning towards progressive views"
+        },
+        {
+            "id": 18,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I practice yoga regularly to manage anxiety surrounding the future and my career B) My health is generally not good C) I maintain my health and wellness through running and cooking D) I am healthy and do not have any anxiety",
+            "answer": "A) I practice yoga regularly to manage anxiety surrounding the future and my career",
+            "given answer": "A) I practice yoga regularly to manage anxiety surrounding the future and my career"
+        },
+        {
+            "id": 19,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I enjoy cooking, painting, and practicing yoga B) I enjoy playing guitar and hiking C) I have a love for travel and enjoy consuming podcasts on tech and personal development D) I enjoy urban gardening, experimenting with new recipes, and exploring art galleries",
+            "answer": "D) I enjoy urban gardening, experimenting with new recipes, and exploring art galleries",
+            "given answer": "D) I enjoy urban gardening, experimenting with new recipes, and exploring art galleries"
+        },
+        {
+            "id": 20,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I strive to live intentionally and maintain close friendships B) I deeply believe in self-rilance C) I value curiosity, community, and resilience D) I value integrity and empathy outside of religious boundaries",
+            "answer": "A) I strive to live intentionally and maintain close friendships",
+            "given answer": "A) I strive to live intentionally and maintain close friendships"
+        },
+        {
+            "id": 21,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have underlying fears of failure and inadequacy B) I have anxiety regarding my future and my career C) I am very afraid of heights D) I do not have any fears or anxieties",
+            "answer": "B) I have anxiety regarding my future and my career",
+            "given answer": "B) I have anxiety regarding my future and my career"
+        },
+        {
+            "id": 22,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My ultimate goals revolve around creating technology with global implications B) I aim to make a positive impact and hope to start my own consultancy to help small businesses thrive online C) My life goals revolve around cultivating creativity and making a positive impact in my community D) I aspire to develop software that positively impacts mental health",
+            "answer": "C) My life goals revolve around cultivating creativity and making a positive impact in my community",
+            "given answer": "C) My life goals revolve around cultivating creativity and making a positive impact in my community"
+        },
+        {
+            "id": 23,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) A pivotal moment in my life was traveling through Southeast Asia B) I was influenced by my parents' determination to improve our lives C) My family faced financial difficulties growing up, and education was always vital to us D) A defining moment for me was organizing a fundraiser for LGBTQ+ youth, reinforcing my commitment to advocacy and inclusivity",
+            "answer": "D) A defining moment for me was organizing a fundraiser for LGBTQ+ youth, reinforcing my commitment to advocacy and inclusivity",
+            "given answer": "D) A defining moment for me was organizing a fundraiser for LGBTQ+ youth, reinforcing my commitment to advocacy and inclusivity"
+        },
+        {
+            "id": 24,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I do not have close friends B) I maintain close friendships C) I cherish friendship circles that encourage growth but currently do not have one of my own D) My older sister, Mei, is my only friend",
+            "answer": "B) I maintain close friendships",
+            "given answer": "B) I maintain close friendships"
+        },
+        {
+            "id": 25,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My daily routine includes morning meditation, a balanced breakfast, and exercise before work B) I have a routine that balances work and self-care C) My daily routine consists of morning jogs, work, and unwinding in the evenings by binge-watching shows on Netflix or reading D) My daily routine usually involves work, exercise, cooking, and winding down with a good book or a documentary film",
+            "answer": "B) I have a routine that balances work and self-care",
+            "given answer": "B) I have a routine that balances work and self-care"
+        },
+        {
+            "id": 26,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I share a small apartment with my adorable rescue dog, Finn B) I share my space with my spirited dog, Coco C) I share my apartment with a lively cat named Jinx D) I had a beloved dog named Rocky who passed a few years ago",
+            "answer": "C) I share my apartment with a lively cat named Jinx",
+            "given answer": "C) I share my apartment with a lively cat named Jinx"
+        },
+        {
+            "id": 27,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I immerse myself in graphic novels and binge-watch classic films B) I enjoy binge-watching sci-fi series C) I enjoy big box films and gaming D) I enjoy losing myself in fantasy novels and indie films",
+            "answer": "D) I enjoy losing myself in fantasy novels and indie films",
+            "given answer": "D) I enjoy losing myself in fantasy novels and indie films"
+        },
+        {
+            "id": 28,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I enjoy cozy evenings at my house B) I currently live in an apartment C) I currently live in a modest condo adorned with plants and art D) I share a rental home with my dog, Max",
+            "answer": "B) I currently live in an apartment",
+            "given answer": "B) I currently live in an apartment"
+        },
+        {
+            "id": 29,
+            "question": "",
+            "answer": "",
+            "given answer": ""
+        }
+    ],
+    [
+        {
+            "id": 0,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My name is Jordan Reyes B) My name is Ethan Morales C) My name is Leo Matthews D) My name is Max Harrison",
+            "answer": "B) My name is Ethan Morales",
+            "given answer": "B) My name is Ethan Morales"
+        },
+        {
+            "id": 1,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am 28 years old B) I am 27 years old C) I am 29 years old D) I am 30 years old",
+            "answer": "C) I am 29 years old",
+            "given answer": "C) I am 29 years old"
+        },
+        {
+            "id": 2,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am from San Diego, California B) I am from San Antonio, Texas C) I am from sunny Los Angeles D) I am from San Francisco",
+            "answer": "A) I am from San Diego, California",
+            "given answer": "A) I am from San Diego, California"
+        },
+        {
+            "id": 3,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My mother is from Mexico B) My mother is from Guatemala C) My mother is from Taiwan D) My mother is from Taiwan",
+            "answer": "B) My mother is from Guatemala",
+            "given answer": "B) My mother is from Guatemala"
+        },
+        {
+            "id": 4,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My father is from Guatemala B) My father is from Ho Chi Minh City, Vietnam C) My father is from Newfoundland, Canada D) My father is from Taiwan",
+            "answer": "A) My father is from Guatemala",
+            "given answer": "A) My father is from Guatemala"
+        },
+        {
+            "id": 5,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I was brought up Muslim and consider myself agnostic B) I was raised Catholic but now emphasize more spiritual beliefs C) I was raised Protestant but practice spirituality in a personal way D) I was raised in a Mormon family, but I consider myself more spiritual than religious",
+            "answer": "B) I was raised Catholic but now emphasize more spiritual beliefs",
+            "given answer": "B) I was raised Catholic but now emphasize more spiritual beliefs"
+        },
+        {
+            "id": 6,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am upper class B) I am comfortably middle class C) I am lower middle class D) I am upper middle class",
+            "answer": "B) I am comfortably middle class",
+            "given answer": "B) I am comfortably middle class"
+        },
+        {
+            "id": 7,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have one older sister named Mei who is 32 B) I have an older sister named Sofia who is 30 years old C) I have an older sister named Sofia who is 33 years old D) I have an older brother named Luis and a younger sister named Isabel",
+            "answer": "C) I have an older sister named Sofia who is 33 years old",
+            "given answer": "C) I have an older sister named Sofia who is 33 years old"
+        },
+        {
+            "id": 8,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I primarily spoke Mandarin at home, but I'm also fluent in English and dabble in Portuguese B) We primarily spoke English at home, though I can hold a decent conversation in French C) I primarily communicate in English, though I picked up some Spanish along the way D) I speak English fluently and have a conversational grasp of Mandarin",
+            "answer": "C) I primarily communicate in English, though I picked up some Spanish along the way",
+            "given answer": "C) I primarily communicate in English, though I picked up some Spanish along the way"
+        },
+        {
+            "id": 9,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I identify as a queer woman B) I am straight C) I identify as a asexual D) I identify as a gay man",
+            "answer": "D) I identify as a gay man",
+            "given answer": "D) I identify as a gay man"
+        },
+        {
+            "id": 10,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I identify as transgendered B) I identify as female C) I am a man D) I identify as nonbinary",
+            "answer": "C) I am a man",
+            "given answer": "C) I am a man"
+        },
+        {
+            "id": 11,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am currently in a fulfilling relationship with my boyfriend, Marco B) I'm currently in a committed relationship with my partner, Morgan C) I am currently in a committed relationship with my boyfriend, Jason D) I am currently in a loving relationship with my partner, Jordan",
+            "answer": "A) I am currently in a fulfilling relationship with my boyfriend, Marco",
+            "given answer": "A) I am currently in a fulfilling relationship with my boyfriend, Marco"
+        },
+        {
+            "id": 12,
+            "question": "",
+            "answer": "",
+            "given answer": ""
+        },
+        {
+            "id": 13,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I am a graphic designer B) I work as a software engineer C) I am a digital marketing specialist D) I work as an engineer",
+            "answer": "C) I am a digital marketing specialist",
+            "given answer": "C) I am a digital marketing specialist"
+        },
+        {
+            "id": 14,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have held various jobs during my educational journey but most recently I was a server B) I transitioned to my current career after completing my degree in engineering C) I earned my degree in education D) I have obtained my degree in communications",
+            "answer": "D) I have obtained my degree in communications",
+            "given answer": "D) I have obtained my degree in communications"
+        },
+        {
+            "id": 15,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have a degree in communications from a local university B) I have a degree in education C) I have a degree in visual arts D) I earned my degree in graphic design",
+            "answer": "A) I have a degree in communications from a local university",
+            "given answer": "A) I have a degree in communications from a local university"
+        },
+        {
+            "id": 16,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I grew up in a working-class neighborhood B) I was influenced by my family's background in Taiwan C) I grew up balancing Chinese traditions with a more liberal outlook D) I feel connected to my Scandinavian heritage and culture",
+            "answer": "A) I grew up in a working-class neighborhood",
+            "given answer": "A) I grew up in a working-class neighborhood"
+        },
+        {
+            "id": 17,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have more conservative ideals B) My political views lean toward progressive ideals C) I am moderate but in favor of equality and environmental sustainability D) I am quite non-political",
+            "answer": "B) My political views lean toward progressive ideals",
+            "given answer": "B) My political views lean toward progressive ideals"
+        },
+        {
+            "id": 18,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I maintain a healthy lifestyle and go on hikes regularly B) I prioritize fitness and mindfulness practices, keeping me free of anxiety C) I sometimes experience anxiety, especially when thinking about the future or my health D) I regularly lift weights and maintain a balanced lifestyle",
+            "answer": "C) I sometimes experience anxiety, especially when thinking about the future or my health",
+            "given answer": "C) I sometimes experience anxiety, especially when thinking about the future or my health"
+        },
+        {
+            "id": 19,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have interests in technology, hiking, and photography B) I enjoy playing guitar and hiking C) I have a passion for music and love attending live concerts D) I enjoy hiking, playing soccer, and volunteering at local shelters",
+            "answer": "C) I have a passion for music and love attending live concerts",
+            "given answer": "C) I have a passion for music and love attending live concerts"
+        },
+        {
+            "id": 20,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I strive to live intentionally and maintain close friendships with my coworkers B) I advocate for environmental issues and am committed to social justice in the form of prison reform C) I value independence and self-reliance D) I emphasize values such as empathy and community service",
+            "answer": "D) I emphasize values such as empathy and community service",
+            "given answer": "D) I emphasize values such as empathy and community service"
+        },
+        {
+            "id": 21,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I fear stagnation in my personal life B) I have no anxiety C) Anxiety sometimes creeps in, especially when thinking about the future D) I have no anxiety regarding my future and my career",
+            "answer": "C) Anxiety sometimes creeps in, especially when thinking about the future",
+            "given answer": "C) Anxiety sometimes creeps in, especially when thinking about the future"
+        },
+        {
+            "id": 22,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I dream of living abroad for a year someday B) I aspire to advocate for underrepresented voices and create a positive impact in the community C) I aspire to develop software that positively impacts mental health D) I desire to create meaningful art that resonates with people",
+            "answer": "B) I aspire to advocate for underrepresented voices and create a positive impact in the community",
+            "given answer": "B) I aspire to advocate for underrepresented voices and create a positive impact in the community"
+        },
+        {
+            "id": 23,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) Life's challenges have shaped my ambition B) My live has been fairly care-free C) My year traveling abroad in Africa largely shaped who I am",
+            "answer": "A) Life's challenges have shaped my ambition",
+            "given answer": "A) Life's challenges have shaped my ambition"
+        },
+        {
+            "id": 24,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My close bond with my brother Marco is a significant part of my life B) I spend some evenings with friends to nurture my social circle but usually eat alone C) I catch up with friends over dinner D) I share a close bond with my brother, Aaron",
+            "answer": "C) I catch up with friends over dinner",
+            "given answer": "C) I catch up with friends over dinner"
+        },
+        {
+            "id": 25,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) My daily routine consists of morning jogs, work, and unwinding in the evenings by binge-watching shows on Netflix or reading B) My days include a blend of work and relaxing to classical music C) I incorporate yoga and meditation into my daily routine D) My daily routine consists of designing, exercising, and spending evenings with my dog",
+            "answer": "A) My daily routine consists of morning jogs, work, and unwinding in the evenings by binge-watching shows on Netflix or reading",
+            "given answer": "A) My daily routine consists of morning jogs, work, and unwinding in the evenings by binge-watching shows on Netflix or reading"
+        },
+        {
+            "id": 26,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I cherish my two cats named Mochi and Dumpling B) I share my apartment with a lively rescue dog named Benny C) I live with my dog, Toby D) I live with my lovable dog, Coco",
+            "answer": "C) I live with my dog, Toby",
+            "given answer": "C) I live with my dog, Toby"
+        },
+        {
+            "id": 27,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I enjoy binge-watching shows like 'The Wire' and curling up with a good book B) I do not enjoy stories in movies and literature but instead prefer action C) I enjoy losing myself in fantasy novels and indie films D) I often gravitate towards stories that center on LGBTQ+ narratives",
+            "answer": "D) I often gravitate towards stories that center on LGBTQ+ narratives",
+            "given answer": "D) I often gravitate towards stories that center on LGBTQ+ narratives"
+        },
+        {
+            "id": 28,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I live in a small apartment filled with books and plants B) I currently live with my dog, Toby C) I currently live in a sunny apartment D) I live in an apartment with Jamie that overlooks the park",
+            "answer": "B) I currently live with my dog, Toby",
+            "given answer": "B) I currently live with my dog, Toby"
+        },
+        {
+            "id": 29,
+            "question": "Which of the following is a true statement about you? Choose only one answer and give the answer exactly as it's presented in the question. A) I have explored parts of Asia and Europe B) I have traveled to several countries in Central America and Europe, and my dream destination is Japan C) I have Brazil and Chile on my must-see list D) I am actively planning to travel throughout Africa",
+            "answer": "B) I have traveled to several countries in Central America and Europe, and my dream destination is Japan",
+            "given answer": "B) I have traveled to several countries in Central America and Europe, and my dream destination is Japan"
+        }
+    ]
+]
