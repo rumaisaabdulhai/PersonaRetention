@@ -1,5 +1,9 @@
 from convo_prompts import BUYER_STRATEGIES
 from convo_prompts import SELLER_STRATEGIES
+from convo_prompts import CHITCHAT_STRATEGIES_1
+from convo_prompts import CHITCHAT_STRATEGIES_2
+from convo_prompts import THERAPIST_STRATEGIES
+from convo_prompts import PATIENT_STRATEGIES
 
 from openai import OpenAI
 import json
@@ -8,7 +12,7 @@ import itertools
 
 
 
-OPENAI_API_KEY = 'OPENAI_API_KEY'
+OPENAI_API_KEY = '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'
 
 client = OpenAI(api_key=OPENAI_API_KEY)
 def evaluate_line(strategy, line_content):
@@ -32,22 +36,48 @@ def evaluate_line(strategy, line_content):
     explanation = answer.strip()
     return score, explanation
 
-def evaluate_conversation(file_path, seller_strategy, buyer_strategy):
+def evaluate_conversation(file_path, first_strategy, second_strategy):
     with open(file_path, 'r') as file:
         conversation = json.load(file)
     
-    buyer_score = 0
-    seller_score = 0
+    first_score = 0
+    second_score = 0
     results = []
     conversation = list(itertools.chain(*conversation))
-    conversation = list(itertools.chain(*conversation))
 
-    for exchange in conversation:
-        role = exchange['content'].split()[0]
+    starting = conversation[0]['content']
+    if "convince" or "a good impression" in starting:
+        role = "Person 2"
+    else:
+        role = "Person 1"
+
+    for exchange in conversation[1:]:
+        if role == "Person 1":
+            strategy = first_strategy
+        else:
+            strategy = second_strategy
+        # if len(exchange['content'].split()) > 0:
+        #     role = exchange['content'].split()[0]
+        # else:
+        #     role = ""
+        # if "Seller" in role or "SELLER" in role:
+        #     role = "Seller"
+        # elif "BUYER" in role or "Buyer" in role:
+        #     role = "Buyer" 
+        # elif "Therapist" in role or "THERAPIST" in role:
+        #     role = "Therapist"
+        # elif "Patient" in role or "PATIENT" in role:
+        #     role = "Patient"
+        # else:
+        #     role = ""
         content = exchange['content']
-        strategy = seller_strategy if role == "Seller:" else buyer_strategy
+        # if role == "Seller" or role == "Patient":
+        #     strategy = second_strategy
+        # elif role == "Therapist" or role == "Buyer":
+        #     strategy = first_strategy
+        # else:
+        #     strategy = ""
 
-        
         score, explanation = evaluate_line(strategy, content)
         results.append({
             "role": role,
@@ -57,15 +87,20 @@ def evaluate_conversation(file_path, seller_strategy, buyer_strategy):
             "explanation": explanation
         })
         
-        if role == "Seller":
-            seller_score += score
-        elif role == "Buyer":
-            buyer_score += score
+        if strategy == first_strategy:
+            first_score += score
+        elif strategy == second_strategy:
+            second_score += score
+
+        if role == "Person 1":
+            role = "Person 2"
+        else:
+            role = "Person 1"
     
     return {
         "results": results,
-        "buyer_score": buyer_score,
-        "seller_score": seller_score
+        "first_score": first_score,
+        "second_score": second_score
     }
 
 def process_conversations(directory):
@@ -73,25 +108,33 @@ def process_conversations(directory):
     for filename in os.listdir(directory):
         if filename.endswith('.json'):
             parts = filename.replace('.json', '').split('_')
-            buyer_idx = int(parts[1])
-            seller_idx = int(parts[3])
+            category = parts[0] 
+            first_idx = int(parts[1])
+            second_idx = int(parts[2]) if category == 'chitchat' else int(parts[3])
             
-            buyer_strategy = BUYER_STRATEGIES[buyer_idx]
-            seller_strategy = SELLER_STRATEGIES[seller_idx]
+            if category == 'chitchat':
+                first_strategy = CHITCHAT_STRATEGIES_1[first_idx]
+                second_strategy = CHITCHAT_STRATEGIES_2[second_idx]
+            elif category == 'therapist':
+                first_strategy = THERAPIST_STRATEGIES[first_idx]
+                second_strategy = PATIENT_STRATEGIES[second_idx]
+            else:
+                first_strategy = BUYER_STRATEGIES[first_idx]
+                second_strategy = SELLER_STRATEGIES[second_idx]
             
             file_path = os.path.join(directory, filename)
-            evaluate_conversation(file_path, seller_strategy, buyer_strategy)
-            results[filename] = evaluate_conversation(file_path, seller_strategy, buyer_strategy)
+            if category == 'chitchat':
+                results[filename] = evaluate_conversation(file_path, first_strategy, second_strategy)
     
     return results
 
 current_directory = os.getcwd() 
-conversation_directory = "convos/task_strategy_data"
+conversation_directory = "convos/task_strategy_persona_data"
 directory_path = os.path.join(current_directory, conversation_directory)
 
 
 evaluation_results = process_conversations(directory_path)
 
-with open("evaluation_results.json", "w") as output_file:
+with open("chitchat_persona_evaluation_results.json", "w") as output_file:
     json.dump(evaluation_results, output_file, indent=4)
 
