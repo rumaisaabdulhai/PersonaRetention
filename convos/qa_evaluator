@@ -18,6 +18,7 @@ QA_FOLDER = "QAs_after_conversations"
 EVALUATE_BUYER_SELLER = False
 EVALUATE_THERAPIST_PATIENT = False
 EVALUATE_CHITCHAT = True
+NUM_FOLDERS = 5
 
 def evaluate_qa(persona_type_1, persona_type_2):
     total_correct = 0
@@ -25,7 +26,7 @@ def evaluate_qa(persona_type_1, persona_type_2):
     question_stats = {}
 
     # Iterate through all JSON files in the folder
-    for f in range(5):
+    for f in range(NUM_FOLDERS):
         folder = QA_FOLDER + str(f)
         for filename in os.listdir(folder):
             if filename.endswith(".json"):
